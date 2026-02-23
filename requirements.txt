@@ -1,0 +1,11 @@
+# Environment
+python-dotenv==1.0.1
+
+# AWS SDK
+boto3==1.34.34
+
+# BM25 keyword search
+rank-bm25==0.2.2
+
+# Logging
+loguru==0.7.2
