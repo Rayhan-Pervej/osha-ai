@@ -1,0 +1,1057 @@
+Field Operations Manual
+
+Chapter 7
+
+POST-CITATION PROCEDURES AND ABATEMENT VERIFICATION
+
+Contesting Citations, Notifications of Penalty and Abatement Dates
+.
+
+CSHOs shall advise the employer that the citation, the penalty and/or the abatement date can be contested in cases where the employer does not agree to the citation, penalty, or abatement date or any combination of these.
+
+
+Notice of Contest
+.
+
+CSHOs shall inform employers that if they intend to contest, the Area Director must be notified in writing and such notification must be postmarked no later than the fifteenth (15) working day after receipt of the
+Citation and Notification of Penalty (OSHA-2)
+, (working days are Monday through Friday, excluding federal holidays), otherwise the citation becomes a final order of the Commission (see
+§1903.17
+). OSHA has no authority to modify the contest period. Employers should also be apprised that their notice of contest can be sent electronically by email to the Area Director within the 15-working-day period and provide employers the email address(es). It shall be emphasized that oral notices of contest do not satisfy the requirement to give written notification.
+
+NOTE: Upon receipt of all electronic notices of contest, the Assistant Area Director or Area Director
+shall print copies of the email notice and include it in the documents and files to be transmitted to the Review Commission and the RSOL's office. Contest emails are not to be electronically forwarded to the Commission or RSOL
+.
+
+Area Offices are encouraged to establish procedures to establish ready access to email accounts designated to receive notices of contest to ensure the timely transmission of copies to the Commission and RSOL. OSHA's acceptance of notices of contest by email shall not be interpreted to mean that the Agency has consented to, or accepted, the electronic service of documents in litigation pursuant to Commission Rule
+§2200.7
+.
+
+An employer's Notice of Intent to Contest must clearly state what is specifically being contested. It must identify which item(s) of the citation, penalty, the abatement date, or any combination of these is being objected to. CSHOs shall ask the employer to read the
+OSHA-3000
+pamphlet (Employer Rights and Responsibilities Following a Federal OSHA Inspection) accompanying the citation for additional details.
+
+
+
+If the employer requests only a later abatement date and there are valid grounds to consider the request, then the Area Director should be contacted. The Area Director can issue an amended citation changing an abatement date prior to the expiration of the 15-working-day period. b. If the employer contests only the penalty or some of the citation items, then all uncontested items must still be abated by the dates indicated on the citation and the corresponding penalties paid within 15 days of notification.
+
+CSHOs shall inform the employer that the Act provides that employees or their authorized representative(s) have the right to contest in writing any or all of the abatement dates set for a violation if they believe the date(s) to be unreasonable.
+
+Contest Process
+.
+
+The CSHO shall explain that when a Notice of Intent to Contest is properly filed (i.e., received in the Area Office and postmarked as described in the
+note to A.1
+of this chapter), the Area Director is required to forward the case to an independent adjudicatory agency (OSHA Review Commission), at which time the case is considered to be in litigation.
+
+
+OSHA will normally cease all investigatory activities once an employer has filed a notice of contest. Any action relating to a contested case must first have the concurrence of the RSOL.
+
+Upon receipt of the Notice of Intent to Contest, the Review Commission assigns the case to an administrative law judge, who will schedule a public hearing close to the workplace.
+
+Informal Conferences
+.
+
+
+General
+.
+
+
+Pursuant to
+§1903.20
+, the employer, any affected employee, or the employee representative can request an informal conference for the purpose of discussing any issues raised by an inspection, citation, notice of proposed penalty, or notice of intention to contest.
+
+The informal conference will be conducted within the 15-working-day contest period. The conference or any request for such a conference shall not operate as a stay of the 15 working day contest period.
+
+If the employer's intent to contest is not clear, then the Area Director or designated representative will make an effort to contact the employer for clarification.
+
+Informal conferences can be held by any means practical, but meeting in person is preferred.
+
+Assistance of Counsel
+.
+
+In the event that an employer is bringing its attorney to an informal conference, the Area Director or his or her designee can contact the RSOL's Office and ask for the assistance of counsel.
+
+Opportunity to Participate
+.
+
+
+If an informal conference is requested by the employer, then an affected employee or his representative shall be afforded the opportunity to participate. If the conference is requested by an employee or an employee representative, then the employer shall be afforded an opportunity to participate.
+
+If the affected employee or employee representative chooses not to participate in the informal conference, then an attempt will be made to contact that party and to solicit their input prior to the informal conference. Attempts to contact the party should be noted in the case file.
+
+NOTE: In the event of a settlement, it is not necessary to have the employee representative sign the informal settlement agreement.
+
+If any party objects to the attendance of another party or if the Area Director believes that a joint informal conference would not be productive, then separate informal conferences can be held.
+
+During the conduct of a joint informal conference, separate or private discussions will be permitted if either party so requests.
+
+Notice of Informal Conferences
+.
+
+The Area Director shall document in the case file, notification to the parties of the date, time, and location of the informal conference. In addition, the Case File Diary Sheet shall indicate the date of the informal conference.
+
+Posting Requirement
+.
+
+
+The Area Director will ask the employer at the beginning of the informal conference whether the form in the citation package indicating the date, time, and location of the conference has been posted as required.
+
+If the employer has not posted the form, the Area Director can postpone the informal conference until such action is taken.
+
+Conduct of the Informal Conference
+.
+
+The informal conference will be conducted in accordance with the following guidelines:
+
+
+Conference Subjects.
+
+
+Purpose of the informal conference;
+
+Rights of participants;
+
+Contest rights and time constraints;
+
+Limitations, if any;
+
+Potential for settlement of citation(s); and
+
+Other relevant information (e.g., if no employee or employee representative has responded, whether the employer has posted the notification form about the informal conference, etc.).
+
+Subjects Not to be Addressed
+.
+
+
+No opinions regarding the legal merits of an employer's case shall be expressed during the informal conference.
+
+There should be no discussion with employers or employee representatives concerning the potential for referral of fatality inspections to the Department of Justice for criminal prosecution under the Act
+
+Closing Remarks
+.
+
+
+At the conclusion of the conference, all main issues and potential courses of action will be summarized and documented.
+
+A copy of the summary, together with any other relevant notes of the discussion made by the Area Director, will be placed in the case file.
+
+Petition for Modification of Abatement Date (PMA)
+.
+
+An employer can file a petition for modification of the abatement date when it has made a good faith effort to comply with abatement requirements, but such abatement has not been completed due to circumstances beyond its control (see
+§1903.14a
+). If the employer requests additional abatement time after the 15-working-day contest period has passed, then the following procedures for PMAs are to be observed:
+
+
+Filing
+.
+
+A PMA must be filed in writing with the Area Director who issued the citation no later than the close of the next working day following the date on which abatement was originally required.
+
+
+If a PMA is submitted orally, the employer shall be informed that OSHA cannot accept an oral PMA and that a written petition must be mailed by the end of the next working day after the abatement date. If there is not sufficient time to file a written petition, the employer shall be informed of the requirements below for late filing of the petition.
+
+A late petition can be accepted only if accompanied by the employer's statement of exceptional circumstances explaining the delay.
+
+Where Filing Requirements Are Not Met
+.
+
+If the employer's written PMA does not meet all the requirements of
+§1903.14a(b)(1)-(5)
+, then the employer shall be contacted within 10 working days and notified of the missing elements. A reasonable amount of time for the employer to respond shall be specified during this contact.
+
+
+If no response is received or if the information returned is still insufficient, a second attempt, by telephone or in writing, shall be made. The employer shall be informed that if it fails to respond in a timely or adequate manner, then the PMA will not be granted and the employer can be found to have not abated.
+
+If the employer responds satisfactorily by telephone and the Area Director determines that the requirements for a PMA have been met, then that finding shall be documented in the case file.
+
+Although OSHA policy is to handle PMAs as expeditiously as possible, there may be cases where the Area Director's decision can be delayed because of deficiencies in the PMA, the need to conduct a monitoring inspection and/or a request for Regional Office or National Office involvement. Requests for additional time (e.g., 45 days) for the Area Director to reach a decision shall be sent to the Review Commission through the RSOL. A letter conveying this request shall be simultaneously sent to the employer and the employee representatives.
+
+Approval of PMA
+.
+
+After the expiration of 15 working days following the posting of a PMA, the Area Director shall agree with or object to the request within 10 working days, if additional time has not been requested from the Review Commission. In the absence of a timely objection, the PMA shall be deemed granted even if not explicitly approved. The following action shall be taken:
+
+
+If the PMA requests an abatement date that is two years or less from the issuance date of the citation, the Area Director has the authority to approve or object to the petition.
+
+Any PMA requesting an abatement date that is more than two years from the issuance date of the citation requires the approval of the Regional Administrator as well as the Area Director.
+
+If the PMA is approved, the Area Director shall notify the employer and the employee representatives by letter.
+
+The Area Director or Regional Administrator (as appropriate) after consultation with the RSOL, shall object to a PMA where the evidence supports non-approval (e.g., the employer has taken no meaningful abatement action at all or has otherwise exhibited a bad faith effort). In such cases, all relevant documentation shall be sent to the Review Commission in accordance with
+§1903.14a(d)
+. Both the employer and the employee representatives shall be notified of this action by letter, with return receipt requested.
+
+
+Letters notifying the employer or employee representative of the objection shall be mailed on the same date that the Agency objection to the PMA is sent to the Review Commission.
+
+When appropriate, after consultation with the RSOL, a failure to abate notification can be issued in conjunction with the objection to the PMA.
+
+Objection to PMA
+.
+
+Affected employees or their representatives can file a written objection to an employer's PMA with the Area Director within 10 working days of the date of posting of the PMA by the employer or its service upon an authorized employee representative.
+
+
+Failure to file such a written objection with the 10-working-day period constitutes a waiver of any further right to object to the PMA.
+
+If an employee or employee representative objects to the extension of the abatement date, then all relevant documentation shall be sent to the Review Commission.
+
+
+Confirmation of this action shall be mailed (return receipt requested) to the objecting party as soon as it is accomplished.
+
+Notification of the employee objection shall be mailed (return receipt requested) to the employer on the same day that the case file is forwarded to the Commission.
+
+OSHA's Abatement Verification Regulation, §1903.19
+.
+
+
+Important Terms and Concepts
+.
+
+
+Abatement
+.
+
+
+Abatement means action by an employer to comply with a cited standard or regulation or to eliminate a recognized hazard identified by OSHA during an inspection.
+
+For each inspection, except follow-up inspections, OSHA shall open an employer-specific case file. The case file remains open throughout the inspection process and is not closed until the Agency is satisfied that abatement has occurred. If abatement was not completed, annotate the circumstances or reasons shall be annotated in the case file and the proper code entered in the OIS.
+
+Employers are required to verify in writing that they have abated cited conditions, in accordance with
+§1903.19
+.
+
+Abatement Verification
+.
+
+Abatement verification includes abatement certification, documents, plans, and progress reports.
+
+Abatement Certification
+.
+
+Employers must certify that abatement is complete for each cited violation. The written certification must include: the employer's name and address; the inspection number; the citation and item numbers; a statement that the information submitted is accurate; signature of the employer or employer's authorized representative; the date and method of abatement for each cited violation; and a statement that affected employees and their representatives have been informed of the abatement.
+
+Abatement Documents
+.
+
+Documentation submitted must establish that abatement has been completed, and include evidence—such as the purchase or repair of equipment, photographic or video evidence of abatement, or other written records verifying correction of the violative condition.
+
+Affected Employee
+.
+
+Affected employee means those employees who are exposed to the hazards(s) identified as violations(s) in a citation.
+
+Final Order Dates
+.
+
+
+Uncontested Citation Item
+.
+
+For an uncontested citation item, the final order date is the day following the fifteenth (15) working day after the employer's receipt of the citation.
+
+Contested Citation Item
+.
+
+For a contested citation item, the final order date is as follows:
+
+
+The thirtieth (30) day after the date on which a decision or order of a Review Commission administrative law judge has been docketed with the Commission, unless a member of the Commission has directed review; or
+
+Where review has been directed, the thirtieth (30) day after the date on which the Commission issues its decision or order disposing of all or the pertinent part of a case; or
+
+The date on which a federal appeals court issues a decision affirming the violation in a case in which a final order of Review Commission has been stayed.
+
+Informal Settlement Dates
+.
+
+The final order date is when, within the 15 working days to contest a citation, the ISA is signed by
+both
+parties. See also
+Chapter 15, Section XIII
+, Citation Final Order Dates.
+
+Abatement Dates
+.
+
+
+Uncontested Citations
+.
+
+For uncontested citations, the abatement date is the later of the following dates:
+
+
+The abatement date identified in the citation;
+
+The extended date established as a result of an employer's filing for a Petition for Modification of Abatement (see Review Commission Rule 37,
+§2200.37
+);
+
+The abatement date has been extended due to an amended citation; or
+
+The date established by an informal settlement agreement.
+
+Contested Citations
+.
+
+For contested citations for which the Review Commission has issued a final order, the abatement date is the later of the following dates:
+
+
+The date identified in the final order for abatement;
+
+Where there has been a contest of a violation or abatement date (not penalty), the date computed by adding the period allowed in the citation for abatement to the final order date; or
+
+The date established by a formal settlement agreement.
+
+Contested Penalty Only
+.
+
+Where an employer has contested only the proposed penalty, the abatement period continues to run unaffected by the contest. The abatement period is subject to the time periods set forth above.
+
+Movable Equipment
+.
+
+
+Movable equipment means a hand-held or non-hand-held machine or device, powered or non-powered, that is used to do work and is moved within or between worksites.
+
+Hand-held equipment is equipment that is hand-held when operated and can generally be picked up and operated with one or two hands, such as a hand grinder, skill saw, portable electric drill, or nail gun.
+
+Worksite
+.
+
+
+For the purpose of enforcing the Abatement Verification regulation, the worksite is the physical location specified within the "Alleged Violation Description" of the citation.
+
+If no location is specified, then the worksite shall be the inspection site where the cited violation occurred.
+
+Written Certification
+.
+
+The Abatement Verification Regulation,
+§1903.19
+, requires those employers who have received a citation(s) for violation(s) of the Act to certify in writing the cited hazardous condition has been abated and affected employess notified of the abatement actions.
+
+Verification Procedures
+.
+
+The verification procedures to be followed by an employer depend on the nature of the violation(s) identified and the employer's abatement actions. The abatement verification regulation establishes requirements for the following:
+
+
+Abatement Certification
+
+Abatement Documentation
+
+Abatement Plans
+
+Progress Reports
+
+Tagging for Movable Equipment
+
+Supplemental Procedures
+.
+
+Where necessary, OSHA supplements these procedures with follow-up inspections and onsite monitoring inspections. For more information, see
+Section XII
+of this chapter, On-Site Visits: Procedures for Abatement Verification and Monitoring.
+
+Requirements
+.
+
+Except for the application of warning tags or citations on movable equipment (
+§1903.19(i)
+), the abatement verification regulation does not impose any requirements on the employer until a citation item has become a final order of the Review Commission. For moveable hand-held equipment, the warning tag or citation must be attached immediately after the employer receives the citation. For other moveable equipment, the warning tag or citation must be attached prior to moving the equipment within or between worksites.
+
+Abatement Certification
+.
+
+
+Minimum Level
+.
+
+Abatement certification is the minimum level of abatement verification and is required for all violations once they become Review Commission final orders. An exception exists where the CSHO observed abatement during the on-site portion of the inspection and the violation is listed on the citation as "Corrected During Inspection (CDI)" or "Quick-Fix." See
+Section VI.D
+of this chapter, CSHO Observed Abatement.
+
+Certification Requirements
+.
+
+The employer's written certification that abatement is complete must include the following information for each cited violation:
+
+The date and method of abatement and a statement that affected employees and their representatives have been informed of the abatement;
+
+The employer's name and address;
+
+The inspection number to which the submission relates;
+
+The citation and item numbers to which the submission relates;
+
+A statement that the information submitted is accurate; and
+
+The signature of the employer or the employer's authorized representative.
+
+A non-mandatory example of an abatement certification letter is available in
+Appendix A
+of the Abatement Verification Regulation (
+§1903.19
+).
+
+Certification Timeframe
+.
+
+
+All citation items which have become final orders, regardless of their characterizations, require written abatement certification within 10 calendar days of the abatement date.
+
+A PMA received and processed in accordance with the guidance of the FOM will suspend the 10-day time period for receipt of the abatement certification for the item for which the PMA is requested.
+
+
+Thus, no citation will be issued for failure to submit the certification within 10 days of the abatement date.
+
+If the PMA is denied, the 10-day time period for submission to OSHA begins on the day the employer receives notice of the denial.
+
+Abatement Documentation
+.
+
+More extensive documentation of abatement is required for the most serious violations. When a violation requires abatement documentation, in addition to certifying abatement, the employer must submit documents demonstrating that abatement is complete.
+
+
+Required Abatement Documentation
+.
+
+Pursuant to
+§1903.19
+, documentation of abatement is required for the following:
+
+
+Willful violations;
+
+Repeat violations; and
+
+Serious violations where OSHA determines that such documentation is necessary as indicated on the citation. For further information, see
+Section VI.C
+. of this chapter, Abatement Documentation for Serious Violations.
+
+Adequacy of Abatement Documentation
+.
+
+
+Abatement documentation must be accurate, and describe or portray the abated condition adequately. It can be submitted in electronic form, if approved by the Area Director.
+
+The abatement regulation does not mandate a particular type of documentary evidence for any specific cited conditions.
+
+The adequacy of the abatement documentation submitted by the employer will be assessed by OSHA using the information available in the citation and the Agency's knowledge of the employer's workplace and history.
+
+Examples of documents that demonstrate that abatement is complete include, but are not limited to:
+
+
+Photographic or video evidence of abatement;
+
+Evidence of the purchase or repair of equipment;
+
+Evidence of actions taken to abate;
+
+Bills from repair services;
+
+Reports or evaluations by safety and health professionals describing the abatement of the hazard or a report of analytical testing;
+
+Documentation from the manufacturer that the article that was repaired is within the manufacturer's specifications;
+
+Records of training completed by employees, if the citation is related to inadequate employee training; and
+
+A copy of program documents, if the citation was related to a missing or inadequate program, such as a deficiency in the employer's respirator or hazard communication program.
+
+Abatement documentation (photos, employer programs, etc.) shall be retained in accordance with
+ADM 03-01-005
+, OSHA Compliance Records, August 3, 1998.
+
+Abatement Documentation for Serious Violations
+.
+
+
+High Gravity Serious Violations
+.
+
+
+OSHA policy generally specifies that all high gravity serious violations will require abatement documentation.
+
+Where, in the opinion of the Area Director, abatement documentation is not required for a high-gravity serious violation, the reasons for this must be set forth in the case file.
+
+Moderate or Low Gravity Serious Violations
+.
+
+Moderate or low gravity serious violations should not normally require abatement documentation, except whenthe Area Director will require evidence of abatement for moderate- and low-gravity serious violations under the following circumstances:
+
+
+If the establishment has been issued a citation for a willful violation or a failure-to-abate notice for any standard which has become final order in the previous three years; or
+
+If the employer has any history of a violation that resulted in a fatality or an OSHA-300 Log entry indicating serious physical harm to an employee in the past three years. The standard being cited must be similar to the standard cited in connection with the fatality or serious injury or illness.
+
+CSHO Observed Abatement
+.
+
+
+Employers are not required to certify abatement for violations which they promptly abate during the onsite portion of the inspection and which is observed by the CSHO.
+
+
+Area Directors can use their discretion in extending the "24 hour" time limit to document abated conditions during the inspection.
+
+Observed abatement will be documented on the Abatement section of the Violation Worksheet for each violation and must include the date and method of abatement.
+
+If the observed abatement is for a violation that would normally require abatement documentation by the employer, then the documentation in the case file must also indicate that abatement is complete. Where suitable, the CSHO can use photographs or video evidence. For further information about adequacy of abatement documentation, see
+Section VI.B
+, of this chapter, Adequacy of Abatement Documentation.
+
+When the abatement has been witnessed and documented by the CSHO, a notation reading "Corrected During Inspection" shall be made on the citation. Immediate abatement of some violations can qualify for penalty reductions under OSHA's "Quick-Fix" incentive program. These incentives are discussed with the employer during the opening conference. See
+Chapter 6, Section IV.A
+, Quick-Fix Penalty Adjustment.
+
+Notations stating "Corrected during inspection" or "Employer has abated all hazards" shall not be made on the citation in cases where there is evidence of a continuing violative practice by an employer who can be subject to a summary enforcement order under
+Section 11(b)
+of the Act (i.e., failure to provide fall protection is a recurring condition based on citation history or other indications that suggest widespread violations of the same or similar standards at other establishments or construction worksites).
+
+Monitoring Information for Abatement Periods Greater than 90 Days
+.
+
+
+Abatement Periods Greater than 90 Days
+.
+
+For abatement periods greater than 90 calendar days, the regulation allows the Area Director flexibility in either requiring or not requiring monitoring information.
+
+
+The requirement for abatement plans and progress reports must be specifically associated to the citation item to which they relate.
+
+Progress reports cannot be required unless abatement plans are specifically required.
+
+Note that Paragraphs (e) and (f) of
+§1903.19
+have limits: the Area Director is not allowed to require an abatement plan for abatement periods less than 91 days or for citations classified as other-than-serious.
+
+The regulation places an obligation on employers, where necessary, to identify how employees are to be protected from exposure to the violative condition during the abatement period. One way of ensuring that interim protection is included in the abatement plan is to note this requirement on the citation. See
+§1903.19, Non-Mandatory Appendix B
+, for a sample of an Abatement Plan and Progress Report.
+
+Abatement Plans
+.
+
+
+The Area Director can require an employer to submit an abatement plan for each qualifying cited violation.
+
+
+The requirement for an abatement plan must be indicated in the citation.
+
+The citation can also call for the abatement plan to include interim measures.
+
+Within 25 calendar days from the final order date, the employer must submit an abatement plan for each violation that identifies the violation and the steps to be taken to achieve abatement. The abatement plan must include a schedule for completing the abatement and, where necessary, the methods for protecting employees from exposure to the hazardous conditions in the interim until the abatement is complete (
+§1903.19(e)(2)
+).
+
+In cases where the employer cannot prepare an abatement plan within the allotted time, a PMA must be submitted by the employer to amend the abatement date.
+
+Progress Reports
+.
+
+
+An employer that is required to submit an abatement plan can also be required to submit periodic progress reports for each cited violation. In such cases, the citation must indicate:
+
+
+That periodic progress reports are required and the citation items for which they are required;
+
+The date on which an initial progress report must be submitted, which can be no sooner than 30 calendar days after the due date of an abatement plan;
+
+Whether additional progress reports are required; and
+
+The date(s) on which additional progress reports must be submitted.
+
+For each violation the progress report must identify, in a single sentence if possible, the action taken to achieve abatement and the date that the action was taken. There is nothing in this policy or the regulation prohibiting progress reports as a result of settlement agreements.
+
+Special Requirements for Long-Term Abatement
+.
+
+
+Long-term abatement is abatement that will be completed more than one year from the citation issuance date.
+
+The Area Director must require the employer to submit an abatement plan for every violation with an abatement date in excess of one year.
+
+Progress reports are mandatory and must be filed, at a minimum, every six months. More frequent reporting can be required at the discretion of the area director.
+
+Employer Failure to Submit Required Abatement Certification
+.
+
+
+Actions Preceding Citation for Failure to Certify Abatement
+.
+
+
+If abatement certification, or any required documentation, is not received within 13 calendar days after the abatement date (the regulation requires filing within 10 calendar days after the abatement date; and another 3 calendar days is added for mailing), then the following procedures should be followed:
+
+
+Remind the employer by telephone of the requirement to submit the material and tell the employer that a citation will be issued if the required documents are not received within 7 calendar days after the telephone call.
+
+During the conversation with the employer, determine why the employer has not complied and document all communication efforts in the case file. Discuss OSHA's PMA policy and explain that a late petition to modify the abatement date can be accepted only if accompanied by the employer's statement of exceptional
+circumstances
+explaining the delay.
+
+Issue a follow-up letter to the employer the same day as the telephone call.
+
+The employer can be allowed to respond by fax or email where appropriate.
+
+If the certification and/or documentation are not received within the next 7 calendar days, then a single other-than-serious citation will be issued.
+
+Normally citations for failure to submit abatement certification for violations of
+§1903.19(c)
+shall not be issued until the above procedures have been followed and the employer has been provided additional opportunity to comply. These pre-citation procedures also apply when abatement plans or progress reports are not received within 13 days of the due date.
+
+Citation for Failure to Certify
+.
+
+
+Citations for failure to submit abatement verification (certification, documentation, abatement plans or progress reports) can be issued without formal follow-up activities by following the procedures below.
+
+A single other-than-serious citation will be issued combining all the individual instances where the employer has not submitted abatement certification and/or abatement documentation.
+
+This "other" citation will be issued under the same inspection number that contained the original violations cited.
+
+The abatement date for this citation shall be set 30 days from the date of issuance.
+
+NOTE: Each violation of
+§1903.19(c)
+,
+(d)
+,
+(e)
+, or
+(f)
+with respect to each original citation item is a separate item.
+
+For those situations where the abatement date falls within the 15 day informal conference time period, and when an informal conference request is likely, enforcement activities should be delayed for these citations until it is known if the citation's classification or abatement period is to be modified.
+
+For those rare instances where the reminder letter is returned to the Area Office by the Post Office as undeliverable and telephone contact efforts fail, the Area Director has the discretion to stop further efforts to locate the employer and document in the case file the reason for no abatement certification.
+
+Certification Omissions
+.
+
+
+An initial minor or non-substantive omission in an abatement certification (e.g., lack of a definitive statement that the information being submitted is accurate) should be considered a de minimis condition of the regulation.
+
+If there are minor deficiencies, such as omitting the inspection number, signature or date, the employer should be contacted by telephone to verify that the documents received were the ones that they intended to submit. If so, then the date stamp of the Area Office can serve as the date on the document.
+
+A certification with an omitted signature should be returned to the employer to be signed.
+
+Penalty Assessment for Failure to Certify
+.
+
+The penalty provisions of
+Sections 9
+and
+17
+of the OSH Act apply to all citations issued under this regulation. See
+Chapter 6
+, Penalties and Debt Collection, for additional information.
+
+Tagging for Movable Equipment
+.
+
+
+Tag-Related Citations
+.
+
+Tag-related citations must be observed by CSHOs prior to the issuance of a citation for failure to initially tag the cited movable equipment.
+
+
+See
+§1903.19, Non-mandatory Appendix C
+, for a sample warning tag. OSHA must be able to prove the employer's initial failure to act (tag the movable equipment upon receipt of the citation).
+
+Where there is insufficient evidence to support a violation of the employer's initial failure to tag or post the citation on the cited movable equipment, a citation can be issued for failure to maintain the tag or copy of the citation using
+§1903.19(i)(6)
+.
+
+Equipment Which is Moved
+.
+
+Tags are intended to provide an interim form of protection to employees through notification for those who may not be aware of the citation or the hazardous condition.
+
+
+For non-hand-held equipment, CSHOs should make every effort to be as detailed as possible when documenting the initial location where the violation occurred. This documentation is critical to the enforcement of the tagging requirement (
+§1903.19(i)
+) because the tagging provision is triggered upon movement of the equipment.
+
+For hand-held equipment, employers must attach a warning tag or copy of the citation immediately after the employer's receipt of the citation. The attachment of the tag is not dependent on any subsequent movement of the equipment.
+
+Failure to Notify Employees by Posting
+.
+
+
+Evidence
+.
+
+Like tag-related citations, CSHOs shall investigate an employer's failure to notify employees by posting.
+
+Location of Posting
+.
+
+Where an employer claims that posting at the location where the violation occurred would ineffectively inform employees (
+§1903.19(g)(2)
+) the employer can post the document or a summary of the document in a location where it will be readily observable by affected employees and their representatives. Employers may also communicate by other means with affected employees and their representatives regarding abatement activities.
+
+Other Communication
+.
+
+The CSHO must determine not only whether the documents or summaries were appropriately posted, but also whether, as an alternative, other communication methods, such as meetings or employee publications, were used as an alternative.
+
+Abatement Verification for Special Enforcement Situations
+.
+
+
+Construction Activity Considerations
+.
+
+
+Construction activities pose situations requiring special consideration.
+
+
+Construction site closure or hazard removal due to completing of the structure or project, will only be accepted as abatement without certification where the area office CSHO verifies the site closure/completion and where closure/completion effectively abates the condition cited.
+
+In all other circumstances, the employer must certify to OSHA that the hazards have been abated by submitting an abatement certification. In rare cases the verification may have to cease and the abatement action closed through cessation of work or verification with the general contractor of the site to verify abatement.
+
+Equipment-related and all program-related (e.g., crane inspection, hazard communication, respirator, training, competent person, qualified persons) violations
+will always
+require employer certification of abatement regardless of construction site closure.
+
+Where the violation specified in a citation is the employer's general practice of failing to comply with a requirement (e.g., the employer routinely fails to provide fall protection at its worksites), closure/completion of the individual worksite will not be accepted as abatement.
+
+For situations where the main office of the employer being cited is physically located in another Regional jurisdiction, the Area Director who has jurisdiction over the worksite will proceed as if the employer's main office were in the Area Director's jurisdiction, and notify the affected Regional Office of the communication with the employer.
+
+Where a follow-up inspection to verify abatement is deemed necessary, the affected Regions and Area Offices will determine the most efficient and mutually beneficial approach to conducting the inspection.
+
+Field Sanitation and Temporary Labor Camps
+.
+
+Under
+Secretary's Order 3-2000
+, the authority to conduct inspections and issue citations for field sanitation and most temporary labor camps in agricultural employment has been delegated to the Employment and TrainingAdministration (ETA).
+
+
+An employer's obligation under the abatement verification regulation still applies. However, OSHA's delegation of authority to ETA does not extend to other OSHA regulations or standards, including
+§1903.19
+.
+
+In situations where ETA determines that employers are in violation of
+§1903.19
+, the following procedures are to be followed:
+
+
+Wage and Hour District Directors, after following the procedures outlined in
+Section VIII
+, of this chapter (Employer Failure to Submit Required Abatement Certification), will send a copy of the inspection case file or a summary memorandum to the OSHA Regional Administrator's Office for referral following established practice.
+
+The OSHA Regional Office shall forward appropriate case files to the Area Office that has jurisdiction to open a NEW inspection (coded as a Referral) and process citation(s) for failure to comply with
+§1903.19
+. Upon receipt of the abatement verification documents related to the ETA inspection, OSHA will fax them to ETA.
+
+NOTE: All field sanitation and temporary labor camp cases will automatically comply with the Appropriations Act rider because the field sanitation standard does not apply to employers with 10 or fewer employees and the rider does not apply to temporary labor camps.
+
+Penalties will be collected and processed following normal procedures. Upon receipt of penalties for the OSHA-issued
+§1903.19
+citations, OSHA's case file will be closed.
+
+In situations where an employer does not respond to OSHA's issuance of violations of
+§1903.19
+and dunning efforts fail, ETA shall be informed through memorandum and the OSHA case file shall be closed with the penalties referred for debt collection.
+
+NOTE: See also
+Chapter 10
+, Industry Sectors, and
+Chapter 12
+, Specialized Inspection Procedures, for more information.
+
+Follow-Up Policy for Employer Failure to Verify Abatement under §1903.19
+.
+
+Follow-up or monitoring inspections would not normally be conducted when evidence of abatement is provided by the employer or employee representatives. For further information on exceptions for Severe Violator Enforcement Program (SVEP) cases, see
+CPL 02-00-149
+,
+Severe Violator Enforcement Program (SVEP)
+, June 18, 2010.
+
+NOTE: For further information on extended abatement periods, see
+Section VII
+, Monitoring Information for Abatement Periods Greater than 90 Days, and
+Section XIII
+, Monitoring Inspections, both of this chapter.
+
+Where the employer has not submitted the required abatement certification or documentation within the time permitted by the regulation, the Area Director has discretion to conduct a follow-up inspection.
+
+Submission of inadequate documents can also be the basis for a follow-up inspection.
+
+This inspection should not generally occur before the end of the original 15-day contest period, except in unusual circumstances.
+
+On-Site Visits: Procedures for Abatement Verification and Monitoring
+.
+
+
+Follow-Up Inspections
+.
+
+The primary purpose of a follow-up inspection is to determine if the previously cited violations have been corrected or to verify the accuracy of information provided during a phone/fax investigation or Rapid Response Investigation (RRI).
+
+Severe Violator Enforcement Program (SVEP) Follow-Up
+.
+
+
+For any inspection issued on or after June 18, 2010, that results in an SVEP case, an enhanced follow-up inspection will normally be conducted even if abatement of the cited violations has been verified. The primary purpose of follow-up inspections is to assess both whether the cited violation(s) were abated and whether the employer is committing similar violations.
+
+If there is a compelling reason not to conduct a follow-up inspection, the reason must be documented in the file. The Region shall also report these cases to the Director of Enforcement Programs, along with the reason why a follow-up was not initiated.
+
+Grouped and combined violations from the original inspection will be counted as one violation for SVEP purposes.
+
+For further information on exceptions for Severe Violator Enforcement Program (SVEP) cases, see OSHA Instruction
+CPL 02-00-149
+,
+Severe Violator Enforcement Program (SVEP)
+, June 18, 2010.
+
+NOTE: See
+Memorandum
+, "
+Inclusion of Upstream Oil and Gas Hazards to the High-Emphasis Hazards in the Severe Violator Enforcement Program (SVEP)
+", February 11, 2015, for policy relating to the addition of upstream oil and gas hazards to the list of High-Emphasis Hazards in the Severe Violator Enforcement Program (SVEP).
+
+Severe Injury Reporting Monitoring
+.
+
+OSHA may conduct monitoring inspections of closed Rapid Response Investigations (RRIs) based on a randomized selection of closed investigations. The monitoring inspection is to ensure accuracy in the reporting and will be limited to an inspection of the previously reported condition. See
+Memorandum
+on Revised Interim Procedures for Reporting Requirements under 29 CFR 1904.39, March 4, 2016.
+
+Initial Follow-Up
+.
+
+
+The initial follow-up is the first follow-up inspection after issuance of the citation.
+
+If a violation is found not to have been abated, then the CSHO shall inform the employer that the employer is subject to a Notification of Failure to Abate Alleged Violation and proposed additional daily penalties while such failure or violation continues.
+
+Failure to comply with enforceable interim abatement dates involving multi-step abatement shall be subject to a Notification of Failure to Abate Alleged Violation.
+
+Where the employer has implemented some controls, but the control measures were inadequate during follow-up monitoring, and when other technology was available that would have brought the process into compliance, a Notification of Failure to Abate Alleged Violation normally shall be issued. If the employer has exhibited good faith, a late PMA for extenuating circumstances can be considered.
+
+Where an apparent failure to abate by means of engineering controls is found to be due to technical infeasibility, no failure to abate notice shall be issued; however, if proper administrative controls, work practices or personal protective equipment are not utilized, a Notification of Failure to Abate Alleged Violation shall be issued.
+
+Second Follow-Up
+.
+
+
+Any subsequent follow-up after the initial follow-up inspection dealing with the same violations is considered a second follow-up.
+
+
+After the Notification of Failure to Abate Alleged Violation has been issued, the Area Director shall allow a reasonable time for abatement of the violation before conducting a second follow-up. The employer must ensure that employees are adequately protected by other means until the violations are corrected.
+
+If the employer contests the proposed additional daily penalties, then a follow-up inspection shall still be scheduled to ensure correction of the original violation.
+
+If a second follow-up inspection reveals that the employer still has not corrected the original violations, a second Notification of Failure to Abate Alleged Violation with additional daily penalties shall be issued if the Area Director, after consultation with the Regional Administrator and RSOL, concludes that this action is appropriate.
+
+If a Notification of Failure to Abate Alleged Violation and additional daily penalties are not to be proposed because of an employer's flagrant disregard of a citation or an item on a citation, then the Area Director shall immediately contact the Regional Administrator. This communication, in writing, should detail the circumstances so that the matter can be referred to the RSOL for appropriate action, as appropriate, in the U.S. Court of Appeals in accordance with
+Section 11(b)
+of the Act.
+
+OSH Act Section 11(b)
+.
+
+There may be times during the initial follow-up when, because of an employer's flagrant disregard of a citation or other factors, it will be apparent that traditional enforcement actions would be inappropriate or ineffective. In such cases, a summary enforcement action shall be initiated under
+Section 11(b)
+of the Act in the U.S. Court of Appeals. The Area Director shall notify the Regional Administrator, in writing, of all the particular circumstances of the case for referral to the RSOL.
+
+Follow-Up Inspections
+.
+
+
+Follow-up inspections shall be coded as such in OIS and associated with the inspection case file from which the citations being evaluated were issued. The applicable identification and description sections of the Violation Worksheet, citation, or file narrative shall be used for documenting correction of violations and failure to abate items during follow-up inspections. Failure to Abate violations are issued in the original inspection. Repeat violations are issued in the follow-up inspection.
+
+If Serious, Willful, or Repeat violation items were appropriately grouped in the Violation Worksheets in the original case file, they can be grouped on the follow-up Violation Worksheet; otherwise, individual Violation Worksheets shall be used for each item. The correction of other-than-serious violations can be documented in the narrative portion of the case file.
+
+Documentation of Hazard Abatement by Employer
+.
+
+
+The hazard abatement observed by the CSHO shall be specifically described in the Violation Worksheet, including any applicable dimensions, materials, specifications, personal protective equipment, engineering controls, measurements or readings, or other conditions.
+
+Brief terms such as "corrected" or "in compliance" will not be accepted as proper documentation for violations having been corrected.
+
+When appropriate, this written description shall be supplemented by a photograph and/or a video recording to illustrate correction circumstances.
+
+Only the item description and identification blocks need to be completed on the follow-up Violation Worksheet with an occasional inclusion of an applicable employer statement concerning correction under the employer knowledge section, if appropriate.
+
+Sampling
+.
+
+
+CSHOs conducting a follow-up inspection to determine abatement of violations of air contaminant or noise standards, shall decide whether sampling is necessary and if so, what kind (i.e., spot sampling, short-term sampling, or full-shift sampling).
+
+If there is reasonable probability that a Notification of Failure to Abate Alleged Violation will be issued, then full-shift sampling is required to verify exposure limits based on an 8-hour time-weighted average.
+
+Narrative
+.
+
+The CSHO must include in the narrative the findings of the inspection, along with recommendations for action. In order to make a valid recommendation, it is important to have all pertinent factors available in an organized manner.
+
+Failure to Abate
+.
+
+In the event that any item has not been abated, complete documentation shall be included on an Violation Worksheet.
+
+Monitoring Inspections
+.
+
+
+General
+.
+
+Monitoring inspections are conducted to ensure that hazards are being corrected and employees are being protected, whenever a long period of time is needed for an establishment to come into compliance. Such inspections can be scheduled for the following reasons, among others:
+
+
+Abatement dates in excess of one year.
+
+A petition for modification of abatement date (PMA).
+
+A Corporate-Wide Settlement Agreement. See
+CPL 02-00-152
+, Guidelines for Administration of Corporate-Wide Settlement Agreements, June 22, 2011.
+
+To ensure that terms of a permanent variance are being carried out.
+
+At the request of an employer requesting technical assistance granted by the Area director.
+
+Conduct of Monitoring Inspection (PMAs and Long-Term Abatement)
+.
+
+Monitoring inspections shall be conducted in the same manner as follow-up inspections. An inspection shall be classified as a monitoring inspection when a safety/health inspection is conducted for one or more of the following purposes:
+
+
+Determine the progress that an employer is making toward final correction.
+
+Ensure that the target dates of a multi-step abatement plan are being met.
+
+Ensure that an employer's petition for the modification of abatement dates is made in good faith and that the employer has attempted to implement necessary controls as expeditiously as possible.
+
+Ensure that the employees are being properly protected until final controls are implemented.
+
+Ensure that the terms of a permanent variance are being implemented.
+
+Provide abatement assistance for items under citation.
+
+Abatement Dates in Excess of One Year
+.
+
+
+Monitoring visits shall be scheduled to check on progress made whenever abatement dates extend beyond one year from the issuance date of the citation.
+
+These inspections shall be conducted approximately every six months, counted from the citation date, until final abatement has been achieved for all cited violations.
+
+
+If the case has been contested, then the final order date (instead of the citation date) shall be used as a starting point.
+
+A settlement agreement can specify an alternative monitoring schedule.
+
+If the employer is submitting satisfactory quarterly progress reports and the Area Director agrees after careful review that these reports reflect adequate progress on implementation of control measures and that they provide adequate interim protection for employees, then a monitoring inspection can be conducted every twelve months.
+
+Such inspections shall have priority equal to that of serious formal complaints. The seriousness of the hazards requiring abatement shall determine the priority among monitoring inspections.
+
+Monitoring Abatement Efforts
+.
+
+
+The Area Director shall take the steps necessary to ensure that the employer is making a good faith attempt to bring about abatement as expeditiously as possible.
+
+Where engineering controls have been cited or required for abatement, a monitoring inspection shall be scheduled to evaluate the employer's abatement efforts. Failure to conduct a monitoring inspection shall be fully explained in the case file.
+
+Where no engineering controls have been cited but more time is needed for other reasons that do not require assistance from OSHA (such as delays in receiving equipment), a monitoring visit need not normally be scheduled.
+
+Monitoring inspections shall be scheduled as soon as possible after the initial contact with the employer and shall not be delayed until actual receipt of the PMA.
+
+CSHOs shall decide during the monitoring inspection whether sampling is necessary and, if so, to what extent (i.e., spot sampling, short-term sampling, or full-shift sampling).
+
+CSHOs shall include pertinent findings in the narrative along with recommendations for action. To reach a valid conclusion when recommending action, it is important to have all relevant factors available in an organized manner. The factors to be considered can include, but are not limited to, the following:
+
+
+Progress reports or other indications of the employer's good faith efforts, demonstrating effective use of technical expertise and/or management skills, accuracy of information reported by the employer, and timeliness of progress reports.
+
+The employer's assessment of the hazards by means of surveys performed by in-house personnel, consultants, and/or the employer's insurance agency.
+
+Other documentation collected by Area Office personnel, including verification of progress reports, success and/or failure of abatement efforts, and assessment of current exposure levels of employees.
+
+Employer and employee interviews.
+
+Specific reasons for requesting additional time, including specific plans for controlling exposures and specific calendar dates.
+
+Personal protective equipment.
+
+Medical programs.
+
+Emergency action plans.
+
+Monitoring Corporate-Wide Settlement Agreements
+.
+
+Corporate-wide Settlement Agreements (CSA) extend abatement requirements to all covered locations of the company. These agreements can require baseline, periodic, and follow-up monitoring. More information about abatement related to CSA is in
+CPL 02-00-152
+,
+Guidelines for Administrating of Corporate-Wide Settlement Agreements
+, dated June 22, 2011.
+
+Notification of Failure to Abate
+.
+
+
+Violation
+.
+
+A
+Notification of Failure to Abate Alleged Violation (OSHA-2B)
+shall be issued in cases where violations have not been corrected as required, as verified by an onsite inspection or follow-up inspection.
+
+Penalties
+.
+
+Failure to abate penalties shall be applied when an employer has not corrected a previously cited violation that is a final order of the Commission.
+
+Calculation of Additional Penalties
+.
+
+
+A Gravity Based Penalty (GBP) for unabated violations is to be calculated for failure to abate a serious or other-than-serious violation on the basis of the facts noted upon re-inspection.
+
+Detailed information on calculating failure to abate (FTA) penalties is included in
+Chapter 6
+, Penalties and Debt Collection.
+
+Case File Management
+.
+
+
+Closing of Case File Without Abatement Certification
+.
+
+The closing of a case file without abatement certification(s) must be justified through a statement in the case file by the Area Director or his/her designee, addressing the reason for accepting each uncertified violation as an abated citation.
+
+Review of Employer-Submitted Abatement
+.
+
+Area Offices are encouraged to review employer-submitted abatement verification materials as soon as possible but no later than 30 days after receipt. If the review will be delayed, notify the employer that the material will be reviewed by a certain date, and that the case will be closed if appropriate, after that time.
+
+Whether to Keep Abatement Documentation
+.
+
+Abatement documentation (photos, employer programs) shall be retained in accordance with OSHA Instruction
+ADM 03-01-005
+, OSHA Compliance Records, dated August 3, 1998.
+
+Abatement Services Available to Employers
+.
+
+Employers requesting abatement assistance shall be informed that OSHA is willing to work with them even after citations have been issued, and that OSHA can provide incentives for immediate onsite abatement of certain types of violations. For further information see
+Chapter 6, Section IV
+, Effect on Penalties if Employer Immediately Corrects.

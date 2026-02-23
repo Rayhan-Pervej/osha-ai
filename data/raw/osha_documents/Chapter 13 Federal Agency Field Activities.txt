@@ -1,0 +1,1943 @@
+Field Operations Manual
+
+Chapter 13
+
+FEDERAL AGENCY FIELD ACTIVITIES
+
+Introduction
+.
+
+
+
+Scope
+.
+
+The purpose of this chapter is to highlight policies that are unique to federal agency occupational safety and health programs. Policies and procedures for federal agencies are generally the same as those followed in the private sector, except as specified in this chapter.
+
+The United States Postal Service (USPS) is considered a private sector employer for purposes of OSHA’s enforcement oversight,
+1
+although Federal OSHA retains full jurisdiction over all USPS facilities and employees and contract employees engaged in USPS mail operations. See FOM 2-7 for more information on the USPS
+.
+
+Overview
+.
+
+The
+Occupational Safety and Health Act
+(the Act),
+Executive Order 12196
+, and
+29 CFR Part 1960
+all shape OSHA’s responsibilities for federal agencies. This chapter, with eight sections, outlines OSHA’s safety and health program requirements for federal agencies and highlights certain differences between OSHA’s program for the private and federal sectors. Below is a summary of each of the sections.
+
+
+Section I: Introduction
+.
+
+This section provides a broad review of OSHA’s safety and health requirements for federal agencies. It also identifies definition differences between the private and federal sectors, and the offices within OSHA where inspectors can seek more detailed information.
+
+Section II: OSHA’s Jurisdiction over Federal Agencies
+.
+
+This section provides an overview of how OSHA’s jurisdiction varies for federal agencies. For example, while OSHA’s authority to establish requirements and oversee safety and health program implementation applies only to executive branch federal agencies, it can offer compliance assistance to all branches of the federal government in the form of Agency Technical Assistance Requests (ATARs). See Section VII.
+
+Section III: Federal Agency Inspection Procedures
+.
+
+This section reviews how OSHA requirements applied during federal agency inspections differ from those for the private sector. For example, while the standards promulgated by
+Section 6
+of the Act generally apply to the federal sector, only specific regulations in
+Section 8
+of the Act apply to federal agencies. Also, for executive branch federal agencies
+§1960.8(a)
+, not Section
+5(a)(1)
+of the Act, is the "general duty clause."
+
+Section IV: Federal Agency Recordkeeping and Reporting Requirements
+.
+
+This section addresses the similarities and differences between private sector and federal agency recordkeeping requirements.
+
+Section V: Access to Federal Employee Records
+.
+
+This section explains OSHA’s access to federal agencies’ employee injury and illness records, as well as exposure and medical records.
+
+Section VI: Evaluations of Federal Agency Programs
+.
+
+This section explains OSHA’s authority and procedures for evaluating federal agencies.
+
+Section VII: Agency Technical Assistance Requests
+.
+
+This Section discusses Agency Technical Assistance Requests (ATARs), a compliance assistance alternative available only to federal agencies, since they are not eligible for OSHA On-Site Consultation services.
+
+Section VIII: Notices of Unsafe or Unhealthful Working Conditions
+.
+
+This section discusses how Notices, rather than citations, are issued to federal agencies and explains that financial penalties cannot be applied for OSHA violations.
+
+Important Definitions
+.
+
+
+Establishment
+.
+
+When OSHA adopted the applicable
+§1904
+recordkeeping requirements for federal agencies, it maintained the definition of "establishment" under
+§1960.2(h)
+, as this definition better describes the application of the term in the federal sector. Unlike in the private sector, it is common for federal agencies to have an organizational structure that consists of agencies, bureaus, or other components that come under the line authority of an Assistant Secretary, Under Secretary, or another official at a comparable level.
+
+Specifically, a federal establishment is a single physical location where business is conducted or services or operations are performed. Where distinctly separate activities are performed at a single physical location, each activity will be treated as a separate "establishment." Typically, an "establishment" refers to a field activity, Regional Office, Area Office, installation, or facility. Examples are as follows:
+
+Major organizational units with distinct lines of authority are considered as separate establishments.
+
+Agencies or bureaus in an agency are considered separate establishments even if they occupy the same building.
+
+Each component of the Department of Defense (Army, Navy) and each major command located at an installation is a separate establishments.
+
+Lower organizational units (such as offices or divisions within a bureau, or shops within a command) are not considered separate establishments.
+
+
+
+Employee, Including Volunteers and Working Federal Inmates
+.
+
+Section 1960.2(g)
+defines federal employees as "any person, other than members of the Armed Forces, employed or otherwise suffered, permitted, or required to work by an agency."
+
+
+Volunteers
+(uncompensated staff working under the supervision of an agency) in the federal sector are considered employees and covered by §1960, including the injury and illness recordkeeping requirements under Subpart I. This differs from the private sector where volunteers are not covered by the §1904 recordkeeping regulation.
+
+Federal inmates
+are protected under §1960 when they are "suffered, permitted, or required to work" at tasks similar to those found in the private sector, and the sites at which they work must comply with applicable OSHA regulations, including the applicable recordkeeping provisions of §1904. Given that federal inmates are prisoners and wards of the Bureau of Prisons, they are not afforded all the rights that accrue to other federal employees, including volunteers. However, only complaints related to workplace safety and health issues (not domiciliary issues) received in writing should be treated as formal complaints and investigated, as appropriate.
+
+Federal inmates who are employed in a "work-release" status are generally considered to be employees of the entity for which they work, with all the rights and responsibilities that apply to that entity’s other workers. However, their specific status is based upon specific factual circumstances. Questions concerning federal work-release inmates should be referred to the Office of Federal Agency Programs (OFAP).
+
+Laws and Regulations Affecting Federal Agencies
+.
+
+
+Federal Agencies and the Occupational Safety and Health Act
+.
+
+
+Section 19
+is the section of the OSH Act that applies specifically to federal agencies; some other sections apply to both the private and federal sectors. Section 19(a) requires each federal agency to "establish and maintain an effective and comprehensive occupational safety and health program which is consistent with the standards promulgated under Section 6."
+
+In contrast, OSHA regulations promulgated under
+Section 8
+of the Act generally do not apply to federal agencies unless
+29 CFR Part 1960
+– Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters, includes them by reference.
+
+Two regulations specifically applicable to federal agencies are:
+
+
+Section 1904
+– Recordkeeping and reporting occupational injuries and illnesses (see Section IV in this chapter).
+
+NOTE: 29 CFR Part 1904 has new requirements for reporting work-related fatalities, hospitalizations, amputations, or losses of an eye. The new rule, which also updates the list of employers partially exempt from OSHA record-keeping requirements, went into effect on January 1, 2015, for workplaces under Federal OSHA jurisdiction. (See
+79 FR 56129
+, Occupational Injury and Illness Recording and Reporting Requirements – NAICS Update and Reporting Revisions, September 18, 2014.)
+
+§1910.1020
+– Access to employee exposure and medical records (see Section V in this chapter).
+
+OSHA’s oversight authority to prescribe requirements and provide safety and health oversight is limited to Executive Branch agencies (see Section II.A of this chapter for limitations). The U.S. Postal Service is covered under OSHA’s private sector procedures.
+
+Despite lack of formal oversight authority, OSHA cooperates and consults with the heads of agencies in the federal, legislative, and judicial branches to help them implement safety and health programs upon request.
+
+Executive Order 12196 – Occupational Safety and Health Programs for Federal Employees
+.
+
+Issued February 26, 1980,
+Executive Order 12196
+prescribes additional responsibilities for the heads of federal executive branch agencies, the Secretary of Labor, and the General Services Administration.
+
+
+Executive branch agencies must operate workplace safety and health programs in accordance with requirements of the executive order and the basic elements promulgated by the Secretary.
+
+OSHA responsibilities include issuing basic program elements that the heads of agencies must use as a basis for their safety and health programs. These basic program elements are set forth in
+29 CFR Part 1960
+.
+
+GSA responsibilities include prompt attention to reports from agencies of unsafe or unhealthy conditions at GSA-owned or -operated facilities.
+
+29 CFR Part 1960 – Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters
+.
+
+
+§1960.16 requires federal agencies to comply with all occupational safety and health standards issued under section 6 of the Act.
+
+§1960
+applies exclusively to executive branch agencies (with limitations discussed in Section II of this chapter), and requires them to implement and manage their own internal safety and health programs.
+
+The §1960 regulations have a broad range of requirements. Some of the highlights include requirements for agencies to:
+
+
+Conduct self-inspections;
+
+Issue Notices of Unsafe and Unhealthy Working Conditions as a result of those inspections; and
+
+Abate the violations within set time frames.
+
+Agency staff must have the requisite training to conduct these self-inspections. Covered federal agencies must also investigate employee safety and health complaints and provide responses to complainants. Accidents and fatalities require self-inspections.
+
+Citable Program Elements in 29 CFR Part 1960
+.
+
+OSHA’s Compliance Safety and Health Officers (CSHOs) should evaluate compliance with the §1960 regulations during enforcement activities at covered worksites. Although agencies must comply with all §1960 regulations, only some sections are designated as citable (to be cited in any issued Notices). Refer to Table 13-1 at the end of this chapter for a listing of citable paragraphs
+
+OSHA Contacts for Information Regarding Federal Agencies
+.
+
+
+Regional Federal Agency Program Officers (FAPOs)
+.
+
+Each OSHA region has at least one person who is designated as a Federal Agency Program Officer (FAPO) and is responsible for responding to questions from the field regarding federal agencies. Contact the National Office of Federal Agency Programs for a current list of FAPOs ((202) 693-2122 or
+ofap@dol.gov
+).
+
+National Office of Federal Agency Programs (OFAP)
+.
+
+OFAP, located in OSHA’s Directorate of Enforcement Programs, has a range of responsibilities, including:
+
+
+Tracking federal agencies’ occupational safety and health statistics;
+
+Reviewing federal agencies’ requests for alternate and supplementary standards;
+
+Providing directives and guidance related to federal agencies; and
+
+Reporting to the President of the United States on the status of federal agencies’ occupational safety and health programs.
+
+Coverage of Federal Agencies under 29 CFR Part 1960
+.
+
+
+Enforcement
+.
+
+
+The Occupational Safety and Health Administration’s
+enforcement jurisdiction
+over federal entities (departments, agencies, museums, corporations) is limited to the executive branch. OSHA can, upon request, provide assistance or consultation to the legislative and judicial branches of government, but has no oversight authority over those branches.
+
+OSHA’s coverage under §1960 of Executive Branch federal civilian employees who are not performing strictly military operations has no geographic limitation and includes federal civilian employees working in private sector establishments. Given that many private sector employees are working overseas, alongside federal employees, any complaints, referrals, and reports of fatalities or catastrophic events occurring at federal worksites should be forwarded to OFAP for review.
+
+Table 13-2
+lists some of the federal entities that are excluded from OSHA coverage. For further clarification regarding the status of a particular federal organization, contact the Office of Federal Agency Programs.
+
+Military Personnel, Equipment, and Operations
+.
+
+Within the Executive Branch, uniformed military personnel and uniquely military equipment, systems, and operations are excluded from OSHA’s coverage under
+§1960
+.
+
+
+"Uniquely military equipment" includes equipment and systems designed by the Department of Defense that are unique to the national defense mission.
+
+Examples of excluded military equipment, systems, and operations:
+
+
+Military aircraft, ships, and submarines;
+
+Artillery, tanks, and tactical vehicles;
+
+Naval operations, military flight operations, and associated research test and development activities;
+
+Missiles and missile sites;
+
+Military space systems; and
+
+Field maneuvers.
+
+OSHA retains jurisdiction over workplaces and operations comparable to those of private sector industries, such as:
+
+
+Vessel, aircraft, and vehicle repair, overhaul, or modification (except for equipment trials);
+
+Construction;
+
+Medical services;
+
+Civil engineering or public works;
+
+Supply services; and
+
+Office work.
+
+Federal Agencies Exempt from Unannounced Inspections
+.
+
+OSHA is authorized to conduct unannounced inspections in executive branch federal agency establishments unless:
+
+
+The inspection site is a federal prison
+.
+
+OSHA can conduct
+announced
+inspections at federal prisons following guidelines found in
+FAP 01-00-002
+,
+Federal Agency Safety and Health Programs with the Bureau of Prisons, U.S. Department of Justice
+, April 10, 1995.
+
+CSHOs should review the definition of a federal employee (Section I.C of this chapter) prior to conducting inspections at federal prisons.
+
+The Agency has a Certified Safety and Health Committee (CSHC) as defined by
+29 CFR Part 1960, Subpart F
+.
+
+Certified Safety and Health Committees are organized and maintained to monitor and assist an agency’s safety and health program. In
+29 CFR Part 1960
+, Subpart F provides a list of items necessary for the certification of the Committee, including the requirement of the Assistant Secretary of OSHA to certify to the Secretary of Labor that all the requirements of Subpart F are met. The Secretary of Labor can evaluate the operations of the committee and require any deficiencies to be remedied within 90 days.
+
+
+OSHA can conduct announced inspections at agencies with CSHCs.
+
+For more information on CSHCs, see Section III.D in this chapter, Complaint Handling.
+
+See
+Table 13-3
+for a current list of agencies with a CSHC.
+
+Federal Agencies with Private Sector Employees On-Site
+.
+
+
+Employees of private contractors performing work under federal government contracts are covered by standards, regulations, and other OSH Act requirements applicable to private sector employees.
+
+
+State Program Jurisdiction on Federal Property
+.
+
+State Plans do not have jurisdiction over federal employees. However, the state programs can choose to exercise jurisdiction over private sector contractors working at federal facilities and on federal enclaves with the exception of Government Owned Contractor Operated (GOCO) facilities and land ceded by a state to the federal government ("federal enclaves"). Such coverage is set out in various documents including operational status agreements and final approval decisions which are codified at 29 CFR Part 1952. The Regional Administrator must refer to the appropriate state subject to
+29 CFR Part 1952
+and supporting documents to determine jurisdiction.
+
+Government-Owned Contractor-Operated Facilities (GOCOs)
+.
+
+OSHA compliance policies concerning GOCO operations are described in separate
+Memoranda of Understanding
+(MOUs) applicable to specific agencies. CSHOs should follow private sector procedures for GOCOs with no corresponding MOUs.
+
+Department of Energy (DOE) Sites
+.
+
+OSHA has jurisdiction over some DOE sites not covered by the Atomic Energy Act (AEA). These sites are primarily involved in fossil fuel energy research and power marketing administration. See Occupational Safety and Health of Contractor Employees at Certain Energy Department Sites; Jurisdiction and Enforcement Responsibilities; Clarification Regarding State Plans (
+Federal Register
+, June 29, 2006 (
+71 FR 36988
+)) for further clarification as to the jurisdiction and enforcement responsibilities of OSHA and 14 of its approved State Plans at various Department of Energy (DOE) sites that are not subject to the AEA. OSHA’s regulations in
+§1952
+have been amended to reflect this jurisdiction, as appropriate.
+
+Private Sector Employees and Other Agencies’ Jurisdictions
+.
+
+If there are private sector employees for which another federal agency has occupational safety and health standards under
+Section 4(b)(1)
+of the Act, then OSHA does not have jurisdiction over the working conditions addressed by the requirements of the other federal agency. The working conditions of federal employees at the worksite would still be subject to OSHA jurisdiction as specified in §1960.19. Where OSHA requirements and those of another federal agency apply to working conditions, the agency must comply with both requirements. If a standard from one agency conflicts with an OSHA standard, then agencies should comply with the more protective of the conflicting standards until the conflict is resolved.
+
+United States Postal Service
+.
+
+Inspections at USPS facilities will be conducted by Federal OSHA using private sector procedures.
+
+Federal Agency Inspection Scheduling
+.
+
+
+Targeted Inspections
+.
+
+Targeted inspections at federal agencies are equivalent to targeted inspections at private sector worksites. Area Directors are to schedule all targeted federal agency inspections within the timeframe outlined in the applicable inspection directive. Federal targeted inspections may result in Notices for violations of OSHA standards as well as applicable citable program elements under
+§1960
+.
+
+Special Emphasis Inspections
+.
+
+Special Emphasis programs can be developed at the National, Regional, or Area Office level to address hazardous working conditions causing significant injuries and illnesses in the workplace. Federal agency worksites can be included in Special Emphasis programs developed primarily for the private sector, or can be covered under special programs developed specifically for federal agencies. Federal inspection programs can be based on OSHA-300-series data when available, workers’ compensation claim injury and illness data, or other suitable data.
+
+
+National Emphasis Inspections
+.
+
+When the inspection programs are developed at the National Office level, the Office of Federal Agency Programs will provide the information used to initiate the inspection activity.
+
+Local Emphasis Inspections
+.
+
+Area Directors, in conjunction with the Regional Administrators, can develop federal agency local emphasis programs following
+CPL 04-00-002
+,
+Procedures for the Approval of Local Emphasis Programs (LEPs)
+, November 13, 2018. The Office of Federal Agency Programs must obtain concurrence from the OFAP Director before implementing any local emphasis inspection programs.
+
+Incident Inspections
+.
+
+When an Area Office is informed by a federal agency about a fatality or catastrophic incident (defined as an event resulting in hospitalization of three or more employees), the Area Director will determine if an inspection will be conducted. When an inspection is conducted, the Area Office must ensure the following:
+
+
+Agency Investigative Report
+.
+
+CSHOs must obtain a copy of the agency’s investigative report, required by
+§1960.29
+. If the agency has not completed the report, then the agency must send a copy to the Area Office when it is finished.
+
+Agency Incident Summary Report
+.
+
+CSHOs must request that the federal agency submit a summary report of any fatal or catastrophic events accidents to OFAP, as required by
+§1960.70
+.
+
+Excluded Agencies
+.
+
+If an incident report is received concerning a federal agency not under OSHA’s jurisdiction (see
+Table 13-2
+)), then the person reporting the incident should be referred to an OFAP staff member, who will provide him/her with the agency’s safety and health staff contact information.
+
+Complaint Handling
+.
+
+
+OSHA can decide to investigate complaints of unsafe or unhealthful working conditions at federal workplaces (both in the United States and overseas) if the agency is covered by
+§1960
+(see
+Table 13-2
+).
+Section 1960.28(e)
+specifies procedures for referring employee complaints to the subject agency for investigation. The UPA module of the OIS, or successor system, provides complaint form letters for transmitting the complaint to the agency. See
+Table 13-4
+for a list of relevant form letters in OIS.
+
+If a complaint is received from a private contractor working overseas at a federal worksite, forward it to OFAP for review.
+
+OSHA investigations of complaints from federal employees will follow the same procedures as for private sector complaints except for the following:
+
+
+Agencies’ reports of complaints
+.
+
+CSHOs should ensure that agencies are tracking complaints as required by §1960.28(d).
+
+Federal Agencies with Certified Safety and Health Committees (CSHCs).
+
+
+If OSHA receives a complaint about an agency with a CSHC, and OSHA decides not to conduct an announced inspection, OSHA will forward the complaint to the employing agency’s Designated Agency Safety and Health Official (DASHO) in accordance with
+§1960.28(e)(2)
+. Once the agency receives the complaint, it must follow the procedures outlined in
+§1960.28(d)
+. A copy of the employing agency’s response to the originator is to be sent to the Secretary of Labor.
+
+If half the members of record of an agency’s CSHC are dissatisfied with the agency’s response to a complaint, then the members can ask OSHA to evaluate or inspect the condition. If OSHA determines that an inspection is necessary, it will notify the establishment official at least one day in advance of the scheduled inspection. OSHA will provide inspection results to the establishment official and ask that the official share the results with the CSHC. OSHA will also forward a copy of the inspection results to the agency DASHO.
+
+Reports of Safety and Health Program Violations
+.
+
+When complaints allege violations of program elements of
+§1960
+, the Area Director can either schedule an inspection or respond by letter. Any program deficiencies trends identified in a federal agency must be reported to the OFAP and forwarded to OFAP for review. OFAP will determine if an evaluation of the agency’s program is necessary.
+
+Federal Bureau of Prisons
+.
+
+OSHA can investigate allegations of unsafe and unhealthful working conditions of federal inmates at Federal Bureau of Prisons facilities if the work the inmates perform is similar to work performed at private sector industries, such as manufacturing. See Section I.C.2 in this chapter for a more complete definition of federal inmates.
+
+NOTE: For further guidance, refer to the Federal Prisons inspection guidelines found in
+FAP 01-00-002
+,
+Federal Agency Safety and Health Programs with the Bureau of Prisons, U.S. Department of Justice
+, April 10, 1995.
+
+Federal Agencies Excluded from OSHA Enforcement
+.
+
+If a complainant’s agency or program is excluded from coverage under
+§1960
+(see
+Table 13-2
+), the complainant should be referred to OFAP, which will provide him/her with the agency’s safety and health staff contact information.
+
+Reports of Reprisal or Discrimination
+.
+
+Section 11(c)
+of the Act does not apply to federal employees, except for employees of the U.S. Postal Service. However,
+Executive Order 12196
+,
+§1960.68
+, and the
+Whistleblower Protection Act (WPA) of 1989
+require agency heads to make sure that no employee is subject to restraint, interference, coercion, discrimination or reprisal for exercising any right under these laws. Specific segments of the federal workforce also can be covered by the "whistleblower" provisions of other legislation (see Section III.E.4 of this chapter).
+
+Federal employees can report allegations of fraud, waste and abuse to their agencies’ Office of the Inspector General without fear of reprisal. Offices of the Inspector General have responsibilities to the American public to detect and prevent fraud, waste, abuse and violations of law, and to promote economy, efficiency and effectiveness in the operations of the federal government.
+
+Covered Employees
+.
+
+The Office of Special Counsel (OSC) enforces the
+Whistleblower Protection Act of 1989
+. Whenever a covered federal employee believes that actions have been taken against him/her in reprisal for reporting a violation of a law, rule or regulation, or for gross mismanagement, gross waste of funds, abuse of authority, or a substantial and specific danger to public health or safety, OSHA will refer these employees or former employees directly to the:
+
+Office of Special Counsel
+
+Complaints Examining Unit (Suite 201)
+
+1730 M St., NW
+
+Washington, DC 20036-4505
+
+(800) 872-9855
+
+There is no time limitation for filing a reprisal complaint with the Office of Special Counsel.
+
+The OSC will not usually consider anonymous complaints. If a complaint is filed by an anonymous source, then the complaint will be referred to the Office of Inspector General in the appropriate agency. OSC will take no further action on the complaint.
+
+Non-Covered Employees
+.
+
+Reports of reprisal or discrimination from federal employees who are not covered by the WPA should be referred to the agency DASHO. Contact OFAP for further assistance, if needed. Non-covered employees include employees of the:
+
+
+Postal Rate Commission;
+
+Federal Bureau of Investigation;
+
+Central Intelligence Agency;
+
+Defense Intelligence Agency;
+
+National Geospatial-Intelligence Agency;
+
+National Security Agency;
+
+Other executive branch intelligence agencies excluded by the President; and
+
+Government Accountability Office.
+
+Federal Prisoners
+.
+
+Inmates at federal prisons have their own reprisal program through the Bureau of Prisons and are not covered by the Whistleblower Protection Act or 1960.68. (See
+FAP 01-00-002
+,
+Federal Agency Safety and Health Programs with the Bureau of Prisons, U.S. Department of Justice
+, April 10, 1995).
+
+Other Whistleblower Protections
+.
+
+Although OSHA does not have authority to enforce
+Section 11(c)
+of the Act for federal employees outside the U.S. Postal Service, federal agencies are required by §1960.68 to set up procedures to protect employees from discrimination or reprisals for reporting unsafe or unhealthful working conditions. CSHOs can issue notifications to agencies for failing to have such procedures. OSHA also investigates whistleblower complaints filed by federal employees under the whistleblower provisions of a number of other statutes.
+
+The time limits for filing complaints and the specific filing methods vary by statute, and can be as short as 30 days from the date of retaliation. For more information, about these statutes, including the time limits for filing complaints and information about how to file a complaint, please visit www.whistleblowers.gov.
+
+Alternate and Supplementary Standards
+.
+
+
+The head of each agency must comply with all occupational safety and health standards issued under
+Section 6
+of the Act (such as 29 CFR 1910, 1915, 1917, 1918, 1926, and 1911, etc.), or with alternate standards approved for that agency by the Secretary of Labor.
+
+
+An alternate standard is the federal agency equivalent of a private sector variance from OSHA standards.
+
+An agency can apply for an alternate and/or supplementary standard using application procedures found at
+§1960.17
+, Alternate Standards and
+§1960.18
+Supplementary Standards.
+
+Federal agencies must follow
+FAP 00-00-001
+, Procedures for Handling "Alternate" and "Supplementary" Standards Submitted by Federal Agencies, July 1, 1981, when applying for approval of alternate standards.
+
+A list of federal agency
+alternate standards
+can be found on the Federal Agency Programs page of the OSHA website at:
+http://intranet.osha.gov/compliance/dep_fap.htm
+l.
+
+If an agency has been approved for an alternate standard, the CSHO will determine if the agency is in compliance with the alternate standard. If the CSHO observes that the agency is not in compliance with the terms and conditions of the alternate standard, OSHA will issue a Notice in accordance with Section VIII of this Chapter, "Notice of Unsafe and Unhealthful Working Conditions."
+
+A supplementary standard as defined by
+§1960.18
+should be implemented by an agency if there is no OSHA standard that applies to a given workplace condition. The agency can implement an emergency temporary supplementary standard first and then work with OSHA to implement a permanent standard.
+
+Refusal of Entry
+.
+
+
+If a federal agency scheduled for an inspection refuses entry, then the Area Director, in consultation with the Regional Administrator, will attempt to resolve the issue with the establishment official. If they cannot agree on a resolution, the Area Director will contact the FAPO who will contact an official at the subject agency who is at the FAPO’s equivalent agency organizational level, with responsibility and authority for the establishment’s working conditions to discuss the refusal. Issues unresolved at the Area or Regional Office level will be transferred to the OFAP Director for resolution with the DASHO.
+
+NOTE: OSHA will not use administrative subpoenas or warrants for federal agencies. As stated above, unresolved issues shall be elevated to the next level until resolved.
+
+A written record of all action taken to resolve the issue must be kept in the case file.
+
+Federal Agency Recordkeeping and Reporting Requirements
+.
+
+
+General Background
+.
+
+Section 19(a)(3)
+of the Act requires the head of each federal agency to "…keep adequate records of all occupational accidents and illnesses for proper evaluation and necessary corrective action."
+Executive Order 12196
+further requires federal agency heads to "operate an occupational safety and health management information system, which shall include the maintenance of such records as the Secretary may require." These requirements are set forth in
+§1960, Subpart I
+.
+
+Recording and Reporting Injuries and Illnesses at Federal Agencies
+.
+
+Since January 1, 2005, federal agencies have been required to keep their injury and illness records in essentially the same manner as private sector employers under
+§1904
+, Subparts C, D, E, and portions of Subpart G. The revised recordkeeping requirements for federal agencies are separate and apart from responsibilities for completing workers’ compensation documentation, and do not diminish or modify in any way a federal agency’s responsibility to report or record injuries and illnesses in accordance with the Federal Employees’ Compensation Act (FECA).
+
+NOTE: On September 28, 1998, Congress amended the Occupational Safety and Health Act to make the U.S. Postal Service subject to private sector injury and illness recordkeeping under §1904.
+
+Exemptions from §1904, Subparts A and B
+.
+
+NOTE:
+§1904
+, Subparts A and B do NOT apply to federal agencies.
+
+
+
+Purpose of Recordkeeping for Federal Establishments
+.
+
+§1904
+, Subpart A, specifies the "Purpose" of the recordkeeping regulation for private sector employers. The "Purpose" statement for federal agencies is outlined in
+§1960.66
+.
+
+All Federal Establishments Must Keep Injury and Illness Records
+.
+
+§1904
+, Subpart B, is the exemption for private sector employers with ten or fewer employees and those in certain industries. There is no equivalent provision in the federal sector. All federal executive branch agencies regardless of size or industry classification, must keep injury and illness records; the USPS falls under OSHA’s private sector procedures for maintaining injury and illness records.
+
+Sources of Additional Information
+.
+
+
+Basic Program Elements
+.
+
+For further background information, see Basic Program Elements for Federal Employee Occupational Safety and Health Programs and Related Matters; Subpart I for Recordkeeping and Reporting Requirements (
+Federal Register
+, November 26, 2004 (
+69 FR 68793
+) and August 5, 2013 (78 FR 47180).
+
+Frequently Asked Questions
+.
+
+OSHA has also developed a document that answers common questions concerning federal agencies’ recordkeeping. (See
+Frequently Asked Questions for OSHA’s Injury and Illness Recordkeeping Rule for Federal Agencies
+).
+
+Summary of Major Federal Recordkeeping Requirements Differences Compared to Private Sector
+.
+
+
+Different Definitions
+.
+
+CSHOs should review the different definitions for "establishment" and "employees" that are provided in Section I.C of this chapter to ensure that they review federal agencies’ records correctly.
+
+Certifying the Records
+.
+
+Under
+§1904
+for the private sector, a company executive must certify that he or she has examined the OSHA Form 300 log, and reasonably believes that the OSHA Form 300A summary is correct and complete. For federal establishments, the person who certifies the records must be the senior establishment management official, the head of the agency for whom the senior establishment management official works, or any management official in the direct chain of command between the senior establishment management official and the agency head.
+
+Reports and Investigations of Fatalities/Catastrophes
+.
+
+
+As with the private sector, agencies must report fatalities, in-patient hospitalizations, amputations, and losses of an eye as a result of work related incidents to OSHA in accordance with
+§1904.39
+. Notification can be made by telephone or in person at the OSHA area office nearest to the site of the incident, or by contacting the OSHA toll-free telephone number at 1-800-321-OSHA (6742). Also, notification can be made by electronic submission using the reporting application at
+www.osha.gov
+.
+
+In addition, as required by
+§1960.70
+, federal agencies must provide OFAP with a summary report of each fatal and catastrophic incident investigation.
+
+Federal Agency Recordkeeping Forms
+.
+
+
+OSHA Forms
+.
+
+Federal establishments are required to maintain the same injury and illness recordkeeping forms as the private sector, either by using the OSHA forms or equivalent forms.
+
+Use of Equivalent Forms
+.
+
+
+As in the private sector, federal agencies are permitted to use an equivalent form, provided that the replacement form contains all the OSHA-required information. The substitute form must be readable and understandable, and completed using the same instructions as the OSHA form it replaces.
+
+Some federal agencies can elect to use the Office of Workers’ Compensation (OWCP) claim forms in lieu of the
+OSHA-301 Incident Report
+. While this is permissible, in their standard format the OWCP claim forms do not contain all the OSHA-required information, and must be supplemented to include the questions contained on the right-hand side of the OSHA Form 301. Also, the OWCP claim forms usually contain information that is protected under the
+Privacy Act of 1974
+.
+
+Access to Federal Employee Occupational Safety and Health-Related Records
+.
+
+
+Access to Federal Employee Injury and Illness Records
+.
+
+
+Access to the
+§1904
+records by employees, former employees, personal representatives, or authorized employee representatives is the same in the federal sector as in the private sector as specified under
+§1904.35
+.
+
+If a federal establishment chooses to use an OWCP claim form as a substitute for the OSHA-301 Incident Report, then any personal identifiers or other privacy-protected information must be redacted before providing the forms to employees or former employees other than the injured parties or their personal representatives.
+
+Access to these records by authorized employee representatives is limited to only that information detailing specific information about the case, which is equivalent to information contained on the right-hand side of the
+OSHA-301 Incident Report
+, "Tell us about the case."
+
+Federal Employee Access to Exposure and Medical Records
+.
+
+
+Employees or their designated representatives must have access to their personal exposure and medical records kept under
+§1910.1020
+. [See Basic Program Elements for Federal Employee Occupational Safety and Health Programs,
+Federal Register
+, July 5, 1995 (
+60 FR 34851
+)].
+
+Section 19
+of the OSH Act,
+Executive Order 12196
+, and
+29 CFR Part 1960
+require agency heads to implement occupational safety and health programs consistent with standards promulgated under Section 6 of the OSH Act. Because
+§1910.1020
+, which regulates employee access to exposure and medical records, was promulgated pursuant to Section 8 of the OSH Act, under existing regulations it would not be a required element of an agency program. Therefore, in 2013, OSHA amended
+§1960.66
+by adding a new paragraph (f) to make
+§1910.1020
+a required element of federal agency safety and health programs.
+
+Evaluations of Federal Agency Programs
+.
+
+
+Purpose
+.
+
+Executive Order 12196
+section 1-401(h) directs the Secretary of Labor to evaluate the occupational safety and health programs of agencies and promptly submit reports to the agency heads. The Act requires federal agency heads to operate effective occupational safety and health programs; OSHA is required to evaluate the effectiveness of those programs and does so by conducting on-site field reviews and special studies at agency establishments.
+
+
+Determining Effectiveness of Federal Agency OSH Programs
+.
+
+OSHA determines the effectiveness of an agency’s OSH program established by §1960.
+
+Scope of Evaluations
+.
+
+Evaluations can be classified by scope as follows:
+
+
+Full-Scale Evaluations
+.
+
+Full-scale evaluations include headquarters, intermediate organizational levels and worksite reviews of the entire occupational safety and health program.
+
+Special Study Evaluations
+.
+
+Special Study evaluations include headquarters, intermediate organizational levels, and worksite reviews but focus only on specific issues.
+
+Headquarters-Only Evaluations
+.
+
+Headquarters-only evaluations do not include worksite reviews.
+
+Agency Self-Evaluations.
+
+Agency self-evaluations can be substituted for an OSHA evaluation when recommended by the OFAP Director and approved by the Secretary.
+
+Time Frames
+.
+
+While some special studies and scheduled inspections may be completed relatively quickly, comprehensive reviews are likely to involve a substantial time investment and require careful coordination and full cooperation from the evaluation team. According to
+§1960.80 (e), (f) and (g)
+, an agency evaluation should be completed within 90 calendar days of the date of the opening conference, the evaluation report should be submitted to the agency head within 90 calendar days from the date of the closing conference, and the agency head then has 60 calendar days to respond to the report.
+
+Office Responsibilities
+.
+
+
+OFAP, in coordination with the FAPO(s), is responsible for organizing and managing evaluations. Evaluations will be conducted by a team comprised of OFAP staff, FAPOs, and compliance officers.
+
+The scope of the evaluation will determine the size and composition of the team, as well as the participation level of each team member.
+
+FAPOs will work with Area Directors to determine the availability of compliance officers to participate in the field evaluation/inspection element of the agency evaluation. A compliance officer’s role in and time commitment to evaluations will depend on the type of evaluation.
+
+Please contact OFAP for further information.
+
+Agency Technical Assistance Request (ATAR)
+.
+
+
+Definition
+.
+
+An ATAR is a request by a federal agency for on-site assistance. An ATAR may include hazard abatement advice, training, an assistance inspection, or program assistance. An ATAR is conducted at the request of an agency and is not an enforcement inspection.
+
+All forms of assistance provided on site must be recorded as an intervention on an OSHA Form 55.
+
+Agency Procedures for Requesting an ATAR
+.
+
+
+While many ATAR requests for hazard abatement advice or for an assistance visit will be received by telephone, the requesting agency normally must reduce the ATAR to writing before OSHA will schedule an on-site visit.
+
+If special circumstances arise that make it impractical to wait for a written request, then the ATAR visit can be initiated in response to the oral request, with documentation in the file including the time, form of communication, individual making the request, and the reason the ATAR was not requested in writing.
+
+Agencies requesting assistance will be informed in advance that they will be expected to correct any violations of citable program elements under
+§1960
+or OSHA standards observed by CSHOs.
+
+OSHA Response to ATARs
+.
+
+OSHA will usually respond to agency requests for assistance whenever resources permit. However, an Area Director has discretion to deny the request for reasons such as:
+
+
+Lack of site commitment to safety and health as evidenced by the agency’s failure to correct serious job safety and health hazards;
+
+Reluctance of the requesting agency to assign necessary staff and resources to implement safety and health programs;
+
+Overdue abatement of previous violations and hazards; or
+
+Unwillingness by the requesting agency to pay CSHO travel and per diem during the ATAR.
+
+Visit Procedures
+.
+
+Assistance visit procedures will vary according to the scope of the visit, as prescribed by the Area Director.
+
+
+Opening Conference
+.
+
+
+Discuss and agree upon the scope of the ATAR.
+
+Explain that the agency will be required to correct any hazards within reasonable and agreed-upon time frames.
+
+Explain that if an imminent danger situation is found during the ATAR, the ATAR will be ended and the agency will be required to correct the hazard immediately or OSHA will conduct an enforcement inspection.
+
+Explain that if any trends of serious hazards are observed and/or the site has no effective OSH management program in place, then the ATAR will be terminated immediately and the case will be referred for enforcement action.
+
+Closing Conference
+.
+
+
+Review findings from the ATAR.
+
+If hazards were identified, then set a date for when the hazard must be abated and an abatement report provided to the OSHA area office.
+
+If no violations are observed, or if all hazards are eliminated prior to the completion of the closing conference, then the ATAR will be closed at that time.
+
+Abatement
+.
+
+If, after 30 calendar days, the Area Director has not received an abatement plan and has not been notified that violations have been abated, then the Area Director will check on abatement status by telephone and determine whether an abatement verification inspection is required.
+
+If any violations are unabated, OSHA can terminate the ATAR and refer the case for enforcement action.
+
+NOTE: Where on-site assistance is provided for those agencies excluded from OSHA’s enforcement jurisdiction, OSHA will send a recommendation letter.
+
+Notice(s) of Unsafe or Unhealthful Working Conditions
+.
+
+The federal agency equivalent of a "citation" is OSHA’s
+Notice of Unsafe or Unhealthful Working Conditions (OSHA-2H)
+. (The
+Citation and Notification of Penalty
+(OSHA-2) is for private sector employers; federal agencies receive OSHA-2H forms.) The "Notice" is a report of a violation of OSHA standards, agency alternate standards, or citable program elements required by
+§1960
+.
+
+
+Issuance of an OSHA Notice
+.
+
+
+When violations are observed during an inspection or evaluation of a federal agency establishment, the private sector procedures will be followed, except as otherwise indicated in this section. The OSHA Notice will be used to inform establishment officials of violations of OSHA standards, alternate or supplemental standards, and
+§1960
+citable program elements.
+
+
+For violation of a citable program element, cite the paragraph. See
+Table 13-1
+for citable program elements.
+
+For recordkeeping violations, cite the applicable sections of
+§1904
+(unless superseded by future agency-approved correspondence). Also see
+§1960
+Citable Program Elements in Table 13-1 (at the end of this chapter).
+
+For violations of a specific OSHA standard, cite the applicable OSHA standard/paragraph.
+
+Where violations of the Alternate Standard are identified, follow the guidance for variance violations for private sector employers, with the following federal agency adjustments:
+
+
+For violations of an Alternate Standard where requirements are also addressed in the OSHA standards, cite the OSHA standard and then add the following language to the SAVE standard language section: "As required by
+§1960.8(b)
+." Then reference in the AVD the Alternate Standard provision that was not met.
+
+For violations of a provision of the Alternate Standard that is not a requirement in §1910, cite §1960.8(a), referencing the paragraph of the Alternate Standard.
+
+For violations of a requirement in
+§1910
+that is not addressed in the Alternate Standard, cite the OSHA standard and then add the following language to the SAVE standard language section: "As required by §1960.8(b)."
+
+If there is no OSHA standard that addresses a serious hazard, cite §1960.8(a) (the federal equivalent of the General Duty Clause). If there is no OSHA standard that addresses an other-than-serious hazard, then notify the establishment using the inspection form letter ("Agency No Standard Applies Supplementary") in OIS.
+
+If there is an agency supplemental standard(s) that addresses a serious hazard, then cite §1960.8(a) (the federal equivalent of the General Duty Clause) and the supplemental standard that was in violation.
+
+The Area Office will send the OSHA Notice in accordance with private sector procedures. When violations are classified as willful or repeat, a copy must also be sent to the DASHO. Contact information is available from OFAP, through the Regional FAPOs.
+
+NOTE: For the U.S. Army only, send copies of willful and repeat Notices to:
+
+(Name to be supplied by OFAP)
+
+Department of the Army
+
+Assistant Secretary of the Army Installations and Environment
+
+110 Army Pentagon
+
+Washington, DC 20310-0110
+
+
+
+Cover Letter for Federal Agencies
+.
+
+
+The OSHA Notice for federal agencies includes general information for the agency advising it of the contents of the Notice, its rights, and procedures to follow. It will remind the establishment official to post a copy of the OSHA Notice at or near each place that a violation exists or existed, and will inform the establishment official that he or she can request an informal conference, either in writing or by telephone with a confirming letter, within 15 working days of receipt of the OSHA Notice.
+
+Enclose the OSHA Publication, "Employer Rights & Responsibilities Following a Federal OSHA Inspection." (English
+PDF
+) (Spanish
+PDF
+)
+
+Violations of Citable Program Elements of 29 CFR Part 1960
+.
+
+
+Violations of citable program elements of
+§1960
+will normally be classified as "other-than-serious" unless they are considered a contributing factor to a serious safety or health standard violation (e.g., where lack of supervisory training contributed to an unshored trench, both the trenching standard and
+§1960.55
+, Training of Supervisors, would be cited as "serious").
+
+If violations of
+§1960
+citable program elements cannot be corrected within 30 days, then Area Directors can assign abatement dates of up to 6 months in 90-day increments. Justification for abatement in excess of 30 days must be documented in the case file.
+
+Repeat OSHA Notice for Federal Agencies
+.
+
+
+A repeat OSHA Notice can be issued to a federal agency establishment for repeat violations if the agency had been cited previously for the same or a substantially similar condition and one or more of the following conditions are present.
+
+
+A repeat notice for serious violations can be issued if OSHA agency-wide inspection history lists a previous OSHA Notice issued within the past five years to an agency establishment within the same NAICS code. For example, if an inspection is conducted at the U.S. Department of Transportation (DOT), Federal Aviation Administration (FAA) worksite, then a CSHO would search for violations at the FAA and
+not
+DOT-wide.
+
+A repeat notice for other-than-serious violations can be issued if the establishment being inspected received a previous OSHA Notice issued within the past three years.
+
+There is documentary evidence that the previous OSHA Notice had been abated.
+
+For a repeat Notice, cite the appropriate OSHA standard (§1910, 1926, etc.) Prepare the Notices as follows:
+
+"Notice ___ #, Item ___ #, 29 CFR ___ STANDARD NUMBER as required by 29 CFR 1960.8(b): The employer failed to (a brief description of the violation – SAVE). The employer was cited for a violation of the (SAME/SIMILAR standard and/or SAME/SIMILAR hazard) on MONTH/DAY/YEAR, Inspection ___ #, date MONTH/DAY/YEAR of final order/settlement, and means of abatement".
+
+Multi-Employer Worksite Policy for Federal Agencies
+.
+
+Many workplaces in the federal sector involve a mixed workforce of civil service and private contractor employees. OSHA requires federal agencies to comply with all occupational safety and health standards and to assume responsibility for worker protection in a manner comparable to private employers, including multi-employer worksite responsibility in appropriate circumstances. Federal agencies on multi-employer worksites have safety responsibilities comparable to those of private employers in comparable circumstances, whether the workforce is comprised of employees from multiple federal agencies or a mixture of federal and private-sector employees. The multiemployer worksite policy described in
+CPL 02-00-124
+,
+Multi-Employer Citation Policy
+, December 10, 1999, applies to both construction and non-construction, and to both private and federal employers.
+
+Informal Conference Procedures for Federal Agencies
+.
+
+
+Separation
+.
+
+
+In an effort to resolve issues quickly, federal agencies should be aware of, and use, the informal conference at the Area Office level. Agencies should contact the Area Director to schedule an informal conference prior to beginning the appeals process. However, agencies must also understand that the informal conference is independent of, and proceeds separately from, the appeals process.
+
+An agency that intends to appeal an OSHA Notice must file the appeal with the Regional Administrator within the given time frame, regardless of whether the informal conference has occurred.
+
+Affirmative Defenses
+.
+
+Although agencies will have the burden of proving any affirmative defenses during the appeals process, the Area Director must anticipate the potential for affirmative defenses, particularly if the agency makes such an assertion during the informal conference. When providing the case file to the Regional and/or National Office, the Area Director should be sure to include all documentation related to possible affirmative defenses.
+
+Federal Agency Appeals Procedure
+.
+
+The private sector contest procedures before the Occupational Safety and Health Review Commission do not apply to federal agencies,
+except the United States Postal Service
+. However, federal agencies can obtain higher-level OSHA review of Notices issued to them, as described in this section.
+
+
+Regional Review
+.
+
+If the Area Director and relevant federal agency cannot resolve an issue through an informal conference, then the federal agency has 15 working days following receipt of the OSHA Notice to file a written request that OSHA’s Regional Administrator review the case. The request must originate from the appealing agency’s National Occupational Safety and Health (OSH) Manager
+2
+2 or the equivalent.
+
+
+The written appeal request should state the:
+
+grounds for the appeal based on 29 CFR Part 1960,
+
+reason(s) for the appeal, and
+
+issues the agency intends to raise.
+
+NOTE: If the federal agency fails to notify OSHA of its intent to request a Regional review within 15 working days following the receipt of a Notice, then the Notice becomes final.
+
+After receiving the written appeal request, the Area Director has five working days to provide the OSHA Regional office with a written summary of the informal conference discussion.
+
+After receiving the written summary from the Area Director, the Regional Administrator has 20 working days to review the summary, case file and other relevant information, including any documentation provided by the appealing agency, and, if necessary, schedule and hold a (tele)conference with all parties (which may include the Area Director, Regional Solicitor, and other OSHA personnel as necessary) to discuss the issues raised in the written appeal request. The Regional Administrator will provide a bulletin (see
+Appendix A
+and
+Appeals Process Flowchart
+), by certified mail, with the date, time, and location of the conference, which the appealing agency must post. The appealing agency must return the Certificate of Posting (see Appendix B and Appeals Process Flowchart) within three working days of receiving the bulletin.
+
+If the Regional Administrator and the appealing agency reach a settlement, then the Area Director will ensure that the appealing agency receives a written Informal Settlement Agreement (ISA) (see
+Appendix C
+and
+Appeals Process Flowchart
+). The Area Director must ensure that the ISA is sent, by certified mail, within 10 working days.
+
+
+The appealing agency has 15 working days after receiving the ISA to sign it (see
+Federal Employer Rights and Responsibilities Following an OSHA Inspection
+). The ISA must be signed by the appealing agency’s National OSH Manager or the equivalent.
+
+Once the agency has signed the agreement and returned it to the OSHA Area Office by certified mail, it is considered final and the case will be closed.
+
+The Area Office will notify the Regional Administrator upon receipt of the signed ISA from the appealing agency. If the appealing agency has failed to sign the agreement, then the Area Office must note this on the agreement with details of the time line for signatures.
+
+If the appealing agency does not sign the agreement within the given time frame, then the original Notice will stand, unless the federal agency requests a review by OSHA’s National Office within the required time frame.
+
+If the Regional Administrator and the appealing agency cannot reach a settlement within the specified 20-day time frame, then the appealing agency must either accept the original Notice or follow procedures for requesting OSHA National Office review.
+
+NOTE: If the Regional Administrator and appealing agency do not reach a settlement within 20 working days, and the appealing agency does not ask for a National Office review, then the Notice becomes a final order and is not subject to review.
+
+National Office Review
+.
+
+If an appealing agency has signed an ISA with the Regional Office, then it cannot request a review by OSHA’s National Office.
+
+
+Following the Regional Administrator’s decision, an appealing agency has 10 working days to request, in writing, a review by OSHA’s National Office. The appealing agency must send its request to:
+
+
+[Name], Director
+
+Office of Federal Agency Programs
+
+U.S. Department of Labor
+
+Occupational Safety and Health Administration
+
+200 Constitution Avenue, NW
+
+Room N3622
+
+Washington, DC 20210
+
+The written request for National Office review must originate from the appealing agency’s Designated Agency Safety and Health Official (DASHO)
+3
+. The agency must base the written appeal on its compliance with the program elements described in §1960 and, according to §2200.34(b)(1-3), the appeal documentation must include:
+
+
+A short and plain statement denying the allegations in the Notice that the appealing agency intends to contest.
+
+NOTE: If an agency does not deny an allegation in the initial written appeal, the allegation becomes a final order.
+
+All affirmative defenses that the agency is asserting, such as "infeasibility," "unpreventable employee misconduct," and "greater hazard."
+
+NOTE: The National Office will not consider appeals based solely on issues of fact surrounding a Notice; the agency must resolve issues of factual dispute with the relevant OSHA Area or Regional Office.
+
+Once the National Office receives the review request, it must request a copy of the case file from the Regional Administrator and provide a copy of the review request to the Area Office. The Regional Office must provide a copy of the case file to the National Office within two working days.
+
+If the National Office finds it necessary to discuss the appeal with the appealing agency, then the National Office, after receiving the copy of the case file from the Region, will schedule and hold a (tele)conference with the federal agency and affected employee(s) or employee representatives to discuss the issues raised.
+
+The National Office will provide a bulletin (see
+Appendix A
+), sent by certified mail, with the date, time, and location of the conference, which the appealing agency must post. The appealing agency must return the Certificate of Posting (see
+Appendix B
+) within three days of receiving the bulletin.
+
+The OFAP Director may convene a panel of experts (Appeals Panel) to assist with reviewing the appeal. At the Director’s request, the panel members can participate in the conference with the appealing agency.
+
+The panel will provide input to assist the OFAP Director in making recommendations on the resolution of the appeal.
+
+The OSHA Assistant Secretary, or designee, makes the final OSHA National Office’s decision on federal agency appeals. The Assistant Secretary or designee will provide a final written decision to all parties.
+
+The National Office will address the decision to the highest level DASHO for the Department or Agency.
+
+The National Office must provide the originating Area Office with a signed copy of the summary of the conference and decision.
+
+While the National Office’s decision is considered the Secretary’s final decision, OSHA encourages discussion between agencies in an effort to promote occupational safety and health for federal employees. In the unlikely event that agency heads are unable to reach agreement,
+Executive Order 12196
+, paragraph 1-401(k) states that unresolved disagreements between the Secretary of Labor and another agency head will be submitted to the President, with recommendations.
+
+Verification of Abatement
+.
+
+Follow private sector guidelines to verify abatement. Notify the Certified Committee, if appropriate, of the abatement plan.
+
+Petition for Modification of Abatement Dates (PMA)
+.
+
+When Area Offices receive federal agency requests for additional abatement time, they will follow
+§1903.14(a)
+and
+§2200.37
+, which prescribe PMA procedures for the private sector. If the Area Director does not agree to extend the abatement date, then the agency can bring unresolved issues to the Regional Administrator/FAPO for resolution with his counterpart in the agency. Issues not resolved at the regional level will be forwarded to the OFAP Director for resolution with agency headquarters staff in consultation with the Regional Administrator, the FAPO, and the Area Director.
+
+Failure to Abate
+.
+
+Area Directors will work with local federal agency managers in developing an acceptable abatement plan. When development of such a plan is unsuccessful, and abatement is not achieved within 30 calendar days of the abatement date, the following steps will apply:
+
+
+The Area Director will send a
+Notification of Failure-to-Abate Alleged Violation (OSHA-2C)
+, (FTA Notice) with inspection form letter "h" ("Notification of Failure to Abate Alleged Violation") to the establishment official. This letter can also contain a general summary of what penalty amounts would have been proposed had the agency been a private sector employer.
+
+The Area Director will send a copy of the FTA Notice and inspection form letter to the DASHO and representative of employees (a transmittal letter is not required).
+
+NOTE: If the inspection was initiated because of a complaint, then the Area Director will send a copy of the FTA Notice to the complainant with the complaint form letter ("Complainant_FTA Issued to Agency") in the OIS.
+
+If the Area Director cannot resolve the issue at the local level, then he/she will forward a copy of pertinent portions of the complete case file to the FAPO. The FAPO will immediately contact the federal agency official at the equivalent organizational level with responsibility and authority for the establishment’s working conditions, and ask the manager to abate the violation(s) or to develop an acceptable abatement plan. If no solution is reached within 60 calendar days, then the Regional Administrator will forward the Area Office case file and written documentation showing the dates, contacts, and results of discussions undertaken at the Regional level to the Director of OFAP.
+
+The OFAP Director will, within 30 calendar days, determine which Directorate within OSHA is the most appropriate to review the case file. The Director, Directorate of Enforcement Programs (DEP), will then forward the case file to the appropriate Directorate. The reviewing Directorate will have 30 calendar days in which to review the case file and return it to DEP with appropriate recommendations.
+
+If DEP upholds the citation, then the DEP Director will, within 30 calendar days, schedule a meeting with the DASHO in the cited federal agency to discuss OSHA’s findings and request an abatement schedule.
+
+If a satisfactory abatement schedule is not received within 60 calendar days, then the case will be referred to the Assistant Secretary.
+
+DEP will provide the Regional Office with a status report every 60 calendar days until the case is resolved.
+
+
+
+
+
+
+
+
+
+Table 13-1: 29 CFR Part 1960 Citable Program Elements
+
+Program Element
+
+Explanation
+
+§1960.11
+
+Establishes accountability of managers and supervisors and can apply equally to all agencies.
+
+§1960.12(c)
+
+Requires all agencies to post an agency occupational safety and health poster informing employees of the agency safety and health program.
+
+§1960.25(a)
+
+The last sentence, stipulating that necessary equipment to conduct inspections must be provided, can be enforced in all agencies; the first part of the paragraph may not apply.
+
+§1960.25(c)
+
+The first sentence requires each agency to inspect each workplace annually. The remaining part of the element may not apply to all agencies.
+
+§1960.26(b)(5)
+
+The first sentence provides the CSHO with specific imminent danger instructions that can apply uniformly. The rest of the paragraph may not apply at all locations.
+
+§1960.26(c)(1-4)
+
+Specifies how agencies should handle agency inspection reports and notices of unsafe or unhealthful conditions.
+
+§1960.27(a)
+
+The first sentence specifies that the safety and health inspector is in charge of an agency inspection. The rest of the paragraph is general instruction that would be difficult to enforce.
+
+§1960.28(d)(3)
+
+Specifies time frames for an agency to inspect employee reports of hazards.
+
+§1960.29(b)
+
+Requires all agencies to investigate incidents resulting in a fatality or hospitalization of three or more employees.
+
+§1960.29(d)
+
+Requires agencies to include specific information on all investigative reports of incidents and specifies that the report be made available to the Secretary or an authorized representative of the Secretary of Labor.
+
+§1960.30(a-e)
+
+Specifies abatement directions that apply to all agencies.
+
+§1960.34(a-d)
+
+Provides specific directions to General Services Administration (GSA) and other agencies that affect the safety and health programs of agencies in federally owned or leased buildings.
+
+§1960.37(b)
+
+Requires equal representation of management and non-management employees for those agencies that choose to have a Certified Safety and Health Committee.
+
+§1960.37(d)
+
+Requires the chair position of the safety and health committee to alternate between management and non-management; this element applies as well to those agencies that choose to have a Certified Safety and Health Committee.
+
+§1960.37(e)
+
+Requires safety and health committees to meet on a regular schedule and applies to all agencies that choose to have a Certified Safety and Health Committee.
+
+§1960.55(a)
+
+Requires agencies to train all supervisory employees on the Act, E.O. 12196, the agency safety and health program, etc.
+
+§1960.56(a)
+
+Provides specific directions for training agency safety and health specialists.
+
+§1960.57
+
+Requires agencies to train safety and health inspectors.
+
+§1960.58
+
+Requires agencies to train collateral duty safety and health personnel and committee members.
+
+§1960.59(a-b)
+
+Requires agencies to train employees and employee representatives in safety and health appropriate to the work performed.
+
+§1960.67 (Cite the appropriate §1904 regulation then cite this program element in the alternative)
+
+Requires all agencies to have the record or log of occupational injuries and illnesses certified by: (a) the senior establishment management official, (b) the head of the agency for which the senior establishment management office works, or (c) any management official who is in the direct chain of command between the senior establishment management official and the head of the agency.
+
+§1960.68
+
+Requires all agencies to have established procedures for protecting employees against reprisal or discrimination for identifying unsafe or unhealthful working conditions.
+
+§1960.70
+
+Provides directions to all agencies about providing a summary report of each fatal and catastrophic incident to OSHA’s Office of Federal Agency Programs.
+
+NOTE: 29 CFR Part 1904 has requirements for reporting work-related fatalities, hospitalizations, amputations or losses of an eye.
+
+§1960.71(a)(1)
+
+Requires the agency head to submit to the Secretary an annual report on his/her agency’s occupational safety and health program by January 1 of each year.
+
+
+
+
+
+
+
+
+
+Table 13-2: The Main Federal Agencies Outside OSHA’s Oversight
+
+Branch of the Federal Government
+
+Agency
+
+Legislative
+
+Congress (Senate and House of Representatives)
+
+Architect of the Capitol including the Botanical Garden
+
+Congressional Budget Office
+
+Government Accountability Office
+
+Government Publishing Office
+
+Library of Congress
+
+Judicial
+
+U.S. Supreme Court
+
+Federal Courts of Appeals
+
+U.S. District Courts
+
+U.S. Bankruptcy Courts
+
+U.S. Tax Courts
+
+U.S. Court of Appeals for Veterans’ Claims
+
+
+
+
+
+
+
+
+
+Table 13-3: Departments and Agencies with Certified Safety and Health Committees
+
+Central Intelligence Agency
+
+U.S. Department of Labor
+
+General Services Administration
+
+Tennessee Valley Authority
+
+U.S. International Trade Commission
+
+
+
+
+
+
+
+
+
+Table 13-4: Federal Agency Form Letters
+
+Standard Form Letter Screen on NCR
+
+Federal Agency Form Letters
+
+Complaint Letters (H)
+
+Other (H)
+
+Federal Sector Inspection Letters (I)
+
+Federal Sector PMA Form Letters (J)
+
+Federal Sector Reprisal Letters (K)
+
+H
+
+Complaint Letters
+
+I
+
+Inspection Letters
+
+J
+
+PMA Letters
+
+K
+
+Reprisal Letters
+
+A
+
+No inspection – invalid complaint
+
+B
+
+Reserved
+
+C
+
+Complaint (OSHA-7) For Signature
+
+D
+
+Notification to Employer
+
+E
+
+Complaint Notification with Letter D
+
+F
+
+Acknowledgement Complainant
+
+G
+
+Notification Complainant with Employer Response
+
+H
+
+Notification Complainant with Inspection Results
+
+I
+
+Dunning Letter – Non Insp Complaint
+
+J
+
+Correcting – Additional Information Needed
+
+K
+
+Notification Complainant – Invalid Allegations
+
+L
+
+Notification Complainant – Unsatisfactory Employer
+
+M
+
+Notification Reprisal Complaint
+
+N
+
+Reports Program Deficiencies – Agency
+
+O
+
+Notification Complainant – FTA Issued
+
+P
+
+Complaint Letter Insp Employer
+
+A
+
+Notification Official (Inspection Results)
+
+B
+
+Reserved
+
+C
+
+Notification Official (Evaluation Results)
+
+D
+
+Notification Official (ATAR-Schedule)
+
+E
+
+Notification Official (ATAR-Results)
+
+F
+
+Agency Technical Assistance Request (ATAR)
+
+G
+
+Hazard Not Covered by General Standard
+
+H
+
+Notification of FTA Alleged Violation
+
+I
+
+Informal Conference Scheduled
+
+A
+
+Notification Modification of Abatement Date
+
+B
+
+Notification Amended Abatement Date
+
+C
+
+Notification Employer (Uncontested)
+
+D
+
+Petition Modification of Abatement Date
+
+E
+
+Notification Employer (Review Request)
+
+F
+
+Uncontested Petition
+
+G
+
+Notification Employer (Object Petition)
+
+H
+
+Process Petition – Modify Abatement
+
+I
+
+Notification Employer (Objection by Union)
+
+J
+
+Notification Employer (Objection by OSHA)
+
+A
+
+Reprisal Letter – Special Counsel
+
+B
+
+Reprisal Letter – Covered Federal Employee
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix A
+
+(Print on letterhead)
+
+(
+Regional or National
+) Office Notice of Appeal
+
+This bulletin serves to notify all employees that (
+federal agency
+) is appealing OSHA inspection (
+inspection number and date of inspection
+) and the resulting Notice(s) of Unsafe or Unhealthful Working Conditions. The agency and OSHA will discuss the appeal at:
+
+(
+Regional or National Office Address
+)
+
+
+
+
+
+
+
+(
+Time
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(
+Date
+)
+
+
+
+
+
+
+
+
+
+__________________________________________________
+
+[Name], Regional Administrator or Director, Office of Federal Agency Programs (choose one)
+
+
+
+
+
+
+
+
+
+[sample – would be printed on letterhead]
+
+
+
+
+
+
+
+
+
+Region III Notice of Appeal
+
+This bulletin serves to notify all employees that the U.S. Army Corps of Engineers (USACE) is appealing OSHA inspection #123456, January 3, 2012, and the resulting Notice(s) of Unsafe or Unhealthful Working Conditions. The USACE and OSHA will discuss the appeal at:
+
+U.S. Department of Labor - OSHA
+
+The Curtis Center, Suite 740 West
+
+170 South Independence Mall West
+
+Philadelphia, PA 19106-3309
+
+
+
+
+
+
+
+
+
+9:00 AM
+
+
+
+
+
+
+
+June 5, 2012
+
+
+
+
+
+
+
+__________________________________________________
+
+
+
+
+
+
+
+Phoebe Clark, Regional Administrator
+
+
+
+
+
+
+
+
+
+Appendix B
+
+[print on letterhead]
+
+Certificate of Posting
+
+Notice of Appeal
+
+
+
+
+
+Inspection Number: ____________________
+
+
+
+
+
+Date of Posting Notice of Appeal:____________________
+
+Date Copy Given to Relevant Employee Representative(s): ____________________
+
+On behalf of (
+federal agency
+), I certify that a copy of the Occupational Safety and Health Administration’s Notice of Appeal, has been posted in a conspicuous place, where all affected employees will have notice. The agency has also provided a copy of the Notice to each authorized representative of affected employees, if any. This bulletin will be posted for a minimum of 10 days or until any proceedings conclude.
+
+
+
+
+
+
+
+_____________________________________________________
+
+National Occupational Safety and Health Manager
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________
+
+Title
+
+
+
+
+
+
+
+
+
+____________________________________________________
+
+Federal Agency Name
+
+
+
+
+
+
+
+
+
+[sample – would be printed on letterhead]
+
+
+
+
+
+Certificate of Posting
+
+Notice of Appeal
+
+
+
+
+
+Inspection Number: 123456
+
+
+
+
+
+Date of Posting Notice of Appeal: May 16, 2019
+
+Date Copy Given to Relevant Employee Representative(s): May 16, 2019
+
+On behalf of the U.S. Army Corps of Engineers, I certify that a copy of the Occupational Safety and Health Administration’s Notice of Appeal, has been posted in a conspicuous place, where all affected employees will have notice. The USACE has also provided a copy of the Notice to each authorized representative of affected employees, if any. This bulletin will be posted for a minimum of 10 days or until any proceedings conclude.
+
+
+
+
+
+
+
+_____________________________________________________
+
+National Occupational Safety and Health Manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________
+
+Title
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________
+
+U.S. Army Corps of Engineers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix C
+
+(Print on letterhead)
+
+In the Matter of:
+
+OSHA No.(s):
+
+INFORMAL SETTLEMENT AGREEMENT
+
+The undersigned Agency and the undersigned Occupational Safety and Health Administration (OSHA), in settlement of the above Notice(s) of Unsafe or Unhealthful Working Conditions (Notice) which was issued on (Issue Date) hereby agree as follows:
+
+1) The Agency agrees to correct the hazards as cited in the above Notice(s) or as amended below.
+
+2) The Agency and OSHA agree that the following Notice(s) are not being amended:
+
+
+Notice 01 Item 001
+
+Notice 02 Item 001
+
+Notice 02 Item 002
+
+Notice 02 Item 003
+
+3) OSHA agrees that the following Notice(s) are being amended as shown below:
+
+
+Notice 01 Item 002 – Withdraw item
+
+Notice 01 Item 003 – Reclassify from Serious to Other than Serious
+
+Notice 01 Item 004 – Withdraw item
+
+Notice 01 Item 005 – Group with Item 6
+
+Notice 01 Item 006 – Group with Item 5
+
+4) The Agency, by signing this Informal Settlement Agreement, hereby waives its rights to appeal the above Notice(s), as amended in Paragraph 3 of this agreement.
+
+5) The Agency agrees to immediately post a copy of this Agreement in a prominent place at or near the location of the hazard(s) referred to in Paragraph 3 above. This Agreement must remain posted until the agency has corrected the hazards cited, or for three working days (excluding weekends and federal holidays), whichever is longer.
+
+6) The Agency agrees to continue to comply with the applicable provisions of the Occupational Safety and Health Act of 1970 (the Act), Executive Order 12196, 29 CFR Part 1960, and the applicable safety and health standards promulgated pursuant to the Act.
+
+7) By entering into this agreement, the Agency does not admit that it violated the cited standards.
+
+8) The Agency also agrees to the following conditions:
+
+
+It has abated all violations.
+
+It will correct all similar conditions in the workplace.
+
+It will send a letter of corrective action to the Area Director by <date>.
+
+
+
+For the Occupational Safety and Health Administration <name of representative>
+
+______________________________
+
+Date
+
+For the Agency
+
+______________________________
+
+Date
+
+If your Agency received this Informal Settlement Agreement via postal mail or facsimile for signature, your agency must return the document with the "ORIGINAL" signature to this office or the agreement will not be valid.
+
+NOTE: If you are faxing the signed ISA as an interim measure, you must fax the entire agreement,
+not just the signature page
+.
+
+1
+On September 28, 1998, Congress amended the Occupational Safety and Health Act (the Act) to make it applicable to the U.S. Postal Service in the same manner as any other employer subject to the Act.
+
+2
+The National Occupational Safety and Health Manager is the headquarters-level career official tasked with responsibility for overseeing, implementing, and evaluating the agency’s OSH program. In smaller agencies, this person may also be the DASHO.
+
+3
+Consistent with
+29 CFR 1960.2(f)
+, the term Designated Agency Safety and Health Official means the individual who is responsible for the management of the safety and health program within an agency, and is so designated or appointed by the head of the agency pursuant to §1960.6 and the provisions of Executive Order 12196.
+29 CFR 1960.6(a)
+notes that the DASHO should be of the rank of Assistant Secretary, or of equivalent rank, or equivalent degree of responsibility.

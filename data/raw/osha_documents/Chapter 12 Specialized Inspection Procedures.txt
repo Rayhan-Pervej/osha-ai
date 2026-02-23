@@ -1,0 +1,285 @@
+Field Operations Manual
+
+Chapter 12
+
+SPECIALIZED INSPECTION PROCEDURES
+
+Multi-Employer Workplace/Worksite [Reserved]
+.
+
+See
+CPL 02-00-124
+,
+Multi-Employer Citation Policy
+, December 10, 1999.
+
+Temporary Labor Camps
+.
+
+
+Introduction
+.
+
+29 CFR 1910.142
+, the Temporary Labor Camp standard, is applicable to both agricultural and non-agricultural workplaces.
+
+Definitions
+.
+
+NOTE:
+§1910.142
+does not contain a definition section. The following definitions reflect OSHA’s interpretation of the standard.
+
+Temporary
+.
+
+The term
+temporary
+in
+§1910.142
+refers to employees who enter into an employment relationship for a discrete or defined time period. As a result, the term
+temporary
+refers to the length of employment, and not to the physical structures housing employees.
+
+Temporary Labor Camp Housing
+.
+
+Temporary labor camp housing is required employer-provided housing that, due to company policy or practice, necessarily renders such housing a term or condition of employment. See
+Frank Diehl Farms v. Secretary of Labor
+, 696 F.2d 1325 (11th Cir. 1983).
+
+New Construction
+.
+
+All agriculture housing construction started on or after April 3, 1980, including totally new structures and additions to existing structures, will be considered new construction. Cosmetic remodeling work on pre-1980 structures will not be considered new construction and should be treated as existing housing.
+
+Wage & Hour/OSHA Shared Authority Under Secretary’s Order
+.
+
+Pursuant to a Secretary’s Order, the Wage & Hour Division (WHD) has shared authority with OSHA over the Temporary Labor Camp standard (
+§1910.142
+). See Delegation of Authorities and Assignment of Responsibilities to the Assistant Secretary for Employment Standards and Other Officials in the Employment Standards Administration (
+Federal Register
+, January 2, 1997 (
+62 FR 107
+)) and Secretary’s Order 5-2002: Delegation of Authority and Assignment of Responsibility to the Assistant Secretary for Occupational Safety and Health,
+Federal Register
+, October 22, 2002 (
+67 FR 65007
+).
+
+
+Enforcement Authority
+.
+
+
+WHD Responsibility
+.
+
+WHD has enforcement authority over any agricultural establishment where employees are engaged in "agricultural employment" within the meaning of the Migrant and Seasonal Agricultural Worker Protection Act, 29 U.S.C. 1802(3), regardless of the number of employees, including employees engaged in hand packing of produce into containers, whether done on the ground, on a moving machine, or in a temporary packing shed. See Appendix A, Section 4.a.2 of
+ADM 01-00-003
+,
+Redelegation of Authority and Responsibility of the Assistant Secretary for Occupational Safety and Health
+, March 6, 2003.
+
+OSHA Responsibility
+.
+
+OSHA retains enforcement authority over temporary labor camps for egg, poultry, red meat production, post-harvesting processing of agricultural and horticultural commodities, and any non-agricultural TLCs. See Appendix A, Section 4.a.2.b of
+ADM 01-00-003
+,
+Redelegation of Authority and Responsibility of the Assistant Secretary for Occupational Safety and Health
+, March 6, 2003.
+
+Compliance Interpretation Authority
+.
+
+WHD has sole interpretation authority for the Temporary Labor Camp standard, even over those temporary labor camp areas for which OSHA has enforcement authority.
+
+Standard Revision and Variance Authority
+.
+
+OSHA retains all authority for revisions of the Temporary Labor Camp standard, as well as the evaluation and granting of temporary and permanent variances.
+
+State Plan States
+.
+
+
+Eight of the twenty-two jurisdictions (21 states and Puerto Rico) that have OSHA-approved State Plans covering private sector employment elected not to enforce the Temporary Labor Camp standards, except with respect to egg, poultry, red meat production, post-harvesting processing of agricultural and horticultural commodities, and any non-agricultural TLCs. Thus, WHD enforces these standards, except as noted above, in the following states: Alaska, Indiana, Iowa, Kentucky, Minnesota, South Carolina, Utah, and Wyoming.
+
+The 14 other jurisdictions with OSHA-approved State Plans covering private sector employment have retained enforcement authority for the Temporary Labor Camp standards in agriculture. They are Arizona, California, Hawaii, Maryland, Michigan, Nevada, New Mexico, North Carolina, Oregon, Puerto Rico, Tennessee, Vermont, Virginia, and Washington.
+
+Enforcement of Temporary Labor Camp Standards for Agriculture
+.
+
+
+Choice of Standards on Construction Prior to April 3, 1980
+.
+
+Prior to walkaround inspections of temporary labor camps built before April 3, 1980, employers providing the housing will be asked to specify their preference of applicable departmental standards. Choices shall be limited to Subpart E of 29 CFR Part 654, or
+§1910.142
+, or provisions contained in variances from these standards. An employer who has been issued a variance shall produce copies upon request. See Housing for Agricultural Employees, 29 CFR 500.132.
+
+
+In instances where Subpart E of Part 654 is specified as the governing standard for existing housing, hazardous conditions violating both the Employment and Training Administration (ETA) and OSHA requirements shall be cited under the OSHA standard. Hazardous conditions found in violation of ETA standards, but in compliance with
+§1910.142
+shall not be cited.
+
+In instances where conditions are deemed in violation of the ETA standard and not covered by the OSHA standard, either
+Section 5(a)(1)
+shall be cited (only serious violations) or such deficiencies shall be brought to the employer’s attention and correction shall be encouraged.
+
+In instances where
+§1910.142
+is selected by the employer as the governing standard for the existing facility or is applicable in the case of "new construction," all requirements of that standard shall apply and shall be cited when violations are found.
+
+Under no circumstances shall Subpart E of Part 654 be cited by CSHOs, since no authority exists within the Act to cite standards not adopted under the Act.
+
+Informing Employers
+.
+
+Prior to the inspection of an agriculture housing facility, employers shall be made aware of the foregoing policy and procedures during the opening conference. This policy applies to all employment-related agriculture housing covered by OSHA, regardless of whether or not employees housed in the facility are recruited through the U.S. Employment Service’s inter-intrastate clearance system.
+
+Agriculture Worksites Under OSHA Responsibility
+.
+
+For agriculture worksites that OSHA has responsibility to cover,
+§1928.21
+lists which Part 1910 standards apply.
+
+OSHA Enforcement for Non-Agriculture Worksites
+.
+
+
+For non-agriculture worksites, other Part 1910 standards can be cited for hazards that are not covered under
+§1910.142
+. For non-agriculture worksites, the TLC standard has no provisions that specifically apply to fire protection, so those standards are not explicitly pre-empted by the TLC standard. The same is true for
+§1910.36
+and
+§1910.37
+(exit routes). However,
+§1910.38
+(emergency action plans) applies only where an emergency action plan is required by a particular OSHA standard, so it cannot be used with TLCs.
+
+Examples of temporary labor camp housing for non-agriculture worksites would be for the construction industry, oil and gas industry, and garment industry in the Pacific territories. Such housing for these industries can also be found in large cities and rural areas in various parts of the United States.
+
+The choice of standards issue, discussed in Section D.1, of
+Choice of Standards on Construction Prior
+to April 3, 1980, does not apply to non-agriculture temporary housing.
+
+Employee Occupied Housing
+.
+
+Generally, inspections shall be conducted when housing facilities are occupied and as soon as feasible so that any hazards identified can be corrected early in the work season.
+
+
+Since employees may not speak English, or may speak English only as a second language, every effort shall be made to send a bilingual CSHO on the inspection or have a translator accompany the CSHO to converse with employees.
+
+CSHOs shall conduct inspections in a way that minimizes disruptions to those living in the housing facilities. If an occupant of a dwelling unit refuses entry for inspection purposes, CSHOs shall not insist on entry and shall continue the rest of the inspection unless the lack of access to the dwelling unit involved would substantially reduce the effectiveness of the inspection. In that case, valid consent should be obtained from the owner of the unit. If the owner also refuses entry, the procedures for refusal of entry shall be followed. See Chapter 15, Legal Issues. The same shall apply in cases where employers refuse entry to the housing facility and/or to the entire worksite.
+
+During inspections, CSHOs shall encourage employers to correct hazards as quickly as possible. Particular attention shall be paid to identifying instances of failure to abate and repeated violations from season to season or past occupancy. These violations shall be cited in accordance with normal procedures.
+
+Primary Concerns
+.
+
+When conducting a housing inspection, CSHOs shall be primarily concerned with those facilities or conditions that most directly relate to employee safety and health. Accordingly, all housing inspections shall address at least the following:
+
+
+Site
+.
+
+
+Review the location of the site for adequate drainage in relation to periodic flooding, swamps, pools, sinkholes, and other surfaces where water could collect and remain for extended periods.
+
+Determine whether the site is adequate in size to prevent overcrowding and whether it is located near (within 500 feet of) livestock. c. Evaluate the site for cleanliness and sanitation (i.e., free from rubbish, debris, wastepaper, garbage, and other refuse).
+
+Shelter
+.
+
+
+Determine whether the shelter provides protection against the elements; has the proper floor elevation and floor space; whether rooms are used for combined purposes of sleeping, cooking, and eating; and whether all rooms have proper ventilation and screening.
+
+Determine which rooms are used for sleeping purposes, the number of occupants, size of the rooms, and whether beds, cots, or bunks and lockers are provided.
+
+Determine what kind of cooking arrangements or facilities are provided, and whether all heating, cooking, and water heating equipment are installed in accordance with state and local codes.
+
+Water Supply
+.
+
+Determine whether the water supply for drinking, cooking, bathing, and laundry is adequate and convenient, and has been approved by the appropriate local health authority.
+
+Toilet Facilities
+.
+
+Determine the type, number, location, lighting, and sanitary conditions of toilet facilities.
+
+Sewage Disposal
+.
+
+Determine, in camps where public sewers are available, whether all sewer lines and floor drains are connected.
+
+Laundry, Handwashing, and Bathing Facilities
+.
+
+
+Determine the number, kind, locations, and conditions of these facilities, and whether there is an adequate supply of hot and cold running water.
+
+Determine also whether such facilities have appropriate floors, walls, partitions, and drains.
+
+Lighting
+.
+
+
+Determine whether electric service is available, and, if so, whether appropriate light levels, number of ceiling-type light fixtures, and separate floor- or wall-type convenience outlets are provided.
+
+Determine also whether the light fixtures, and floor and wall outlets are properly grounded and covered.
+
+Refuse Disposal and Insect and Rodent Control
+.
+
+Determine the type, number, locations, and conditions of refuse disposal containers, and whether there are any infestations of animal or insect vectors or pests.
+
+First-Aid Facilities
+.
+
+Determine whether adequate first-aid facilities are available and maintained for emergency treatment.
+
+Dimensions
+.
+
+The relevant dimensions and ratios specified in §1910.142 are mandatory; however, CSHOs can exercise discretion and not cite minor variations from specific dimensions and ratios when such violations do not have an immediate or direct effect on safety and health. In those cases in which the standard itself does not make reference to specific dimensions or ratios but instead uses adequacy as the test for the cited conditions and facilities, the Area Director shall make the determine on a case-by-case basis, while considering all relevant factors, whether a violation exists.
+
+Documentation for Housing Inspections
+.
+
+The following facts shall be carefully documented:
+
+
+The age of the dwelling unit, including any additions. For recently built housing, the date that the construction began.
+
+Number of dwelling units, number of occupants in each unit.
+
+Approximate size of area in which the housing is located and the distance between dwelling units and water supply, toilets, livestock, and service building.
+
+Condition of Employment
+.
+
+The Act covers only housing that is a term and condition of employment. Factors in determining whether housing is a term and condition of employment include situations where:
+
+
+Employers require employees to live in the specified housing.
+
+The housing is in an isolated location or the lack of economically comparable alternative housing makes it a practical necessity to live there.
+
+Additional factors to consider in determining whether the housing is a term and condition of employment include, but are not limited to:
+
+
+Cost of the housing to the employee – is it provided free or at a low rent?
+
+Ownership or control of the housing: Is the housing owned or controlled or provided by the employer?
+
+Distance to the worksite from the camp, distance to the worksite from other non-camp residences: Is alternative housing reasonably accessible (distance, travel, cost) to the worksite?
+
+Benefit to the employer: Does the employer make the camp available in order to ensure that the business is provided with an adequate supply of labor?
+
+Relationship of the camp occupants to the employer: Are those living in the camp required to work for the employer upon demand?

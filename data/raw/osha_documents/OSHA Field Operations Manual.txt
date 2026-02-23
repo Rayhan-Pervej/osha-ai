@@ -1,0 +1,403 @@
+Record Type:
+
+OSHA Instruction
+
+Current Directive Number:
+
+CPL 02-00-164
+
+Old Directive Number:
+
+CPL 02-00-163
+
+Title:
+
+Field Operations Manual (FOM)
+
+Information Date:
+
+04/14/2020
+
+02/09/2026 -
+Field Operations Manual (FOM) - Update, Chapter 10, Agriculture and Maritime Industry Sectors
+
+07/14/2025 -
+Field Operations Manual (FOM) - Update, Chapter 6, Penalties and Debt Collection
+
+01/23/2023 -
+Field Operation Manual (FOM) – Update, Chapter 17, Preemption by Other Agencies
+
+OSHA NOTICE
+
+DIRECTIVE NUMBER:
+CPL 02-00-164
+
+SUBJECT:
+Field Operations Manual (FOM)- Update, Chapter 10, Agriculture and Maritime Industry Sectors
+
+DIRECTORATE/REGION:
+Directorate of Enforcement Programs (DEP)
+
+SIGNATURE DATE:
+September 29, 2025
+
+EFFECTIVE DATE:
+February 9, 2026
+
+ABSTRACT
+
+Purpose:
+
+To provide OSHA offices, State Plan programs and federal agencies with policy and procedures concerning the enforcement of occupational safety and health standards. Also, the update to Chapter 10 – Agriculture and Maritime Industry Sectors, provides guidance on specific issues in these industries.
+
+Scope:
+
+OSHA-wide.
+
+References:
+
+See Chapter 1, Section III.
+
+Cancellations:
+
+This Chapter supersedes Chapter 10 in OSHA Instruction CPL 02-00-164, Field Operations Manual (FOM), issued April 14, 2020.
+
+State Impact:
+
+Notice of Intent and Equivalency required.
+
+Action Offices:
+
+National, Regional, and Area Offices.
+
+Originating Office:
+
+Directorate of Enforcement Programs (DEP).
+
+Contact:
+
+Directorate of Enforcement Programs
+
+Office of Chemical Process Safety and Enforcement Initiatives
+
+200 Constitution Avenue, NW, N-3119
+
+Washington, DC 20210
+
+By and Under the Authority of
+
+
+
+Amanda Wood Laihow,
+
+Acting Assistant Secretary
+
+Executive Summary
+
+This Chapter updates enforcement policies and procedures for enacting the Occupational Safety and Health Act of 1970 (OSH Act). This Chapter provides guidance on Agriculture and Maritime Industry Sectors.
+
+Significant Changes
+
+This chapter title has been revised from "Industry Sectors" to "Agriculture and Maritime Industry Sectors" to more accurately reflect the content of the chapter.
+
+Table 10-1, "OSHA's Appropriations Act Exemptions for Farming Operations" has been updated to include only information that is relevant to agricultural inspections.
+
+The definitions of pesticide handlers and agricultural workers were deleted because they did not accurately reflect the definitions in the Environmental Protection Agency's Worker Protection Standard, 40 CFR Part 170.
+
+References to OSHA's Directive titled "OSHA Authority Over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS)" have been updated throughout to link to the most recent version of the Directive.
+
+OSHA NOTICE
+
+DIRECTIVE NUMBER:
+CPL 02-00-164
+
+SUBJECT:
+Field Operations Manual (FOM) - Update, Chapter 6, Penalties and Debt Collection
+
+DIRECTORATE/REGION:
+Directorate of Enforcement Programs (DEP)
+
+SIGNATURE DATE:
+July 24, 2025
+
+EFFECTIVE DATE:
+July 14, 2025
+
+ABSTRACT
+
+Purpose:
+
+To provide OSHA offices, State Plan programs and federal agencies with policy and procedures concerning the enforcement of occupational safety and health standards. Also, the update to Chapter 6 – Penalties and Debt Collection, provides guidance of penalties and debt collection.
+
+Scope:
+
+OSHA-wide
+
+References:
+
+See Chapter 1, Section III.
+
+Cancellations:
+
+This Chapter supersedes Chapter 6 in OSHA Instruction CPL 02-00-164, Field Operations Manual (FOM), issued April 14, 2020.
+
+State Impact:
+
+Notice of Intent and Equivalency required.
+
+Action Offices:
+
+National, Regional, and Area Offices.
+
+Originating Office:
+
+Directorate of Enforcement Programs (DEP).
+
+Contact:
+
+Directorate of Enforcement Programs
+
+Office of Chemical Process Safety and Enforcement Initiatives
+
+200 Constitution Avenue, NW, N-3119
+
+Washington, DC 20210
+
+By and Under the Authority of
+
+
+
+Amanda Wood Laihow,
+
+Acting Assistant Secretary
+
+Executive Summary
+
+This Chapter updates enforcement policies and procedures for enacting the Occupational Safety and Health Act of 1970 (OSH Act). This Chapter provides guidance on penalties and debt collection.
+
+Significant Changes
+
+Adjustments made to the history penalty reduction including:
+
+
+Expanded available reduction from 10 percent to 20 percent.
+
+Expanded eligibility for reduction to include employers who have been inspected in the last five years and were issued only other-than-serious violations.
+
+Expanded eligibility for reduction to include employers who have never been inspected.
+
+Clarified no reduction or increase will be granted to employers who have previous inspection history beyond the last five years.
+
+Increased the size penalty reduction available to certain small employers for both serious and serious willful violations.
+
+Adjustments made to the Quick-Fix penalty reduction including:
+
+
+Guidelines have been developed for correction of apparent violations.
+
+An expanded timeframe has been added to allow for abatement of apparent violations requiring more complex actions:
+
+
+Abatement should be completed in five days, but in extenuating circumstances not to exceed 15 days after the condition was discovered by the CSHO.
+
+Employers must prevent employee exposure to the hazard until it is abated to qualify for the reduction.
+
+Guidelines have been added to explain that Quick-Fix reduction will not be applied where sufficient documentation of abatement is not provided in a timely manner or where apparent violation has not been fully abated.
+
+Revisions made to methods of payment to reflect the preferred payment method is to submit payment electronically through www.pay.gov.
+
+Procedure incorporated for debt collection, exempting select cases to be sent to DCAT when they meet criteria for court litigation under 17(l) of the OSH Act.
+
+Revisions to reflect the current flow chart for debt collection consistent with the OMB Circular A-129.
+
+OSHA NOTICE
+
+DIRECTIVE NUMBER:
+CPL 02-00-164
+
+SUBJECT:
+Field Operation Manual (FOM) – Update, Chapter 17, Preemption by Other Agencies
+
+DIRECTORATE/REGION:
+Directorate of Enforcement Programs
+
+SIGNATURE DATE:
+December 22, 2022
+
+EFFECTIVE DATE:
+January 23, 2023
+
+ABSTRACT
+
+Purpose:
+
+To provide OSHA offices, State Plan programs and federal agencies with policy and procedures concerning the enforcement of occupational safety and health standards. Also, the update to Chapter 17 – Preemption by Other Agencies, provides current information and ensures that occupational safety and health standards are enforced with uniformity.
+
+Scope:
+
+OSHA-wide
+
+References:
+
+See Chapter 17
+
+Cancellations:
+
+This Chapter supersedes Chapter 17 in OSHA Instructions CPL 02-00-164, Field Operations Manual (FOM), issued April 14, 2020.
+
+State Impact:
+
+Notice of Intent and Equivalency required.
+
+Action Offices:
+
+National, Regional, and Area Offices.
+
+Originating Office:
+
+Directorate of Enforcement Programs (DEP).
+
+Contact:
+
+Directorate of Enforcement Programs
+
+Office of Chemical Process Safety and Enforcement Initiatives
+
+200 Constitution Avenue, NW, N-3119
+
+Washington, DC 20210
+
+By and Under the Authority of
+
+
+
+Douglas L. Parker
+
+Assistant Secretary
+
+Executive Summary
+
+This Chapter updates enforcement policies and procedures for enacting the Occupational Safety and Health Act of 1970 (OSH Act). Congress recognized that other federal agencies possess authority over occupational safety and health matters in certain industries. To avoid a duplication of federal effort and to prevent conflict between different sets of regulations covering the same working condition, this Chapter provides guidance on OSHA jurisdictional matters.
+
+Significant Changes
+
+Chapter 17 provides updates and clarification to the general principles of the Two-pronged test, types of agencies preempting OSHA, the exercise of statutory authority, forms of statutory exercise, and the provisions of the OSH Act subject to Section 4(b)(1).
+
+OSHA INSTRUCTION
+
+DIRECTIVE NUMBER:
+CPL 02-00-164
+
+EFFECTIVE DATE:
+04/14/2020
+
+SUBJECT:
+Field Operations Manual (FOM)
+
+ABSTRACT
+
+Purpose:
+
+To provide OSHA offices, State Plan programs and federal agencies with policy and procedures concerning the enforcement of occupational safety and health standards. Also, this instruction provides current information and ensures that occupational safety and health standards are enforced with uniformity.
+
+Scope:
+
+OSHA-wide.
+
+References:
+
+See Chapter 1, Section III.
+
+Cancellations:
+
+This Instruction supersedes OSHA Instructions CPL 02-00-163, Field Operations Manual (FOM), issued September 13, 2019.
+
+State Impact:
+
+Notice of Intent and Equivalency required. See Chapter 1, Section VI.
+
+Action Offices:
+
+National, Regional, and Area Offices.
+
+Originating Office:
+
+Directorate of Enforcement Programs (DEP).
+
+Contact:
+
+Director, Directorate of Enforcement Programs
+
+U.S. Department of Labor – OSHA
+
+200 Constitution Avenue, N.W., Room N-3119
+
+Washington, DC 20210
+
+202-693-1850
+
+
+
+By and Under the Authority of
+
+
+
+Loren Sweatt
+
+Principal Deputy Assistant Secretary
+
+
+
+Executive Summary
+
+This instruction provides current information and guidance to the Occupational Safety and Health Administration (OSHA) national, regional, and area offices concerning OSHA's policy and procedures for implementing inspections, issuing citations and proposing penalties.
+
+
+
+Significant Changes for 2020 Update
+
+Addition of Disclosure Under The Freedom Of Information Act (FOIA) Chapter 16.
+
+Chapter 16, explains the process and legal requirements for responding to requests under the Freedom of Information Act 5 U.S.C. § 552, (FOIA) for disclosure of records in Safety and Health inspection files and other OSHA records, excluding requests for whistleblower investigation files.
+
+
+
+Disclaimer
+
+This manual is intended to provide instruction regarding some of the internal operations of the Occupational Safety and Health Administration (OSHA), and is solely for the benefit of the Government. No duties, rights, or benefits, substantive or procedural, are created or implied by this manual. The contents of this manual are not enforceable by any person or entity against the Department of Labor or the United States. Statements which reflect current Occupational Safety and Health Review Commission or court precedents do not necessarily indicate acquiescence to those precedents.
+
+TABLE OF CONTENTS
+
+CHAPTER 1 - INTRODUCTION
+
+CHAPTER 2 - PROGRAM PLANNING
+
+CHAPTER 3 - INSPECTION PROCEDURES
+
+CHAPTER 4 - VIOLATIONS
+
+CHAPTER 5 - CASE FILE PREPERATION AND DOCUMENTATION
+
+CHAPTER 6 - PENALTIES AND DEBT COLLECTION
+
+CHAPTER 7 - POST-CITATION PROCEDURES AND ABATEMENT VERIFICATION
+
+CHAPTER 8 - SETTLEMENTS
+
+CHAPTER 9 - COMPLAINT AND REFERRAL PROCESSING
+
+CHAPTER 10 - AGRICULTURE AND MARITIME INDUSTRY SECTORS
+
+CHAPTER 11 - IMMINENT DANGER, FATALITY, CATASTROPHE, AND EMERGENCY RESPONSE
+
+CHAPTER 12 - SPECIALIZED INSPECTION PROCEDURES
+
+CHAPTER 13 - FEDERAL AGENCY FIELD ACTIVITIES
+
+CHAPTER 14 - HEALTH INSPECTION ENFORCEMENT POLICY
+
+CHAPTER 15 - LEGAL ISSUES
+
+CHAPTER 16 - DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT (FOIA)
+
+CHAPTER 17 - PREEMPTION BY OTHER AGENCIES

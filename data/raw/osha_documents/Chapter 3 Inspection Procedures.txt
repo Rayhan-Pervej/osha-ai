@@ -1,0 +1,1185 @@
+Field Operations Manual
+
+Chapter 3
+
+INSPECTION PROCEDURES
+
+General Inspection Procedures
+.
+
+The conduct of effective inspections requires judgment in the identification, evaluation, and documentation of safety and health conditions and practices. Inspections can vary considerably in scope and detail depending on the circumstances of each case.
+
+Inspection Preparation and Planning
+.
+
+It is important that the Compliance Safety and Health Officer (CSHO) adequately prepare for each inspection. Due to the wide variety of industries and associated hazards likely to be encountered, pre-inspection preparation is essential to the conduct of a quality inspection.
+
+
+Review of Inspection History
+.
+
+
+Compliance Officers will carefully review data available at the Area Office for information relevant to the establishment that is scheduled for inspection. This can include inspection files and source reference due to possible company name changes and status (e.g., LLC, Inc.). CSHOs shall document that the history review has been conducted in their case file, even if there is no prior inspection history.
+
+If an establishment has an inspection history that includes citations received while performing work in a State Plan state, CSHOs should be aware of this information. This inspection history can be used to document an employer's heightened awareness of a hazard and/or standard in order to support the development of a willful citation and can be considered in determining eligibility for the history penalty reduction. Relevant prior violations, together with other evidence, can also be used to support a warrant for inspection where necessary. However, the State Plan citation
+cannot
+be used to support a repeat violation.
+
+Review of Cooperative Program Participation
+.
+
+CSHOs will access the Regional homepage to obtain information about employers who are currently participating in cooperative programs. CSHOs will verify whether the employer is a current program participant during the opening conference. CSHOs will be mindful of whether they are preparing for a programmed or unprogrammed inspection, as this can affect whether the inspection should be conducted and/or its scope. See
+Section V.D
+of this chapter, Review of Voluntary Compliance Programs.
+
+Safety and Health Issues Relating to CSHOs
+.
+
+
+Hazard Assessment
+.
+
+If the employer has a written certification that a hazard assessment has been performed pursuant to
+§1910.132(d)
+, then the CSHO shall request a copy. If the hazard assessment itself is not in writing, then the CSHO shall ask the person who signed the certification to describe all potential workplace hazards and then select appropriate protective equipment. If there is no hazard assessment, then the CSHO will determine potential hazards from sources such as the OSHA 300 Log of Work-Related Injuries and Illnesses and shall select personal protective equipment accordingly.
+
+Respiratory Protection
+.
+
+CSHOs must be medically certified and have completed suitable fit testing in accordance with the OSHA Respiratory Protection Standard (
+§1910.134
+and
+CPL 02-02-054
+). They must wear respirators when and where required, and must care for and maintain respirators in accordance with the CSHO training provided.
+
+
+CSHOs should conduct a pre-inspection evaluation for potential exposure to chemicals. Prior to entering any hazardous areas, the CSHO should identify those work areas, processes, or tasks that require respiratory protection. The hazard assessment requirement in §1910.132(d) does not apply to respirators; see CPL 02-02-054, Respiratory Protection Program Guidelines, July 14, 2000. CSHOs should review all pertinent information contained in the establishment file and appropriate reference sources to become knowledgeable about the industrial processes and potential respiratory hazards that may be encountered. During the opening conference, a list of hazardous substances should be obtained or identified, along with any air monitoring results. CSHOs should determine if they have the appropriate respirator to protect against chemicals present at the worksite.
+
+CSHOs must notify their supervisor or the respiratory protection program administrator:
+
+
+If a respirator no longer fits well (CSHOs should request a replacement that fits properly);
+
+If CSHOs encounter any respiratory hazards during inspections or on-site visits that they believe have not been previously or adequately addressed during the site visit; or
+
+If there are any other concerns about the program.
+
+Safety and Health Rules and Practices.
+
+Section 1903.7(c)
+requires CSHOs to comply with all employer safety and health rules and practices at the establishment being inspected; CSHOs shall wear and use appropriate protective clothing and equipment.
+
+Restrictions.
+
+CSHOs will not enter any area where special entrance restrictions apply until the required precautions have been taken. It shall be the Area Director's responsibility to determine whether an inspection can be conducted without exposing the CSHO to hazardous situations and to procure whatever materials and equipment are needed for the safe conduct of the inspection.
+
+NOTE: Also such restrictions apply 1) to facilities where incidents of workplace violence precipitated the inspections, and 2) in industries that OSHA has identified as having a high risk for workplace violence (specifically: late-night retail, social service and health care settings, and correctional facilities).
+
+Workplace Violence – CSHO Training and Workplace Violence Prevention Programs
+.
+
+
+CSHO Training
+. Prior to conducting an inspection in response to a complaint of workplace violence, a CSHO must have received training that addresses the issues of workplace violence. Such training should include OSHA's 1000 Course, Area Office training, or other similar course work.
+
+DOL Workplace Violence Prevention Programs
+.
+
+
+CSHOs should be aware and familiar with the DOL workplace violence program,
+https://labornet.dol.gov/me/worklife/dol-workplace-violence-program.htm
+.
+
+CSHOs should also be aware and familiar with the OSHA Safety and Health Management System,
+ADM 04-00-002
+, (October 5, 2016).
+
+Establishment Workplace Violence Prevention Programs
+.
+
+If the employer is in an industry that OSHA has identified as a high risk for workplace violence (such as late-night retail, social service and healthcare settings, and correctional facilities), then the CSHO should inquire about the existence of a workplace violence prevention program. If such a program exists, then the CSHO shall ask the person responsible for the program to describe all the potential workplace hazards. If there is no workplace violence prevention plan, then the CSHO will determine potential workplace violence hazards from sources such as the OSHA 300 log of injuries and illnesses and other relevant records. See
+CPL 02-01-058
+,
+Enforcement Procedures and Scheduling for Occupational Exposure to Workplace Violence
+, January 10, 2017, for further guidance.
+
+NOTE: If training is provided to staff members on workplace violence, then the CSHO should conduct the inspection with a staff member who has received the training. If the CSHO does not deem that the existing protections are sufficient, then the CSHO should not enter the facility or area within the facility that he or she considers dangerous.
+
+CSHOs must notify their supervisor if they experience or witness any incident of workplace violence.
+
+Advance Notice of an Inspection
+.
+
+
+Policy
+.
+
+Section 17(f)
+of the Act and
+§1903.6
+contain a general prohibition against the giving of advance notice of inspections, except as authorized by the Secretary or the Secretary's designee. The Act regulates many conditions that are subject to speedy alteration and disguise by employers. To forestall such changes in worksite conditions, the Act prohibits unauthorized advance notice.
+
+
+Advance Notice Exceptions
+.
+
+There may be occasions when advance notice is necessary to conduct an effective investigation. These occasions are narrow exceptions to the statutory prohibition against advance notice. Advance notice of inspections can be given only with the authorization of the Area Director or designee and only in the following situations:
+
+
+In cases of apparent imminent danger to enable the employer to correct the danger as quickly as possible;
+
+When the inspection can most effectively be conducted after regular business hours or when special preparations are necessary;
+
+To ensure the presence of employer and employee representatives or other appropriate personnel who are needed to aid in the inspection; and
+
+When giving advance notice would enhance the probability of an effective and thorough inspection (e.g., in complex fatality investigations).
+
+NOTE: The regulation at 29 CFR 1903.6(b) says that, except in imminent danger situations and in other unusual circumstances, the advance notice authorized here "shall not be given more than 24 hours before the inspection is scheduled to be conducted."
+
+Delays
+.
+
+Advance notice exists whenever the Area Office sets up a specific date or time with the employer for the CSHO to begin an inspection. Any delays in the conduct of the inspection shall be kept to an absolute minimum. Lengthy or unreasonable delays shall be brought to the attention of the Area Director or designee. Advance notice generally does not include non-specific indications of potential future inspections.
+
+In unusual circumstances, the Area Director or designee can decide that a delay is necessary. In those cases, the employer or the CSHO shall notify affected employee representatives, if any, of the delay and shall keep them informed of the status of the inspection.
+
+Documentation
+.
+
+The conditions requiring advance notice and the procedures followed shall be documented in the case file.
+
+Pre-Inspection Compulsory Process
+.
+
+Section 1903.4(b)
+authorizes OSHA to seek a warrant in advance of an attempted inspection if circumstances are such that "pre-inspection process (is) desirable or necessary."
+Section 8(b)
+of the Act authorizes the Agency to issue administrative subpoenas to obtain evidence related to an OSHA inspection or investigation. See
+Chapter 15
+, Legal Issues.
+
+Personal Security Clearance
+.
+
+Some establishments have areas that contain material or processes that are classified by the U.S. Government in the interest of national security. Whenever an inspection is scheduled for an establishment containing classified areas, the Area Director or designee shall assign a CSHO who has the appropriate security clearances. The Regional Administrator shall ensure that an adequate number of CSHOs with appropriate security clearances are available within the Region and that the security clearances are current.
+
+Expert Assistance
+.
+
+
+The Area Director or designee shall arrange for a specialist and/or specialized training, preferably from within OSHA, to assist in an inspection or investigation when the need for such expertise is identified.
+
+OSHA specialists may accompany CSHOs or perform their tasks separately. CSHOs must accompany outside consultants. OSHA specialists and outside consultants shall be briefed on the purpose of the inspection and personal protective equipment to be utilized.
+
+Inspection Scope
+.
+
+Inspections, either programmed or unprogrammed, fall into one of two categories, depending on the scope of the inspection:
+
+
+Comprehensive
+.
+
+A comprehensive inspection is a substantially complete and thorough inspection of all potentially hazardous areas of the establishment. An inspection can be deemed comprehensive even though, as a result of professional judgment, not all potentially hazardous conditions or practices within those areas are inspected.
+
+Partial
+.
+
+A partial inspection is one whose scope is limited to certain potentially hazardous areas, operations, conditions, or practices at the establishment.
+
+
+Generally, unprogrammed inspections (i.e., inspections resulting from an employee complaint, referral, reported accident or incident, etc.) will be conducted as partial inspections. The scope of the partial inspection should be limited to the specific work areas, operations, conditions, or practices forming the basis of the unprogrammed inspection.
+
+For example: An Area Office receives an employee complaint alleging that a specific machine in a manufacturing plant poses an amputation hazard to employees. If no other information is provided to OSHA, the resulting onsite inspection should be limited to the specific machine referenced in the employee's complaint.
+
+A partial inspection can be expanded based on information gathered by the CSHO during the inspection process, including from injury and illness records found in both OSHA forms 300 and 301, employee interviews, and plain view observations. The CSHO should not expand a partial inspection based on 300 data alone. See note in
+Chapter 15, Section III.A.1.b.
+
+CSHOs shall consult established written guidelines and criteria, such as Agency directives, REPs and LEPs, in conjunction with information gathered during the records or program review and walkaround inspection, to determine whether expanding the scope of an inspection is warranted. See also
+Chapter 15, Section III., Obtaining Warrants
+.
+
+Conduct of Inspection
+.
+
+
+Time of Inspection
+.
+
+
+Inspections shall be made during regular working hours of the establishment except when special circumstances indicate otherwise.
+
+The Area Director or designee and the CSHO shall determine if alternate work schedules are necessary for entry into an inspection site during other-than-normal working hours.
+
+Presenting Credentials
+.
+
+
+While conducting inspections, CSHOs are to present their credentials whenever making contact with management representatives, employees (to conduct interviews), or organized labor representatives.
+
+At the beginning of the inspection, the CSHO shall locate the owner representative, operator, or agent in charge at the workplace and present credentials. On construction sites this will most often be the representative of the general contractor.
+
+The inspection shall not be delayed unreasonably to await the arrival of the employer representative. If the employer representative is coming from off-site, the inspection should not be delayed in excess of one hour. If the workforce begins to depart from the worksite, the CSHO should contact the Area Director or designee for guidance. If the person in charge at the workplace cannot be determined, then the CSHO should record the extent of the inquiry in the case file and proceed with the physical inspection.
+
+Refusal to Permit Inspection and Interference
+.
+
+Section 8
+of the Act specifies that CSHOs, without delay and at reasonable times, can enter any establishment covered under the Act for the purpose of conducting an inspection. Unless the circumstances constitute a recognized exception to the warrant requirement (e.g., consent, third-party consent, plain view, open field, open construction site, or exigent circumstances), an employer has a right to require the CSHO to seek an inspection warrant prior to entering an establishment and the employer can refuse entry without such a warrant.
+
+
+Refusal of Entry or Inspection
+.
+
+Please note that on a military base or other federal government facility, the following guidelines do not apply. Instead, a representative of the controlling authority shall be informed of the contractor's refusal and directed to take appropriate action to obtain cooperation.
+
+
+When the employer refuses to permit entry upon being presented proper credentials, or allows entry but then refuses to permit or hinders the inspection in some way, an attempt shall be made to obtain as much information as possible about the establishment. See
+Chapter 15, Obtaining Warrants
+for additional information.
+
+If the employer refuses to allow an inspection of the establishment to proceed, then the CSHO shall leave the premises and immediately report the refusal to the Area Director or designee. The Area Director shall notify the Regional Solicitor of Labor (RSOL).
+
+If the employer raises no objection to inspection of certain areas of the workplace but objects to inspection of other areas, then this shall be documented. The CSHO shall continue the inspection, confining it only to those certain areas to which the employer has raised no objections. If, however, during the limited scope inspection the CSHO becomes aware that there may be violative conditions in other portions of the workplace, then the CSHO shall inform the employer and request permission to inspect those areas. If the employer continues to object, then the CSHO shall report this refusal to the Area Director or designee. The Area Director shall then consult with the RSOL to determine if an inspection warrant is needed. See
+Chapter 15
+, Legal Issues, for additional information.
+
+In either case, the CSHO shall advise the employer that the refusal will be reported to the Area Director or designee and that the Agency may take further action, which may include obtaining legal process.
+
+On multi-employer worksites, valid consent can be granted by the owner, or another employer with employees at the worksite, for site entry.
+
+Employer Interference
+.
+
+Where entry has been allowed but the employer interferes with or limits any important aspect of the inspection, the CSHO shall determine whether or not to consider this action as a refusal. See
+§1903.7(b)
+.
+
+Examples of interference are employer refusals to permit:
+
+the walkaround;
+
+the examination of records essential to the inspection;
+
+the taking of essential photographs and/or video recordings;
+
+the inspection of a particular part of the premises;
+
+private employee interviews; or
+
+the attachment of sampling devices.
+
+
+
+Forcible Interference with Conduct of Inspection or Other Office Duties
+.
+
+Whenever an OSHA official or employee encounters forcible resistance, opposition, or interference, or is assaulted or threatened with assault while engaged in the performance of official duties, all investigative activity shall cease.
+
+
+If a CSHO is assaulted while attempting to conduct an inspection, then the CSHO shall contact the proper authorities such as the Federal Protective Services or local police and immediately notify the Area Director.
+
+Upon receiving a report of such forcible interference, the Area Director or designee shall immediately notify the Regional Administrator.
+
+If working at an off-site location, CSHOs should leave the site immediately pending further instructions from the Area Director or designee.
+
+Obtaining Compulsory Process
+.
+
+If it is determined, upon refusal of entry or refusal to produce evidence required by subpoena, that a warrant will be sought, then the Area Director shall proceed according to guidelines and procedures established in the Region for warrant applications. See
+Chapter 15
+, Legal Issues.
+
+Employee Participation
+.
+
+CSHOs shall advise employers that
+Section 8(e)
+of the Act and
+§1903.8
+specifies that an employee representative must be given an opportunity to participate in the inspection.
+
+
+CSHOs shall determine as soon as possible after arrival whether the workers at the inspected worksite are represented and, if so, shall ensure that employee representatives are afforded the opportunity to participate in all phases of the inspection.
+
+If an employer resists or interferes with participation by employee representatives in an inspection and if the interference cannot be resolved by the CSHO, then the resistance shall be construed as a refusal to permit the inspection and the Area Director or designee shall be contacted.
+
+Release for Entry
+.
+
+
+CSHOs shall not sign any form or release or agree to any waiver. This includes any employer forms concerned with trade secret information.
+
+CSHOs can obtain a pass or sign a visitor's register, or any other book or form used by the establishment to control the entry and movement of persons upon its premises. Such signature shall not constitute any form of a release or waiver of prosecution for liability under the Act.
+
+Bankrupt or Out of Business
+.
+
+
+If the establishment scheduled for inspection is found to have ceased business and there is no known successor, the CSHO shall report the facts to the Area Director or designee.
+
+If an employer, although bankrupt, is continuing to operate on the date of the scheduled inspection, then the inspection shall proceed.
+
+An employer must comply with the Act until such time as the business actually ceases to operate.
+
+Employee Responsibilities
+.
+
+
+Section 5(b)
+of the Act states: "Each employee shall comply with occupational safety and health standards and all rules, regulations, and orders issued pursuant to the Act which are applicable to his own actions and conduct." The Act does not provide for the issuance of citations or the proposal of penalties against employees. Employers are responsible for employee compliance with the standards.
+
+In cases where CSHOs determine that employees are systematically refusing to comply with a standard applicable to their own action and conduct, the matter shall be referred to the Area Director who shall consult with the Regional Administrator.
+
+Under no circumstances are CSHOs to become involved in a worksite dispute involving labor management issues or interpretation of collective bargaining agreements. CSHOs are expected to obtain sufficient information to assess whether the employer is using its authority to ensure employee compliance with the Act. Concerted refusals to comply by employees will not bar the issuance of a citation if the employer has failed to exercise its control to the maximum extent reasonable, including discipline and discharge.
+
+Strike or Labor Dispute
+.
+
+Plants or establishments can be inspected regardless of the existence of labor disputes, such as work stoppages, strikes, or picketing. If the CSHO identifies an unanticipated labor dispute at a proposed inspection worksite, the Area Director or designee shall be consulted before any contact is made.
+
+
+Programmed Inspections
+.
+
+Programmed inspections can be deferred during a strike or labor dispute, either between a recognized union and the employer or between two unions competing for bargaining rights in the establishment.
+
+Unprogrammed Inspections
+.
+
+
+Unprogrammed inspections (complaints, fatalities, or referrals)will be performed during strikes or labor disputes. However, the credibility and veracity of any complaint shall be thoroughly assessed by the Area Director or designee prior to scheduling an inspection.
+
+If there is a picket line at the establishment, CSHOs shall attempt to locate and inform the appropriate union official of the reason for the inspection prior to initiating the inspection.
+
+During the inspection, CSHOs will make every effort to ensure that their actions are not interpreted as supporting either party to the labor dispute.
+
+Variances
+.
+
+The employer's requirement to comply with a standard can be modified through granting of a variance, as outlined in
+Section 6
+of the Act.
+
+
+An employer will not be subject to citation if the observed condition is in compliance with an existing variance issued to that employer.
+
+In the event that an employer is not in compliance with the requirement(s) of the issued variance, a violation of the applicable standard shall be cited with a reference in the citation to the variance provision that has not been met.
+
+Opening Conference
+.
+
+
+General
+.
+
+CSHOs shall attempt to inform all affected employers of the purpose of the inspection, provide a copy of the complaint if applicable, and include any employee representatives, unless the employer objects. The opening conference should be brief so that the compliance officer can quickly proceed to the walkaround. Conditions of the worksite shall be noted upon arrival, as well as any changes that may occur during the opening conference. At the start of the opening conference, CSHOs will inform both the employer and the employee representative(s) of their rights during the inspection, including the opportunity to participate in the physical inspection of the workplace. Publications
+OSHA 3000
+, Employer Rights & Responsibilities Following a Federal OSHA Inspection and
+OSHA 3021
+, Workers Rights should be distributed. The CSHO should also remind the employer and employees that Section 11(c) provides redress for employees who exercise their rights under the Act.
+
+CSHOs shall request a copy of the written certification that a hazard assessment has been performed by the employer in accordance with
+§1910.132(d)
+. CSHOs should then ask the person who signed the certification about any potential worksite exposures and select appropriate personal protective equipment.
+
+Attendance at Opening Conference
+.
+
+
+
+CSHOs shall conduct a joint opening conference with employer and employee representatives unless either party objects.
+
+If there is objection to a joint conference, the CSHO shall conduct separate conferences with employer and employee representatives.
+
+Scope of Inspection
+.
+
+CSHOs shall outline in general terms the scope of the inspection, including the need for private employee interviews, physical inspection of the workplace and records (including OSHA 300 logs, 300A summaries, and 301 incident reports), possible referrals, rights during an inspection, discrimination complaints, and the closing conference(s). For partial inspections, the CSHO shall also disclose that he/she may seek to expand the scope of the inspection if there is evidence (e.g., from injury and illness records, plain view hazards, or employee interviews) that there may be violative conditions in other portions of the workplace.
+
+Video/Audio Recording
+.
+
+CSHOs shall inform participants that a video camera and/or an audio recorder can be used to provide a visual and/or audio record, and that the video and audio records can be used in the same manner as handwritten notes and photographs in OSHA inspections.
+
+NOTE: If an employer clearly refuses to allow video recording during an inspection, CSHOs shall contact the Area Director to determine if video recording is critical to documenting the case. If it is, this can be treated as a denial of entry.
+
+Immediate Abatement
+.
+
+CSHOs should explain to employers the advantages of immediate abatement, including that there are no certification requirements for violations quickly corrected during the inspection. See
+Chapter 7
+, Post-Citation Procedures and Abatement Verification.
+
+Quick-Fix Penalty Reduction
+.
+
+CSHOs shall advise both the employer and employee representatives, if applicable, that the Quick-Fix penalty reduction can be applied to each qualified violation (i.e., those which meet the criteria noted in
+Chapter 6
+), that the employer immediately abates during the inspection and that is visually verified by the CSHO. CSHOs shall explain the Quick-Fix criteria and answer any questions concerning the program. See
+Chapter 6
+, Penalties and Debt Collection.
+
+Recordkeeping Rule
+.
+
+
+The recordkeeping regulation at §1904.40(a) states that once a request is made, an employer must provide copies of the required recordkeeping records within four (4) business hours.
+
+Although the employer has four business hours to provide injury and illness records, the compliance officer is not required to wait until the records are provided before beginning the walkaround portion of the inspection. As soon as the opening conference is completed, the compliance officer is to begin the walkaround portion of the inspection.
+
+NOTE: 29 CFR Part 1904 requires reporting work-related fatalities, hospitalizations, amputations or losses of an eye. The new rule, which also updates the list of employers partially exempt from OSHA record-keeping requirements, went into effect on January 1, 2015, for workplaces under federal OSHA jurisdiction. (See
+79 FR 56129
+, Occupational Injury and Illness Recording and Reporting Requirements – NAICS Update and Reporting Revisions, September 18, 2014.)
+
+Abbreviated Opening Conference
+.
+
+An abbreviated opening conference shall be conducted whenever the CSHO believes that circumstances at the worksite dictate that the walkaround should begin as promptly as possible.
+
+
+In such cases, the opening conference shall be limited to:
+
+presenting credentials;
+
+stating the purpose of the visit;
+
+explaining employer and employee rights; and
+
+requesting employer and employee representatives.
+
+All other elements shall be fully addressed during the closing conference(s).
+
+Pursuant to
+§1903.8
+, employer and employee representatives shall be informed of the opportunity to participate in the physical inspection of the workplace.
+
+Review of Appropriation Act Exemptions and Limitations
+.
+
+CSHOs shall determine if the employer is covered by any exemptions or limitations noted in the current Appropriations Act. See
+CPL 02-00-051
+, Enforcement Exemptions and Limitations under the Appropriations Act, May 28, 1998.
+
+Review Screening for Process Safety Management (PSM) Coverage
+.
+
+CSHOs shall request a list of the chemicals on-site and their respective maximum intended inventories. CSHOs shall review the list of chemicals and quantities, and determine if there are highly hazardous chemicals (HHCs) listed in
+§1910.119, Appendix A
+or flammable liquids or gases at or above the specified threshold quantity. CSHOs can ask questions, conduct interviews, and/or conduct a walkaround to confirm the information on the list of chemicals and maximum intended inventories.
+
+
+If there is an HHC present at or above threshold quantities, CSHOs shall use the following criteria to determine if any exemptions apply:
+
+
+CSHOs shall confirm that the facility is not: a retail facility; oil or gas well drilling or servicing operation; or a normally unoccupied remote facility (
+§1910.119(a)(2)
+). If the facility is one of these types of establishments, PSM does not apply.
+
+If management believes that the process is exempt, CSHOs shall ask the employer to provide documentation or other information to support that claim.
+
+According to
+§1910.119 (a)(1)(ii)
+, a process can be exempt if the employer can demonstrate that the covered chemical(s) are:
+
+Hydrocarbon fuels used solely for workplace consumption as a fuel (e.g., propane used for comfort heating, gasoline for vehicle refueling); if such fuels are not a part of a process containing another highly hazardous chemical covered by the standard; or
+
+Flammable liquids with a flashpoint below 100 ºF (37.8ºC) stored in atmospheric tanks or transferred, which are kept below their normal boiling point without the benefit of chilling or refrigeration.
+
+NOTE: Current Agency policies for applying exemptions are on the OSHA website. See
+CPL 03-00-021
+, PSM Covered Chemical Facilities National Emphasis Program, January 17, 2017.
+
+Review of Voluntary Compliance Programs
+.
+
+Employers who participate in selected voluntary compliance programs may be exempted from programmed inspections. CSHOs shall determine whether the employer falls under such an exemption during the opening conference.
+
+
+OSHA On-Site Consultation Visits
+.
+
+
+In accordance with
+§1908.7
+and Chapter VII., of
+CSP 02-00-003
+, The Consultation Policies and Procedures Manual, CSHOs shall ascertain at the opening conference whether an OSHA-funded consultation visit is in progress. A consultation visit in progress extends, from the beginning of the opening conference to the end of the correction due dates (including extensions).
+
+An On-Site Consultation visit in progress has priority over programmed inspections except for imminent danger investigations, fatality/catastrophe investigations, complaint investigations, and other critical inspections as determined by the Assistant Secretary. See
+§1908.7(b)(2)
+.
+
+Safety and Health Achievement Recognition Program (SHARP)
+.
+
+
+Upon verifying that the employer is a current participant, the CSHO shall notify the Area Director or designee so that the company can be removed from the OSHA General Programmed Inspection Schedule for the approved exemption period, which begins on the date that the Regional Office approves the employer's participation in SHARP or Pre-SHARP.
+
+The initial exemption period is up to two years for SHARP and up to eighteen months for pre-SHARP. The renewal exemption period is up to three years for SHARP.
+
+Voluntary Protection Programs (VPP)
+.
+
+Inspections at a VPP site can be conducted in response to referrals, formal complaints, fatalities, and catastrophes.
+
+NOTE: A Compliance Officer who was previously a VPP on-site team member will generally not conduct an enforcement inspection at that VPP site for the following 2 years or until the site is no longer a VPP participant, whichever occurs first. See
+CSP 03-01-003
+, Voluntary Protection Programs (VPP): Policies and Procedures Manual, April 18, 2008. On a case-by-case basis, the Regional Solicitor may override this provision.
+
+Disruptive Conduct
+.
+
+CSHOs can deny the right of accompaniment to any person whose conduct interferes with a fair and orderly inspection. See
+§1903.8(d)
+. If disruption or interference occurs, the CSHO shall contact the Area Director or designee as to whether to suspend the walkaround inspection or take other action. The employee representative shall be advised that, during the inspection, matters unrelated to the inspection shall not be discussed with employees.
+
+Classified Areas
+.
+
+In areas containing information classified by an agency of the U.S. government in the interest of national security, only persons authorized to have access to such information can accompany a CSHO on the inspection. See
+§1903.8(d)
+.
+
+Review of Records
+.
+
+
+Injury and Illness Records
+.
+
+
+Collection of Data
+.
+
+
+At the start of each inspection, the CSHO shall review the employer's injury and illness records (including the employer's OSHA 300 logs, 300A summaries, and 301 incident reports) for three prior calendar years, record the relevant information on a copy of the OSHA-300 screen, and enter the employer's data into OIS. This shall be done for all general industry, construction, maritime, and agriculture inspections and investigations.
+
+CSHOs shall use these data to calculate the Days Away, Restricted, or Transferred (DART) rate and to observe trends, potential hazards, types of operations and work-related injuries.
+
+If recordkeeping deficiencies or unsound employer safety incentive policies are discovered, the CSHO and the Area Director (or designee) can request assistance from the Regional Recordkeeping Coordinator.
+
+Information to be Obtained
+.
+
+
+CSHOs shall request copies of the OSHA-300 Logs, the total hours worked and the average number of employees for each year, and a roster of current employees, including a list of each employee's job classification, work hours, and assigned work area(s).
+
+CSHOs shall request copies of the OSHA-301 Incident Reports or equivalent forms.
+
+CSHOs shall check whether the establishment has an on-site medical, nursing, health, or first aid facility and/or the location of the nearest emergency room where employees can be treated.
+
+NOTE: The total hours worked and the average number of employees for each year can be found on the OSHA-300A for all past years.
+
+Automatic DART Rate Calculation
+.
+
+CSHOs will not normally need to calculate the Days Away, Restricted, or Transferred (DART) rate since it is automatically calculated when the OSHA-300 data are entered into the OIS. If one of the three years is a partial year, so indicate and the software will calculate accordingly.
+
+Manual DART Rate Calculation
+.
+
+The DART rate includes cases involving days away from work, restricted work activity, and transfers to another job. If it is necessary to calculate rates manually, the CSHO will need to calculate the DART Rates individually for each calendar year using the following procedures.
+
+The formula is:
+
+(N/EH) x (200,000)
+where:
+
+N
+is the number of cases involving days away and/or restricted work activity and job transfers.
+
+EH
+is the total number of hours worked by all employees during the calendar year; and
+
+200,000
+is the base number of hours worked for 100 full-time equivalent employees.
+
+EXAMPLE 3-1:
+Employees of an establishment (XYZ Company), including management and temporary workers, worked 645,089 hours at XYZ company. There were 22 injury and illness cases involving days away and/or restricted work activity and/or job transfer from the
+OSHA-300 Log
+(total of column H plus column I). The DART rate would be (22÷645,089) x (200,000) = 6.8.
+
+
+
+Construction
+.
+
+For construction inspections/investigations, only the OSHA-300 information for the prime/general contractor needs to be recorded (where such records exist and are maintained). It will be left to the discretion of the Area Director or the CSHO as to whether OSHA-300 and 301 data should also be recorded for any of the subcontractors.
+
+Federal Agencies
+.
+
+Federal agency injury and illness recording and reporting requirements shall comply with the requirements under
+§1904
+, subparts C, D, E, and G, except that the definition of "establishment" found in
+§1960.2(h)
+will remain applicable to federal agencies.
+
+Recording Criteria
+.
+
+Employers must record new work-related injuries and illnesses that meet one or more of the general recording criteria or meet the recording criteria for specific types of conditions.
+
+
+Death;
+
+Days Away from Work;
+
+Restricted Work;
+
+Transfer to another job;
+
+Medical treatment beyond first aid;
+
+Loss of consciousness;
+
+Diagnosis of a significant injury or illness; or
+
+Meet the recording criteria for Specific Cases noted in
+§1904.8
+through
+§1904.11
+.
+
+Recordkeeping Deficiencies
+.
+
+
+If recordkeeping deficiencies are suspected, the CSHO and the Area Director or designee can request assistance from the Regional Recordkeeping Coordinator. If there is evidence that the deficiencies or inaccuracies in the employer's records impair the ability to assess hazards, injuries and/or illnesses at the workplace, a comprehensive records review shall be performed.
+
+Other information related to this topic:
+
+
+See
+CPL 02-00-135
+, Recordkeeping Policies and Procedures Manual, December 30, 2004, and
+CPL 02-02-072
+, Rules of Agency Practice and Procedure concerning OSHA Access to Employee Medical Records, August 22, 2007.
+
+Other OSHA programs and records will be reviewed, including hazard communication, lockout/tagout, emergency evacuation and personal protective equipment. Additional programs will be reviewed as necessary.
+
+Many standard-specific directives provide additional instruction to CSHOs requesting certain records and/or documents at the opening conference.
+
+There are several types of workplace policies and practices that could discourage employee reports of injuries and could constitute a violation of section 11(c) of the OSH Act. These policies and practices, otherwise known as employer safety incentive and disincentive policies and practices, can also violate OSHA's recordkeeping regulations.
+
+Walkaround Inspection
+.
+
+The main purpose of the walkaround inspection is to identify potential safety and/or health hazards in the workplace. CSHOs shall conduct the inspection in such a manner as to avoid unnecessary personal exposure to hazards and to minimize unavoidable personal exposure to the extent possible.
+
+
+Walkaround Representatives
+.
+
+Persons designated to accompany CSHOs during the walkaround are considered walkaround representatives, and will generally include those designated by the employer and employees. At establishments where more than one employer is present or in situations where groups of employees have different representatives, it is acceptable to have a different employer/employee representative for different phases of the inspection.
+
+More than one employer and/or employee representative can accompany the CSHO throughout or during any phase of an inspection if the CSHO determines that such additional representatives will aid, and not interfere with, the inspection. See
+§1903.8(a)
+.
+
+The importance of worker participation to an effective workplace safety and health inspection was clearly established in Section 8(e) of the OSH Act, 29 U.S.C. § 657 (e), which provides that "[s]ubject to regulations issued by the Secretary, a representative of the employer and a representative authorized by his employees shall be given an opportunity to accompany the Secretary or his authorized representative during the physical inspection of any workplace…for the purpose of aiding such inspection."
+
+However, §1903.8(d) states that "Compliance Safety and Health Officers are authorized to deny the right of accompaniment under this section to any person whose conduct interferes with a fair and orderly inspection," which includes any activity not directly related to conducting an effective and thorough physical inspection of the workplace.
+
+Employees Represented by a Certified or Recognized Bargaining Agent
+.
+
+During the opening conference, the highest ranking union official or union employee representative on-site shall designate who will participate in the walkaround. OSHA regulation §1903.8(b) gives the CSHO the authority to resolve all disputes about the representative authorized by the employer and employees.
+Section 1903.8(c)
+states that the representative authorized by the employees shall be an employee of the employer. If in the judgement of the CSHO, good cause has been shown why accompaniment by a third party, who is not an employee of the employer (such as an industrial hygienist or a safety engineer), is reasonably necessary to conduct an effective and thorough physical inspection of the workplace, then such third party can accompany CSHOs during the inspection.
+
+Where employees are not represented by an authorized representative, there is no established safety committee, or employees have not chosen or agreed to an employee representative for OSHA inspection purposes (regardless of the existence of a safety committee), CSHOs shall determine if other employees would suitably represent the interests of employees on the walkaround. If selection of such an employee is impractical, CSHOs shall conduct interviews with reasonable number of employees during the walkaround.
+
+Safety Committee or Employees at Large
+.
+
+Employee members of an established workplace safety committee or employees at large can designate an employee representative for OSHA inspection purposes.
+
+Evaluation of Safety and Health Management System.
+
+The employer's safety and health management system shall be evaluated to determine its good faith effort for the purposes of penalty calculation. See
+Chapter 6
+, Penalties and Debt Collection.
+
+Record All Facts Pertinent to a Violation
+.
+
+
+Safety and health violations shall be brought to the attention of employer and employee representatives at the time they are documented.
+
+CSHOs shall record, at a minimum, the identity of the exposed employee, the hazard to which the employee was exposed, the employee's proximity to the hazard, the employer's knowledge of the condition, the manner in which important measurements were obtained, and how long the condition has existed.
+
+CSHOs will document interview statements in a thorough and accurate manner; including names, dates, times, locations, types of materials, positions of pertinent articles and witnesses.
+
+NOTE: If employee exposure to hazards is not observed, the CSHO shall document facts on which the determination can be made whether an employee has been or could be exposed. See
+Chapter 4
+, Violations and
+Chapter 5
+, Case File Preparation and Documentation.
+
+Testifying in Hearings
+.
+
+CSHOs can be required to testify in hearings on OSHA's behalf, and shall be mindful of this fact when recording observations during inspections. The case file shall reflect conditions observed in the workplace as accurately and detailed as possible.
+
+Trade Secrets
+.
+
+A trade secret, as referenced in
+Section 15
+of the Act, includes information concerning or related to processes, operations, style of work, or apparatus, or to the identity, confidential statistical data, amount or source of any income, profits, losses, or expenditures of any person, firm, partnership, corporation, or association. See
+18 USC 1905
+.
+
+
+Policy
+.
+
+CSHOs and OSHA personnel shall preserve the confidentiality of trade secrets.
+
+Restriction and Controls
+.
+
+At the commencement of an inspection, the employer may identify areas in the establishment that contain or that might reveal a trade secret. If the CSHO has no clear reason to question such identification, information obtained in such areas, including all negatives, photographs, video recordings, environmental samples, and OSHA documentation forms, shall be labeled:
+
+"Confidential – Trade Secret"
+
+Under
+Section 15
+of the Act, all information reported to or obtained by CSHOs in connection with any inspection or other activity that contains or that might reveal a trade secret shall be kept confidential. Such information shall not be disclosed except to other OSHA officials concerned with the enforcement of the Act or, when relevant, in any proceeding under the Act.
+
+Title 18 USC 1905
+provides criminal penalties for Federal employees who disclose such information. These penalties include fines of up to $1,000 or imprisonment for up to one year, or both, and removal from office or employment.
+
+Trade secret materials shall not be labeled as "Top Secret," "Secret," or "Confidential," nor shall these security classification designations be used in conjunction with other words unless the trade secrets are also classified by an agency of the U.S. government in the interest of national security.
+
+If the employer objects to the taking of photographs and/or video recordings because trade secrets would or may be disclosed, CSHOs should advise the employer of the protection against such disclosure afforded by
+Section 15
+of the Act and
+§1903.9
+. If the employer still objects, CSHOs shall contact the Area Director or designee.
+
+Collecting Samples
+.
+
+
+CSHOs shall determine, early in the inspection, whether sampling (such as, but not limited to, air sampling and surface sampling) is required by using the information collected during the walkaround and from the pre-inspection review. CSHOs are highly encouraged to conduct self-sampling.
+
+Summaries of sampling results shall be provided on request to the appropriate employees (including those exposed or likely to be exposed to a hazard), to employer representatives, and to employee representatives.
+
+Photographs and Video Recordings
+.
+
+
+Photographs and/or video recordings, shall be taken whenever CSHOs determine there is a need.
+
+
+Photographs that support violations shall be properly labeled, and may be attached to the appropriate
+Violation Worksheet
+.
+
+CSHOs shall ensure that any photographs relating to confidential trade secret information are identified as such and are kept separate from other evidence.
+
+All film and photographs or video recordings shall be retained in the case file. If lack of storage space does not permit retaining the film, photographs or videotapes with the file, they may be stored elsewhere with a reference to the corresponding inspection. Video recordings shall be properly labeled. For more information regarding guidelines for case file documentation with video, audio and digital media, see OSHA Instruction
+CPL 02-00-098
+,
+Guidelines for Case File Documentation for Use with Videotapes and Audiotapes
+, October 12, 1993.
+
+Violations of Other Laws
+.
+
+If a CSHO observes apparent violations of laws enforced by other government agencies, such cases shall be referred to the appropriate agency. Referrals shall be made using appropriate regional procedures.
+
+Interviews of Non-Managerial Employees
+.
+
+A free and open exchange of information between CSHOs and employees is essential to an effective inspection. Interviews provide an opportunity for employees to supply valuable factual information concerning hazardous conditions, including information on how long workplace conditions have existed, the number and extent of employee exposure(s) to a hazardous condition, and the actions of management regarding correction of a hazardous condition.
+
+
+Background.
+
+
+Section 8(a)(2)
+of the Act authorizes CSHOs to question any
+employee privately
+during regular working hours or at other reasonable times during the course of an OSHA inspection. The purpose of such interviews is to obtain whatever information CSHOs deem necessary or useful in carrying out inspections effectively. The mandate to interview employees in private is OSHA's statutory right.
+
+Employee interviews are an effective means to determine if any advance notice of inspection has adversely affected the inspection conditions, as well as to obtain information regarding the employer's knowledge of the workplace conditions or work practices in effect prior to, and at the time of, the inspection. During interviews with employees, CSHOs should ask about these matters.
+
+CSHOs should also obtain information concerning the presence and/or implementation of a safety and health program to prevent or control workplace hazards.
+
+If an employee refuses to be interviewed, the CSHO shall use professional judgment, in consultation with the Area Director or designee, in determining the need for the employee's statement.
+
+Employee Right of Complaint
+.
+
+CSHOs can consult with any employee who desires to discuss a potential violation. Upon receipt of such information, CSHOs shall investigate the alleged hazard, where possible, and record the findings.
+
+Time and Location of Interviews
+.
+
+CSHOs are authorized to conduct interviews during regular working hours and at other reasonable times, and in a reasonable manner at the workplace. Interviews often occur during the walkaround, but can be conducted at any time during an inspection. If necessary, interviews can be conducted at locations other than the workplace. CSHOs should consult with the Area Director if an interview is to be conducted someplace other than the workplace. Where appropriate, OSHA has the authority to subpoena an employee to appear at the Area Office for an interview.
+
+Conducting Interviews of Non-Managerial Employees in Private
+.
+
+CSHOs shall inform employers that interviews of non-managerial employees will be conducted in private. CSHOs are entitled to question such employees in private regardless of employer preference. If an employer interferes with a CSHOs ability to do so, the CSHO should request that the AD consult with the RSOL to determine appropriate legal action. Interference with a CSHOs ability to conduct private interviews with non-managerial employees includes, but is not limited to, attempts by management officials or representatives to be present during interviews.
+
+Conducting Employee Interviews
+.
+
+
+General Protocols
+.
+
+
+At the beginning of the interview CSHOs should identify themselves to the employee by showing their credentials, and provide the employee with a business card. This allows employees to contact CSHOs if they have further information at a later time.
+
+CSHOs should explain to employees that the reason for the interview is to gather factual information relevant to a safety and health inspection. It is not appropriate to assume that employees already know or understand OSHA's purpose. Particular sensitivity is required when interviewing a non-English speaking employee. In such instances, CSHOs should initially determine whether the employee's comprehension of English is sufficient to permit conducting an effective interview. If an interpreter is needed, CSHOs should contact the General Services Administration (GSA) tele-interpreter.
+
+Every employee should be asked to provide his or her name, home address and phone number. CSHOs should request identification and make clear the reason for asking for this information.
+
+CSHOs shall inform employees that OSHA has the right to interview them in private and of the protections afforded under
+Section 11(c)
+of the Act. See also,
+OSHA Fact Sheet: Filing Whistleblower Complaints under Section 11(c) of the OSH Act of 1970
+.
+
+In the event that an employee requests that a representative of the union to be present, CSHOs shall make a reasonable effort to honor the request.
+
+If an employee requests that his/her personal attorney be present during the interview, CSHOs should honor the request and, before continuing with the interview, consult with the Area Director for guidance.
+
+An attorney for the employer may claim that individual employees have also authorized the attorney to represent them. Such a situation creates a potential conflict of interest. CSHOs should ask the affected employees whether they have agreed to be represented by the attorney. If the employees indicate that they have, CSHOs should consult with the Area Director, who will contact the RSOL.
+
+Interview Statements
+.
+
+Interview statements of employees or other persons shall be obtained whenever CSHOs determine that such statements would be useful in documenting potential violations. Interviews shall normally be reduced to writing and written in the first person in the language of the individual. Employees shall be encouraged to sign and date their statement.
+
+
+Any changes or corrections to the statement shall be initialed by the individual. Statements shall not otherwise be changed or altered in any manner.
+
+Statements shall include the words, "I request that my statement be held confidential to the extent allowed by law" and end with the following; "I have read the above, and it is true to the best of my knowledge."
+
+If the person making the declaration refuses to sign, then the CSHO shall note the refusal on the statement. The statement shall, nevertheless, be read back to the person in an attempt to obtain agreement and then noted in the case file.
+
+A transcription of any recorded statement shall be made when necessary to the case.
+
+Upon request, if a management employee requests a copy of his/her interview statement, one shall be given to them.
+
+The Informant Privilege
+.
+
+
+The informant privilege allows the government to withhold the
+identity
+of individuals who provide information about the violation of laws, including OSHA rules and regulations. CSHOs shall inform employees that their statements will remain confidential to the extent permitted by law. However, each employee giving a statement should be informed that disclosure of his or her identity may be necessary in connection with enforcement or court actions.
+
+NOTE: Whenever CSHOs make an assurance of confidentiality as part of an investigation (i.e., informs the person giving the statement that their identity will be protected), the pledge shall be reduced to writing and included in the case file.
+
+The privilege also protects the contents of statements to the extent that disclosure may reveal the witness identity. Where the contents of a statement will not disclose the identity of the informant (i.e., do not reveal the witness' job title, work area, job duties, or other information that would tend to reveal the individual's identity), the privilege does not apply. Interviewed employees shall be told that they are under no legal obligation to inform anyone, including employers, that they provided information to OSHA. Interviewed employees shall also be informed that if they voluntarily disclose such information to others, it may impair the Agency's ability to invoke the privilege.
+
+Multi-Employer Worksites
+.
+
+On multi-employer worksites (in all industry sectors), more than one employer can be cited for a hazardous condition that violates an OSHA standard. A two-step process must be followed to determine whether more than one employer is to be cited. See
+CPL 02-00-124
+,
+Multi-Employer Citation Policy
+, December 10, 1999, for further guidance.
+
+Administrative Subpoena
+.
+
+Whenever there is a reasonable need for records, documents, testimony,and/or other supporting evidence necessary for completing an inspection scheduled in accordance with any current and approved inspection scheduling system or an investigation of any matter properly falling within the statutory authority of the Agency, the Regional Administrator, or authorized Area Director or designee, can issue an administrative subpoena. See
+Chapter 15
+, Legal Issues.
+
+Employer Abatement Assistance
+.
+
+
+Policy
+.
+
+CSHOs shall offer appropriate abatement assistance during the walkaround to explain how workplace hazards might be eliminated. The information shall provide the employee with guidance to develop acceptable abatement methods or to seek appropriate professional assistance. CSHOs shall not imply OSHA endorsement of any product through use of specific product names when recommending abatement measures. The issuance of citations shall not be delayed.
+
+Disclaimers
+.
+
+The employer shall be informed that:
+
+
+The employer is not limited to the abatement methods suggested by OSHA;
+
+The methods explained are general and may not be effective in all cases; and
+
+The employer is responsible for selecting and carrying out an effective abatement method, and maintaining the appropriate documentation.
+
+Closing Conference
+.
+
+
+Participants
+.
+
+At the conclusion of an inspection, CSHOs shall conduct a closing conference with the employer and the employee representatives, jointly or separately, as circumstances dictate. The closing conference can be conducted on-site or by telephone as CSHOs deem appropriate. If the employer refuses to allow a closing conference, the circumstances of the refusal shall be documented in OIS and the case shall be processed as if a closing conference had been held.
+
+NOTE: When conducting separate closing conferences for employers and labor representatives (where the employer has declined to have a joint closing conference with employee representatives), CSHOs shall normally hold the conference with employee representatives first, unless the employee representative requests otherwise. This procedure will ensure that worker input is received before employers are informed of violations and proposed citations.
+
+Discussion Items
+.
+
+
+CSHOs shall discuss the apparent violations and other pertinent issues found during the inspection and note relevant comments on the
+Violation Worksheet
+, including input for establishing correction dates.
+
+CSHOs shall give employers the publication, "Employer Rights and Responsibilities Following a Federal OSHA Inspection," (
+OSHA-3000
+) which explains the responsibilities and courses of action available to the employer if a citation is issued, including their rights under the Small Business Regulatory Enforcement Fairness Act (SBREFA). (See
+SBREFA
+on OSHA's public webpage.) CSHOs shall then briefly discuss the information in the booklet and answer any questions. All matters discussed during the closing conference shall be documented in the case file, including a note describing printed materials distributed.
+
+CSHOs shall discuss the strengths and weaknesses of the employer's occupational safety and health program and any other applicable programs, and advise the employer of the benefits of an effective program and provide information, such as OSHA's website, describing program elements.
+
+Both the employer and employee representatives shall be advised of their rights to participate in any subsequent conferences, meeting or discussions, and their contest rights. Any unusual circumstances noted during the closing conference shall be documented in the case file.
+
+Since CSHOs may not have all pertinent information at the time of the first closing conference, a second closing conference can be held by telephone or in person.
+
+CSHOs shall advise employee representatives that:
+
+
+Under
+29 CFR 2200.20
+of the Occupational Safety and Health Review Commission regulations, if an employer contests a citation, the employees have a right to elect "party status" before the Review Commission;
+
+The employer should notify them if a notice of contest or a petition for modification of abatement date is filed;
+
+They have
+Section 11(c)
+rights (See also,
+OSHA Fact Sheet: Filing Whistleblower Complaints under Section 11(c) of the OSH Act of 1970
+.); and
+
+They have a right to contest the abatement date. Such contests must be in writing and must be postmarked within 15 working days after receipt of the citation.
+
+Advice to Attendees
+.
+
+
+The CSHO shall advise those attending the closing conference that a request for an informal conference with the OSHA Area Director is encouraged, as it provides an opportunity to:
+
+
+Resolve disputed citations and penalties without the need for litigation, which can be time-consuming and costly;
+
+Obtain a more complete understanding of the specific safety or health standards that apply;
+
+Discuss ways to correct the violations;
+
+Discuss issues concerning proposed penalties;
+
+Discuss proposed abatement dates;
+
+Discuss issues regarding employee safety and health practices; and
+
+Learn more about other OSHA programs and services available.
+
+If a citation is issued, an informal conference or the request for one does not extend the 15-working-day period during which the employer or employee representatives can contest.
+
+Oral disagreement or expression(s) during an informal conference, of intent to contest a citation, penalty, or abatement date does not replace the requirement that the employer's Notice of Contest be in writing.
+
+Employee representatives have the right to participate in informal conferences or negotiations between the Area Director and the employer in accordance with the guidelines given in
+Chapter 7, Section II
+, Informal Conferences.
+
+Penalties
+.
+
+CSHOs shall explain that penalties must be paid within 15 working days after the employer receives a
+Citation and Notification of Penalty (OSHA-2)
+. If, however, an employer contests the citation and/or the penalty, penalties need not be paid for the contested items until the date that the citation/notification of penalty becomes a final order.
+
+Feasible Administrative, Work Practice, and Engineering Controls
+.
+
+Where appropriate, CSHOs will discuss control methodology with the employer during the closing conference.
+
+
+Definitions
+.
+
+
+Engineering Controls
+: Consist of substitution, isolation, ventilation and equipment modification.
+
+Administrative Controls
+: Any procedure that significantly limits daily exposure by manipulation of the work schedule or altering the organization of accomplishing the work is considered an administrative control. The use of personal protective equipment is not considered an administrative control.
+
+Work Practice Controls
+: Methods such as changing work habits, improving sanitation and hygiene practices, or making other changes in the way the employee performs the job, in order to reduce or eliminate employee exposure to the hazard.
+
+Feasibility
+: Abatement measures required to correct a citation item are feasible when they are capable of being done. The CSHO, following current directions and guidelines, shall inform the employer, where appropriate, that a determination will be made about whether engineering or administrative controls are feasible.
+
+Technical Feasibility
+: The existence of technical know-how about materials and methods available or adaptable to specific circumstances, which can be applied to a cited violation with a reasonable possibility that employee exposure to occupational hazards will be reduced.
+
+Economic Feasibility
+: This means that the employer is financially able to undertake the measures necessary to abate the citations received.
+
+NOTE: If an employer's level of compliance lags significantly behind that of its industry, an employer's claim of economic infeasibility will not be accepted.
+
+Documenting Claims of Infeasibility
+.
+
+
+CSHOs shall document the underlying facts that may support an employer's claim of infeasibility.
+
+When economic infeasibility is claimed, the CSHO shall inform the employer that, although the cost of corrective measures to be taken will generally not be considered as a factor in the issuance of a citation, it can be considered during an informal conference or during settlement negotiations.
+
+CSHOs should avoid discussing complex issues regarding feasibility. These should be referred to the Area Director or designee for determination.
+
+Reducing Employee Exposure
+.
+
+Employers shall be advised that, whenever feasible, engineering, administrative, or work practice controls must be instituted, even if they are not sufficient to eliminate the hazard completely (or to reduce exposure to or below the permissible exposure limit). Such controls are required in conjunction with personal protective equipment to further reduce exposure to the lowest practical level.
+
+Abatement Verification
+.
+
+During the closing conference the Compliance Officer should thoroughly explain to the employer the abatement verification requirements. See
+Chapter 7
+, Post Inspection Procedures and Abatement Verification.
+
+
+Abatement Certification
+.
+
+Abatement certification is required for each citation item(s) that the employer receives, except those identified as "Corrected During Inspection."
+
+Corrected During Inspection (CDI)
+.
+
+Violations that will reflect on-site abatement and will be identified in the citations as "Corrected During Inspection" shall be reviewed at the closing conference.
+
+Abatement Documentation
+.
+
+Abatement documentation, the employer's physical proof of abatement, is required to be submitted along with each willful, repeat, and designated serious violation. To minimize confusion, the distinction between abatement certification and abatement documentation should be discussed.
+
+Placement of Abatement Verification Tags
+.
+
+The required placement on movable equipment of either abatement verification tags or the citation must also be discussed at the closing conference, if it has not been discussed during the walkaround portion of the inspection. See
+§1903.19(i)
+.
+
+Requirements for Extended Abatement Periods
+.
+
+Where extended abatement periods are involved, the requirements for abatement plans and progress reports shall be discussed.
+
+Employee Discrimination
+.
+
+The CSHO shall emphasize that the Act prohibits employers from discharging or discriminating in any way against an employee who has exercised any right under the Act, including the right to raise safety concerns, request personal protective equipment, report work-related injuries or illnesses, make safety or health complaints, or to request or participate in an OSHA inspection.
+
+Special Inspection Procedures
+.
+
+
+Follow-up and Monitoring Inspections
+.
+
+The primary purpose of a follow-up inspection is to determine if the previously cited violations have been corrected. Monitoring inspections are conducted to ensure that hazards are being abated and employees protected, whenever a long period of time is needed for an establishment to come into compliance (or to verify compliance with the terms of granted variances). Issuance of willful, repeated, and high gravity serious violations; failure to abate notifications; and/or citations related to imminent danger situations are examples of candidates for follow-up or monitoring inspections. The Area Director has discretion to conduct a follow-up inspection where the employer fails to submit the required abatement certification or documentation within the time permitted by
+§1903.19
+, or where the employer submits abatement documentation that does not adequately demonstrate that the cited violations have been corrected. (See
+Chapter 7, Section X.C
+).
+
+
+Failure to Abate
+.
+
+
+A failure to abate violation exists when a previously cited violation continues unabated and the abatement date (as issued or amended by a settlement agreement) has passed or the abatement date is covered under a settlement agreement, or the employer has not complied with interim measures within the allotted time specified in a long-term abatement plan.
+
+If previously cited items have not been corrected, a Notice of Failure to Abate Alleged Violation shall normally be issued.
+
+NOTE: If the employer has demonstrated a good faith effort to comply, a late Petition for Modification of Abatement (PMA) can be considered in accordance with
+Chapter 7, Section III
+, Petition for Modification of Abatement (PMA).
+
+If an originally cited violation has at one point been abated but subsequently recurs, a citation for a repeated violation may be appropriate.
+
+If, after issuing a Failure to Abate Violation, a subsequent inspection indicates the condition has still not been abated, the RSOL shall be consulted for further guidance.
+
+Follow-Up Inspections
+.
+
+
+For any items found to be abated, a copy of the previous Violation Worksheet or citation can be noted as "corrected," along with a brief explanation of the abatement measures taken. This information can also be included in the narrative of the investigative file.
+
+In the event that any item has not been abated, complete documentation shall be included on a Violation Worksheet. Failure to Abate violations are issued as a part of the inspection where the hazardous condition, practice, or non-complying equipment was previously cited. Repeated violations, if any, are issued only in the follow-up inspection, although a reference to previous inspections should be made in the AVD (see
+Chapter 4, Sections VII.F and VII.G.5
+).
+
+Monitoring Inspections
+.
+
+Monitoring Inspections shall be coded as such in OIS. If monitoring inspections are part of a Corporate-Wide Settlement Agreement (CSA) or other settlement agreement, then notification shall be sent to the National Office through the respective Regional Offices where the monitoring inspections occur.
+
+Construction Inspections
+.
+
+
+Standards Applicability
+.
+
+The standards published as
+29 CFR Part 1926
+have been adopted as occupational safety and health standards under
+Section 6(a)
+of the Act and
+§1910.12
+. They shall apply to every employment and place of employment of every employee engaged in construction work, including non-contract construction.
+
+Definition
+.
+
+The term "construction work" as defined by
+§1926.32(g)
+means work for construction, alteration, and/or repair, including painting and decorating. These terms are also discussed in
+§1926.13
+. If any question arises as to whether an activity is deemed to be "construction" for purposes of the Act, the Director of the Directorate of Construction shall be consulted.
+
+Employer Worksite
+.
+
+
+Inspections of employers in the construction industry are not easily separable into distinct worksites. The worksite is generally the site where the construction is being performed (e.g., the building site, the dam site). Where the construction site extends over a large geographical area (e.g., road building), the entire job will be considered a single worksite. In cases when such large geographical areas overlap between Area Offices, generally only operations of the employer within the jurisdiction of any Area Office will be considered as the worksite of the employer.
+
+When a construction worksite extends beyond a single Area Office and the CSHO believes that the inspection should be extended, the affected Area Directors shall consult with each other and take appropriate action.
+
+Upon Entering the Workplace
+.
+
+
+CSHOs shall ascertain whether there is a representative of a federal contracting agency at the worksite. If so, they shall contact the representative, advise him/her of the inspection and request that the representative attend the opening conference.
+
+If the inspection is being conducted as a result of a complaint, a copy of the complaint should be given to the general contractor and any affected sub-contractors.
+
+Closing Conference
+.
+
+Upon completion of the inspection, the CSHO shall confer with the general contractor(s) and all appropriate subcontractors or their representatives, together or separately, and advise each one of all the apparent violations disclosed by the inspection to which each establishments employees were exposed, or violations which the employer created or controlled. Employee representatives participating in the inspection shall also be afforded the right to participate in the closing conference(s).
+
+Federal Agency Inspections
+.
+
+Policies and procedures for federal agencies are to be the same as those followed in the private sector. See
+Chapter 13
+, Federal Agency Field Activities.

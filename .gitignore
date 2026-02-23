@@ -9,9 +9,6 @@ env/
 ENV/
 .venv
 
-# data
-data/
-
 # Environment
 .env
 .env.local

@@ -1,0 +1,1516 @@
+Field Operations Manual
+
+Chapter 6
+
+PENALTIES AND DEBT COLLECTION
+
+General Penalty Policy
+.
+
+The penalty structure in
+Section 17
+of the OSH Act is designed primarily to provide an incentive for preventing or correcting violations voluntarily, not only to the cited employer, but to other employers. While penalties are not intended as punishment for violations, Congress has made clear that penalty amounts should be sufficient to serve as a deterrent to violations. Proposed penalties, therefore, serve the Act’s intent and the criteria approved for such penalties by the Assistant Secretary accomplishes this purpose.
+
+The penalty structure described in this chapter is part of OSHA’s general enforcement policy and shall normally be applied as set forth below. An Area Director can exercise discretion to depart from the penalty policy in cases where penalty adjustments do not advance the deterrent goal of the Act. The application of penalty adjustments can therefore result in the issuance of citations with all or zero adjustments. An inspection should normally maintain consistent penalty adjustments throughout all recommended citations.
+
+A decision not to apply the penalty adjustments to one or more citation items should normally be based on consideration of one or more of the factors listed below. However, this list is not intended to be exhaustive. If the decision not to apply the penalty adjustments is based on a consideration other than the factors listed below, the decision must be approved by the Regional Administrator or his/her designee. All decisions not to apply the penalty adjustments shall be explained in the case file. The factors to be considered include:
+
+The proposed citations are related to a fatality/catastrophe;
+
+The employer has received a willful or repeat violation within the past five years related to a fatality;
+
+The proposed citation meets the requirement for a novel case;
+
+The employer has failed to report a fatality, inpatient hospitalization, amputation, or loss of an eye pursuant to the requirements of 29 CFR 1904.39;
+
+The employer is currently on the Severe Violator Enforcement Program List (SVEP);
+
+The proposed citations meet the requirements for inclusion in SVEP;
+
+The proposed citations are being considered for an egregious case;
+
+The employer has numerous recordkeeping violations related to a large number or rate of injuries and illnesses at the establishment;
+
+The proposed failure to abate notification is based on a previous citation for which the employer failed to submit abatement verification;
+
+The employer has been referred to debt collection for past unpaid OSHA penalties; or
+
+The employer has not responded to previously issued citations.
+
+
+
+Civil Penalties
+.
+
+
+Authority for Civil Penalties
+.
+
+Section 17
+of the OSH Act, as amended by the Federal Civil Penalties Inflation Adjustment Act Improvements Act of 2015, Pub. L. 114-74, § 701 ("
+Inflation Adjustment Act
+"), provides the Secretary with the statutory authority to propose civil penalties for violations. Civil penalties advance the purposes of the OSH Act by encouraging compliance and deterring violations. Proposed penalties are the penalty amounts OSHA issues with citation(s) Penalties are adjusted annually based on the Consumer Price Index for All Urban Consumers (CPI-U) as determined by the Office of Management and Budget. Current penalties are listed in the OSHA Memorandum
+Annual Adjustments to OSHA Civil Penalties
+.
+
+NOTE: While OSHA proposes penalties, the Occupational Safety and Health Review Commission assesses penalties.
+
+Appropriation Act Restrictions
+.
+
+In providing funding for OSHA, Congress has placed restrictions on enforcement activities for two categories of employers: small agricultural operations and small businesses in low-hazard industries. The Appropriations Act contains limits for OSH Act activities on an annual basis.
+
+NOTE: See
+CPL 02-00-170, Enforcement Exemptions and Limitations under the Annual Appropriations Act
+, issued July 18, 2024, for more information.
+
+Minimum Penalties
+.
+
+The following policies apply:
+
+
+The proposed penalty for any willful violation shall not be less than the statutory minimum. This minimum penalty applies to all willful violations, whether serious or other-than-serious.
+
+For serious, repeat, other-than-serious, and posting violations, minimum penalties are set by policy and can be found in the
+Annual Adjustments to OSHA Civil Penalties
+Memorandum.
+
+When the proposed penalty for an other-than-serious violation (citation item), or a regulatory violation other than a posting violation, would amount to less than the current minimum, no penalty shall be proposed for that violation.
+
+When the proposed penalty for a posting violation (i.e., posting citations in the workplace for workers to view) would amount to less than the current minimum, the minimum penalty shall be proposed for that violation if the company was previously provided a poster by OSHA.
+
+Maximum Penalties
+.
+
+The civil penalty amounts included in
+Section 17
+of the OSH Act are generally maximum amounts before any permissible reductions are taken. The maximum penalty amounts can be found in the
+Annual Adjustments to OSHA Civil Penalties
+Memorandum. When calculating penalty amounts for failure to abate violations, the maximum total proposed penalty shall not exceed 30 times the amount of the daily proposed penalty [See
+Section VII.B.4.b
+of this chapter].
+
+Penalty Factors
+.
+
+Section 17(j)
+of the OSH Act provides that penalties shall be assessed giving due consideration to four factors:
+
+
+The
+gravity
+of the violation;
+
+The
+size
+of the employer's business;
+
+The
+good faith efforts
+of the employer; and
+
+The employer's
+history
+of previous violations.
+
+Gravity of Violation
+.
+
+The gravity of the violation is the
+primary consideration
+in determining penalty amounts. Gravity shall be the basis for calculating the basic penalty for serious and other-than-serious violations. To determine the gravity of a violation, the following two assessments shall be made:
+
+
+
+The
+severity
+of the injury or illness which is the most serious reasonably predictable injury or illness that could result from the alleged violation.
+
+The
+probability
+that an injury or illness could occur as a result of the alleged violation.
+
+Severity Assessment
+.
+
+The first step in the classification of an alleged violation as serious or other-than-serious is based on the severity of the potential injury or illness. The following categories shall be considered in assessing the severity of potential injuries or illnesses:
+
+
+Serious
+.
+
+
+
+High Severity
+. Death from injury or illness; injuries involving permanent disability; or chronic, irreversible illnesses.
+
+Medium Severity
+. Injuries or temporary, reversible illnesses resulting in hospitalization for a variable but limited period of disability.
+
+Low Severity
+. Injuries or temporary, reversible illnesses not resulting in hospitalization and requiring only minor supportive treatment.
+
+Other-Than-Serious
+.
+
+
+Minimal Severity
+. Although such violations reflect conditions which have a direct and immediate relationship to the safety and health of employees, the most serious injury or illness that could reasonably be expected to result from an employee’s exposure would not be low, medium, or high severity and would not require medical treatment or cause death or serious physical harm.
+
+Probability Assessment
+.
+
+The probability that an injury or illness will result from a hazard has no role in determining the classification of a violation but does affect the amount of the proposed penalty.
+
+
+Probability shall be categorized either as greater or as lesser
+.
+
+
+Greater Probability
+: Results when the likelihood that an injury or illness will occur is judged to be relatively high.
+
+Lesser Probability
+: Results when the likelihood that an injury or illness will occur is judged to be relatively low.
+
+How to Determine Probability
+.
+
+The following factors shall be considered, as appropriate, when violations are likely to result in injury or illness:
+
+Number of employees exposed;
+
+Frequency and duration of employee exposure to hazardous condition(s), including overexposures to contaminants or physical health hazards (e.g. noise, radiation);
+
+Employee proximity to the hazardous conditions;
+
+Existence of previous incidents related to exposure;
+
+Use of appropriate personal protective equipment in accordance with applicable OSHA standards;
+
+Medical surveillance program;
+
+Training on the recognition and avoidance of the hazardous condition(s);
+
+Other pertinent working conditions.
+
+EXAMPLE 6-1
+: Greater probability may include an employee exposed to the identified hazard for four hours a day, five days a week. Where an employee has performed a non-routine task with exposures one or two times a year and no injuries or illnesses can be attributed to the hazard, a lesser probability may apply.
+
+Final Probability Assessment
+.
+
+All the factors outlined above shall be considered in determining a final probability assessment.
+
+When adherence to the probability assessment procedures would result in an unreasonably high or low gravity, the assessment can be adjusted at the discretion of the Area Director as appropriate. Such decisions shall be fully explained in the case file.
+
+Gravity-Based Penalty (GBP)
+.
+
+
+The gravity-based penalty (GBP) for each violation shall be determined by combining the severity assessment and the final probability assessment.
+
+GBP is an unreduced penalty and is calculated in accordance with the procedures below.
+
+Serious Violation & GBP
+.
+
+
+The gravity of a violation is defined by the GBP as high, moderate, or low gravity, based on amounts listed in the
+Annual Adjustments to OSHA Civil Penalties
+Memorandum.
+
+The highest gravity classification (high severity and greater probability) shall normally be reserved for the most serious violative conditions, such as those situations involving danger of death or extremely serious injury or illness.
+
+If the Area Director determines that it is appropriate to achieve the necessary deterrent effect, a high GBP can be proposed instead of a moderate GBP. Such discretion should be exercised based on the facts of the case. The reasons for this determination shall be fully explained in the case file.
+
+For serious violations, the GBP shall be assigned on the basis of the following scale in Table 6-1:
+
+Table 6-1: Serious Violations
+
+Severity
+
+Probability
+
+Gravity
+
+High
+
+Greater
+
+High
+
+Medium
+
+Greater
+
+Moderate
+
+Low
+
+Greater
+
+Moderate
+
+High
+
+Lesser
+
+Moderate
+
+Medium
+
+Lesser
+
+Moderate
+
+Low
+
+Lesser
+
+Low
+
+Other-Than-Serious Violations & GBP
+.
+
+
+For other-than-serious safety and health violations, there is only minimal severity.
+
+If the Area Director determines that it is appropriate to achieve the necessary deterrent effect, the maximum GBP can be proposed. Such discretion should be exercised based on the facts of the specific case, and the factors listed in Section I, General Penalty Policy. The reasons for this determination shall be fully explained in the case file.
+
+Exception to GBP Calculations
+.
+
+For some cases, a GBP can be assigned without using the severity and the probability assessment procedures outlined in this section when these procedures cannot appropriately be used. In such cases, the assessment assigned and the reasons for doing so shall be fully explained in the case file.
+
+Egregious Cases
+.
+
+In egregious cases, violation-by-violation penalties are applied. Such cases shall be handled in accordance with
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-By-Violation Penalties
+, October 21, 1990. Penalties calculated under this policy shall not be proposed without the concurrence of the Assistant Secretary and the National Office of the Solicitor (NSOL).
+
+Gravity Calculations for Combined or Grouped Violations
+.
+
+Combined or grouped violations will be considered as one violation with one GBP. The following procedures apply to the calculation of penalties for combined and grouped violations:
+
+NOTE: Multiple violations of a single standard can be
+combined
+into one citation item. When identifying a hazard that involves interrelated violations of different standards, the violations can be
+grouped
+into a single item.
+
+Combined Violations
+.
+
+The severity and probability assessments for combined violations shall be based on the instance with the highest gravity. It is not necessary to complete the penalty calculations for each instance or sub item of a combined or grouped violation once the instance with the highest gravity is identified.
+
+Grouped Violations
+.
+
+The following procedures shall be followed:
+
+
+Grouped Severity Assessment
+.
+
+There are two considerations for calculating the severity of grouped violations:
+
+
+The severity assigned to the grouped violation shall be no less than the severity of the most serious reasonably predictable injury or illness that could result from the violation of any single item; AND
+
+If the injury or illness that is reasonably predictable from the grouped items is more serious than that from any single violation item, the more serious injury or illness shall serve as the basis for the calculation of the severity factor.
+
+Grouped Probability Assessment
+.
+
+There are two factors for calculating the probability of grouped violations:
+
+
+The probability assigned to the grouped violation shall be no less than the probability of the item which is most likely to result in an injury or illness; AND
+
+If the overall probability of injury or illness is greater with the grouped violation than with any single violation item, then the greater probability of injury or illness shall serve as the basis for the calculation of the probability assessment.
+
+Penalty Adjustment Factors
+.
+
+
+General
+.
+
+
+Penalty adjustments will vary depending upon the employer’s “size” (maximum number of employees, see section III.B.4), “good faith,” and “history of previous violations.”
+
+
+A 20 percent reduction can be given for
+history
+;
+
+A maximum of 25 percent reduction is permitted for
+good faith efforts
+; and
+
+A maximum of 70 percent
+size
+reduction is permitted for other-than-serious and serious violations. A maximum of 80 percent
+size
+reduction is permitted for willful-serious violations.
+
+Since the good faith efforts and history adjustment factors are based on the general character of an employer’s safety and health performance, they shall be calculated once for each employer. However, an Area Director can use discretion per Section I, General Penalty Policy to withhold the
+size
+reduction factor for each violation. Any variation in application should be consistently applied and the justification must be documented in the case file. For example, in the case of a reported amputation, the Area Director can decide to withhold the size reduction from all machine guarding violations that cause amputation hazards. Withholding the size reduction factor for an electrical hazard in the same inspection would not meet the test of consistency. The size reduction factor must be applied as outlined in
+Section III.B.4
+if it is not withheld completely.
+
+After the classification (as serious or other-than-serious) and the gravity-based penalty have been determined for each violation, the penalty reduction factors (for size, good faith, history) shall be applied subject to the following limitations:
+
+Penalties proposed for violations classified as
+repeated
+shall be reduced
+only for size
+.
+
+Penalties proposed for violations classified as
+willful
+shall be reduced
+only for size and history
+.
+
+Penalties proposed for
+serious
+violations classified as high severity/greater probability shall be reduced
+only for size and history
+.
+
+
+
+History Adjustment
+.
+
+
+Allowable Percent Reduction
+.
+
+A reduction of 20 percent can be applied to:
+
+
+Employers who have been inspected by Federal OSHA, nationwide, or by any State Plan, in the previous five years, and who were found to be in compliance or the employer received only other-than-serious violations.
+
+Employers who have never been inspected by Federal OSHA nationwide or by any State Plan. If the inspected employer is owned by, closely related to, or a successor to another employer, this policy may not be applicable. In such situations, the Area Director will consult with regional enforcement programs and RSOL to determine applicability of this policy.
+
+History reduction can be withheld at the discretion of the Area Director per the factors listed in Section I.
+
+Allowable Percent Increase
+.
+
+An increase of 20 percent can be applied to employers who have been issued serious high gravity citations that have become a
+final order
+of the Commission or a final order of a State Plan’s adjudicative body within the past five years. The penalty shall not exceed the statutory maximum.
+
+No Reduction and No Increase
+.
+
+To employers being cited under abatement verification for any § 1903.19 violations.
+
+To employers who have not been inspected by federal OSHA nationwide or by any State Plan within the previous five years but have prior inspection history.
+
+At the discretion of the Area Director per the factors listed in Section I, General Penalty Policy.
+
+To employers who have been issued citations that have become a
+final order
+for serious violations within the last five years that were not classified as high gravity.
+
+Time Limitation and Final Order
+.
+
+The five-year history for penalty reductions or increases (both federal and state) shall be calculated from the opening conference date of the current inspection. For penalty increases, only citations that have become a final order of the Commission or final order of the state’s adjudicative body within the five years before the opening-conference date shall be considered. For penalty reductions, citations initially issued as serious should not preclude the application of the history adjustment if they were subsequently reclassified to other-than-serious or withdrawn through settlement or court order, as the final disposition no longer reflects a serious violation.
+
+Good Faith Reduction
+.
+
+
+No allowable reduction for good faith efforts
+. The following considerations apply to situations in which no reductions for good faith efforts should be applied:
+
+
+No reduction shall be given for
+high gravity
+(high severity, greater probability)
+serious violations
+.
+
+No reduction shall be given if a
+willful violation
+is found. Additionally, where a willful violation has been documented, no reduction for good faith can be applied to
+any
+of the violations found during the same or concurrent inspection.
+
+No reduction shall be given for
+repeated violations
+. If a repeated violation is found, no reduction for good faith can be applied to
+any
+of the violations found during the same inspection.
+
+No reduction shall be given if a
+failure to abate (FTA) violation
+is found during an inspection. No good faith reduction shall be given for
+any
+violation in the same inspection and the follow-up or concurrent inspection in which a FTA was found.
+
+No reduction shall be given to employers being cited under abatement verification for any § 1903.19 violations.
+
+No reduction shall be given if the employer has
+no safety and health management system
+, or if there are
+major deficiencies
+in the program.
+
+No reduction shall be given if the employer has failed to report a fatality, inpatient hospitalization, amputation, or loss of an eye pursuant to the requirements of 29 CFR 1904.39.
+
+Allowable reductions for good faith
+. A penalty reduction is permitted in recognition of an employer’s good faith effort to implement an effective safety and health management system in the workplace. The following apply to reductions for good faith efforts:
+
+
+Twenty-Five Percent Reduction
+.
+
+A 25 percent reduction for “good faith” normally requires a written safety and health management system. In exceptional cases, CSHOs can recommend a full 25 percent reduction for employers with 1-25 employees who have implemented an effective safety and health management system but have not documented it in writing.
+
+To qualify for this reduction, the employer’s safety and health management system must provide for the following core elements:
+
+Leadership and worker participation;
+
+Hazard identification and assessment;
+
+Hazard prevention and control measures;
+
+Safety and health education and training;
+
+Program evaluation and improvement;
+
+And:
+
+
+Where
+young persons
+(i.e., less than 18 years of age) are employed, the CSHO’s evaluation must consider whether the employer’s safety and health management system appropriately addresses the particular needs of such employees, relative to the types of work they perform and the potential hazards to which they may be exposed.
+
+Where
+persons who speak limited or no English
+are employed, the CSHO’s evaluation must consider whether the employer’s safety and health management system appropriately addresses the particular needs of such employees, relative to the types of work they perform and the potential hazards to which they may be exposed.
+
+An effective safety and health management system example is given in
+Recommended Practices for Safety and Health Programs
+.
+
+
+
+Fifteen Percent Reduction
+.
+
+A 15 percent reduction for good faith shall normally be given if the employer has a documented and effective safety and health management system, with only incidental deficiencies. In appropriate cases, CSHOs can recommend a full 15 percent reduction for employers with 1-25 employees who have implemented an effective safety and health management system but have not documented it in writing.
+
+EXAMPLE 6-2
+: An acceptable program should include minutes of employee safety and health meetings, documented employee safety and health training sessions, or any other evidence of measures advancing safety and health in the workplace.
+
+Size Reduction
+.
+
+
+A maximum penalty reduction of 70 percent is permitted for small employers. “Size” of an employer shall be calculated on the basis of the maximum number of employees for an employer at all workplaces nationwide, including in State Plans, at any one time during the previous 12 months.
+
+The rates of reduction to be applied are as follows (except for serious willful violations, refer to
+Table 6-4
+).
+
+Table 6-2: Size Reduction
+
+Employees
+
+Percent Reduction
+
+1-25
+
+70
+
+26-100
+
+30
+
+101-250
+
+10
+
+251 or more
+
+None
+
+NOTE: For violations that are serious willful, use
+Table 6-4
+,
+
+Penalty Adjustment Application
+.
+
+The penalty adjustment shall be applied serially for each factor as follows: Size, Good Faith, History, and Quick Fix (discussed below). The penalty adjustment factors will be applied serially to the GBP (e.g., 20 percent, then 25 percent, etc., instead of 45 percent). The OSHA Information System (OIS) will process the calculations automatically upon entering the adjustment factors.
+
+Effect on Penalties if Employer Immediately Corrects
+.
+
+Appropriate penalties will be proposed for an alleged violation even though, after being informed of the violation by the CSHO, the employer immediately corrects or initiates steps to abate the hazard. In limited circumstances, this prompt abatement of a hazardous condition can be taken into account in determining the amount of the proposed penalties under the Quick-Fix penalty reduction.
+
+
+Quick-Fix Penalty Reduction
+.
+
+Quick-Fix is an abatement incentive program that is intended to encourage employers to immediately abate hazards found during an OSHA inspection and to do so quickly to prevent potential employee injury and illness. Quick-Fix does not apply to all violations.
+
+Quick-Fix Reduction Shall Apply To:
+
+All general industry, construction, maritime, and agriculture employers.
+
+All sizes of employers in all Standard Industrial Classification (SIC) codes and North American Industry Classification System (NAICS) codes.
+
+Both safety and health violations, provided that the hazards are abated immediately or as soon as possible as allowed in Section IV.D.
+
+Violations classified as “other-than-serious,” “low gravity serious,” or “moderate gravity serious.”
+
+Individual violations (i.e., not to the citation or penalty as a whole).
+
+Corrective actions that are permanent and substantial, not temporary or cosmetic (e.g., installing a guard on a machine rather than removing an employee from the zone of danger).
+
+Quick-Fix Reductions Shall Not Apply To:
+
+Violations classified as “high gravity serious,” “willful,” “repeated,” or “failure-to-abate.”
+
+Violations related either to a fatal injury or illness, or to any incidents resulting in serious injuries to employees.
+
+Blatant violations that can be easily corrected (e.g., turning on a ventilation system to reduce employee exposure to a hazardous atmosphere, or directing employees to put on hard hats that are readily available at the workplace) and that indicate the employer representative is not taking the basic steps to manage worker safety and health.
+
+Required Timeframes:
+
+CSHOs may exercise discretion in what is a reasonable amount of time required for correction of apparent violations, however the following guidelines should generally be followed:
+
+For apparent violations that can be abated immediately such as through application of existing controls (e.g., replacement or adjustment of a machine guard), abatement must be completed at the time the CSHO identifies the hazard or shortly afterward during the walkaround. Abatement must be observed by the CSHO onsite to be eligible for Quick-Fix reduction.
+
+For apparent violations that require more complex abatement actions such as purchase of materials, fabrication of parts, training, etc., abatement should be completed within 5 days of the condition being discovered by the CSHO.
+
+
+In extenuating circumstances such as where items are required to be ordered and shipped, an additional 10 days can be permitted for abatement completion. In no case shall Quick-Fix credit be provided for abatement actions exceeding 15 days after the condition was discovered by the CSHO. Where more than 5 days are needed for abatement completion, the employer must provide information to the CSHO within 5 days of the condition being discovered that describes the actions they have taken, and why an additional 10 days is necessary.
+
+Abatement completion will be established through CSHO review of documentation provided by the employer. Documentation must be provided to OSHA either electronically (e.g., email) or sent via mail (e.g., USPS, FedEx, etc.) and post marked no later than the 5th day (or 15th day where applicable) after the condition was identified by the compliance officer. Abatement documentation for Quick-Fix credit must include sufficient information to show full correction of the apparent violation (e.g., photos or video of abated physical hazards; copies of the written program, procedures, or other required documents for programmatic violations; copies of training rosters and training materials for training violations).
+
+Where the CSHO determines that sufficient documentation of abatement has not been provided within a timely manner, or that the apparent violation has not been fully abated, Quick-Fix credit shall not be applied.
+
+In all cases, the employer must prevent employee exposure to the hazard until the condition is abated to receive Quick-Fix credit.
+
+All Quick-Fix credits are subject to review and concurrence by the Area Director.
+
+Reduction Amount.
+
+The adjustments to an individual violation’s GBP for size, good faith, history, and Quick-Fix ,will be applied, respectively. Table 6-3 below, provides an overview of the program.
+
+A Quick-Fix penalty reduction of 15 percent shall be applied after the adjustments for history and good faith.
+
+Table 6-3: Quick-Fix Penalty Reduction Factor
+
+Restrictions
+
+Application
+
+Percent Reduction
+
+Comments
+
+No Reduction Factor for:
+
+Violations classified as:
+
+
+High gravity serious
+
+Willful
+
+Repeated
+
+Failure to Abate
+
+Violations related to a fatal injury or illness, or an incident resulting in serious injuries
+
+Blatant violations. Readily apparent violations that can be easily corrected
+
+All general industry, construction, maritime & agriculture employers
+
+All sizes of employers in all SIC/NAICS codes
+
+Safety & health violations, provided that hazards are immediately abated within the allowed timeframes
+
+Violations classified as:
+
+
+Other-than-serious
+
+Low gravity serious
+
+Moderate gravity serious
+
+Only to individual violations
+
+Only to a corrective action that is permanent and substantial
+
+After the GBP has been calculated, adjustments are made for size, good faith, history, and Quick-Fix, and
+The 15% Quick-Fix reduction is applied after the adjustments for history and good faith.
+
+No penalty for a serious violation shall be less than the current minimum as listed in the
+Annual Adjustments to OSHA Civil Penalties
+Memorandum
+
+Repeated Violations
+.
+
+
+General
+.
+
+
+Each repeated violation shall be evaluated as serious or other-than-serious, based on current workplace conditions, and not on hazards found in the prior case.
+
+A GBP shall be calculated for repeated violations based on facts noted during the current inspection.
+
+Only the reduction factor for size, appropriate to the facts at the time of the re-inspection, shall be applied.
+
+Penalty Increase Factors for Repeated Violations
+.
+
+The amount of any increase to a proposed penalty for repeated violations shall be determined by the employer’s number of employees.
+
+
+Small Employers
+.
+
+For employers with 250 or fewer employees nationwide, the GBP shall be multiplied by a factor of
+2
+for the first repeated violation and multiplied by
+5
+for the second repeated violation. The GBP can be multiplied by
+10
+in cases where the Area Director determines that it is necessary to achieve the deterrent effect (e.g., the employer has multiple repeat violations). The reasons for imposing a higher multiplier factor must be explained in the case file.
+
+Large Employers
+.
+
+For employers with more than 250 employees nationwide, the GBP shall be multiplied by a factor of
+5
+for the first repeated violation and by
+10
+for the second repeated violation.
+
+Other-than-Serious, No Initial Penalty
+.
+
+For a repeated other-than-serious violation, the proposed penalty will increase based on the number of previous repeated violations. Statutory maximum and minimum penalty amounts are in the
+Annual Adjustments to OSHA Civil Penalties
+Memorandum.
+
+NOTE: These penalties shall not be subject to the Penalty Increase factors as discussed in
+Section V.B
+of this chapter.
+
+Regulatory Violations
+.
+
+
+For calculating the GBP for regulatory violations, see
+Section III.A.5
+and
+Section X
+.
+
+For repeated instances of regulatory violations, the initial penalty (for the current inspection) shall be multiplied by
+2
+for the first repeated violation and multiplied by
+5
+for the second repeated violation. If the Area Director determines that it is necessary to achieve the proper deterrent effect, the initial penalty can be multiplied by
+10
+. The reasons for imposing a higher multiplier factor must be explained in the case file.
+
+Penalty Increase
+.
+
+The 20 percent-plus penalty increase, as described in Section B.2.b will be applied to the final calculated repeat proposed penalty, but not to exceed the statutory maximum.
+
+Willful Violations
+.
+
+
+General
+.
+
+
+Each willful violation shall be classified as serious or other-than-serious.
+
+There shall be no reduction for an employer's good faith efforts to abate.
+
+In no case shall the proposed penalty for a willful violation (serious or other-than-serious) after reductions be less than the statutory minimum for that classification.
+
+Serious Willful Penalty Reductions
+.
+
+The reduction factors for size for serious willful violations should be applied as shown in the following Table 6-4. This chart helps minimize the impact of large penalties for small employers with 50 or fewer employees. However, in no case shall the proposed penalty be less than the statutory minimum for these employers.
+
+NOTE: For violations that are not serious willful, use Table 6-2.
+
+Table 6-4: Serious Willful Penalty Reductions
+
+Employees
+
+Percent reduction
+
+20 or fewer
+
+80
+
+21-30
+
+50
+
+31-40
+
+40
+
+41-50
+
+30
+
+51-100
+
+20
+
+101-250
+
+10
+
+251 or more
+
+0
+
+Willful Regulatory Violations
+.
+
+
+For calculating the GBP for regulatory violations, see
+Section III.A.5
+and
+Section X
+for other-than-serious violations.
+
+In the case of regulatory violations that are determined to be willful, the GBP penalty shall be multiplied by
+10
+. In no event shall the penalty, after reduction for size and history, be less than the statutory minimum.
+
+Penalties for Failure to Abate
+.
+
+
+General
+.
+
+
+Failure to Abate penalties shall be proposed when:
+
+
+A previous citation issued to an employer has become a final order of the Commission (See
+Chapter 15, Legal Issues
+, for information on determining final order dates of uncontested citations, settlements, and Review Commission decisions);
+
+The abatement date of the citation item as issued (or as settled) has passed; and
+
+The condition, hazard, or practice found upon re-inspection is the same for which the employer was originally cited and has never been corrected by the employer (i.e., the violation was continuous).
+
+Calculation of Additional Penalties
+.
+
+
+Unabated Violations
+.
+
+A GBP for unabated violations is to be calculated for failure to abate a serious or other-than-serious violation on the basis of the facts noted upon re-inspection. This recalculated GBP, however, shall not be less than that proposed for the item when originally cited.
+
+EXCEPTION: When the CSHO believes and documents in the case file that the employer has made a good faith effort to correct the violation and had an objective, reasonable belief that it was fully abated, the Area Director can reduce or eliminate the daily proposed penalty.
+
+No Initial Proposed Penalty
+.
+
+In instances where no penalty was initially proposed, an appropriate penalty shall be determined after consulting with the Area Director. In no case shall the GBP be less than the minimum amount listed in the
+Annual Adjustments to OSHA Civil Penalties
+memorandum.
+
+Size Only Permissible Reduction Factor
+.
+
+Only the reduction factor for size based upon the circumstances noted during the re-inspection shall be applied to arrive at the daily proposed penalty.
+
+Daily Penalty Multiplier
+.
+
+The daily proposed penalty shall be multiplied by the number of calendar days that the violation has continued unabated, except as provided below:
+
+
+The number of days unabated shall be counted from the day following the abatement date specified in the citation or the final order. It will include all calendar days between that date and the date of re-inspection, excluding the date of re-inspection.
+
+Normally the maximum total proposed penalty for failure to abate a particular violation shall not exceed
+30
+times the amount of the daily proposed penalty.
+
+At the discretion of the Area Director, a lesser penalty can be proposed. The reasoning for the lesser penalty shall be fully explained in the case file (e.g., achievement of an appropriate deterrent effect).
+
+If a penalty in excess of the normal maximum amount of
+30
+times the amount of the daily proposed penalty is deemed necessary by the Area Director to deter continued non-abatement, then the case shall be treated pursuant to the violation-by-violation (egregious) penalty procedures established in
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-By-Violation Penalties
+, October 21, 1990
+
+Partial Abatement
+.
+
+
+When a citation has been partially abated (i.e., some steps have been taken toward abatement), the Area Director can authorize a reduction of 25 to 75 percent of the proposed penalty calculated as outlined above.
+
+When a violation consists of a number of instances and the follow-up inspection reveals that some, but not all, instances of the violation have been corrected, the additional daily proposed penalty shall take into consideration the extent of the abatement efforts.
+
+EXAMPLE 6-3
+: Where three out of five instances have been corrected, the daily proposed penalty (calculated as outlined above, without regard to any partial abatement) can be reduced by 60 percent.
+
+Violation-by-Violation (Egregious) Penalty Policy
+.
+
+
+Penalty Procedure
+.
+
+Each instance of noncompliance shall be considered a separate violation with individual proposed penalties for each violation. This procedure is known as the egregious or violation-by-violation penalty procedure.
+
+Case Handling
+.
+
+Such cases shall be handled in accordance with
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-By-Violation Penalties
+, October 21, 1990.
+
+Calculation of Penalties
+.
+
+Penalties meeting the willful violation-by-violation policy shall not be proposed without the concurrence of the Assistant Secretary.
+
+Significant Enforcement Actions
+.
+
+
+Definition
+.
+
+A significant enforcement action (a.k.a. significant case) is one that results from an investigation in which the total proposed penalty is greater than or equal to the penalty structure as outlined in the Memorandum on
+Procedures for Significant and Novel Enforcement Cases
+, or involves novel enforcement issues, including novel federal agency cases, regardless of penalty.
+
+Multi-employer Worksites
+.
+
+Several related inspections involving the same employer or involving more than one employer in the same location (such as multi-employer worksites) and submitted together, can also be considered a significant enforcement action if the total aggregate penalty is greater than or equal to the penalty structure as outlined in the Memorandum on
+Procedures for Significant and Novel Enforcement Cases
+.
+
+Federal Agency Significant Cases
+.
+
+For federal agencies, the action is considered significant if penalties reach the thresholds in the Memorandum on
+Procedures for Significant and Novel Enforcement Cases
+that would have been applied if the agency were a private sector employer.
+
+
+Significant federal agency cases shall be developed, documented, and reviewed with the same rigor required for private sector cases.
+
+In addition, Notices of Unsafe or Unhealthful Working Conditions in Federal Agency cases should be issued no later than six months from the date of the opening conference, thereby paralleling the six-month statutory limit in private sector cases set by the OSH Act.
+
+Assistant Secretary Concurrence
+.
+
+The Assistant Secretary’s concurrence is normally required prior to issuing citations related to significant enforcement cases that meet review criteria. (See Memorandum on
+Procedures for Significant and Novel Enforcement Cases
+.)
+
+Penalty and Citation Policy for Parts 1903 and 1904 Regulatory Requirements
+.
+
+Section 17(i)
+of the OSH Act specifies that any employer who violates any of the posting requirements shall be assessed a civil penalty of up to the current maximum as listed in the
+Annual Adjustments to OSHA Civil Penalties
+Memorandum for each violation (this includes recordkeeping violations). The following policy and procedure document must also be consulted for an in-depth review of these policies:
+CPL 02-00-111
+,
+Citation Policy for Paperwork and Written Program Requirement Violations
+, November 27, 1995. GBPs for regulatory violations, including posting requirements, should be reduced for size and history (excluding willful violations; see
+Chapter 4, Section V
+, Willful Violations).
+
+
+Posting Requirements Under Part 1903
+.
+
+Penalties for violation of posting requirements shall be proposed as follows:
+
+
+Failure to Post the OSHA Notice (Poster) – § 1903.2(a)
+.
+
+A citation for failure to post the OSHA Notice is warranted if:
+
+The pattern of violative conditions for a particular establishment demonstrates a consistent disregard for the employer’s responsibilities under the OSH Act; AND
+
+Interviews show that employees are unaware of their rights under the OSH Act; OR
+
+The employer has been previously cited or advised by OSHA of the posting requirement.
+
+If the criteria above are met and the employer has not displayed (posted) the notice furnished by OSHA as prescribed in
+§ 1903.2(a)
+, then an other-than-serious citation shall normally be issued.
+
+Failure to Post a Citation – § 1903.16
+.
+
+
+If an employer received a citation that was not posted as prescribed in
+§ 1903.16
+, then an other-than-serious citation shall normally be issued.
+
+For information about the OSHA-300A form, see
+CPL 02-00-172 Part 1904
+
+Recordkeeping Policies and Procedures Directive
+, January 10, 2025.
+
+Advance Notice of Inspection – § 1903.6
+.
+
+When an employer has received advance notice of an inspection and fails to notify the authorized employee representative as required by
+§ 1903.6
+, an other-than-serious citation shall be issued.
+
+Abatement Verification Regulation Violations – § 1903.19.
+
+General
+.
+
+
+The penalty provisions of Section 9 and Section 17 of the OSH Act apply to all citations issued under this regulation.
+
+No “Good Faith” or “History” reduction shall be given to employers when proposing penalties for any § 1903.19 violations; only the reduction factor for “Size” shall apply.
+
+See
+Chapter 7
+, Post-Citation Inspection Procedures and Abatement Verification, for detailed guidance.
+
+Penalty for Failing to Certify Abatement
+.
+
+
+A penalty for failing to submit abatement certification documents,
+§ 1903.19(c)(1)
+, shall be reduced only for size.
+
+A penalty for failure to submit abatement verification documents will not exceed the penalty for the entire original citation.
+
+Penalty for Failing to Notify and Tag
+.
+
+Penalties for not notifying employees and not tagging movable equipment
+§ 1903.19
+[paragraphs (g)(1), (g)(2), (g)(4), (i)(1), (i)(2), (i)(3), (i)(5) and (i)(6)] will follow the same penalty structure as for Failure to Post a Citation.
+
+Injury and Illness Records and Reporting under Part 1904
+.
+
+Part 1904
+violations are generally cited as other-than-serious.
+
+Repeated and Willful penalty policies in
+Sections V.D
+and
+VI.C
+, respectively, of this Chapter, can be applied to recordkeeping violations.
+
+OSHA's egregious penalty policy can be applied to recordkeeping violations. See
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-By-Violation Penalties
+, October 21, 1990.
+
+See
+CPL 02-00-172
+, Part 1904
+Recordkeeping Policies and Procedures Directive
+, January 10, 2025; specifically, Chapter 2, Section II, Inspection and Citation Procedures.
+
+Failure to Provide Access to Medical and Exposure Records – § 1910.1020
+.
+
+
+Proposed Penalties
+.
+
+If an employer is cited for failing to provide access to records as required under
+§ 1910.1020
+for inspection and copying by any employee, former employee, or authorized representative of employees, then a penalty shall normally be proposed for each record (i.e., either medical record or exposure record, on an individual employee basis). However, the total amount cannot exceed the maximum GBP for a serious or other-than-serious violation. See
+CPL 02-02-072
+,
+Rules of Agency Practice and Procedure Concerning OSHA Access to Employee Medical Records
+, August 22, 2007.
+
+EXAMPLE 6-4
+: If the evidence demonstrates that an authorized employee representative requests both exposure and medical records for three employees and the request was denied by the employer, then a citation would be issued for six instances (i.e., one medical record and one exposure record (total two) for each of three employees) of a violation of
+§1910.1020
+.
+
+Use of Violation-by-Violation Penalties
+.
+
+The above policy does not in any manner preclude the use of violation-by-violation or per employee penalties where higher penalties are appropriate. See
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-By-Violation Penalties
+, October 21, 1990.
+
+Criminal Penalties
+.
+
+
+OSH Act and U.S. Code
+.
+
+The Act and the U.S. Code provide for criminal penalties in the following cases:
+
+
+Willful violation of an OSHA standard, rule, or order causing the death of an employee—Section 17(e);
+
+Giving unauthorized advance notice—Section 17(f);
+
+Knowingly giving false information—Section 17(g); and
+
+Killing of a CSHO while engaged in the performance of investigative, inspection or law enforcement functions—Section 17(h)(2).
+
+Courts
+.
+
+After trials, criminal penalties are imposed by the courts and not by OSHA or by the Occupational Safety and Health Review Commission.
+
+Handling Monies Received from Employers
+.
+
+
+Responsibility of the Area Director
+.
+
+Pursuant to its statutory authority, it is OSHA policy to collect all penalties owed to the government. The Area Director is responsible for:
+
+
+Informing employers of OSHA’s debt collection procedures;
+
+Collecting assessed penalties from employers;
+
+Reporting penalty amounts collected and those due;
+
+Calculating interest and other charges on overdue penalty amounts;
+
+Referring cases with uncollected penalties to the Office of Financial Management’s Debt Collection Accountability Team (DCAT);
+
+Identifying and transferring selected cases to the RSOL for legal action and subsequently tracking such cases;
+
+Mailing collected monies in accordance with the procedures set forth in this chapter and in other OSHA Instructions; and
+
+Reviewing the DOL bankruptcy logs emailed by DCAT.
+
+Receiving Payments
+.
+
+The Area Director shall be guided by the following concerning penalty payments:
+
+
+Methods of Payment
+.
+
+Employers assessed penalties shall remit the total payment as directed by the citation, settlement, or final court order. The preferred payment method is to submit payment electronically through www.pay.gov. If the employer is unable to make payments electronically then the employer must communicate with the Area Director to pay by another acceptable method of payment such as by check, payable to DOL-OSHA. Payment in cash shall not be accepted. Upon request of the employer and for good cause, alternate methods of payment are permissible, such as payments in installments.
+
+Identifying Payment
+.
+
+The Reporting Identification Number (RID) of the Area Office, along with the Inspection Number(s),
+MUST BE PLACED
+in the upper left or lower left corner of the face of the payment instrument. The date of receipt
+MUST BE STAMPED
+on the face of the check and in the upper right corner if possible.
+
+Adjustment to Payments
+.
+
+The following adjustments shall be made prior to transmitting the payment instrument to the Lockbox Depository. See
+Section XIII.B.6
+of this chapter, Depositing Payments.
+
+
+If the payment instrument is not dated, then the date received shall be entered as the date of payment.
+
+If the written amount is obviously incorrect or differs from the amount referenced in the accompanying correspondence, the payment instrument shall be returned to the employer with a request for a new check. Before returning the check, void the existing check, by crossing through it. If feasible, contact the employer by email or phone prior to sending.
+
+If the payment instrument does not include the establishment name, the name shall be inserted on the face of the payment instrument.
+
+If the payment instrument includes the notation, "Payment in Full," whether or not the notation is incorrect, then the payment shall be deposited.
+
+If the payment instrument is unsigned, the payment shall be deposited.
+
+If an employer mistakenly makes the payment payable to an OSHA official by name, then it shall be endorsed as follows:
+
+
+Postal Money Orders – follow instruction on reverse of the money order.
+
+All others – enter on reverse:
+
+Pay to the order of the U.S. Department of Labor – OSHA
+
+_______________________________________(Signature)
+
+(Printed name of payee)
+
+Incorrect, Unhonored, or Foreign Payments
+.
+
+
+Incorrectly dated payments shall be handled as follows:
+
+
+If the payment instrument is dated 10 days or more after the date of receipt, it is to be returned to the employer.
+
+If the payment instrument is dated less than 10 but more than 3 days after the date of receipt, it is to be held for deposit on the day it is dated.
+
+Payment instruments dated 3 or fewer days after the date of receipt are to be mailed to the Lockbox.
+
+If the payment instrument is dated more than six months prior to the current date, it is to be returned to the employer by certified mail.
+
+Payment instruments which have been returned to the Office of Financial Management (OFM) without payment due to insufficient funds shall be forwarded to the Area Office for return to the employer by certified mail.
+
+Payments drawn on non-U.S. banks
+MUST BE SENT
+directly to OFM (without using the "Lockbox" procedures described in
+Section XIII.B.6
+of this chapter, Depositing Payments) at the following address:
+
+
+Office of Financial Management
+
+U.S. Department of Labor – OSHA
+
+Post Office Box 2422
+
+Washington, D.C. 20013
+
+Endorsing Payments
+.
+
+All payment instruments shall be endorsed as follows:
+
+
+16-01-2012
+
+Payment FRB or BR Credit
+
+Treasury U.S. Payment on an
+
+Obligation to U.S. and must be
+
+paid at Par
+
+DO NOT WIRE NON-PAYMENT
+
+U.S. DEPT. OF LABOR
+
+Occupational Safety and Health Administration
+
+DOL OSHA Washington, DC
+
+Depositing Payments
+.
+
+All payments shall be kept in a safe place and, unless otherwise indicated, transmitted daily in accordance with current OIS procedures to the Lockbox Depository. For the current Lockbox address, please contact the Debt Collection Accountability Team (DCAT) in the National Office.
+
+Records
+.
+
+A copy of the penalty payment instrument shall be included in the case file. Additional accounting records shall also be included in the case file in accordance with current procedures.
+
+Refunds
+.
+
+In cases of later penalty modifications by OSHA or by the Commission or a court, refunds to the employer shall be made by the Department of Labor through DCAT. The Area Director shall notify DCAT in accordance with current instructions.
+
+Debt Collection Procedures
+.
+
+
+Policy
+.
+
+The Debt Collection Improvement Act of 1996
+(DCIA) provides for the assessment of interest, administrative charges, and additional costs for nonpayment of debts arising under the OSHA program. Under the DCIA regulations implemented by the Department of Labor, penalties assessed by OSHA are considered debts. It is OSHA policy to exercise the authority provided under the DCIA to assess additional charges on delinquent debts. It is also OSHA policy to forbear collection of penalties until the employer has exhausted its right to challenge them administratively, as well as in all legal forums.
+
+Time Allowed for Payment of Penalties
+.
+
+The date when penalties become due and payable depends on whether or not the employer contests.
+
+
+Uncontested Penalties
+.
+
+When citations and/or proposed penalties are uncontested, the penalties are due and payable 15 working days following the employer’s receipt of the
+Citation and Notification of Penalty (OSHA-2)
+or, in the case of Informal Settlement Agreements, 15 working days after the date of the last signature unless a later due date for payment of penalties is agreed upon in the settlement.
+
+Contested Penalties
+.
+
+When citations and/or proposed penalties are contested, the date that penalties are due and payable will depend upon whether the case is resolved by a settlement agreement, an administrative law judge decision, a Commission decision, or a court judgment. See
+Chapter 15, Section XIII
+, Citation Final Order Dates, for more information.
+
+NOTE: The Area Director shall forward the notice of contest and the case file to the RSOL with a transmittal letter informing the Solicitor that any resulting penalty must be directed to the Area Office for payment.
+
+Partially Contested Penalties
+.
+
+When only part of a citation and/or a proposed penalty is contested, the due date for payment as stated in
+Section XIV.B.1
+, Uncontested Penalties, shall be used for the uncontested items and the due date stated in
+Section XIV.B.2
+, Contested Penalties, for the contested items.
+
+NOTE: This provision notwithstanding, formal debt collection procedures will not be initiated in partially contested cases until a final order for the outstanding citation item(s) has been issued.
+
+Notification Procedures
+.
+
+It is OSHA policy to notify employers (the “Notice”) that debts are payable and due, and to inform them of OSHA’s debt collection procedures prior to assessing any applicable delinquent charges. A copy of the Notice stating OSHA’s debt collection policy, including assessment of interest, additional charges for nonpayment and administrative costs, shall be included with each
+Citation and Notification of Penalty
+and sent to employers. Interest rates and administrative costs are published annually and can be revised quarterly by the Secretary of the Treasury. DCAT shall advise Area Directors of any changes in the interest rate as they occur. A copy of the Notice shall be retained in the case file.
+
+Notification of Overdue Debt
+.
+
+The Area Director shall send a demand letter to the employer when the debt has become delinquent and shall retain a copy of the demand letter in the case file. A debt becomes delinquent
+30 calendar days after the due date
+, which is the same as the
+final order date
+as stated in
+Chapter 15, Section XIII
+, Citation Final Order Dates.
+
+
+Uncontested Case with Penalties
+.
+
+
+If payment of any applicable penalty is not received within 30 calendar days after the date of the expiration of the 15-working-day contest period, or after the date of the last signature (unless a later due date for payment of penalties is agreed upon in the settlement), and if an Informal Settlement Agreement has been signed, then a demand letter shall be mailed.
+
+If the employer enters into a
+written
+plan establishing a set payment schedule within one calendar month of the due date but subsequently fails to make a payment within one calendar month of its scheduled due date, a payment default letter shall be sent to the employer. The default letter meets the demand letter requirement for delinquent debts under a payment plan. If the employer fails to respond satisfactorily to that default letter within one month, then the unpaid portion of the debt shall be handled in accordance with
+Section XIV.F
+, Assessment Procedures.
+
+Contested Case with Penalties
+.
+
+
+If payment of any applicable penalty is not received within 30 calendar days after the Review Commission’s
+Order
+approving a Formal Settlement Agreement, 60 calendar days after the
+Notice of Docketing
+, 90 calendar days after the
+Notice of Commission Decision
+, or 120 calendar days after date of the judgment of a U.S. Court of Appeals, and no appeal of the case has been filed by either OSHA or the employer, the Area Director shall send a demand letter notifying the employer that the OSHA fine is past due.
+
+If the employer has partially contested the case (even if the penalty has not been contested), a demand letter shall not be sent until a final order has been issued.
+
+Exceptions to Sending the Demand Letter
+.
+
+The demand letter will not be sent if the employer is currently making payments under an approved installment plan or other satisfactory payment arrangement. Such plan or arrangement shall be set forth in writing and signed by the employer and the Area Director.
+
+Assessment of Additional Charges
+.
+
+Additional charges shall be assessed in accordance with the
+Debt Collection Improvement Act
+(
+31 USC 3717
+) and Department of Labor Regulations (
+29 CFR 20
+). Additional charges shall not be assessed against the United States Postal Service.
+
+
+Interest
+.
+
+Interest on the unpaid principal amount shall be assessed on a monthly basis at the current annual rate if the debt has not been paid within one calendar month of the date on which the debt (penalty) became due and payable (i.e., the date of the final order). Interest is not assessed if an acceptable repayment schedule has been established in a written plan by the due date.
+
+NOTE: Interest and delinquent charges are not compounded; only the unpaid balance of the penalty amount is used to calculate these additional charges.
+
+Delinquent Charges
+.
+
+Delinquent charges shall be assessed on a monthly basis if the debt has not been paid within 3 calendar months of the delinquent date (which is one calendar month after the due date). Debts paid in full within 3 calendar months of the delinquent date shall not be assessed a delinquent charge. Delinquent charges accrue at the annual rate of 6 percent (0.5 percent per month).
+
+NOTE: Although the delinquent charge is not initially assessed until 3 calendar months after the debt became delinquent (4 calendar months after the due date), it is nevertheless calculated from the delinquent date. Thus, the first assessment of a delinquent charge will amount to a 3 month charge or 1.5 percent of the outstanding principal amount. Each month after that, the additional delinquent charge will be 0.5 percent of the unpaid principal.
+
+Administrative Costs
+.
+
+Administrative costs shall be assessed for each demand letter sent in an attempt to collect the unpaid debt. Costs are not assessed for payment default letters.
+
+Assessment Procedures
+.
+
+If the penalty has not been paid by the delinquent date (i.e., within one calendar month of the due date), then the Area Director shall implement the following procedures:
+
+
+Interest shall be assessed at the current interest rate on the unpaid balance of the debt. The rate of interest shall remain fixed for the duration of the debt.
+
+NOTE: Interest is to be calculated for one month and shall be assessed on the date on which such charges become payable. Any later additional charges will not be assessed until the first of the month following the date on which the charge becomes payable. For example, if interest becomes payable on the 20th of the month and the second demand letter is not sent out until the eighth of the following month, only one month’s interest is assessed.
+
+The demand letter shall be sent to the employer requesting immediate payment of the debt. The demand letter shall show the total amount of the debt, including the unpaid penalty amount, interest and administrative costs.
+
+Employers can respond to the demand letter in several ways:
+
+
+The entire debt can be paid. In such cases no further collection action is necessary.
+
+b. A repayment plan can be submitted or offered; after a set payment schedule has been approved by the Area Director, no additional charges shall be levied against the debt as long as payments are timely made in accordance with the approved schedule. See note under
+Section XIV.D.3
+, of this chapter, Exceptions to Sending the Demand Letter. If payments are not made on schedule, the unpaid portion of the debt shall be treated in accordance with
+Section XIV.F
+.
+
+A partial payment can be made; the unpaid portion of the debt shall be treated in accordance with
+Section XIV.F
+of this chapter.
+
+If any portion of the debt remains unpaid after one calendar month from the time the demand letter was sent to the employer, the Area Director shall institute one of the following:
+
+
+Outstanding debts less than $100 can be written off.
+
+If the employer made a payment after receiving the demand letter, then the area office can:
+
+
+Send a receipt letter or contact the employer to request the balance due on the debt.
+
+Refer the case to DCAT.
+
+Outstanding debts with a current debt of $100 or more shall be referred to DCAT.
+
+After a case has been referred to DCAT for collection, the Area Director has no further responsibilities for penalty collection related to that case.
+
+If, after a case has been referred to DCAT, the employer mistakenly sends a payment to the Area Office, the case is subsequently contested or new information regarding the debt or employer is obtained, then the Area Director shall contact DCAT immediately.
+
+DCAT shall update the host database to reflect all penalty collection actions taken by the National Office. Detailed information on subsequent debt collection activity on each case is available on the OSHA Intranet website. A written communication outlining collection actions taken for each case referred to DCAT shall be sent to the Area Office upon completion of National Office and Treasury debt collection procedures for that case.
+
+The responsibility for closing the case remains with the Area Director. Once final collection action has been completed, the case can be closed whenever appropriate.
+
+Application of Payments
+.
+
+Payments that are for less than the full amount of the debt shall be applied to satisfy the following categories in order of priority:
+
+
+Administrative charges;
+
+Delinquent charges;
+
+Interest;
+
+Outstanding principal.
+
+Uncollectible Penalties
+.
+
+There can be cases where a penalty cannot be collected, regardless of any action that has been or may be undertaken. Examples might be when a demand letter is not deliverable, a company is no longer in business and has no successor, or the employer is bankrupt. In such cases,
+it is imperative
+that the Area Director notify DCAT by phone or email prior to referring the case to the National Office. DCAT will then advise what further collection action is appropriate. The database shall be updated following current OIS procedures to reflect the most recent action. In bankruptcy cases, the Area Director can also seek the advice of the RSOL to determine whether to file as a creditor under the Bankruptcy Act.
+
+Exemption from Referral to DCAT
+
+Debts can be exempt from referral to DCAT if the case has been identified by the region and the RSOL for litigation under 17(l) no later than 55 days from the date of issuance.
+
+In select cases, the Solicitor of Labor may attempt to collect unpaid penalties through district court litigation under Section 17(l) of the OSH Act. The regional OSHA office will work with the RSOL to identify appropriate matters for potential 17(l) litigation. If a matter is selected for 17(l) litigation, regional OSHA will notify DCAT that the matter is being retained for litigation rather than referred to DCAT. If the matter is not selected during the review process, the Regional Administrator shall refer the matter to DCAT within 60 days of the final order date.
+
+National Office Debt Collection Procedures
+.
+
+Upon receipt of a case from an Area Director, DCAT shall verify the amount of the outstanding debt and proceed to implement National Office debt collection procedures.
+
+
+Demand Letter
+.
+
+In accordance with the DCIA, unless a debt meets certain exemption criteria, it must be referred to the Department of Treasury within 90 days after the debt becomes delinquent. The DCIA also specifies that the debtor must be notified that the debt can be referred to Treasury and what debt collection actions Treasury can take regarding the debt. This information is included in the demand letter that DCAT sends to the employer, notifying him/her of the overdue debt and requesting immediate payment to DCAT.
+
+Exemption Criteria for Referral to Treasury
+.
+
+Debts can be exempt from the DCIA requirement if the case is in litigation by the Solicitor, in bankruptcy, in contest, or on appeal.
+
+Referral to the Department of Treasury
+.
+
+In accordance with the DCIA, if the debt remains uncollected 30 days from the date the DCAT demand letter was sent, the case can be referred to the Department of Treasury. Treasury actions include: referral to private debt collection firms; reporting to commercial credit reporting agencies; referral to the Internal Revenue Service for collection by offset; referral to the Department of Treasury Offset Program where collection is done by offset from payments due to the debtor by any federal agency; and/or litigation. In addition, Treasury will add its collection fees to the debt.
+
+
+Any penalty settlement offers received by Treasury shall be referred to the Area Director for approval.
+
+All penalty amounts collected by Treasury beyond its collection fees will be applied to the employer’s penalty account.
+
+Any disputes received by Treasury will be forwarded to DCAT and can be sent to the Area Director for response.
+
+Updating the Database
+.
+
+DCAT shall update the database to reflect all specific debt collection actions taken since referral to the National Office and shall indicate whether the case has been returned to the Area Office.
+
+Compromise of Debts over $100,000
+.
+
+Debts of $100,000 or more, exclusive of interest, delinquent charges, and administrative costs, cannot be waived by OSHA without Justice or Treasury approval. DCAT will obtain this approval before returning the debt to the Area Office.
+
+Return to the Area Office
+.
+
+Once it has been decided to return the collection action, DCAT shall return the case to the Area Office using one of the following:
+
+
+Penalties paid in full
+: If an OSHA penalty is paid in full, then DCAT will notify the Area Director by email or by other electronic means with instructions on how OIS is to be updated. Copies of paid checks are maintained on the U.S. Treasury Electronic Check Processing System and will not be returned. The copies can be referenced for a period established by Federal Guidelines. Data related to employer payments made through the Treasury Debt Management Service are available on its internal web site for a period established by federal guidelines.
+
+Penalties Remaining Unpaid or only Partially Paid after Treasury Collection Process
+: Once it has been decided to return an unpaid or partially paid collection action to the Area Office, DCAT shall prepare a written transmittal memorandum to the Area Director, stating the final status of the debt and what actions should be taken. Included with the memo will be copies of the DCAT case documents other than the National Office Letter and any DCAT correspondence with the employer. Copies of employer checks will not be returned but remain available on the Treasury website.
+
+Uncollectible Penalties Returned from the Treasury without any National Office Contact
+: If an OSHA collection action is returned as uncollectible from the Treasury’s Bureau of the Fiscal Service without any DCAT activity, then DCAT will notify the Area Director by email or other electronic means with instructions on how OIS should be updated. Electronic files related to Treasury collection activity remain available on the Bureau of the Fiscal Service website, which can be accessed from DCAT.
+
+Maintenance of Electronic Copies of Debt Collection Documents
+: Electronic copies of each National Office letter are maintained by DCAT for eight years. Overall information on each closed case is available on the OSHA Intranet website. Information about Treasury Debt Management Service activity on closed cases returned from the Treasury is also available electronically from the Treasury Debt Management Service through DCAT.

@@ -1,0 +1,1042 @@
+Field Operations Manual
+
+Chapter 15
+
+LEGAL ISSUES
+
+
+
+Administrative Subpoenas
+.
+
+
+
+When to Issue
+.
+
+An Administrative Subpoena can be issued whenever there is a need for records, documents, testimony, or other supporting evidence necessary for completing an inspection or an investigation of any matter falling within OSHA's authority.
+
+
+Regional Administrators have authority to issue subpoenas, and are also authorized and encouraged to delegate to Area Directors the authority to issue routine administrative subpoenas.
+
+The issuance of an administrative subpoena requires the Area Director's or Regional Administrator's signature.
+
+Two Types of Subpoenas
+.
+
+There are two types of subpoenas used to obtain evidence during an OSHA investigation:
+
+
+A
+Subpoena Duces Tecum
+is used to obtain documents. It orders a person or organization to appear at a specified time and place and produce certain documents, and to testify to their authenticity. Employers are not required to create a new record in order to respond to these types of subpoenas.
+
+A
+Subpoena Ad Testificandum
+commands a named individual or corporation to appear at a specified time and place, such as the Area Office, to provide testimony under oath. A verbatim transcript is made of this testimony.
+
+Area Director Delegated Authority to Issue Administrative Subpoenas
+.
+
+Although authority to issue some types of subpoenas is reserved to the Regional Administrator, Area Directors can be authorized to issue routine administrative subpoenas.
+
+
+Area Directors can be delegated authority to issue administrative subpoenas for any record or document relevant to an inspection or investigation under the Act, including:
+
+
+Injury and illness records such as the OSHA-301 and the OSHA-300 (See
+CPL 02-02-072
+,
+Rules of Agency Practice and Procedure Concerning OSHA Access to Employee Medical Records
+, August 22, 2007, and 29 CFR
+1913.10(b)(6)
+);
+
+Hazard communication program;
+
+Lockout/tagout program; and
+
+Safety and health program.
+
+Information shall be requested from the employer or holder of records, documents, or other information-containing materials.
+
+
+If this person/entity refuses to provide requested information or evidence, then the OSHA representative serving the subpoena shall explain the reason for the request.
+
+If there is still a refusal to produce the information or evidence requested, then the OSHA representative shall inform the person/entity that the Agency may take further legal action.
+
+The official issuing the subpoena is responsible for evaluating the circumstances and deciding whether to issue a subpoena. In cases with potential national implications or involving extraordinary circumstances, the Regional Administrator shall be contacted for concurrence or to determine whether the subpoena should be issued by the Regional Administrator.
+
+Regional Administrator Authority to Issue Administrative Subpoenas
+.
+
+
+Regional Administrators have independent authority to issue subpoenas for any appropriate purpose. Unless delegated to an Area Director, the following authority shall be reserved to Regional Administrators:
+
+
+Issuance of a
+Subpoena Ad Testificandum
+to require the testimony of any company official, employee, or other witness;
+
+Issuance of a subpoena for the production of personally identifiable medical records for which a medical access order has been obtained. See
+CPL 02-02-072
+,
+Rules of Agency Practice and Procedure Concerning OSHA Access to Employee Medical Records
+, dated August 22, 2007, and
+§1913.10(b)(6)
+; and
+
+Issuance of a subpoena for the production of physical evidence, such as samples of materials.
+
+Although this authority may not routinely be delegated to Area Directors, in a few cases such delegation may be appropriate.
+
+Administrative Subpoena Content and Service
+.
+
+
+Model administrative subpoenas for use by the Area Offices are provided at the end of this chapter. If the Area Director believes that there is reason for any departure from the models due to circumstances of the case, the RSOL shall be consulted.
+
+The subpoena shall be prepared for the appropriate party and will normally be served by personal service (delivery to the party named in person). Leaving a copy at a place of business or residence is not personal service.
+
+
+In exceptional circumstances, service may be by certified mail with return receipt requested.
+
+Where no individual's name is available, the subpoena can be addressed to a business' or organization's "Custodian(s) of Records."
+
+Examples of language for a routine
+Subpoena Duces Tecum
+are provided in this section. This language should be expanded when requesting additional or more detailed information for accident, catastrophe, referral, or fatality investigations.
+
+NOTE: Where particular information is being sought, a subpoena's description should be narrow and specific in order to increase the likelihood of prompt compliance with the request.
+
+"Copies of any and all documents, including information stored electronically, which reflect training procedures for the lockout/tagout procedures and hazard communication program in effect at the [
+insert site name
+] in [
+insert city, state
+], during the period [
+insert month/day/year
+], to present."
+
+"Copies of the
+OSHA-300
+and the
+OSHA-301
+forms, for the entire site, during calendar years [
+insert year
+] and [
+insert year
+]."
+
+"Copies of any and all documents, including information stored electronically, such as safety and health program handbooks, minutes of safety and health meetings, training certification records, audits and reprimands for violations of safety and health rules by employees of the [
+insert site name
+] in [
+insert city, state
+], that show [
+insert employer's name
+] had and enforced safety rules relating to the use of trench boxes during the period [
+insert month/day/year
+], to present."
+
+Regional Administrators will ensure that Area Directors track all administrative subpoenas (including return of service) and maintain a copy in the casefile.
+
+Compliance with the Subpoena
+.
+
+The person/entity served can comply with the subpoena by making the information or evidence available to the compliance officer immediately upon service, or at the time and place specified in the subpoena.
+
+
+With respect to any record required to be made or kept pursuant to any statute or regulation, the subpoena shall normally allow three days from the date of service for production of the required information, although a shorter period may be appropriate.
+
+With respect to other types of records or information, such as safety programs or incident reports, the subpoena shall normally allow
+five working days
+from the date of service for production of the required information.
+
+Separate subpoenas for items 1 and 2 above may be necessary.
+
+Any witness fees or mileage costs potentially associated with administrative subpoenas should be discussed with the RSOL prior to the issuance.
+
+Refusal to Honor Subpoena
+.
+
+
+If the person/entity served refuses to comply with (or only partially honors) the subpoena, the compliance officer shall document all relevant facts and advise the Area Director before taking further action.
+
+To enforce a subpoena, the Area Director shall follow the procedures outlined for
+obtaining warrants
+, and shall refer the matter, through the Regional Administrator, to the RSOL for appropriate action.
+
+Service of Subpoena on OSHA Personnel
+.
+
+
+Proceedings to which the Secretary of Labor is a Party
+.
+
+If any OSHA personnel are served with a subpoena or order either to appear or to provide testimony in, or information for, a proceeding where the Secretary of Labor is a party, then they shall immediately contact the RSOL for instructions regarding the manner in which to respond. If a CSHO is served with a subpoena, then they shall notify the Area Director immediately who shall then refer the matter to the RSOL.
+
+NOTE: Review Commission rules provide that any person served with a subpoena, whether to testify in any Commission hearing or to produce records and testify in such hearing shall, within
+five days
+after date of service, move to revoke the subpoena if the person does not intend to comply with its terms. See
+§2200.57(c)
+. Therefore, expeditious handling of any subpoena served on OSHA employees is essential. When any such subpoena is served, the RSOL must immediately be notified by telephone or email.
+
+Proceedings to which the Secretary of Labor is Not a Party
+.
+
+
+If any OSHA personnel are served with a subpoena or order either to appear or to provide testimony in, or information for, a proceeding to which the Secretary of Labor is not a party (e.g., a private third party tort suit for damages associated with a workplace injury), then they shall immediately contact the RSOL.
+
+U.S. Department of Labor regulations prohibit Department employees from participating in, or from providing information for, proceedings in which the Secretary of Labor is not a party without explicit permission from the designated Deputy Solicitor of Labor. (See
+29 CFR 2.21
+and
+29 CFR 2.22
+). These regulations apply to demands to disclose or provide:
+
+
+Any material contained in the files of the Department;
+
+Any information relating to material contained in the files of the Department; or
+
+Any information or material acquired by any person while such person was an employee of the Department as a part of the performance of his/her official duties or because of his/her official status.
+
+The Office of the Solicitor is responsible for responding to such requests and will take appropriate steps to have the subpoena quashed or provide the necessary permission, as appropriate, to allow an employee to comply with an issued order.
+
+Obtaining Warrants
+.
+
+
+Warrant Applications
+.
+
+
+Upon refusal of entry, or if there is reason to believe an employer will refuse entry, the Area Director shall proceed according to guidelines and procedures established in the region for warrant applications. The Area Director may initiate the compulsory process with RSOL approval.
+
+
+Warrant applications for establishments where consent has been denied for a limited scope inspection (i.e., complaint, referral, accident investigation) shall normally be limited to the specific working conditions or practices forming the basis of the inspection.
+
+A broader inspection warrant may be sought
+only
+when there is reasonable belief, based on specific evidence (e.g., injuries or illnesses recorded in both OSHA forms 300 and 301, employee statements, or plain view observations), that violative conditions could be found in other areas of the workplace. For example, a broader inspection warrant may be sought when, in addition to a complaint or referral, there is specific evidence that the alleged violative condition permeates the entire workplace (e.g., ventilation defects in a foundry, pervasive electrical hazards, or exposure to hazardous chemicals), or where the establishment has a past pattern of violations and a review of the OSHA 300 and 301 data suggests that those violations may still be present. Additionally, a broader inspection warrant may be sought if the establishment is on a current list of establishments targeted for a comprehensive inspection, unless the establishment was the subject of a comprehensive safety inspection within the past fiscal year and there have been no significant changes to the work environment since that inspection.
+
+NOTE: Ordinarily, injury and illness data from the OSHA 300 logs
+alone
+will not be sufficient to support a broader inspection. However, OSHA 300 data in conjunction with other specific evidence—including incident report information from OSHA 301 forms, employee statements, or plain view observations—can be used to support an expanded inspection when the particular injuries or illnesses found in the OSHA 300 logs can be tied to a specific violative condition in the workplace.
+
+If the Area Director determines that a broader inspection is needed, he/she should consult the RSOL to determine the appropriate scope of that inspection.
+
+General Information to Obtain a Warrant
+.
+
+If the warrant is to be obtained by the RSOL, then the Area Director shall inform the RSOL in writing within
+48 hours
+after the determination is made and provide all essential information to obtain a warrant, including:
+
+
+Area/District Office, telephone number, and name of Area Director or designee involved;
+
+Name of CSHO attempting inspection and inspection number, if assigned. Identify whether the inspection to be conducted will include safety items, health items, or both;
+
+Legal name(s) of establishment and address, including city, state, and county. Include worksite location if different from mailing address;
+
+Estimated number of employees at inspection site;
+
+Estimated number of employees in each work area;
+
+Standard Industrial Classification (SIC) or North American Industry Classification System (NAICS) Code and high hazard ranking for that specific industry within the state, as obtained from statistics provided by the National Office;
+
+Days Away, Restricted, or Transferred (DART) rate for the particular establishment and for the specific industry;
+
+Summary of all facts leading to the refusal of entry or limitation of inspection, including:
+
+
+Date and time of entry/attempted entry;
+
+Date and time of denial;
+
+Stage of denial (entry, opening conference, walkaround);
+
+A narrative of all actions taken by the CSHO leading up to, during, and after refusal, including:
+
+
+Full name and title of the person(s) to whom CSHO presented credentials;
+
+Full name and title of person(s) who refused entry;
+
+Reasons stated for the denial by person(s) refusing entry;
+
+Response, if any, by CSHO to the denial name and address (if known) of any witnesses to denial of entry.
+
+Any information related to past inspections, including copies of previous citations;
+
+Any previous requests for warrants. Attach details, if applicable;
+
+All completed information related to the current inspection report, including copies of employee statements (if any), documentation of any observations of violations in plain view discovered prior to denial, and copies of the OSHA 300 logs, 300A summaries, and 301 incident reports;
+
+If a construction site involving work under contract from any agency of the federal government, the name of the agency, the date of the contract, and the type of work involved;
+
+Other pertinent information, such as: description of the workplace; the work processes; machinery, tools and materials used; known hazards and injuries associated with the specific manufacturing process or industry; and
+
+Investigative procedures that may be required during the proposed inspection (e.g., interviewing of employees/witnesses, personal sampling, photographs, audio/video recordings, examination of records, access to medical records).
+
+Specific Warrant Information Based on Inspection Type
+.
+
+Document all specific reasons for the selection of the establishment to be inspected, including proposed scope of the inspection:
+
+
+Imminent Danger
+.
+
+
+Description of alleged imminent danger situation;
+
+Date information received and source of information;
+
+Original allegation and copy of typed report, including basis for reasonable expectation of death or serious physical harm and immediacy of danger; and
+
+Whether all current imminent danger investigative procedures have been followed.
+
+Generally, names and other personally idenitifiable information of employees must not be included in the warrant application. Where employees' names or other personally identifiable information appear in affidavits and other supporting documents attached to the warrant application, such information must be redacted. Where inclusion of the employee's name is necessary, Area Offices should first consult with RSOL about filing the warrant application under seal.
+
+Fatality/Catastrophe
+.
+
+The Fatality/Catastrophe Report in OIS should be completed with as much detail as possible.
+
+Complaint or Referral
+.
+
+
+Original complaint or referral, and copy of typed complaint or referral;
+
+Reasons OSHA believes that a violation threatening physical harm or imminent danger exists, including possible standards that could be violated if the complaint or referral is credible and representative of workplace conditions;
+
+Whether all current complaint or referral processing procedures have been followed; and
+
+Any additional information pertaining to the evaluation of the complaint or referral, including issues pertaining to the proposed scope of the inspection. See section Section III.A.1.b of this chapter.
+
+Programmed
+.
+
+
+Targeted safety – general industry, maritime, construction;
+
+Targeted health; and/or
+
+Special emphasis program (e.g., Special Programs, Local Emphasis Program, Migrant Housing Inspection).
+
+Follow-up
+.
+
+
+Date of initial inspection;
+
+Details and reasons follow-up was conducted;
+
+Copies of previous citations which served as the basis for initiating the follow-up;
+
+Copies of settlement agreements and final orders, if applicable; and/or
+
+Previous history of failure to correct, if any.
+
+Monitoring
+.
+
+
+Date of original inspection;
+
+Details and reasons monitoring inspection is to be conducted;
+
+Copies of previous citations and/or settlement agreements that serve as the basis for the monitoring inspection; and/or
+
+Petition for Modification of Abatement Date (PMA) request, if applicable.
+
+Warrant Procedures
+.
+
+Where a warrant has been obtained, CSHOs are authorized to conduct the inspection in accordance with the terms of the warrant. All questions from employers concerning the reasonableness of a compulsory process inspection shall be referred to the Area Director and the RSOL.
+
+
+Action Taken Upon Receipt of Warrant (Compulsory Process)
+.
+
+
+The inspection will normally begin within 24 hours of receipt of a warrant or from the date authorized by the warrant for initiating the inspection.
+
+Upon completion of the inspection, if the warrant includes a return of service space for entering inspection dates, then CSHOs shall complete the return of service on the original warrant, sign it, and forward it to the Area Director or designee for appropriate action.
+
+Serving a Subpoena for Production of Records
+.
+
+Where appropriate, even where the scope of an inspection is limited by a warrant or an employer's consent to specific conditions or practices, any subpoena for production of records shall be served in accordance with the section on administrative subpoenas in this chapter.
+
+Second Warrant
+.
+
+Under certain circumstances, a second warrant can be sought to expand an inspection based on a records review (i.e., OSHA 300 logs, 300A summaries, and 301 incident report data), employee statements, or "plain view" observations of other violative conditions discovered during a limited scope walkaround.
+
+Refused Entry or Interference
+.
+
+
+When an apparent refusal to permit entry or inspection is encountered upon presenting the warrant, CSHOs shall specifically inquire whether the employer is refusing to comply with the warrant.
+
+If the employer refuses to comply or if consent is not clearly given, then CSHOs shall not attempt to conduct the inspection at that time, and shall leave the premises and contact the Area Director or designee regarding further action.
+
+
+CSHOs shall fully document all facts relevant to the refusal (including noting all witnesses to the denial of entry or interference).
+
+Area Directors shall then contact the RSOL and the Regional Administrator, who shall jointly decide the action to be taken.
+
+Federal Marshal Assistance
+.
+
+In unusual circumstances, a U.S. Marshal can be asked to accompany a CSHO when a warrant is presented. A Regional Administrator and RSOL must be consulted prior to a request for a U.S. Marshal's assistance. The request can be made only when there is a potential for violence, harassment and/or interference with the inspection, or reason to believe that the presence of a U.S. Marshal will assist with compliance with the warrant.
+
+Equal Access to Justice Act (EAJA)
+.
+
+
+Prevailing Party May be Awarded Fees
+.
+
+The Equal Access to Justice Act (EAJA)
+provides that a party prevailing against the United States in litigation may be awarded fees payable by an agency of the United States if the agency's position in litigation was not "substantially justified" or if the agency proposed a penalty that was reduced as a result of litigation and subsequently determined to be "unreasonable." EAJA awards are statutorily limited to certain small entity parties, generally those with a designated net worth and/or number of employees (see
+28 U.S.C. § 2412(d)(2)(B)
+).
+
+OSHA's Position Must be Substantially Justified
+.
+
+Pursuant to
+EAJA
+, the Commission or a federal court can award an employer fees if OSHA proceeds in litigation on a position that is not substantially justified or proposes a penalty that subsequently is found to be unreasonable in light of the statutory penalty assessment provisions and the circumstances relevant to the particular case. If an EAJA award is assessed by the Commission or a court following an OSHA proceeding and the award becomes a final order, OSHA is responsible for paying the award.
+
+EAJA Should Not Affect How the Agency Operates
+.
+
+EAJA
+should not affect the manner in which the agency operates, as citations are issued only after OSHA determines that there is adequate evidence that a violation exists, and proposed penalty amounts are determined based on established statutory and administrative criteria, and facts derived during the inspection/investigation. However, the potential for the agency incurring EAJA costs underscores the importance of thoroughly documenting each element of a violation with evidence supporting the violative condition and characterization. In addition, because the Secretary generally bears the burden of proof in litigation, it is important that CSHOs promptly discuss with the RSOL during the early stages of an investigation any factors affecting the Secretary's ability to support an alleged violation or penalty proposal (e.g., the likely unavailability of a critical witness or the need for an expert).
+
+Notice of Contest
+.
+
+OSHRC is an independent federal agency created to decide contests of citations or penalties resulting from OSHA inspections. The Review Commission, therefore, functions as an administrative court, with established procedures for conducting hearings, receiving evidence, and rendering decisions by Administrative Law Judges (ALJs). The Act states that the Review Commission operates as an independent agency (i.e., not part of another federal department) to ensure that parties to agency cases receive impartial hearings.
+
+
+Time Limit for Filing a Notice of Contest
+.
+
+
+The Act provides employers 15 working days following its receipt of a notice of a citation to notify OSHA of the employer's desire to contest a citation and/or proposed assessment of penalty.
+
+Where a notice of contest was not mailed (i.e., postmarked, within the 15-working-day period allowed for contest), the Area Director shall follow the instructions for Late Notices of Contest. A copy of any untimely notice of contest shall be retained in the case file.
+
+Contest of Abatement Period Only
+.
+
+If the notice of contest is submitted to the Area Director after the 15-working-day period, but contests only the reasonableness of the abatement period, then it shall be treated as a Petition for Modification of Abatement and handled in accordance with PMA procedures.
+
+Communication Where the Intent to Contest is Unclear
+.
+
+
+If a written communication is received from an employer containing an objection, criticism or other adverse comment as to a citation or proposed penalty, but which does not clearly appear to contest the citations, then the Area Director shall contact the employer to clarify the intent of the communication.
+
+
+After receipt of the communication, any clarification should be obtained within the 15-working-day contest period, so that if a determination is made that it is a notice of contest, the file can be timely forwarded to the Review Commission.
+
+In cases where the Area Office receives a written communication from an employer requesting
+an informal conference that also states an intent to contest
+, the employer must be informed that there can be no informal conference unless the notice of contest is withdrawn. If the employer still wants to pursue an informal conference, it must first present or send a letter expressing that intent and rescinding the contest. All documents pertaining to such communications shall be retained in the case file.
+
+If an Area Director determines that the employer intends the document to be a notice of contest, then it shall be transmitted to the OSHRC. If contact with the employer reveals a desire for an informal conference, then the employer shall be informed that the conference does not stay the running of the 15 working day contest period.
+
+NOTE: Settlement is permitted at any stage of Commission proceedings (see
+§2200.100(a)
+).
+
+Late Notice of Contest
+.
+
+
+Failure to Notify OSHA of Intent to Contest
+.
+
+If the employer fails to notify OSHA of its intent to contest a citation or penalty within 15 working days following the receipt of a citation, then the citation and proposed penalties become final orders of the Review Commission.
+
+Notice Received after the Contest Period
+.
+
+
+In every case where OSHA receives notice of an employer's intent to contest a citation and/or proposed assessment of penalty beyond the 15-working-day period, Area Directors shall inform employers in writing that OSHA will not accept the untimely notice of contest, but employers can contact the Commission if they want to pursue the matter.
+The letter from the Area Director will also indicate the following
+:
+
+Inspection number;
+
+Citation number(s);
+
+Corresponding proposed penalties;
+
+Date on which OSHA believes that the employer received the notice of a violation (and proposed penalty, if applicable);
+
+Date on which OSHA received the employer's notice of contest, as well as any additional information that the Area Director believes to be pertinent.
+
+NOTE: The postmarked envelope containing the late filed notice of contest date is to be retained. A copy of the letter and envelope shall be sent to RSOL.
+
+Retention of Documents
+.
+
+
+Area Offices shall maintain all documents reflecting the date on which the employer received the notice of a violation (and proposed penalty, if applicable), and the employer's notice of contest was received, as well as any additional information pertinent to demonstrating failure to file a timely notice of contest.
+
+Written or oral statements from the employer or its representative explaining the employer's reason for missing the filing deadline shall also be maintained (notes shall be taken to document oral communications).
+
+Contested Case Processing Procedures
+.
+
+The notice of contest and related documents must be sent to the OSHRC within 15 working days of receipt of the employer's notification (see
+§2200.33
+). The RSOL shall be consulted in any questionable cases.
+
+
+Transmittal of Notice of Contest to OSHRC
+.
+
+
+Electronic Filing with Executive Secretary
+.
+
+The OSHRC e-filing submission to the Executive Secretary will contain the following three documents:
+
+
+Employer's letter contesting OSHA's action;
+
+One copy of the
+Citation and Notification of Penalty (OSHA-2)
+or of the
+Notice of Failure to Abate Alleged Violation (OSHA-2B)
+; and
+
+Certification form.
+
+Notices of Contest
+.
+
+The notice of contest shall be electronically transmitted to the Review Commission and a copy retained in the case file. The case file diary shall include the electronic filing date with the Review Commission.
+
+Contested Citations and Notice of Proposed Penalty or Notice of Failure to Abate.
+
+A signed copy of each of these documents shall be electronically submitted to the Review Commission and a copy retained in the case file.
+
+Certification Form
+.
+
+
+The certification form shall be used for all contested cases and a copy retained in the case file. It is essential that the certification form, properly executed, be electronically transmitted to the Commission.
+
+When listing the Region number in the heading, do not use Roman numerals. Use 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10.
+
+Item 3 of the form shall be filled by inserting only the word "employer" or "employee" in the space provided. This shall be done even where the notice of contest is filed by an attorney for the party contesting the action. An item "4" shall be added where other documents, such as additional notices of contest, are sent to the Commission.
+
+Insert the correct date for each item in the document list in the column headed "Date."
+
+Insert the name and address of the RSOL attorney who will handle the case, in the box containing the printed words "FOR THE SECRETARY OF LABOR." The Commission notifies this person of the hearing date and other official actions on the case.
+
+The documents are to be transmitted within the 15-working-day time limit via the
+OSHRC E-File system
+.
+
+Transmittal of File to Regional Solicitor
+.
+
+
+Under the Commission's Rules of Procedure, the Secretary of Labor is required to file a complaint with the Commission within
+20 calendar days
+after the Secretary's receipt of a notice of contest.
+
+Immediately after receiving a notice of contest, the Area Director shall send to the RSOL by U.S. mail (or other mutually agreeable manner) the notice of contest, which the Area Director or designee will later transmit to the Commission, along with the complete investigative file (including photos and video).
+
+Communications while Proceedings are Pending before the Commission
+.
+
+
+Consultation with Regional Solicitor
+.
+
+
+After a notice of contest is filed and the case is within the jurisdiction of the Commission, there shall be no subsequent investigations of, or conferences with, the employer or employee representatives that have sought party status relating to any issues underlying the contested citations, without prior clearance from the RSOL.
+
+Once a notice of contest has been filed, all inquiries relating to the
+Citation and Notification of Penalty (OSHA-2)
+shall be referred promptly to the RSOL. This includes inquiries from the employer, affected employees, employee representatives, prospective witnesses, insurance carriers, other government agencies, attorneys, and any other party.
+
+Communications with Commission Representatives while Proceedings are Pending before the Commission
+.
+
+CSHOs, Area Directors, Regional Administrators, or other field personnel shall not have any direct or indirect communication relevant to the merits of any open case with Administrative Law Judges, employees of the Commission, or any of the parties or interveners. All inquiries and communications shall be handled through the RSOL.
+
+Commission Procedures
+.
+
+
+Two Levels of Adjudication
+.
+
+OSHRC's Rules of Procedure provide for two levels of adjudication. The first level is before an Administrative Law Judge. If one of the Commissioners directs review, the second level of review are ALJ decisions by the agency's Commissioners.
+
+Rules of Procedure
+.
+
+
+The OSHRC Rules of Procedure are found in
+Part 2200
+of Title 29 of the Code of Federal Regulations. These rules govern two types of ALJ proceedings.
+
+
+The more conventional proceeding involves the use of pleadings, discovery, a hearing, and post-hearing briefs.
+
+Simplified Proceedings are less formal hearings that employ fewer legal procedures and are used in less complex cases (few citation items, no willful or repeat violation or fatality) and can be requested by either party or by the ALJ. In Simplified Proceedings, pleadings are generally not required and early discussion among the parties to narrow the disputed issues is required.
+
+Receipt of Case
+.
+
+Upon receipt of a case by the assigned ALJ, a hearing date is set and a site selected as close as possible to where the alleged violation(s) occurred. The hearing is an administrative trial conducted in accordance with the Commission's Rules of Procedure.
+
+Hearing Evidence
+.
+
+
+Review includes a new examination of all the evidence, as well as briefs submitted by the parties.
+
+Upon hearing all the evidence, the judge will issue a written decision, including both findings of fact and conclusions of law.
+
+The OSHRC then issues a decision affirming, modifying, or vacating the citations and penalties proposed by OSHA.
+
+The decision becomes final in
+30 days
+unless, within that period, one of the Commissioners directs that the case be reviewed.
+
+Review of ALJ's Decision
+.
+
+If one of the parties requests review of the ALJ's decision, but review is not directed by the Commission, then the petitioning party can request review by the appropriate U.S. Circuit Court of Appeals. Review by a U.S. Court of Appeals must be sought within
+60 days
+after the Commission's decision becomes final.
+
+Availability of Commission Decisions
+.
+
+Commission decisions, including Administrative Law Judge decisions, are available from the Review Commission website,
+www.oshrc.gov
+.
+
+Discovery Methods
+.
+
+Once a legal proceeding has been initiated, each party has the opportunity to "discover" evidence in the possession of an opposing party. Traditionally, discovery methods include:
+
+Request for Admissions,
+
+Interrogatories,
+
+Requests for Production of Documents, and
+
+Depositions.
+
+An attorney from the Solicitor's Office will represent the Agency in responding to discovery requests. It is essential that all OSHA personnel coordinate and cooperate with the assigned attorney to ensure that such responses are accurate, complete, and filed in a timely manner.
+
+Interrogatories
+.
+
+CSHOs shall draft and sign answers to interrogatories, with RSOL assistance. It is the responsibility of the CSHO to answer each interrogatory separately and fully. The RSOL attorney shall sign any objections to the interrogatories. CSHOs should be aware that they can be deposed and/or examined at hearing on the interrogatory answers provided.
+
+Production of Documents
+.
+
+
+If a request for production of documents is served on RSOL and that request is forwarded to the Area Office CSHOs, or staff member, they should immediately make all documents relevant to that discovery demand available to the RSOL attorney.
+
+While portions of those materials can be later withheld based on governmental privileges or doctrine (e.g., statements that would reveal the identity of an informer), CSHOs must not withhold any information from the RSOL attorney.
+
+It is RSOL's responsibility to review all material and to assert any applicable privileges that may justify withholding documents/materials that would otherwise be discoverable.
+
+Depositions
+.
+
+Depositions permit an opposing party to take a potential witness' pre-hearing statement under oath in order to better understand the witness's potential testimony if the matter later proceeds to a hearing. CSHOs or other OSHA personnel can be required to testify during a deposition. In such cases, an RSOL attorney will be present with the witness.
+
+Testifying in Hearings
+.
+
+While instructions provided by RSOL attorneys take precedence, particularly during trial preparation, the following considerations will generally enhance the hearing testimony of CSHOs:
+
+
+Review Documents and Evidence
+.
+
+In consultation with RSOL, CSHOs should review documents and evidence relevant to the inspection or investigation before the proceeding, so that when testifying, they are very familiar with the evidence and need not regularly refer to the file or other documents.
+
+Attire
+.
+
+Wear appropriate clothing that reflects OSHA's respect for the court or other tribunal before which you are testifying. This also applies when appearing before a magistrate to seek an administrative warrant.
+
+Responses to Questions
+.
+
+Answer all questions directly and honestly. If you do not understand a question, indicate this and ask that the question be repeated or clarified.
+
+Judge's Instruction(s)
+.
+
+Listen carefully to any instruction provided by the judge and, unless instructed to the contrary by RSOL counsel, follow the judge's instruction.
+
+Commission Simplified Proceedings
+.
+
+Simplified Proceedings (formerly known as "E-Z Trials") are the Commission's attempt to simplify the resolution of some contested citations.
+
+
+Proposed Penalty Threshold
+.
+
+Because the Commission has raised the proposed penalty threshold for cases that are eligible for simplified proceedings, a greater number of cases will be eligible for this type of proceeding. These include most cases with aggregate proposed penalties of less than $20,000 and, at the discretion of the Chief ALJ, some cases with aggregate proposed penalties of up to $30,000.
+
+Prompt Disclosure of Inspection Documents
+.
+
+Simplified proceedings contemplate the prompt disclosure of inspection documents. Pursuant to the Commission's rules [
+29 CFR 2200.206
+], the Secretary must provide the employer, within prescribed time periods, the following documents:
+
+NOTE: Simplified proceedings provide fewer opportunities for the Secretary's counsel to obtain information concerning the employer's positions and defenses prior to a hearing. Therefore, it is particularly important for CSHOs to promptly provide SOL counsel with all information about potential affirmative defenses that an employer may raise and/or arguments the employer may use to refute a violation(s) or the propriety of a proposed penalty.
+
+Within
+12 working days
+after the case is designated for simplified proceedings, copies of the
+Narrative and Violation Worksheets
+(or their equivalents);
+
+Within
+30 calendar days
+after the case is designated for simplified proceedings, copies of photographs or video recordings expected to be used at the hearing; and
+
+Within
+30 calendar days
+after the case is designated for simplified proceedings, any evidence in OSHA's possession that may support the employer's defense to the citation.
+
+Citation Final Order Dates
+.
+
+
+Citation/Notice of Penalty Not Contested
+.
+
+The Citation/Notice of Penalty and abatement date becomes a final order of the Commission
+on the date the 15-working-day contest period expires
+. For purposes of computing the 15-working-day period, the day that the employer receives the citation is not counted.
+
+Example 15-1
+: An employer receives the Citation/Notice of Penalty on Monday, August 4. The day the employer receives the Citation/Notice of Penalty is not counted. Therefore, the final order date would be Monday, August 25.
+
+Citation/Notice of Penalty Resolved by Informal Settlement Agreement (ISA)
+.
+
+Because there is no contest of the citation, an ISA becomes final, with penalties due and payable,
+on the date of the last signature of the parties
+. See also
+Chapter 8, Section I.B.2
+. (An ISA is effective upon signature by both the Area Director and the employer representative as long as the contest period has not expired).
+
+NOTE: A later due date for payment of penalties can be set by the terms of the ISA.
+
+Citation/Notice of Penalty Resolved by Formal Settlement Agreement (FSA)
+.
+
+The Citation/Notice of Penalty
+becomes final 30 days after docketing of the Administrative Law Judge's (ALJ's) Order approving the parties' stipulation and settlement agreement
+, assuming that there is no direction for review. The Commission's Notice of Docketing specifies the date upon which the decision becomes a final order. If the FSA is approved by an order of the full Commission,
+it will become final after 60 days
+.
+
+Cases Resolved by an ALJ Decision.
+
+The ALJ's decision
+becomes a final order of the Commission 30 days after docketing, unless the Commission directs review of the case
+. The Commission's Notice of Docketing specifies the date upon which the decision becomes a final order.
+
+ALJ Decision Reviewed by Commission
+.
+
+Pursuant to
+Section 11
+of the Act,
+the Commission's decision becomes final 60 days after the Notice of Commission Decision
+. The Notice of Commission Decision specifies the date that the Commission decision was issued. As a matter of policy, OSHA does not attempt to collect civil penalties while a case is being appealed. However, unless the employer requests a stay of the Commission's decision, U.S. Court of Appeals review does not delay the abatement obligation.
+
+Commission Decision Review by the U.S. Court of Appeals
+.
+
+The U.S. Court of Appeals' decision becomes final when the court issues a decision.
+
+Federal Court Enforcement under Section 11(b) of the OSH Act
+.
+
+An employer's obligation to abate a cited violation arises when there is a final order of the Review Commission upholding the citation.
+
+
+Section 11(b) Summary Enforcement Orders
+.
+
+Section 11(b)
+of the OSH Act authorizes OSHA to obtain a summary enforcement order from the appropriate U.S. Circuit Court of Appeals enforcing final Review Commission orders. An employer who violates such a court order can be found in contempt of court. Potential sanctions for contempt include daily penalties and other fines, recovery of the Secretary's costs of bringing the action, incarceration of an individual company officer who flouts the Court's order, and any other sanction which the court deems necessary to secure compliance. Employers who ignore ordinary enforcement actions may be induced to comply by the severity of these potential contempt sanctions.
+
+Section 11(b)
+orders can be an effective and speedier alternative to failure-to-abate notices that are typically issued when an employer does not abate a violation within the allowed time. They can be requested from the Court whether the final order results from a Review Commission or ALJ decision, a settlement agreement, or an uncontested citation.
+
+Selection of Cases for Section 11(b) Action
+.
+
+All final orders issued in enhanced enforcement cases must be considered for
+Section 11(b)
+enforcement. In addition, a petition for 11(b) enforcement is to be considered in cases where final orders do not meet the enhanced enforcement case criteria but where the following factors suggest that an 11(b) petition should be filed:
+
+
+Employer's citation history and/or other indications suggest serious compliance problems, such as widespread violations of the same or similar standards at multiple establishments or construction worksites. The OIS database and public establishment search webpage should be searched for the employer's history of violations;
+
+Employer statements or actions indicating reluctance or refusal to abate significant hazards, or behavior that demonstrates indifference to employee safety;
+
+Repeated violations of the Act, particularly of the same standard, which continue undeterred by the traditional remedies of civil monetary penalties and Review Commission orders to abate;
+
+Repeated refusal to pay penalties;
+
+Filing false or inadequate abatement verification reports;
+
+Disregard of a previous settlement agreement, particularly one that includes a specific or company-wide abatement plan.
+
+Drafting of Citations and Settlements to Facilitate Section 11(b) Enforcement
+.
+
+Proper drafting of citations and settlement agreements can facilitate obtaining a
+Section 11(b)
+order and maximize its deterrent effect.
+
+Notations stating "Corrected during inspection" or "Employer has abated all hazards" shall not be made on the citation in cases where there is evidence of a continuing violative practice by an employer that may be subject to a summary enforcement order under
+Section 11(b)
+of the Act (i.e., failure to provide fall protection is a recurring condition based on citation history or other indications suggesting widespread violations of the same or similar standards at other establishments or construction worksites).
+
+Where possible, OSHA should attempt to identify cases that may warrant Section 11(b) enforcement at least a month before issuing the citation. When OSHA identifies such a case, it will contact the RSOL to discuss citation language that is in accordance with Section 11(b) enforcement. If a case identified for potential Section
+11(b)
+action is being resolved through a settlement agreement, whether formal or informal, language should be sought in the agreement that commits the employer to specific ongoing abatement duties.
+
+Language in a settlement agreement that imposes a specific duty on the employer, such as a requirement that the employer hire a consultant to develop a safety program or provide OSHA with a list of other worksites, can be enforced under
+Section 11(b)
+.
+
+Follow-up Inspections
+.
+
+The OSH Division in the National Office of the Solicitor's Office will notify the RSOL and the Directorate of Enforcement Programs (and, where the order pertains to a construction employer, the Directorate of Construction), when a court has entered a Section 11(b) order. OSHA will then promptly schedule an inspection or investigation to determine whether the employer is complying with the court order. The Regional Administrator, in consultation with the RSOL, will determine the nature and extent of the inspection or investigation. The RSOL will advise on the kind of "clear and convincing" evidence that would be needed to support a contempt petition in the event of the employer's noncompliance with the order of the court.
+
+Conduct of Verification Inspections
+.
+
+Whenever an enforcement order is issued by a U.S. Court of Appeals, an inspection shall be scheduled within six months to determine whether the company is complying with the court order. If serious violations of the standard(s) subject to the enforcement order are found, the RSOL shall be contacted immediately for guidance on what evidence will be needed for submission to the court.
+
+
+
+
+
+
+
+Appendix A
+
+
+
+United States of America
+
+DEPARTMENT OF LABOR
+
+Occupational Safety and Health Administration
+
+
+
+Subpoena Duces Tecum
+
+
+
+TO :
+
+____________________________________________________________________
+
+Pursuant to Section 8(b) of the Occupational Safety and Health Act (29 U.S.C. §657(b)) you are hereby required to appear before
+
+_____________________________________________________________________
+
+of the OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION, UNITED STATES DEPARTMENT OF LABOR, at ________________________________, in the city of _______________________, on the ________ day of _____________, 20____, at ________ o'clock am/pm of that day, to testify regarding the working conditions maintained by _________________________________________________________
+
+And you are hereby required to bring with you and produce at said time and place the following books, papers, and documents, including information stored electronically:
+
+____________________________________________________________________
+
+
+
+
+
+FAIL NOT AT YOUR PERIL
+
+IN TESTIMONY WHEREOF I have hereunto affixed my signature and the seal of the UNITED STATES DEPARTMENT OF LABOR at (Insert Location) this _________ day of _________ (insert month and year).
+
+______________________________________
+
+(Insert name of Regional Administrator), Occupational Safety and Health Administration, United States Department of Labor
+
+
+
+
+
+
+
+RETURN OF SERVICE
+
+I hereby certify that a duplicate original of the attached subpoena was duly served as follows:
+
+in person_____
+
+by certified mail_____:
+
+(Indicate by check method used.)
+
+_______________________
+
+_______________________
+
+_______________________
+
+_______________________
+
+on the person named herein on ______________________________________
+
+(Month, day, year)
+
+______________________________________
+
+(Name of person making service)
+
+______________________________________
+
+(Official title)
+
+I certify that a person named herein was in attendance as a witness at ______________________________________
+
+on____________________________________
+
+(Month, day, year)
+
+______________________________________
+
+(Name of person certifying)
+
+______________________________________
+
+(Official title)
+
+
+
+
+
+
+
+
+
+Appendix B
+
+
+
+United States of America
+
+DEPARTMENT OF LABOR
+
+Occupational Safety and Health Administration
+
+
+
+Subpoena Ad Testificandum
+
+TO :
+
+____________________________________________________________________
+
+Pursuant to Section 8(b) of the Occupational Safety and Health Act (29 U.S.C. §657(b)) you are hereby required to appear before
+
+_____________________________________________________________________ of the OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION, UNITED STATES DEPARTMENT OF LABOR, at ________________________________, in the city of _______________________, on the ________ day of _____________, 20____, at ________ o'clock am/pm of that day, to testify regarding the working conditions maintained by _________________________________________________________
+
+_____________________________________________________________________
+
+_____________________________________________________________________
+
+
+
+
+
+FAIL NOT AT YOUR PERIL
+
+IN TESTIMONY WHEREOF I have hereunto affixed my signature and the seal of the UNITED STATES DEPARTMENT OF LABOR at (Insert Location) this _________ day of _________ (insert month and year).
+
+______________________________________
+
+(Insert name of Regional Administrator), Occupational Safety and Health Administration, United States Department of Labor
+
+
+
+
+
+
+
+
+
+RETURN OF SERVICE
+
+I hereby certify that a duplicate original of the attached subpoena was duly served as follows:
+
+in person_____
+
+by certified mail_____:
+
+(Indicate by check method used.)
+
+_______________________
+
+_______________________
+
+_______________________
+
+_______________________
+
+on the person named herein on ______________________________________
+
+(Month, day, year)
+
+______________________________________
+
+(Name of person making service)
+
+______________________________________
+
+(Official title)
+
+I certify that a person named herein was in attendance as a witness at ______________________________________
+
+on____________________________________
+
+(Month, day, year)
+
+______________________________________
+
+(Name of person certifying)
+
+______________________________________
+
+(Official title)
