@@ -1,5 +1,6 @@
 from src.config import settings
 from src.rag.discover import discover
+from src.rag.generate import generate
 from src.services.logger import log_query
 
 settings.validate()
@@ -21,8 +22,17 @@ def print_results(results: list):
     print(f"\n{'─' * 60}")
 
 
+def print_answer(result: dict):
+    print(f"\n{'═' * 60}")
+    print("  GENERATED ANSWER")
+    print(f"{'═' * 60}")
+    print(result["answer"])
+    print(f"\n  Locked sections: {', '.join(result['locked_section_ids'])}")
+    print(f"{'═' * 60}\n")
+
+
 def main():
-    print("\n=== OSHA AI Agent (discover test) ===")
+    print("\n=== OSHA AI Agent ===")
     print("Type 'quit' to exit\n")
 
     while True:
@@ -58,13 +68,43 @@ def main():
 
         print_results(result["results"])
 
+        # Ask user to lock sections for generation
+        print("Enter section number(s) to lock for a detailed answer (e.g. 1 or 1,2,3)")
+        print("Press Enter to skip generation.")
+        lock_input = input("Lock: ").strip()
+
+        locked_sections = []
+        generation_invoked = False
+
+        if lock_input:
+            indices = []
+            for part in lock_input.split(","):
+                part = part.strip()
+                if part.isdigit() and 1 <= int(part) <= len(result["results"]):
+                    indices.append(int(part) - 1)
+
+            if not indices:
+                print("Invalid selection. Skipping generation.\n")
+            else:
+                locked_sections = [result["results"][i] for i in indices]
+                locked_ids = [s["section_id"] for s in locked_sections]
+                print(f"\nLocked: {', '.join(locked_ids)}")
+                print("Generating answer...\n")
+
+                try:
+                    gen_result = generate(query, locked_sections)
+                    print_answer(gen_result)
+                    generation_invoked = True
+                except Exception as e:
+                    print(f"Generation failed: {e}\n")
+
         log_query(
             client_id=CLIENT_ID,
             agent_id=AGENT_ID,
             query=query,
             returned_section_ids=[r["section_id"] for r in result["results"]],
-            locked_section_ids=None,
-            generation_invoked=False,
+            locked_section_ids=[s["section_id"] for s in locked_sections] if locked_sections else None,
+            generation_invoked=generation_invoked,
         )
 
 

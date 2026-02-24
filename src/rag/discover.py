@@ -88,12 +88,13 @@ def _load_index() -> tuple[BM25Okapi, list[dict]]:
                 section_id = item.get("section", "")
                 title      = item.get("title", "")
                 docs.append({
-                    "section_id": section_id,
-                    "source":     item.get("source", filename),
-                    "title":      title,
-                    "path":       item.get("path", ""),
-                    "local_path": "",
-                    "text":       f"{section_id} {title} {content}",
+                    "section_id":  section_id,
+                    "source":      item.get("source", filename),
+                    "title":       title,
+                    "path":        item.get("path", ""),
+                    "local_path":  "",
+                    "raw_content": content,
+                    "text":        f"{section_id} {title} {content}",
                 })
 
         elif isinstance(raw, dict):
@@ -102,12 +103,13 @@ def _load_index() -> tuple[BM25Okapi, list[dict]]:
                     continue
                 section_id = "OSH-Act-" + re.sub(r"[^a-zA-Z0-9]+", "-", section_name).strip("-")
                 docs.append({
-                    "section_id": section_id,
-                    "source":     "Occupational Safety and Health Act",
-                    "title":      section_name,
-                    "path":       section_name,
-                    "local_path": "",
-                    "text":       text,
+                    "section_id":  section_id,
+                    "source":      "Occupational Safety and Health Act",
+                    "title":       section_name,
+                    "path":        section_name,
+                    "local_path":  "",
+                    "raw_content": text,
+                    "text":        f"{section_id} {section_name} Occupational Safety and Health Act OSH Act {text}",
                 })
 
     if not docs:
