@@ -69,7 +69,6 @@ def _load_index() -> tuple[BM25Okapi, list[dict]]:
                     "local_path":  "",
                     "raw_content": content,
                 })
-                # prefix built on-the-fly for BM25 boost, never stored
                 tokenised.append(_tokenise(f"{section_id} {title} {content}"))
 
         elif isinstance(raw, dict):

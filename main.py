@@ -24,12 +24,18 @@ def print_results(results: list):
 
 
 def print_answer(result: dict):
+    a = result["answer"]
     print(f"\n{'═' * 60}")
     print("  GENERATED ANSWER")
     print(f"{'═' * 60}")
-    print(result["answer"])
+    print(a.get("answer", ""))
+    print(f"\n  Confidence : {a.get('confidence_score', '?')} — {a.get('confidence', '')}")
+    print(f"  Verbatim   : {a.get('verbatim_score', '?')}")
+    if a.get("verbatim_quotes"):
+        print(f"  Quotes     : {a['verbatim_quotes']}")
     print(f"\n  Locked sections: {', '.join(result['locked_section_ids'])}")
     print(f"{'═' * 60}\n")
+
 
 
 def main():
@@ -70,7 +76,7 @@ def main():
 
         print_results(result["results"])
 
-        # Ask user to lock sections for generation
+        # lock sections for generation
         print("Enter section number(s) to lock for a detailed answer (e.g. 1 or 1,2,3)")
         print("Press Enter to skip generation.")
         lock_input = input("Lock: ").strip()

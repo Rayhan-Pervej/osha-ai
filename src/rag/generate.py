@@ -25,7 +25,6 @@ def generate(query: str, locked_sections: list[dict]) -> dict:
         "generation_invoked": True,
     }
 
-
 def _build_context(locked_sections: list[dict], query: str) -> str:
     parts = []
     for s in locked_sections:

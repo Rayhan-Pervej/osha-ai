@@ -9,6 +9,10 @@ logger = logging.getLogger(__name__)
 
 
 def invoke(system_prompt: str, user_message: str) -> str:
+    messages = [
+        {"role": "user", "content": user_message},
+        {"role": "assistant", "content": "{"},
+    ]
     client = get_bedrock_client()
 
     try:
@@ -21,11 +25,16 @@ def invoke(system_prompt: str, user_message: str) -> str:
                 "max_tokens": settings.BEDROCK_MAX_TOKENS,
                 "temperature": settings.BEDROCK_TEMPERATURE,
                 "system": system_prompt,
-                "messages": [{"role": "user", "content": user_message}],
+                "messages": messages,
             }),
         )
         body = json.loads(response["body"].read())
-        return body["content"][0]["text"]
+        raw_text = "{" + body['content'][0]['text'] 
+        try:
+            return json.loads(raw_text)
+        except json.JSONDecodeError:
+            logger.warning("LLM returned invalid JSON despite prefill")
+            return {"answer": raw_text, "sections_cited": [], "verbatim_quotes": [], "confidence_score": 0.0}
     except Exception as e:
         logger.error(f"Bedrock invoke failed: {e}")
         raise OshaGenerationError(str(e)) from e
