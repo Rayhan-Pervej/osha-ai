@@ -42,6 +42,7 @@ def main():
     print("\n=== OSHA AI Agent ===")
     print("Type 'quit' to exit\n")
 
+    history = []
     while True:
         query = input("Your query: ").strip()
         if query.lower() in ("quit", "exit", "q"):
@@ -100,9 +101,10 @@ def main():
                 print("Generating answer...\n")
 
                 try:
-                    gen_result = generate(query, locked_sections)
+                    gen_result = generate(query, locked_sections, history=history)
                     print_answer(gen_result)
                     generation_invoked = True
+                    history = gen_result.get("history", history)
                 except Exception as e:
                     print(f"Generation failed: {e}\n")
 

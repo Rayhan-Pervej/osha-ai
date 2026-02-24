@@ -8,8 +8,8 @@ from src.services.aws import get_bedrock_client
 logger = logging.getLogger(__name__)
 
 
-def invoke(system_prompt: str, user_message: str) -> str:
-    messages = [
+def invoke(system_prompt: str, user_message: str, history: list[dict] | None = None) -> str:
+    messages = (history or []) + [
         {"role": "user", "content": user_message},
         {"role": "assistant", "content": "{"},
     ]
