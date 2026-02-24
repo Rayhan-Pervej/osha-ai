@@ -2,6 +2,7 @@ import json
 import logging
 import boto3
 from src.config import settings
+from src.rag.discover import get_raw_content
 from src.rag.utils.extract_relevant_texts import extract_relevant_window
 
 logger = logging.getLogger(__name__)
@@ -75,26 +76,36 @@ def generate(query: str, locked_sections: list[dict]) -> dict:
 
 
 def _build_context(locked_sections: list[dict], query: str) -> str:
-    """Assemble context from locked sections, extracting only the relevant window from each."""
+    """Assemble context from locked sections.
+
+    For .txt sections (FOM): re-reads from local_path on disk.
+    For JSON sections (CFR/OSH Act): looks up raw_content from shared _docs index
+    by section_id — no duplication, no raw_content carried in results dict.
+    """
     parts = []
     for s in locked_sections:
+        section_id = s.get("section_id", "")
         local_path = s.get("local_path", "")
-        raw_content = s.get("raw_content", "")
+
         if local_path:
+            # .txt file — read from disk, extract relevant 10k window
             try:
                 with open(local_path, encoding="utf-8") as f:
                     text = f.read()
                 excerpt = extract_relevant_window(text, query, max_chars=10000)
             except Exception as e:
                 logger.warning(f"Could not read file {local_path}: {e}")
-                excerpt = raw_content or s.get("excerpt", "")
-        elif raw_content:
-            excerpt = extract_relevant_window(raw_content, query, max_chars=10000)
+                # fallback: lookup from index
+                raw = get_raw_content(section_id)
+                excerpt = extract_relevant_window(raw, query, max_chars=10000) if raw else s.get("excerpt", "")
         else:
-            excerpt = s.get("excerpt", "")
+            # JSON section — lookup clean raw_content from shared _docs by section_id
+            # only fetched now, at generation time, only for locked sections
+            raw = get_raw_content(section_id)
+            excerpt = extract_relevant_window(raw, query, max_chars=10000) if raw else s.get("excerpt", "")
 
         parts.append(
-            f"[Section: {s.get('section_id', 'unknown')}]\n"
+            f"[Section: {section_id}]\n"
             f"Source: {s.get('source', '')}\n"
             f"Title: {s.get('title', '')}\n"
             f"Path: {s.get('path', '')}\n"
