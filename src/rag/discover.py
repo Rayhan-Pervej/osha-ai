@@ -1,11 +1,10 @@
-import json
 import logging
-import os
 import re
-from rank_bm25 import BM25Okapi
+
 from src.config import settings
-from src.rag.utils.extract_relevant_texts import extract_relevant_window
-from src.rag.utils.text import _STOP_WORDS
+from src.exceptions.errors import OshaNoResultsError
+from src.retrieval.bm25 import get_index, _tokenise
+from src.utils.extract_relevant_texts import extract_relevant_window
 
 logger = logging.getLogger(__name__)
 
@@ -24,118 +23,6 @@ REGULATORY_PARTS = {
     "FOM":  "OSHA Field Operations Manual",
     "OSH":  "Occupational Safety and Health Act",
 }
-
-_index: BM25Okapi | None = None
-_docs: list[dict] | None = None
-
-
-def _tokenise(text: str, strip_stops: bool = False) -> list[str]:
-    """Split text into lowercase alphanumeric tokens for BM25 scoring."""
-    tokens = re.findall(r"[a-z0-9]+(?:\.[0-9]+)*", text.lower())
-    if strip_stops:
-        tokens = [t for t in tokens if t not in _STOP_WORDS]
-    return tokens
-
-
-def _load_index() -> tuple[BM25Okapi, list[dict]]:
-    """Read all .txt and .json files from docs_dir and build an in-memory BM25 index (runs once)."""
-    docs_dir = settings.DOCS_DIR
-    docs = []
-    tokenised = []
-
-    # --- .txt files (FOM chapters) ---
-    text_files = sorted(f for f in os.listdir(docs_dir) if f.endswith('.txt'))
-    logger.info(f"BM25 index: Found {len(text_files)} .txt files in {docs_dir}")
-
-    for filename in text_files:
-        filepath = os.path.join(docs_dir, filename)
-        with open(filepath, encoding='utf-8') as f:
-            body = f.read()
-
-        section_id = filename.replace(".txt", "")
-        docs.append({
-            "section_id":  section_id,
-            "source":      filename,
-            "title":       section_id,
-            "path":        filepath,
-            "local_path":  filepath,
-            "raw_content": body,
-        })
-        # BM25: plain body — no prefix needed, filename is already the section_id
-        tokenised.append(_tokenise(body))
-
-    # --- .json files (CFR + OSH Act) ---
-    json_files = sorted(f for f in os.listdir(docs_dir) if f.endswith('.json'))
-    logger.info(f"BM25 index: found {len(json_files)} .json files in {docs_dir}")
-
-    for filename in json_files:
-        filepath = os.path.join(docs_dir, filename)
-        with open(filepath, encoding='utf-8') as f:
-            raw = json.load(f)
-
-        if isinstance(raw, list):
-            for item in raw:
-                content = item.get("content", "").strip()
-                if not content:
-                    continue
-                section_id = item.get("section", "")
-                title      = item.get("title", "")
-                docs.append({
-                    "section_id":  section_id,
-                    "source":      item.get("source", filename),
-                    "title":       title,
-                    "path":        item.get("path", ""),
-                    "local_path":  "",
-                    "raw_content": content,
-                })
-                # BM25: prefix with section_id + title to boost keyword matching
-                # built on-the-fly, never stored — saves ~40MB RAM
-                tokenised.append(_tokenise(f"{section_id} {title} {content}"))
-
-        elif isinstance(raw, dict):
-            for section_name, text in raw.items():
-                if not isinstance(text, str) or not text.strip():
-                    continue
-                section_id = "OSH-Act-" + re.sub(r"[^a-zA-Z0-9]+", "-", section_name).strip("-")
-                docs.append({
-                    "section_id":  section_id,
-                    "source":      "Occupational Safety and Health Act",
-                    "title":       section_name,
-                    "path":        section_name,
-                    "local_path":  "",
-                    "raw_content": text,
-                })
-                # BM25: prefix with section_id + section_name + source keywords
-                # built on-the-fly, never stored — saves ~40MB RAM
-                tokenised.append(_tokenise(
-                    f"{section_id} {section_name} Occupational Safety and Health Act OSH Act {text}"
-                ))
-
-    if not docs:
-        raise RuntimeError(f"No documents found in {docs_dir}.")
-
-    index = BM25Okapi(tokenised)
-    logger.info(f"BM25 index built with {len(docs)} documents.")
-    return index, docs
-
-
-def _ensure_index():
-    global _index, _docs
-    if _index is None:
-        _index, _docs = _load_index()
-
-
-def get_raw_content(section_id: str) -> str:
-    """Look up clean raw content for a section_id from the shared in-memory index.
-
-    Used by generate.py at generation time — only called for locked sections,
-    never for all results. No duplication across requests.
-    """
-    _ensure_index()
-    for doc in _docs:
-        if doc["section_id"] == section_id:
-            return doc["raw_content"]
-    return ""
 
 
 def _detect_ambiguity(results: list) -> dict | None:
@@ -183,7 +70,7 @@ def _score_label(score: float) -> str:
 
 def discover(query: str, part_filter: str | None = None) -> dict:
     """Run a BM25 keyword search and return ranked results with optional part filtering."""
-    _ensure_index()
+    _index, _docs = get_index()
 
     top_k     = settings.BEDROCK_RETRIEVAL_TOP_K
     min_score = settings.BEDROCK_RETRIEVAL_MIN_SCORE
@@ -203,6 +90,9 @@ def discover(query: str, part_filter: str | None = None) -> dict:
 
     scored.sort(key=lambda x: x[0], reverse=True)
     scored = scored[:top_k]
+
+    if not scored:
+        raise OshaNoResultsError(f"No results found for query: {query!r}")
 
     results = []
     for score, doc in scored:

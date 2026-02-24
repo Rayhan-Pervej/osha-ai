@@ -1,4 +1,5 @@
 from src.config import settings
+from src.exceptions.errors import OshaNoResultsError
 from src.rag.discover import discover
 from src.rag.generate import generate
 from src.services.logger import log_query
@@ -44,9 +45,9 @@ def main():
             continue
 
         print("\nSearching knowledge base...")
-        result = discover(query)
-
-        if not result["results"]:
+        try:
+            result = discover(query)
+        except OshaNoResultsError:
             print("No results found.\n")
             continue
 
@@ -61,8 +62,9 @@ def main():
                 print("Invalid choice.\n")
                 continue
             part = parts[int(choice) - 1]
-            result = discover(query, part_filter=part)
-            if not result["results"]:
+            try:
+                result = discover(query, part_filter=part)
+            except OshaNoResultsError:
                 print("No results found for that part.\n")
                 continue
 

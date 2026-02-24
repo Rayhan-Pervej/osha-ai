@@ -1,18 +1,10 @@
 import logging
+import uuid
 from datetime import datetime, timezone
 from src.config import settings
-
-import boto3, uuid
+from src.services.aws import get_dynamodb_client
 
 logger = logging.getLogger(__name__)
-
-def get_client():
-    return boto3.client(
-        'dynamodb',
-        region_name = settings.DYNAMODB_REGION,
-        aws_access_key_id = settings.AWS_ACCESS_KEY_ID,
-        aws_secret_access_key = settings.AWS_SECRET_ACCESS_KEY,
-    )
 
 def log_query(
         client_id: str,
@@ -37,7 +29,7 @@ def log_query(
     }
 
     try:
-        client = get_client()
+        client = get_dynamodb_client()
         client.put_item(TableName=settings.DYNAMODB_TABLE_NAME, Item= item)
         logging.info(f"Query logged: {query_id}")
     except Exception as e:

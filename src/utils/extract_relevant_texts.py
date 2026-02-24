@@ -1,5 +1,5 @@
 import re
-from src.rag.utils.text import _STOP_WORDS
+from src.utils.text import _STOP_WORDS
 
 
 def extract_relevant_window(text: str, query: str, max_chars: int = 500) -> str:
