@@ -30,7 +30,7 @@ def log_query(
 
     try:
         client = get_dynamodb_client()
-        client.put_item(TableName=settings.DYNAMODB_TABLE_NAME, Item= item)
+        client.put_item(TableName=settings.DYNAMODB_TABLE_QUERY_LOGS, Item=item)
         logging.info(f"Query logged: {query_id}")
     except Exception as e:
         logger.debug(f"DynamoDB log skipped: {e}")

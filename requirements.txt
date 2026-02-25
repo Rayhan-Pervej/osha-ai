@@ -1,11 +1,21 @@
 # Environment
-python-dotenv==1.0.1
+python-dotenv==1.2.1
 
 # AWS SDK
-boto3==1.34.34
+boto3==1.42.56
 
 # BM25 keyword search
 rank-bm25==0.2.2
 
+# API
+flask==3.1.3
+gunicorn==25.1.0
+
+# Request / response validation
+marshmallow==4.2.2
+
+# Rate limiting
+redis==7.2.0
+
 # Logging
-loguru==0.7.2
+loguru==0.7.3
