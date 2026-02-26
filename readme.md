@@ -15,9 +15,8 @@ Under the hood it runs BM25 (a search algorithm used in production search engine
 ## Requirements
 
 - Python 3.11+
-- AWS credentials configured (`~/.aws/credentials` or environment variables)
-- AWS Bedrock access with Claude enabled in your region
-- DynamoDB tables (created by setup script)
+- Docker (for Redis and DynamoDB Local)
+- AWS credentials with Bedrock access (Claude runs on AWS)
 
 ---
 
@@ -54,21 +53,32 @@ API_CORS_ORIGINS=["http://localhost:3000","http://localhost:5173","http://localh
 
 Everything else has a working default in `.env.example`.
 
-**3. Create DynamoDB tables**
+**3. Start local services (Redis + DynamoDB)**
+
+Both run locally via Docker:
+
+```bash
+docker run -d -p 6379:6379 redis:alpine
+docker run -d -p 8000:8000 amazon/dynamodb-local
+```
+
+Only needs to run once per machine restart.
+
+**4. Create DynamoDB tables**
 
 ```bash
 python setup_tables.py
 ```
 
-This creates the tables for API keys and query logs. Only needs to run once.
+Creates the tables in your local DynamoDB. Only needs to run once.
 
-**4. Start the API server**
+**5. Start the API server**
 
 ```bash
 python run.py
 ```
 
-**5. Create an API key**
+**6. Create an API key**
 
 ```bash
 curl -X POST http://localhost:5000/keys \
