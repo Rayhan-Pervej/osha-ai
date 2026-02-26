@@ -42,17 +42,22 @@ cp .env.example .env
 Edit `.env`:
 
 ```
+AWS_ACCESS_KEY_ID=your-aws-access-key
+AWS_SECRET_ACCESS_KEY=your-aws-secret-key
 AWS_REGION=us-east-1
+
 BEDROCK_MODEL_ID=us.anthropic.claude-sonnet-4-5-20250929-v1:0
-DYNAMODB_TABLE_PREFIX=osha_ai
-API_KEY_SECRET=your-secret-key-here
-API_CORS_ORIGINS=["http://localhost:8501"]
+
+ADMIN_API_KEY=local-admin-key-change-in-prod
+API_CORS_ORIGINS=["http://localhost:3000","http://localhost:5173","http://localhost:8501"]
 ```
+
+Everything else has a working default in `.env.example`.
 
 **3. Create DynamoDB tables**
 
 ```bash
-python scripts/setup_tables.py
+python setup_tables.py
 ```
 
 This creates the tables for API keys and query logs. Only needs to run once.
@@ -68,15 +73,17 @@ python run.py
 ```bash
 curl -X POST http://localhost:5000/keys \
   -H "Content-Type: application/json" \
+  -H "X-Admin-Key: local-admin-key-change-in-prod" \
   -d '{"client_id": "demo_client", "agent_id": "demo_agent"}'
 ```
 
-Copy the `api_key` from the response — you'll need it for the UI.
+Copy the `embed_key` from the response — you'll need it for the UI.
 
 On Windows PowerShell:
 
 ```powershell
 Invoke-RestMethod -Uri "http://localhost:5000/keys" -Method POST `
+  -Headers @{"X-Admin-Key" = "local-admin-key-change-in-prod"} `
   -ContentType "application/json" `
   -Body '{"client_id": "demo_client", "agent_id": "demo_agent"}'
 ```
@@ -152,7 +159,7 @@ osha-ai/
 
 ## Troubleshooting
 
-**"ResourceNotFoundException" on startup** — run `python scripts/setup_tables.py` to create the DynamoDB tables.
+**"ResourceNotFoundException" on startup** — run `python setup_tables.py` to create the DynamoDB tables.
 
 **"Unable to connect to API"** — make sure the Flask server is running on port 5000 before opening the UI.
 
