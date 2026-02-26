@@ -5,10 +5,10 @@ from src.api.middleware.rate_limit import rate_limit
 from src.api.schemas.requests import GenerateSchema
 from src.api.schemas.responses import success, error, validation_error
 from src.rag.generate import generate
-from src.rag.discover import discover
+from src.retrieval.bm25 import get_section_metadata
 from src.services.logger import log_query
 from src.services.session import get_session, save_session, create_session
-from src.exceptions.errors import OshaNoResultsError, OshaGenerationError
+from src.exceptions.errors import OshaDocumentNotFoundError, OshaGenerationError
 
 generate_bp = Blueprint("generate", __name__)
 _schema = GenerateSchema()
@@ -39,14 +39,13 @@ def generate_route():
         session_id = create_session(client_id, agent_id)
         history = []
 
-    # fetch locked sections
-    try:
-        discover_result = discover(query, part_filter=None)
-    except OshaNoResultsError:
-        return error("no_results", f"No results found for query: '{query}'", 404)
-
-    all_sections = discover_result["results"]
-    locked_sections = [s for s in all_sections if s["section_id"] in section_ids]
+    # fetch locked sections directly by section_id (no BM25 re-scoring)
+    locked_sections = []
+    for sid in section_ids:
+        try:
+            locked_sections.append(get_section_metadata(sid))
+        except OshaDocumentNotFoundError:
+            pass
 
     if not locked_sections:
         return error("sections_not_found", "None of the provided section_ids were found", 404)

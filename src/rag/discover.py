@@ -91,6 +91,15 @@ def discover(query: str, part_filter: str | None = None) -> dict:
     scored.sort(key=lambda x: x[0], reverse=True)
     scored = scored[:top_k]
 
+    # deduplicate: keep best chunk per section_id
+    seen = {}
+    for score, doc in scored:
+        sid = doc["section_id"]
+        if sid not in seen or score > seen[sid][0]:
+            seen[sid] = (score, doc)
+    scored = list(seen.values())
+    scored.sort(key=lambda x: x[0], reverse=True)
+
     if not scored:
         raise OshaNoResultsError(f"No results found for query: {query!r}")
 

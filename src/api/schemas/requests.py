@@ -1,16 +1,16 @@
 from marshmallow import Schema, fields, validate
 
 class DiscoverSchema(Schema):
-    query = fields.Str(required=True, validate=validate.Length(min=1))
-    client_id = fields.Str(required= True)
+    query = fields.Str(required=True, validate=validate.Length(min=1, max=2000))
+    client_id = fields.Str(required=True)
     agent_id = fields.Str(required=True)
     part_filter = fields.Str(load_default=None)
 
 
 class GenerateSchema(Schema):
-    query = fields.Str(required=True, validate=validate.Length(min=1))
-    section_ids = fields.List(fields.Str(), required=True, validate=validate.Length(min=1))
-    client_id = fields.Str(required= True)
+    query = fields.Str(required=True, validate=validate.Length(min=1, max=2000))
+    section_ids = fields.List(fields.Str(), required=True, validate=validate.Length(min=1, max=5))
+    client_id = fields.Str(required=True)
     agent_id = fields.Str(required=True)
     session_id = fields.Str(load_default=None)
 
@@ -22,4 +22,4 @@ class CreateKeySchema(Schema):
 
 class RotateKeySchema(Schema):
     client_id = fields.Str(required=True)
-    client_id = fields.Str(required=True)
+    agent_id = fields.Str(required=True)
