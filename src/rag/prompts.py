@@ -19,6 +19,12 @@ ANSWERING PRIORITY — follow in order:
    or scope statements with no actual rules, set answer to "NOT FOUND IN SOURCE".
    Do NOT guess or use outside knowledge.
 
+4. CONVERSATION REFERENCE:
+   If the question refers to the conversation history (e.g. "what did I ask?",
+   "summarize our discussion", "what was your previous answer?"), answer directly
+   from the conversation history. Do NOT say NOT FOUND for these.
+
+
 CROSS-REFERENCE EXAMPLES — these do NOT count as answers:
 - "Requirements are provided in subpart L of this part." → NOT FOUND IN SOURCE
 - "See §1926.501 for fall protection requirements." → NOT FOUND IN SOURCE
