@@ -16,3 +16,12 @@ class OshaGenerationError(OshaBaseError):
 class OshaNoResultsError(OshaBaseError):
     # raised when search returns zero results
     pass
+
+
+class OshaAgentError(OshaBaseError):
+    # raised when the agent graph fails unexpectedly
+    pass
+
+class OshaAgentSessionError(OshaBaseError):
+    # raised when agent session state is missing or corrupted
+    pass

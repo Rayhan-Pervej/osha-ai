@@ -3,7 +3,7 @@ import re
 from src.exceptions.errors import OshaDocumentNotFoundError
 from src.llm import bedrock
 from src.rag.prompts import SYSTEM_PROMPT
-from src.retrieval.bm25 import get_top_chunks
+from src.retrieval.bm25 import get_top_chunks, get_raw_content
 
 # ~14 000 chars ≈ 4 000 tokens of regulatory text
 _MAX_CONTEXT_CHARS = 14000
@@ -34,12 +34,16 @@ def generate(query: str, locked_sections: list[dict], history: list[dict] | None
 
 
 def _build_context(locked_sections: list[dict], query: str) -> tuple[str, str]:
-    """Build context string and return raw_content for score verification."""
+    """Build context string and return full section text for score verification.
+
+    Context sent to LLM uses BM25-selected top chunks (budget-limited).
+    Score verification uses the full section text so quotes from any chunk pass.
+    """
     n = len(locked_sections)
     budget_per_section = _MAX_CONTEXT_CHARS // n
 
     parts = []
-    raw_parts = []
+    full_text_parts = []
     for s in locked_sections:
         section_id = s.get("section_id", "")
 
@@ -48,7 +52,12 @@ def _build_context(locked_sections: list[dict], query: str) -> tuple[str, str]:
         except OshaDocumentNotFoundError:
             raw = s.get("excerpt", "")
 
-        raw_parts.append(raw)
+        try:
+            full_text = get_raw_content(section_id)
+        except OshaDocumentNotFoundError:
+            full_text = raw
+
+        full_text_parts.append(full_text)
         parts.append(
             f"[Section: {section_id}]\n"
             f"Source: {s.get('source', '')}\n"
@@ -57,7 +66,7 @@ def _build_context(locked_sections: list[dict], query: str) -> tuple[str, str]:
             f"Text:\n{raw}"
         )
 
-    return "\n\n---\n\n".join(parts), "\n\n".join(raw_parts)
+    return "\n\n---\n\n".join(parts), "\n\n".join(full_text_parts)
 
 
 def _calculate_display_score(answer: dict, raw_content: str) -> dict:

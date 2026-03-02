@@ -8,6 +8,7 @@ from src.api.blueprints.discover import discover_bp
 from src.api.blueprints.generate import generate_bp
 from src.api.blueprints.keys import keys_bp
 from src.api.blueprints.logs import logs_bp
+from src.api.blueprints.chat import chat_bp
 
 def create_app():
     app = Flask(__name__)
@@ -20,6 +21,7 @@ def create_app():
     app.register_blueprint(generate_bp)
     app.register_blueprint(keys_bp)
     app.register_blueprint(logs_bp)
+    app.register_blueprint(chat_bp)
 
     register_error_handlers(app)
 
