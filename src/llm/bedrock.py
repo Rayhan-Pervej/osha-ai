@@ -15,6 +15,12 @@ def invoke(system_prompt: str, user_message: str, history: list[dict] | None = N
     ]
     client = get_bedrock_client()
 
+    logger.debug("[BEDROCK] Model: %s | max_tokens: %s | temperature: %s",
+                 settings.BEDROCK_MODEL_ID, settings.BEDROCK_MAX_TOKENS, settings.BEDROCK_TEMPERATURE)
+    logger.debug("[BEDROCK] System prompt length: %d chars", len(system_prompt))
+    logger.debug("[BEDROCK] User message length: %d chars", len(user_message))
+    logger.debug("[BEDROCK] History messages: %d", len(history or []))
+
     try:
         response = client.invoke_model(
             modelId=settings.BEDROCK_MODEL_ID,
@@ -29,7 +35,12 @@ def invoke(system_prompt: str, user_message: str, history: list[dict] | None = N
             }),
         )
         body = json.loads(response["body"].read())
-        raw_text = "{" + body['content'][0]['text'] 
+        logger.debug("[BEDROCK] Response stop_reason: %s | input_tokens: %s | output_tokens: %s",
+                     body.get("stop_reason"),
+                     body.get("usage", {}).get("input_tokens"),
+                     body.get("usage", {}).get("output_tokens"))
+        raw_text = "{" + body['content'][0]['text']
+        logger.debug("[BEDROCK] Raw response (first 300 chars): %s", raw_text[:300])
         try:
             return json.loads(raw_text)
         except json.JSONDecodeError:

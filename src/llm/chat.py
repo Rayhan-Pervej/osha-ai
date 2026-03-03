@@ -31,7 +31,19 @@ def llm_json(system_prompt: str, usr_prompt: str) -> dict:
         text = text.strip()
 
     try:
-        return json.loads(text)
+        parsed = json.loads(text)
+        if not isinstance(parsed, dict):
+            logger.warning("LLM returned non-dict JSON: %s", type(parsed))
+            return {}
+        return parsed
     except json.JSONDecodeError:
-        logger.warning("LLM returned invalid JSON: %s", response.content)
+        logger.warning("LLM returned invalid JSON: %.500s", response.content)
+        # Try to extract JSON from within the response text
+        start = text.find("{")
+        end = text.rfind("}") + 1
+        if start >= 0 and end > start:
+            try:
+                return json.loads(text[start:end])
+            except json.JSONDecodeError:
+                pass
         return {}

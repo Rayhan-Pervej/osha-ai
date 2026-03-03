@@ -4,8 +4,6 @@ from flask_cors import CORS
 from src.config import settings
 from src.api.schemas.responses import register_error_handlers
 from src.api.blueprints.health import health_bp
-from src.api.blueprints.discover import discover_bp
-from src.api.blueprints.generate import generate_bp
 from src.api.blueprints.keys import keys_bp
 from src.api.blueprints.logs import logs_bp
 from src.api.blueprints.chat import chat_bp
@@ -17,8 +15,6 @@ def create_app():
     CORS(app, origins=cors_origins)
 
     app.register_blueprint(health_bp)
-    app.register_blueprint(discover_bp)
-    app.register_blueprint(generate_bp)
     app.register_blueprint(keys_bp)
     app.register_blueprint(logs_bp)
     app.register_blueprint(chat_bp)

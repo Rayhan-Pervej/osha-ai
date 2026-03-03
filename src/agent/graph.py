@@ -1,39 +1,138 @@
+"""OSHA AI Agent — tool-calling ReAct agent built with LangGraph.
+
+Architecture:
+  - Two nodes: "agent" (LLM) and "tools" (ToolNode)
+  - The LLM decides when to call tools, when to talk to the user, and when to stop
+  - Two tools: search_regulations, generate_answer
+  - Session persistence via MemorySaver checkpointer keyed by thread_id
+"""
+
+import logging
+
 from langgraph.graph import StateGraph, START, END
+from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
+from langchain_aws import ChatBedrockConverse
 
 from src.agent.state import AgentState
-from src.agent.nodes.understand_intent import understand_intent
-from src.agent.nodes.ask_user import ask_user
-from src.agent.nodes.search_regulations import search_regulations
-from src.agent.nodes.suggest_sections import suggest_sections
-from src.agent.nodes.pick_or_chat import pick_or_chat
-from src.agent.nodes.confirm_section import confirm_section
-from src.agent.nodes.generate_answer import generate_answer
+from src.agent.tools import all_tools
+from src.agent.tools.registry import REGULATORY_PARTS
+from src.agent.debug import AgentDebugCallback
+from src.config import settings
+
+logger = logging.getLogger(__name__)
+debug_callback = AgentDebugCallback()
 
 
-def _route(state: AgentState) -> str:
-    return state.get("next_action", "clarify")
+def _build_system_prompt() -> str:
+    parts_list = "\n".join(
+        f"    {k}: {v}"
+        for k, v in REGULATORY_PARTS.items()
+    )
+    return f"""You are an OSHA compliance assistant. You help workers, HR managers, and safety officers find the right OSHA safety regulation and get accurate, source-verified answers.
+
+AVAILABLE REGULATORY DATA:
+
+{parts_list}
+
+YOUR TOOLS:
+
+1. search_regulations(query, part_filter)
+   Keyword search across all OSHA regulations. Returns ranked results with
+   relevance scores and text excerpts. Optionally filter by part number.
+   Use specific keywords for better results. You can call this MULTIPLE TIMES
+   with different queries to find more results.
+   Example: search_regulations("scaffolding fall protection guardrail", part_filter="1926")
+
+2. generate_answer(section_id, query)
+   Generate a detailed, source-verified answer from a specific section.
+   IMPORTANT: Write a DETAILED query capturing the full scope of what the user needs.
+   Good:  "What fall protection is required for each type of scaffold above 10 feet, including personal fall arrest and guardrail requirements?"
+   Bad:   "scaffolding safety"
+
+WORKFLOW:
+
+Step 1 — UNDERSTAND: If the user's request is vague, ask clarifying questions.
+  - What industry? (general industry → 1910, construction → 1926, maritime → 1915)
+  - What specific hazard or task? ("heights" is vague → scaffolding? ladders? roofing?)
+  - Keep it brief: 1 question at a time, maximum 2 clarification rounds.
+  - If you already have enough context, skip straight to Step 2.
+
+Step 2 — SEARCH: Use search_regulations to find relevant sections.
+  - Use specific keywords based on what you learned in Step 1.
+  - If results span multiple parts (1910 AND 1926), ask which industry applies.
+  - You can search again with different keywords if results aren't relevant.
+
+Step 3 — PRESENT: Show the user what you found in plain language.
+  - For each result, explain what the section covers and why it's relevant.
+  - Always ask the user to confirm which section they want to explore.
+  - Never skip this — let the user choose before generating an answer.
+
+Step 4 — ANSWER: Use generate_answer with the confirmed section_id.
+  - Craft a detailed query that captures EVERYTHING the user wants to know.
+  - Present the answer clearly to the user in plain language.
+  - After answering, act as a coach — proactively suggest what to explore next:
+    * If the section references sub-sections (e.g. "(q) Training"), mention them and offer to look them up.
+    * If the user's situation likely has related requirements (e.g. forklift training → also inspection requirements), mention them.
+    * Suggest: "Would you like me to also check [specific related topic]?" — always based on what was in the answer, never guessed.
+  - Keep follow-up suggestions concrete and tied to the user's actual situation.
+
+STRICT RULES — never break these:
+- NEVER state, quote, or summarize any regulation without first calling search_regulations and generate_answer. Your training knowledge of OSHA is NOT reliable — always use tools.
+- NEVER answer a compliance question from memory. If you know the answer from training, you must still verify it through the tools before stating it.
+- ALWAYS present search results and let the user choose a section before calling generate_answer.
+- If generate_answer returns "NOT FOUND IN SOURCE", tell the user plainly: the specific answer was not found in that section. Offer to search a different section — do NOT fill the gap with your own knowledge.
+- If search returns no results, suggest different keywords. Do NOT fall back to answering from memory.
+- Be conversational — many users don't know OSHA jargon. Use plain language.
+- After answering, offer to explore related sections or answer follow-ups."""
 
 
-def build_graph() -> StateGraph:
+AGENT_SYSTEM_PROMPT = _build_system_prompt()
+
+
+def _build_llm():
+    llm = ChatBedrockConverse(
+        model=settings.BEDROCK_MODEL_ID,
+        region_name=settings.AWS_REGION,
+        temperature=settings.BEDROCK_TEMPERATURE,
+        max_tokens=settings.BEDROCK_MAX_TOKENS,
+        system=[{"text": AGENT_SYSTEM_PROMPT}],
+    )
+    return llm.bind_tools(all_tools)
+
+
+_llm_with_tools = _build_llm()
+
+
+def agent(state: AgentState):
+    messages = list(state["messages"])
+
+    logger.debug("[AGENT] Invoking LLM with %d messages", len(messages))
+    response = _llm_with_tools.invoke(messages, config={"callbacks": [debug_callback]})
+    logger.debug("[AGENT] LLM response type: %s", type(response).__name__)
+    return {"messages": [response]}
+
+
+def should_continue(state: AgentState) -> str:
+    """Route to tools if the LLM made tool calls, otherwise end the turn."""
+    last_message = state["messages"][-1]
+    if last_message.tool_calls:
+        return "tools"
+    return END
+
+
+def build_graph():
     builder = StateGraph(AgentState)
 
-    builder.add_node("understand_intent",  understand_intent)
-    builder.add_node("ask_user",           ask_user)
-    builder.add_node("search_regulations", search_regulations)
-    builder.add_node("suggest_sections",   suggest_sections)
-    builder.add_node("pick_or_chat",       pick_or_chat)
-    builder.add_node("confirm_section",    confirm_section)
-    builder.add_node("generate_answer",    generate_answer)
+    builder.add_node("agent", agent)
+    builder.add_node("tools", ToolNode(all_tools))
 
-    builder.add_edge(START, "understand_intent")
-    builder.add_conditional_edges("understand_intent", _route, {
-        "clarify": "ask_user",
-        "search":  "search_regulations",
+    builder.add_edge(START, "agent")
+    builder.add_conditional_edges("agent", should_continue, {
+        "tools": "tools",
+        END: END,
     })
-    builder.add_edge("search_regulations", "suggest_sections")
-    builder.add_edge("confirm_section",    "generate_answer")
-    builder.add_edge("generate_answer",    END)
+    builder.add_edge("tools", "agent")
 
     return builder
 
