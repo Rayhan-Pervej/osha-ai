@@ -6,11 +6,11 @@ from langchain_core.messages import BaseMessage
 logger = logging.getLogger("osha.agent.debug")
 
 
-def _truncate(text: str, max_chars: int = 500) -> str:
-    text = str(text)
+def _truncate(text: str, max_chars: int = 30) -> str:
+    text = str(text).strip().replace("\n", " ")
     if len(text) <= max_chars:
         return text
-    return text[:max_chars] + f"... [{len(text) - max_chars} chars truncated]"
+    return text[:max_chars] + "..."
 
 
 class AgentDebugCallback(BaseCallbackHandler):

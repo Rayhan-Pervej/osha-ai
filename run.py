@@ -22,6 +22,8 @@ if settings.DEBUG:
     logging.getLogger("boto3").setLevel(logging.WARNING)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
     logging.getLogger("httpx").setLevel(logging.WARNING)
+    logging.getLogger("langchain_aws").setLevel(logging.WARNING)
+    logging.getLogger("langchain_core").setLevel(logging.WARNING)
     print("[DEBUG MODE ON] Agent trace logging enabled")
 
 validate()
