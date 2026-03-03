@@ -94,18 +94,29 @@ def discover(query: str, part_filter: str | None = None) -> dict:
     if not scored:
         raise OshaNoResultsError(f"No results found for query: {query!r}")
 
+    # Pre-compute section sizes (total chars across all chunks per section)
+    section_chars = {}
+    section_chunk_count = {}
+    for doc in _docs:
+        sid = doc["section_id"]
+        section_chars[sid] = section_chars.get(sid, 0) + len(doc["raw_content"])
+        section_chunk_count[sid] = section_chunk_count.get(sid, 0) + 1
+
     results = []
     for score, doc in scored:
         score = round(float(score), 4)
+        sid = doc["section_id"]
         results.append({
-            "section_id": doc["section_id"],
-            "source":     doc.get("source", ""),
-            "title":      doc.get("title", ""),
-            "path":       doc.get("path", ""),
-            "local_path": doc.get("local_path", ""),
-            "excerpt":    extract_relevant_window(doc["raw_content"], query, max_chars=500),
-            "score":      score,
-            "relevance":  _score_label(score),
+            "section_id":  sid,
+            "source":      doc.get("source", ""),
+            "title":       doc.get("title", ""),
+            "path":        doc.get("path", ""),
+            "local_path":  doc.get("local_path", ""),
+            "excerpt":     extract_relevant_window(doc["raw_content"], query, max_chars=500),
+            "score":       score,
+            "relevance":   _score_label(score),
+            "total_chars": section_chars.get(sid, 0),
+            "chunk_count": section_chunk_count.get(sid, 0),
         })
 
     if part_filter is None:
@@ -178,9 +189,12 @@ def search_regulations(query: str, part_filter: str | None = None) -> str:
         part = get_cfr_part(r["section_id"]) or ""
         part_label = f" [{REGULATORY_PARTS.get(part, '')}]" if part else ""
         excerpt = r["excerpt"][:500]
+        total_chars = r.get("total_chars", 0)
+        size_note = " [LARGE SECTION — ask user to clarify sub-topic before calling generate_answer]" if total_chars > 40_000 else ""
         lines.append(
-            f"{i}. Section {r['section_id']} — {r.get('title', 'Untitled')}{part_label}\n"
+            f"{i}. Section {r['section_id']} — {r.get('title', 'Untitled')}{part_label}{size_note}\n"
             f"   Relevance: {r['relevance']} ({r['score']:.0%})\n"
+            f"   Section size: {total_chars:,} chars ({r.get('chunk_count', '?')} chunks)\n"
             f"   Excerpt: {excerpt}\n"
         )
 

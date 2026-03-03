@@ -9,6 +9,7 @@ from src.api.middleware.auth import require_api_key
 from src.api.schemas.responses import success, error
 from src.agent.graph import graph
 from src.exceptions.errors import OshaAgentError
+from src.services.session import get_session, save_session, create_session, build_messages
 
 logger = logging.getLogger(__name__)
 chat_bp = Blueprint("chat", __name__)
@@ -23,16 +24,27 @@ def chat_route():
 
     if not query:
         return error("missing_query", "query is required", 400)
+
+    client_id = request.client_id
+    agent_id = request.agent_id
     thread_id = session_id or str(uuid.uuid4())
-    config = {
-        "configurable": {"thread_id": thread_id},
-        "recursion_limit": 10, 
-    }
+
+    logger.debug("[CHAT] thread_id=%s client_id=%s", thread_id, client_id)
+
+    session = get_session(thread_id)
+    if session is None:
+        create_session(thread_id, client_id, agent_id)
+        raw_history = []
+    else:
+        raw_history = session.get("history", [])
+
+    prior_messages = build_messages(raw_history)
+
+    config = {"recursion_limit": 10}
 
     try:
-        # Every turn is just: add user message → invoke graph → get response
         result = graph.invoke(
-            {"messages": [HumanMessage(content=query)]},
+            {"messages": prior_messages + [HumanMessage(content=query)]},
             config=config,
         )
     except GraphRecursionError:
@@ -45,9 +57,14 @@ def chat_route():
         logger.error("Unexpected error in /chat: %s", e)
         return error("internal_error", "An unexpected error occurred", 500)
 
-    # The last message is the agent's response
     last_message = result["messages"][-1]
     response_text = last_message.content
+
+    updated_history = raw_history + [
+        {"role": "user", "content": query},
+        {"role": "assistant", "content": response_text},
+    ]
+    save_session(thread_id, client_id=client_id, agent_id=agent_id, history=updated_history)
 
     return success({
         "type": "message",

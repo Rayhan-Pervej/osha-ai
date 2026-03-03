@@ -49,3 +49,20 @@ def invoke(system_prompt: str, user_message: str, history: list[dict] | None = N
     except Exception as e:
         logger.error(f"Bedrock invoke failed: {e}")
         raise OshaGenerationError(str(e)) from e
+
+
+def invoke_raw(prompt: str) -> str:
+    client = get_bedrock_client()
+    logger.debug("[BEDROCK] invoke_raw prompt length: %d chars", len(prompt))
+    try:
+        response = client.converse(
+            modelId=settings.BEDROCK_MODEL_ID,
+            messages=[{"role": "user", "content": [{"text": prompt}]}],
+            inferenceConfig={"maxTokens": 512, "temperature": 0.0},
+        )
+        result = response["output"]["message"]["content"][0]["text"]
+        logger.debug("[BEDROCK] invoke_raw response length: %d chars", len(result))
+        return result
+    except Exception as e:
+        logger.error("[BEDROCK] invoke_raw failed: %s", e)
+        raise OshaGenerationError(str(e)) from e

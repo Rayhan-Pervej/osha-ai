@@ -1,17 +1,7 @@
-"""OSHA AI Agent — tool-calling ReAct agent built with LangGraph.
-
-Architecture:
-  - Two nodes: "agent" (LLM) and "tools" (ToolNode)
-  - The LLM decides when to call tools, when to talk to the user, and when to stop
-  - Two tools: search_regulations, generate_answer
-  - Session persistence via MemorySaver checkpointer keyed by thread_id
-"""
-
 import logging
 
 from langgraph.graph import StateGraph, START, END
 from langgraph.prebuilt import ToolNode
-from langgraph.checkpoint.memory import MemorySaver
 from langchain_aws import ChatBedrockConverse
 
 from src.agent.state import AgentState
@@ -67,6 +57,11 @@ Step 3 — PRESENT: Show the user what you found in plain language.
   - For each result, explain what the section covers and why it's relevant.
   - Always ask the user to confirm which section they want to explore.
   - Never skip this — let the user choose before generating an answer.
+  - If a result is marked [LARGE SECTION], mention it covers many sub-topics
+    and ask the user which specific aspect they need before proceeding to Step 4.
+    Example: "This section is large and covers: capacity requirements, platform
+    construction, fall protection, falling object protection, access rules, and
+    use requirements. Which aspect is most relevant to your situation?"
 
 Step 4 — ANSWER: Use generate_answer with the confirmed section_id.
   - Craft a detailed query that captures EVERYTHING the user wants to know.
@@ -148,5 +143,4 @@ def build_graph():
     return builder
 
 
-checkpointer = MemorySaver()
-graph = build_graph().compile(checkpointer=checkpointer)
+graph = build_graph().compile()
