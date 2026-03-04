@@ -42,9 +42,8 @@ def parse_metadata(text: str) -> tuple[str, dict | None]:
     pattern = re.compile(
         r"\n\n---\n"
         r"Section used: (?P<section>[^\n]+)\n"
-        r"Quote verification: (?P<qv>\d+)%\n"
-        r"Verbatim coverage: (?P<vc>\d+)%\n"
-        r"Confidence: (?P<conf>[^\n]+)"
+        r"Confidence: (?P<conf>\d+)%\n"
+        r"Verbatim: (?P<verbatim>\d+)%"
         r"(?P<rest>.*)",
         re.DOTALL,
     )
@@ -53,76 +52,82 @@ def parse_metadata(text: str) -> tuple[str, dict | None]:
         return text, None
 
     answer_text = text[: m.start()]
-    qv = int(m.group("qv"))
-    vc = int(m.group("vc"))
+    confidence_pct = int(m.group("conf"))
+    verbatim_pct = int(m.group("verbatim"))
     rest = m.group("rest")
 
-    # Parse verbatim quotes
-    quotes = re.findall(r"^> (.+)$", rest, re.MULTILINE)
-
-    # Parse disclaimer (last non-empty line after quotes)
+    # Parse disclaimer (first non-empty line after scores)
     disclaimer = ""
-    for line in reversed(rest.splitlines()):
+    for line in rest.splitlines():
         line = line.strip()
-        if line and not line.startswith(">") and not line.startswith("Verbatim"):
+        if line:
             disclaimer = line
             break
 
-    display_pct = qv if qv > 0 else vc
-    conf = m.group("conf").strip()
-    if "Exact" in conf:
+    if confidence_pct >= 90:
         label = "Exact Match"
-    elif "Partial" in conf:
+    elif confidence_pct >= 50:
         label = "Partial Match"
     else:
         label = "Keyword Match"
 
     meta = {
         "section": m.group("section").strip(),
-        "quote_verification_pct": qv,
-        "verbatim_coverage_pct": vc,
-        "display_pct": display_pct,
+        "confidence_pct": confidence_pct,
+        "verbatim_pct": verbatim_pct,
         "display_label": label,
-        "confidence": conf,
-        "verbatim_quotes": quotes,
         "disclaimer": disclaimer,
     }
     return answer_text, meta
 
 
+def render_search_results(search: dict):
+    results = search.get("results", [])
+    query = search.get("query", "")
+    st.markdown(f"**Search results for:** _{query}_")
+
+    if search.get("ambiguous") and search.get("clarification"):
+        st.warning(search["clarification"])
+
+    for i, r in enumerate(results, 1):
+        part_label = r.get("part_label", "")
+        large_badge = " 🔶 Large" if r.get("large") else ""
+        relevance_color = {"High": "🟢", "Medium": "🟡", "Low": "🔴"}.get(r["relevance"], "⚪")
+
+        with st.expander(f"{i}. {r['section_id']} — {r.get('title', 'Untitled')}{large_badge}", expanded=i == 1):
+            st.caption(f"{relevance_color} {r['relevance']} ({r['score']:.0%})  ·  {part_label}")
+            st.markdown(r.get("excerpt", ""))
+
+
 def render_message(msg: dict):
     with st.chat_message(msg["role"]):
-        if msg["role"] == "assistant" and msg.get("meta"):
+        if msg["role"] == "assistant" and msg.get("search"):
+            render_search_results(msg["search"])
+        elif msg["role"] == "assistant" and msg.get("meta"):
             meta = msg["meta"]
             st.markdown(msg["content"])
             st.divider()
 
             label = meta["display_label"]
-            pct   = meta["display_pct"]
+            conf  = meta["confidence_pct"]
+            verb  = meta["verbatim_pct"]
 
             if label == "Not Found":
-                st.error("🔴 0% — Not Found in Source")
+                st.error("🔴 Not Found in Source")
             elif label == "Exact Match":
-                st.success(f"🟢 {pct}% — {label}")
+                st.success(f"🟢 {label}")
             elif label == "Partial Match":
-                st.warning(f"🟡 {pct}% — {label}")
+                st.warning(f"🟡 {label}")
             else:
-                st.info(f"🟠 {pct}% — {label}")
+                st.info(f"🟠 {label}")
 
             col1, col2 = st.columns(2)
             with col1:
-                st.caption("Quote Verification")
-                st.progress(meta["quote_verification_pct"] / 100,
-                            text=f"{meta['quote_verification_pct']}%")
+                st.caption("Confidence")
+                st.progress(conf / 100, text=f"{conf}%")
             with col2:
-                st.caption("Verbatim Coverage")
-                st.progress(meta["verbatim_coverage_pct"] / 100,
-                            text=f"{meta['verbatim_coverage_pct']}%")
-
-            if meta["verbatim_quotes"]:
-                with st.expander(f"Verbatim quotes from source ({len(meta['verbatim_quotes'])})"):
-                    for q in meta["verbatim_quotes"]:
-                        st.markdown(f"> {q}")
+                st.caption("Verbatim")
+                st.progress(verb / 100, text=f"{verb}%")
 
             st.caption(f"Section: `{meta['section']}`")
             if meta["disclaimer"]:
@@ -171,21 +176,32 @@ if st.session_state.pending:
         data, status = do_chat(query, st.session_state.session_id)
 
     if status != 200:
-        if isinstance(data, dict):
-            err_msg = data.get("error", {}).get("message", str(data))
-        else:
-            err_msg = str(data)
+        err_msg = data.get("message", str(data)) if isinstance(data, dict) else str(data)
         st.session_state.chat_history.append({"role": "assistant", "content": f"Error: {err_msg}"})
     else:
         body = data.get("data", data)
         st.session_state.session_id = body.get("session_id")
-        message = body.get("message", "No response.")
+        msg_type = body.get("type", "message")
 
-        answer_text, meta = parse_metadata(message)
-        st.session_state.chat_history.append({
-            "role": "assistant",
-            "content": answer_text,
-            "meta": meta,
-        })
+        if msg_type == "search_results":
+            st.session_state.chat_history.append({
+                "role": "assistant",
+                "content": None,
+                "search": body,
+            })
+        elif msg_type == "search_no_results":
+            st.session_state.chat_history.append({
+                "role": "assistant",
+                "content": body.get("message", "No results found."),
+                "meta": None,
+            })
+        else:
+            message = body.get("message", "No response.")
+            answer_text, meta = parse_metadata(message)
+            st.session_state.chat_history.append({
+                "role": "assistant",
+                "content": answer_text,
+                "meta": meta,
+            })
 
     st.rerun()

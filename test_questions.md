@@ -79,3 +79,10 @@ Run each with: `python main.py`
 - OSHA authority to enter without delay, inspect records, question employees
 - Fatality triggers mandatory OSHA investigation
 - Potential criminal referral if willful violation caused death
+
+
+
+one of my workers got hurt while fixing a machine, what rules do i need to follow?
+
+
+its a factory, the machine had stored electrical energy and it started up unexpectedly

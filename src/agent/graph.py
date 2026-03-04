@@ -1,8 +1,10 @@
+import json
 import logging
 
 from langgraph.graph import StateGraph, START, END
 from langgraph.prebuilt import ToolNode
 from langchain_aws import ChatBedrockConverse
+from langchain_core.messages import ToolMessage
 
 from src.agent.state import AgentState
 from src.agent.tools import all_tools
@@ -49,12 +51,13 @@ Step 1 — UNDERSTAND: If the user's request is vague, ask clarifying questions.
   - If you already have enough context, skip straight to Step 2.
 
 Step 2 — SEARCH: Use search_regulations to find relevant sections.
+  - Only call search_regulations ONCE per turn with a single focused query. Never make multiple parallel tool calls.
   - Use specific keywords based on what you learned in Step 1.
   - If results span multiple parts (1910 AND 1926), ask which industry applies.
   - You can search again with different keywords if results aren't relevant.
 
 Step 3 — PRESENT: Show the user what you found in plain language.
-  - For each result, explain what the section covers and why it's relevant.
+  - For each result, briefly explain what the section covers and why it's relevant.
   - Always ask the user to confirm which section they want to explore.
   - Never skip this — let the user choose before generating an answer.
   - If a result is marked [LARGE SECTION], mention it covers many sub-topics
@@ -64,19 +67,16 @@ Step 3 — PRESENT: Show the user what you found in plain language.
     use requirements. Which aspect is most relevant to your situation?"
 
 Step 4 — ANSWER: Use generate_answer with the confirmed section_id.
+  - When the user selects a section — by number ("first one", "1"), by name, or by saying "lock X" / "use X" / "go with X" — call generate_answer IMMEDIATELY on that section. Do NOT re-search. Do NOT suggest a different section. Do NOT second-guess the user's choice.
   - Craft a detailed query that captures EVERYTHING the user wants to know.
   - Present the answer clearly to the user in plain language.
   - ALWAYS include the source metadata block at the end of your answer, copied exactly from the tool result:
       Section used: <section_id>
-      Quote verification: <n>%
-      Verbatim coverage: <n>%
-      Confidence: <level>
-      Verbatim quotes from source:
-      > <quote 1>
-      > <quote 2>
-      ...
+      Confidence: <n>%
+      Verbatim: <n>%
       <disclaimer>
   - Never omit this block — it is required for transparency and trust.
+  - If generate_answer returns "NOT FOUND IN SOURCE" for the selected section, tell the user plainly and THEN offer to try a different section.
   - After the metadata block, act as a coach — proactively suggest what to explore next:
     * If the section references sub-sections (e.g. "(q) Training"), mention them and offer to look them up.
     * If the user's situation likely has related requirements (e.g. forklift training → also inspection requirements), mention them.
@@ -87,6 +87,7 @@ STRICT RULES — never break these:
 - NEVER state, quote, or summarize any regulation without first calling search_regulations and generate_answer. Your training knowledge of OSHA is NOT reliable — always use tools.
 - NEVER answer a compliance question from memory. If you know the answer from training, you must still verify it through the tools before stating it.
 - ALWAYS present search results and let the user choose a section before calling generate_answer.
+- When the user selects a section, call generate_answer on it immediately — NEVER re-search or question the user's choice.
 - If generate_answer returns "NOT FOUND IN SOURCE", tell the user plainly: the specific answer was not found in that section. Offer to search a different section — do NOT fill the gap with your own knowledge.
 - If search returns no results, suggest different keywords. Do NOT fall back to answering from memory.
 - Be conversational — many users don't know OSHA jargon. Use plain language.
@@ -116,7 +117,14 @@ def agent(state: AgentState):
     logger.debug("[AGENT] Invoking LLM with %d messages", len(messages))
     response = _llm_with_tools.invoke(messages, config={"callbacks": [debug_callback]})
     logger.debug("[AGENT] LLM response type: %s", type(response).__name__)
-    return {"messages": [response]}
+
+    update = {"messages": [response]}
+    if not response.tool_calls:
+        update["structured_output"] = {
+            "type": "message",
+            "message": response.content,
+        }
+    return update
 
 
 def should_continue(state: AgentState) -> str:
@@ -127,18 +135,51 @@ def should_continue(state: AgentState) -> str:
     return END
 
 
+def extract_output(state: AgentState) -> dict:
+    """Read the last ToolMessage and populate structured_output in state."""
+    messages = state["messages"]
+    last_tool_msg = next((m for m in reversed(messages) if isinstance(m, ToolMessage)), None)
+
+    if last_tool_msg is None:
+        return {"structured_output": None}
+
+    if last_tool_msg.name == "search_regulations":
+        try:
+            payload = json.loads(last_tool_msg.content)
+        except (json.JSONDecodeError, TypeError):
+            payload = {"type": "search_no_results", "query": "", "message": last_tool_msg.content}
+        return {"structured_output": payload}
+
+    if last_tool_msg.name == "generate_answer":
+        return {"structured_output": {"type": "message", "message": last_tool_msg.content}}
+
+    return {"structured_output": None}
+
+
+def after_extract(state: AgentState) -> str:
+    """If structured_output is set (search ran) → END. Otherwise → agent."""
+    if state.get("structured_output") is not None:
+        return END
+    return "agent"
+
+
 def build_graph():
     builder = StateGraph(AgentState)
 
     builder.add_node("agent", agent)
     builder.add_node("tools", ToolNode(all_tools))
+    builder.add_node("extract_output", extract_output)
 
     builder.add_edge(START, "agent")
     builder.add_conditional_edges("agent", should_continue, {
         "tools": "tools",
         END: END,
     })
-    builder.add_edge("tools", "agent")
+    builder.add_edge("tools", "extract_output")
+    builder.add_conditional_edges("extract_output", after_extract, {
+        "agent": "agent",
+        END: END,
+    })
 
     return builder
 

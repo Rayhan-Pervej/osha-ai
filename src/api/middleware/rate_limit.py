@@ -9,7 +9,7 @@ _redis = redis.from_url(settings.REDIS_URL, decode_responses=True)
 def rate_limit(f):
     @wraps(f)
     def decorated(*args, **kwargs):
-        api_key = request.headers.get("X-API-Key", "unknows")
+        api_key = request.headers.get("X-API-Key", "unknown")
         redis_key = f"rate:{api_key}"
 
         count = _redis.incr(redis_key)
@@ -18,7 +18,7 @@ def rate_limit(f):
             _redis.expire(redis_key, settings.REDIS_RATE_LIMIT_WINDOW_SECONDS)
 
         if count > settings.REDIS_RATE_LIMIT_REQUESTS:
-            return error("rate_limit_exceeded", "Too many requrest. Try again later.", 429)
+            return error("rate_limit_exceeded", "Too many requests. Try again later.", 429)
         
         return f(*args, **kwargs)
     return decorated

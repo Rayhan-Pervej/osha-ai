@@ -1,3 +1,4 @@
+import json
 import logging
 from langchain_core.tools import tool
 
@@ -169,33 +170,30 @@ def search_regulations(query: str, part_filter: str | None = None) -> str:
         result = discover(query, part_filter=part_filter)
     except OshaNoResultsError:
         filter_note = f" in Part {part_filter}" if part_filter else ""
-        return (
-            f"No results found for '{query}'{filter_note}.\n"
-            "Suggestions:\n"
-            "  - Try different keywords or synonyms\n"
-            "  - Remove the part_filter to search all parts\n"
-            "  - Search with broader or different keywords"
-        )
+        return json.dumps({
+            "type": "search_no_results",
+            "query": query,
+            "message": f"No results found for '{query}'{filter_note}.",
+        })
 
-    # Format output for the agent
-    filter_note = f" (Part {part_filter})" if part_filter else ""
-    lines = [f"Search results for '{query}'{filter_note}:\n"]
-
-    # Flag cross-part ambiguity
-    if result.get("ambiguous"):
-        lines.append(f"NOTE: {result['clarification']}\n")
-
-    for i, r in enumerate(result["results"], 1):
+    items = []
+    for r in result["results"]:
         part = get_cfr_part(r["section_id"]) or ""
-        part_label = f" [{REGULATORY_PARTS.get(part, '')}]" if part else ""
-        excerpt = r["excerpt"][:500]
-        total_chars = r.get("total_chars", 0)
-        size_note = " [LARGE SECTION — ask user to clarify sub-topic before calling generate_answer]" if total_chars > 40_000 else ""
-        lines.append(
-            f"{i}. Section {r['section_id']} — {r.get('title', 'Untitled')}{part_label}{size_note}\n"
-            f"   Relevance: {r['relevance']} ({r['score']:.0%})\n"
-            f"   Section size: {total_chars:,} chars ({r.get('chunk_count', '?')} chunks)\n"
-            f"   Excerpt: {excerpt}\n"
-        )
+        items.append({
+            "section_id": r["section_id"],
+            "title": r.get("title", "Untitled"),
+            "part": part,
+            "part_label": REGULATORY_PARTS.get(part, ""),
+            "score": r["score"],
+            "relevance": r["relevance"],
+            "excerpt": r["excerpt"][:400],
+            "large": r.get("total_chars", 0) > 40_000,
+        })
 
-    return "\n".join(lines)
+    return json.dumps({
+        "type": "search_results",
+        "query": query,
+        "ambiguous": result.get("ambiguous", False),
+        "clarification": result.get("clarification"),
+        "results": items,
+    })

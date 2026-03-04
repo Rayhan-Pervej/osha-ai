@@ -10,114 +10,92 @@ from src.exceptions.errors import OshaDocumentNotFoundError, OshaGenerationError
 logger = logging.getLogger(__name__)
 
 
-_MAX_CONTEXT_CHARS = 14_000
+_MAX_CONTEXT_CHARS = 20_000
 
 GENERATION_PROMPT = """You are an OSHA compliance assistant.
-You answer using ONLY the regulatory text provided below. Do NOT use any outside knowledge — not from training, not from memory. If the answer is not in the text below, say NOT FOUND IN SOURCE.
+You answer using ONLY the regulatory text provided below. Do NOT use any outside knowledge.
 
-ANSWERING RULES — follow in strict order:
+ANSWER FORMAT — always follow this exact structure:
 
-1. VERBATIM MATCH (preferred):
-   Find the exact sentence(s) in the text that directly answer the question.
-   Copy them word-for-word into your answer and into verbatim_quotes.
-   Prefer specific rules (measurements, deadlines, explicit requirements) over
-   general introductory paragraphs.
-   If a section has sub-paragraphs (a), (b), (c)... with specific rules, use
-   those instead of the general "(a) Scope" or "(a) General" paragraph.
-   Set verbatim_score close to 1.0.
+PART 1 — PLAIN LANGUAGE SUMMARY (required first):
+In 3-6 sentences, explain what the regulation requires in plain language for a non-expert worker or manager.
+- Use ONLY information from the source text. Do NOT add facts from memory.
+- Write in clear, simple language. No legal jargon.
+- Focus on what the employer/employee must DO, by WHEN, and any specific numbers or deadlines.
+- Start this section with: "What you need to know:"
 
-2. CONTEXT-BASED ANSWER (when no single verbatim sentence suffices):
-   If the answer requires combining facts from multiple paragraphs, construct
-   a faithful summary using ONLY terms and facts from the source text.
-   Do NOT add any detail that does not appear word-for-word in the source.
-   Set verbatim_score between 0.3 and 0.7. Set confidence to "Partial match".
+PART 2 — SOURCE REGULATIONS (required after summary):
+Start this section with the header: "#### 📋 Source Regulations"
+List every sentence from the source text that directly supports the summary above.
+Format each quote as:
+  > [Section X.XXX] "exact sentence word-for-word from the source"
 
-3. NOT FOUND (when the text does not contain the answer):
-   Use "NOT FOUND IN SOURCE" when:
-   - The text only cross-references another section (e.g. "see subpart L", "see §1926.501")
-   - The text only states scope or applicability with no actual rules
-   - The specific requirement asked about is not present in the provided text
-   Do NOT guess. Do NOT use outside knowledge. Do NOT infer from general OSHA principles.
+Rules for quoting — STRICT, never break these:
+- COPY THE SENTENCE EXACTLY AS IT APPEARS IN THE SOURCE. Character for character. No changes whatsoever.
+- Do NOT paraphrase, summarize, trim, reorder words, change punctuation, or add/remove any word.
+- Do NOT capitalize, lowercase, or alter any word to make it fit your sentence.
+- Always quote from the START of the sentence. Never begin mid-sentence.
+- If a sentence begins with "Except...", "Unless...", "When...", "Subject to..." — include the full sentence from the beginning. These are legal conditions that change the meaning if dropped.
+- If you cannot find a relevant sentence that you can quote exactly, do NOT quote anything — write: NOT FOUND IN SOURCE.
+- Prefer specific rules (measurements, deadlines, requirements) over general/scope paragraphs.
+- Include ALL relevant sub-paragraphs — do not stop at the general rule.
 
-4. CONVERSATION REFERENCE:
-   If the question is about the conversation itself (e.g. "what did I ask?"),
-   answer from conversation context. Do NOT say NOT FOUND for these.
-
-HALLUCINATION PREVENTION — critical:
-- Every fact in your answer must be traceable to a specific sentence in the source text.
-- If you cannot quote it verbatim, do not state it as fact.
-- Numbers, heights, distances, percentages — only state them if they appear exactly in the source.
-- Do NOT extrapolate. "The text implies..." or "Generally, OSHA requires..." are not acceptable.
-
-Cross-references that do NOT count as answers:
-  - "Requirements are provided in subpart L of this part." → NOT FOUND IN SOURCE
-  - "See §1926.501 for fall protection requirements." → NOT FOUND IN SOURCE
-
-IMPORTANT: Include ALL relevant sub-paragraphs in your answer. If the source has
-specific requirements for different types (scaffold types, chemical types, etc.),
-list them all rather than giving only the general rule.
+NOT FOUND — when the text does not contain the answer:
+- Write: NOT FOUND IN SOURCE
+- Use this when the text only cross-references another section or has no actual rules.
+- Do NOT guess. Do NOT infer from general OSHA principles.
 
 Return a single valid JSON object. No markdown fences. No text outside the JSON.
 
 {
-  "answer": "<verbatim text, faithful summary from source, or NOT FOUND IN SOURCE>",
+  "answer": "<PART 1 plain language summary + PART 2 source regulations, or NOT FOUND IN SOURCE>",
   "sections_cited": ["<section_id>"],
-  "verbatim_quotes": ["<exact word-for-word sentence(s) from the source text>"],
-  "confidence": "<Exact match | Partial match | Keyword match only>",
-  "confidence_score": 0.95,
-  "verbatim_score": 1.0,
+  "verbatim_quotes": ["<EXACT character-for-character copy from source — no changes allowed>"],
   "disclaimer": "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."
 }"""
 
 
 def _normalize(text: str) -> str:
-    """Normalize text for quote comparison — collapse whitespace, fix encoding."""
+    """Normalize text — collapse whitespace, fix encoding."""
     text = text.replace("\u00a7", "\u00a7").replace("\ufffd", "\u00a7")
     text = re.sub(r"\s+", " ", text).strip()
     return text
 
 
-def _calculate_display_score(answer: dict, raw_content: str) -> dict:
-    """Score the answer by verifying quoted text against the original source."""
+
+
+
+def _calculate_display_score(answer: dict, raw_content: str, context_relevance: float) -> dict:
+    """Compute two genuinely different scores:
+
+    - verbatim_pct:   % of extracted quotes verified word-for-word in source
+                      (quote verification: did the LLM quote real sentences?)
+
+    - confidence_pct: mean BM25 relevance of retrieved chunks to the query
+                      (context relevance: was the right content retrieved?)
+                      Capped at 95 to avoid overconfidence.
+    """
     raw_answer = answer.get("answer", "")
-    verbatim_quotes = answer.get("verbatim_quotes", []) or []
-    confidence = answer.get("confidence", "")
 
     if "NOT FOUND IN SOURCE" in raw_answer:
-        answer["display_pct"] = 0
-        answer["display_label"] = "Not Found"
-        answer["quote_verification_pct"] = 0
-        answer["verbatim_coverage_pct"] = 0
+        answer["confidence_pct"] = 0
+        answer["verbatim_pct"] = 0
         return answer
 
+    # Verbatim: what % of extracted quotes are verified real in the source
     norm_source = _normalize(raw_content)
-
+    verbatim_quotes = answer.get("verbatim_quotes", []) or []
     if verbatim_quotes:
         verified = sum(
             1 for q in verbatim_quotes
-            if q.strip() and _normalize(q) in norm_source
+            if q.strip() and _normalize(q).lower() in norm_source.lower()
         )
-        quote_verification_pct = int((verified / len(verbatim_quotes)) * 100)
+        verbatim_pct = int((verified / len(verbatim_quotes)) * 100)
     else:
-        quote_verification_pct = 0
+        verbatim_pct = 0
 
-    if verbatim_quotes and raw_answer:
-        quote_chars = sum(
-            len(q) for q in verbatim_quotes
-            if q.strip() and _normalize(q) in norm_source
-        )
-        answer_chars = len(raw_answer)
-        verbatim_coverage_pct = int(min(quote_chars / answer_chars, 1.0) * 100)
-    else:
-        verbatim_coverage_pct = 0
-    if confidence == "Exact match":
-        label = "Exact Match"
-    elif confidence == "Partial match":
-        label = "Partial Match"
-    else:
-        label = "Keyword Match"
-
-    display_pct = quote_verification_pct if quote_verification_pct > 0 else verbatim_coverage_pct
+    # Confidence: mean BM25 relevance of retrieved context to the query
+    confidence_pct = min(int(context_relevance * 100), 95)
 
     # Deduplicate section citations
     if answer.get("sections_cited"):
@@ -126,10 +104,8 @@ def _calculate_display_score(answer: dict, raw_content: str) -> dict:
             for s in answer["sections_cited"]
         ))
 
-    answer["display_pct"] = display_pct
-    answer["display_label"] = label
-    answer["quote_verification_pct"] = quote_verification_pct
-    answer["verbatim_coverage_pct"] = verbatim_coverage_pct
+    answer["confidence_pct"] = confidence_pct
+    answer["verbatim_pct"] = verbatim_pct
 
     return answer
 
@@ -162,7 +138,7 @@ def generate_answer(section_id: str, query: str) -> str:
 
 
     try:
-        context_text = get_top_chunks(section_id, query, _MAX_CONTEXT_CHARS)
+        context_text, context_relevance = get_top_chunks(section_id, query, _MAX_CONTEXT_CHARS)
     except OshaDocumentNotFoundError:
         return f"No text content found for section '{section_id}'."
 
@@ -186,19 +162,13 @@ def generate_answer(section_id: str, query: str) -> str:
     except OshaGenerationError as e:
         return f"Answer generation failed: {e}"
 
-    answer = _calculate_display_score(answer, full_text)
+    answer = _calculate_display_score(answer, full_text, context_relevance)
 
     result_parts = [answer.get("answer", "No answer generated.")]
 
     result_parts.append(f"\n\n---\nSection used: {section_id}")
-    result_parts.append(f"Quote verification: {answer.get('quote_verification_pct', 0)}%")
-    result_parts.append(f"Verbatim coverage: {answer.get('verbatim_coverage_pct', 0)}%")
-    result_parts.append(f"Confidence: {answer.get('confidence', 'unknown')}")
-
-    if answer.get("verbatim_quotes"):
-        result_parts.append("\nVerbatim quotes from source:")
-        for q in answer["verbatim_quotes"]:
-            result_parts.append(f"> {q}")
+    result_parts.append(f"Confidence: {answer.get('confidence_pct', 0)}%")
+    result_parts.append(f"Verbatim: {answer.get('verbatim_pct', 0)}%")
 
     if answer.get("disclaimer"):
         result_parts.append(f"\n{answer['disclaimer']}")

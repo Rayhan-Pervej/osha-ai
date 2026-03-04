@@ -85,12 +85,17 @@ def get_section_metadata(section_id: str) -> dict:
     raise OshaDocumentNotFoundError(f"Section not found in index: {section_id!r}")
 
 
-def get_top_chunks(section_id: str, query: str, max_chars: int) -> str:
+def get_top_chunks(section_id: str, query: str, max_chars: int) -> tuple[str, float]:
     """Return the most query-relevant chunks for a section, up to max_chars.
 
     Scores each chunk with a local BM25 index, greedily selects chunks in
     score order until the character budget is exhausted, then returns them
     joined in reading order (ascending chunk_index).
+
+    Returns:
+        (context_text, context_relevance) where context_relevance is the
+        mean normalised BM25 score of selected chunks (0.0–1.0). This is
+        the confidence signal: how relevant is the retrieved context to the query?
     """
     ensure_index()
 
@@ -98,34 +103,65 @@ def get_top_chunks(section_id: str, query: str, max_chars: int) -> str:
     if not section_chunks:
         raise OshaDocumentNotFoundError(f"Section not found in index: {section_id!r}")
 
-    # Short-circuit: single chunk
+    # Short-circuit: single chunk — no BM25 ranking needed
     if len(section_chunks) == 1:
         raw = section_chunks[0]["raw_content"]
         if len(raw) > max_chars:
             raw = raw[:max_chars] + "\n[...truncated...]"
-        return raw
+        return raw, 1.0
 
-    # Score each chunk against the query
+    # If entire section fits within budget — all chunks selected, use mean score
+    total_chars = sum(len(doc["raw_content"]) for doc in section_chunks)
+    if total_chars <= max_chars:
+        logger.debug("[BM25] Section %s fits entirely (%d chars) — sending all %d chunks", section_id, total_chars, len(section_chunks))
+        selected = sorted(section_chunks, key=lambda d: d.get("chunk_index", 0))
+        # Compute mean BM25 score across all chunks for relevance signal
+        query_tokens = _tokenise(query, strip_stops=True)
+        local_corpus = [_tokenise(f"{doc['section_id']} {doc['title']} {doc['raw_content']}") for doc in section_chunks]
+        local_index = BM25Okapi(local_corpus)
+        raw_scores = local_index.get_scores(query_tokens)
+        max_score = float(max(raw_scores)) if max(raw_scores) > 0 else 1.0
+        normalised = [s / max_score for s in raw_scores]
+        relevance = sum(normalised) / len(normalised)
+        return "\n\n".join(c["raw_content"] for c in selected), relevance
+
+    # Section exceeds budget — rank and select top chunks
+    logger.debug("[BM25] Section %s exceeds budget (%d chars > %d) — ranking %d chunks", section_id, total_chars, max_chars, len(section_chunks))
     query_tokens = _tokenise(query, strip_stops=True)
     local_corpus = [
         _tokenise(f"{doc['section_id']} {doc['title']} {doc['raw_content']}")
         for doc in section_chunks
     ]
     local_index = BM25Okapi(local_corpus)
-    scores = local_index.get_scores(query_tokens)
+    raw_scores = local_index.get_scores(query_tokens)
 
-    # Sort - most relevant chunks first.
-    scored = sorted(zip(scores, section_chunks), key=lambda x: x[0], reverse=True)
+    max_score = float(max(raw_scores)) if max(raw_scores) > 0 else 1.0
+    normalised = [s / max_score for s in raw_scores]
 
-    # Greedy fill: add chunks in relevance order until budget is full.
+    # only chunks scoring ≥ 30% of top chunk
+    scored = sorted(
+        [(normalised[i], section_chunks[i]) for i in range(len(section_chunks)) if normalised[i] >= 0.3],
+        key=lambda x: x[0],
+        reverse=True,
+    )
+
+    # Fall back
+    if not scored:
+        scored = sorted(zip(normalised, section_chunks), key=lambda x: x[0], reverse=True)
+
+    # Greedy fill
     selected = []
+    selected_scores = []
     chars_used = 0
-    for _score, doc in scored:
+    for score, doc in scored:
         content = doc["raw_content"]
         if chars_used + len(content) <= max_chars:
             selected.append(doc)
+            selected_scores.append(score)
             chars_used += len(content)
 
-    # Restore reading order.
+    relevance = sum(selected_scores) / len(selected_scores) if selected_scores else 0.0
+
+    # Restore reading order
     selected.sort(key=lambda d: d.get("chunk_index", 0))
-    return "\n\n".join(c["raw_content"] for c in selected)
+    return "\n\n".join(c["raw_content"] for c in selected), relevance
