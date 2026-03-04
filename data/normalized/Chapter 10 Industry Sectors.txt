@@ -1,0 +1,1267 @@
+Field Operations Manual
+
+Chapter 10
+
+AGRICULTURE AND MARITIME INDUSTRY SECTORS
+
+Agriculture
+.
+
+
+
+Introduction
+.
+
+Special situations arising in the agriculture industry, which is regulated under
+29 CFR Part 1928
+and the
+General Duty Clause
+, are discussed in this section. Part 1928 covers occupational safety and health standards for "agricultural operations," which include, but are not limited to, egg farms, poultry farms, livestock grain and feed lot operations, dairy farms, horse farms, hog farms, fish farms, and fur-bearing animal farms. OSHA has very few standards that are applicable to this industry. Part 1928 sets forth a few standards in full and lists particular Part 1910 standards that apply to agricultural operations. Part 1910 standards not listed do not apply. The General Duty Clause can be used to address hazards not covered by these standards.
+
+Definitions
+.
+
+
+Agricultural Operations
+.
+
+This term is not defined in
+29 CFR Part 1928
+. Generally, agricultural operations would include any activities involved in the growing and harvesting of crops, plants, vines, fruit trees, nut trees, ornamental plants, egg production, the raising of livestock (including poultry and fish), as well as livestock products. The Occupational Safety and Health Review Commission has ruled that activities integrally related to these core "agricultural operations" are also included within that term.
+Darragh Company
+,
+9 BNA OSHC 1205
+, (Nos. 77-2555, 77-3074, and 77-3075, 1980) (delivery of feed to chicken farmer by integrator of poultry products is agricultural operation);
+Marion Stevens dba Chapman & Stephens Company
+,
+5 BNA OSHC 1395
+(No.13535, 1977) (removal of pipe to maintain irrigation system in citrus grove is agricultural operation). Post-harvest activities not on a farm, such as receiving, cleaning, sorting, sizing, weighing, inspecting, stacking, packaging and shipping produce, are not "agricultural operations."
+J. C. Watson Company
+,
+22 BNA OSHC 1235
+(Nos. 05-0175 and 05-0176, 2008) (employer's onion packing shed was not an agricultural operation); J.C. Watson Company v. Solis, DC Cir. 08-1230 (April 17, 2009).
+
+Agricultural Employee
+.
+
+OSHA regulation
+§1975.4(b)(2)
+states that members of the immediate family of the farm employer
+are not
+regarded as employees.
+
+Farming Operation
+.
+
+This term is used in OSHA's
+Appropriations Act
+, and has been defined in
+CPL 02-00-170
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, dated July 18, 2024, to mean any operation involved in the growing or harvesting of crops, the raising of livestock or poultry, or related activities conducted by a farmer on sites such as farms, ranches, orchards, dairy farms or similar farming operations.
+
+These are employers engaged in businesses that have a three-digit North American Industry Classification System (NAICS) of 111 (Agricultural Production-Crops) and 112 (Agricultural Production-Livestock and Animal Specialties); and a six-digit NAICS of 115112 (Soil Preparation, Planting, and Cultivating), 115113 (Crop Harvesting, Primarily by Machine), 115115 (Farm Labor Contrac¬tors and Crew Leaders), and 115116 (Farm Management Services). CSHOs should follow
+§1904.2(b)(2)
+(i) - (iii) in determining the employer's primary NAICS classification.
+
+Post-Harvesting Processing
+.
+
+This is a term that is used in
+CPL 02-00-170
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, dated July 18, 2024, in discussing enforcement guidance for small farming operations. Generally, post-harvest processing can be thought of as changing the character of the product (such as canning, making cider or sauces, or butchering or processing animals) or a higher degree of packaging versus field sorting in a shed for size. These activities are not considered farming operations and thus are not exempt from OSHA enforcement.
+
+Appropriations Act Exemptions for Farming Operations
+.
+
+
+Exempt Farming Operations
+.
+
+OSHA is limited by provisions in its Appropriations Act that refer to which employers it can inspect. Some of the Appropriations Act exemptions and limitations apply to small farming operations; specifically, OSHA shall not inspect any farming operations that (1) currently has 10 or fewer employees
+and
+has not had more than 10 employees at any time during the previous 12 months
+and
+(2) does not currently have an active temporary labor camp (TLC)
+and
+has not had any TLC activity within the prior 12 months.
+
+Non-Exempt Farming Operations
+.
+
+A farming operation that currently has more than 10 employees or has had more than 10 employees at any time within the previous 12 months
+is not
+exempt from inspection. Similarly, a farming operation with 10 or fewer employees that maintains a temporary labor camp or has maintained a temporary labor camp within the last 12 months
+is not
+exempt from inspection.
+
+State Plans
+.
+
+States with OSHA-approved State Plans can enforce on small farms and provide consultation or training, provided that (1) 100 percent state funds are used
+and
+(2) The state has an accounting system in place to ensure that no federal or matching state funds are expended on these activities.
+
+Enforcement Guidance for Small Farming Operations
+.
+
+OSHA's Appropriations Act exempts qualifying small farming operations from enforcement or administration of
+all
+rules, regulations, standards, or orders under the Occupational Safety and Health Act, including rules affecting consultation and technical assistance or education and training services. Table 10-1, below, provides an at-a-glance reference to OSHA activities under the funding legislation.
+
+Table 10-1: OSHA's Appropriation Act Exemptions for Farming Operations
+
+OSHA Activity
+
+Farming operations with 10 or fewer employees (EEs) and no TLC activity within 12 months.
+
+Farming operations with more than 10 EEs or a farming operation with an active TLC within 12 months.
+
+Programmed Safety Inspections
+
+Not Permitted
+
+Permitted
+
+Programmed Health Inspections
+
+Not Permitted
+
+Permitted
+
+Employee Complaint
+
+Not Permitted
+
+Permitted
+
+Referral
+
+Not Permitted
+
+Permitted
+
+Fatality and/or two or more Hospitalizations (Reporting Note)
+
+Not Permitted
+
+Permitted
+
+Imminent Danger
+
+Not Permitted
+
+Permitted
+
+11(c) (whistleblower investigation)
+
+Not Permitted
+
+Permitted
+
+NOTE: See
+CPL 02-00-170
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, dated July 18, 2024, for more information.
+
+Standards Applicable to Agriculture
+.
+
+OSHA has very few standards that apply to employers engaged in agricultural operations. Activities that take place after harvesting are considered general industry operations and are covered by OSHA's general industry standards.
+
+
+Agricultural Standards (Part 1928)
+.
+
+
+Roll-over Protective Structures (ROPS) for Tractors (
+§1928.51
+,
+1928.52
+, and
+1928.53
+).
+
+Guarding of Moving Machinery Parts of Farm Field Equipment, Farmstead Equipment, and Cotton Gins (
+§1928.57
+).
+
+Field Sanitation (
+§1928.110
+). See
+Section I.F
+of this chapter,
+Wage & Hour/OSHA Shared Authority under Secretary's Order.
+, regarding Wage & Hour authority. OSHA has no authority to issue any citations under this standard.
+
+General Industry Standards (Part 1910)
+.
+
+
+Temporary Labor Camps (
+§1910.142
+). See
+Chapter 12, Section II
+,
+Temporary Labor Camps
+.
+
+Storage and Handling of Anhydrous Ammonia (
+§1910.111(a)
+and
+(b)
+).
+
+Logging Operations (
+§1910.266
+).
+
+Specifications for Accident Prevention Signs and Tags - Slow-Moving Vehicle Emblem (
+§1910.145(d)(10)
+).
+
+Hazard Communication (
+§1910.1200
+).
+
+Cadmium (
+§1910.1027
+).
+
+Retention of Department of Transportation Markings, Placards and Labels (
+§1910.1201
+).
+
+Except to the extent specified above, the standards contained in subparts B through T and subpart Z of Part 1910 of Title 29 do not apply to agricultural operations.
+
+General Duty Clause
+.
+
+As in any situation where no standard is applicable,
+Section 5(a)(1)
+of the OSH Act can be used; all the elements for a Section 5(a)(1) citation must be met. This includes heat-related hazards. See Chapter 4, Section III,
+General Duty Clause
+.
+
+Pesticides
+.
+
+
+Coverage
+.
+
+
+Pursuant to the Federal Insecticide, Fungicide and Rodenticide Act (FIFRA), the U.S. Environmental Protection Agency (EPA) has jurisdiction over employee protection relating to pesticides (which also includes herbicides, fungicides, and rodenticides). (See
+OSHA/EPA MOU
+). The EPA Worker Protection Standard (WPS) protects employees on farms, forests, nurseries, and greenhouses from occupational exposure to agricultural pesticides. The WPS includes provisions for personal protective equipment, labeling, employee notification, safety training, safety posters, decon-tamination supplies, emergency assistance, and restricted field entry. See
+40 CFR Part 170
+, Worker Protection Standard.
+
+The regulation covers two types of employees:
+
+
+➣
+Pesticide Handlers
+.
+
+➣
+Agricultural Workers
+.
+
+For all pesticide use, including uses not covered by
+40 CFR Part 170
+, it is a violation of FIFRA to use a registered pesticide in a manner inconsistent with its labeling. Thus, OSHA has no authority to issue any citations related to pesticide exposures, pursuant to
+Section 4(b)(1)
+of the OSH Act. In the event a CSHO encounters any cases of pesticide exposure or the lack of an appropriate pesticide label on containers, a referral shall be made to the local EPA office or to state agencies that administer pesticide laws.
+
+EPA also has jurisdiction in non-agriculture situations where pesticides are being applied by pest control companies. This would include, but not be limited to, applications in and around factories, warehouses, office buildings, and personal residences. OSHA cannot cite the Hazard Communication standard in such situations.
+
+OSHA's Hazard Communication Standard
+.
+
+Although OSHA will not cite employers covered under EPA's WPS with regard to hazard communication requirements for pesticides, agricultural employers who are otherwise covered by OSHA are still responsible for having a hazard communication program for all hazardous chemicals that are not considered pesticides.
+
+Wage & Hour Division (WHD)/OSHA Shared Authority under Secretary's Order
+.
+
+Since 1997, WHD has had shared authority with OSHA over two standards: the Field Sanitation standard (
+1928.110
+), and the Temporary Labor Camp standard (
+1910.142
+). See Delegation of Authorities and Assignment of Responsibilities to the Assistant Secretary for Employment Standards and Other Officials in the Employment Standards Administration (Federal Register, January 2, 1997 (
+62 FR 107
+)) and Secretary's Order 5-2002: Delegation of Authority and Assignment of Responsibility to the Assistant Secretary for Occupational Safety and Health, Federal Register, October 22, 2002 (
+67 FR 65007
+).
+
+
+Field Sanitation Standard
+.
+
+
+The WHD has sole federal enforcement authority for this standard, including the issuing of citations.
+
+OSHA, therefore, shall not issue citations under this standard.
+
+The provisions of the Field Sanitation standard are also applicable to reforestation activities involving "hand-labor operations" as defined by the standard. This position regarding reforestation activities was developed through extensive inter-agency discussions and was intended to provide, in the absence of a clear and unambiguous exemption of this activity from the provisions of the standard, the broadest possible coverage for these employees.
+
+Temporary Labor Camp (TLC) Standard
+.
+
+Under the Secretary's Order, enforcement authority for the TLC standard is split between the WHD and OSHA. See Chapter 12 Section II,
+Temporary Labor Camps
+, for a detailed discussion on Temporary Labor Camps.
+
+Compliance Interpretation Authority
+.
+
+WHD has sole interpretation authority for both the Field Sanitation and the Temporary Labor Camp standards, even over those temporary labor camp areas for which OSHA has enforcement authority. See Section II.C on Wage & Hour/OSHA Shared Authority Under Secretary's Order.
+
+Standard Revision and Variance Authority
+.
+
+OSHA retains all authority for revisions of the Field Sanitation and the Temporary Labor Camp standards, as well as the evaluation and granting of temporary and permanent variances.
+
+State Plan
+.
+
+
+Eight of the twenty-two jurisdictions (21 states and Puerto Rico) that have OSHA-approved State Plans covering private sector employment elected not to enforce the Field Sanitation standard in agriculture and the Temporary Labor Camp standard, except with respect to egg, poultry, red meat production, and post-harvesting processing of agricultural and horticultural commodities. Thus, WHD enforces these standards, except as noted above, in the following states: Alaska, Indiana, Iowa, Kentucky, Minnesota, South Carolina, Utah, and Wyoming.
+
+The remaining jurisdictions with OSHA-approved State Plans covering private sector employment have retained enforcement authority for the Field Sanitation and Temporary Labor Camp standards in agriculture.
+
+See
+OSHA/WHD MOU
+.
+
+Maritime
+.
+
+The maritime industry includes shipyard employment (shipbuilding, ship repair, shipbreaking, and related employments), marine cargo handling (longshoring and marine terminals), and other marine activities.
+
+
+Maritime Industry Primary Resources
+
+Directives
+.
+
+
+➣
+CPL 02-00-162
+, Shipyard Employment "Tool Bag" Directive, May 22, 2019.
+
+➣
+CPL 02-01-055
+, Maritime Cargo Gear Standards and 29 CFR 1919 Certification, September 30, 2013.
+
+➣
+CPL 02-00-154
+, Longshoring and Marine Terminals "Tool Shed" Directive, July 31, 2012.
+
+➣
+CPL 02-00-151
+, 29 CFR Part 1910, Subpart T - Commercial Diving Operations, June 13, 2011.
+
+➣
+CPL 02-01-061
+, 29 CFR Part 1915, Subpart B, Confined and Enclosed Spaces and Other Dangerous Atmospheres in Shipyard Employment, May 22, 2019.
+
+➣
+CPL 03-00-020
+, OSHA's National Emphasis Program (NEP) on Shipbreaking, March 7, 2016.
+
+➣
+CPL 02-01-060
+, 29 CFR Part 1915, Subpart I, Enforcement Guidance for Personal Protective Equipment (PPE) in Shipyard Employment, May 22, 2019.
+
+➣
+CPL 02-01-066
+, OSHA Authority Over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS), November 13, 2024.
+
+Standards
+.
+
+
+29 CFR Part 1915
+- Shipyard Employment. Including the Shipyard Industry Standards "
+Blue Book
+," OSHA Publication 2268-10R 2021.
+
+29 CFR Part 1917
+- Marine Terminals. Including the Longshoring Industry "
+Green Book
+," OSHA Publication 2232 (2001) (Revised).
+
+29 CFR Part 1918
+- Longshoring. Including the Longshoring Industry "
+Green Book
+," OSHA Publication 2232 (2001) (Revised).
+
+29 CFR Part 1919
+- Gear Certification. (See also
+1915.115(a)
+,
+1917.50
+,
+1918.11
+, and
+1918.66(a)(1)
+).
+
+OSHA Agreements with other Agencies and Organizations
+.
+
+
+Settlement Agreement concerning
+Powered Industrial Truck Operator Training Standard
+between the National Maritime Safety Association (NMSA) and the Occupational Safety and Health Administration, U.S. Department of Labor, July 14, 2000.
+
+Memorandum of Understanding
+
+on Coordination and Information Sharing of Domestic Ship Recycling Operations between DOD/DOT/EPA/DOL-OSHA
+, July 30, 2015.
+
+Memoranda of Understanding between the U.S. Coast Guard and OSHA
+located in
+CPL 02-01-066
+, -
+OSHA Authority over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS)
+, November 13, 2024, concerning:
+
+
+➣ The Health and Safety of Seamen on Inspected Vessels (see Appendix D of the Instruction); and
+
+➣ Occupational Safety and Health on the Outer Continental Shelf (OCS) (see Appendix E of the Instruction).
+
+Public Maritime Webpage
+.
+
+OSHA's public maritime webpage (
+Maritime Industry
+) provides access to maritime information to identify, reduce, and eliminate hazards and includes directives, standards, training, rulemaking activity, and guidance documents. These resources include:
+
+Shipyard Employment eTools
+- developed by OSHA in conjunction with the shipyard employment industry. The eTools provide comprehensive information, in an electronic format with photos and illustrations, about the applicability of safety and health standards. They are excellent overall training tools and good for safety briefs of specific standards;
+
+Shipyard employment fatality videos
+- presents 16 computer-generated animated scenarios based on actual shipyard fatalities. Each scenario demonstrates how to prevent accidents;
+
+Longshoring and Marine Terminals:
+Fatal Facts
+- presents 42 written scenarios based on actual marine cargo handling fatalities;
+
+Maritime Outreach Training Programs
+- includes OSHA's Maritime "Train-the-Trainer" (course #5400), and OSHA's 10-hour and 30-hour Maritime Industry courses;
+
+MACOSH
+(Maritime Advisory Committee on Occupational Safety and Health) - includes upcoming/recent events, background, history and charter, current membership, meeting minutes, and MACOSH Federal Register notices;
+
+Federal Registers
+pertaining to the maritime industry;
+
+SHIPS
+(Safety and Health Injury Prevention Sheets) - developed by OSHA in conjunction with the shipyard industry to provide guidance consisting of a list of hazards and related safety measures with accompanying photographs for various shipyard processes;
+
+Maritime crane accreditation and certification program
+information -an explanation of the program, instructions for the use of the OSHA-71 and -72 forms, and a list of agencies accredited under the 29 CFR Part 1919 program;
+
+Office of Maritime Enforcement (
+OME
+). One of five offices within the Directorate of Enforcement Programs (DEP). OME provides support for maritime employment through the development of standards interpretations, management, and administration of the 29 CFR Part 1919 maritime gear certification program (including the web-based
+Maritime Crane
+database for OSHA-71 and -72 forms) and coordination of the activities of the Agency's Maritime Steering Committee. CSHOs who need standards interpretations, have questions, or require access to the 1919 Maritime Crane database (requires training and a password) should contact OME at 202-693-2399.
+
+CSHO Maritime Webpage
+.
+
+OSHA's internal (Intranet) maritime webpage provides CSHOs with the following information:
+
+Contact information for the Office of Maritime Enforcement (OME)
+
+SAVEs (Standard Alleged Violation Elements) for the maritime industry standards. SAVEs and associated AVEs (Alleged Violation Elements) are available on the Intranet for all Part 1915, Part 1917 and Part 1918 standards. The Office of Maritime Enforcement is responsible for maintaining the maritime SAVEs.
+
+Shipyard Employment (Part 1915).
+
+Coverage
+.
+
+
+Shipyard employment includes the building, repairing, and breaking (scrapping, disposal, recycling) of vessels, or a section of a vessel, without regard to geographical location, and is covered by 29 CFR Part 1915 for Shipyard Employment (see
+29 CFR 1910.11(b)
+). Examples of vessels include, but are not limited to: ships, barges, fishing boats, work boats, cruise liners, and floating oil drilling rigs (i.e., mobile offshore drilling units). Area Offices should consult with RSOL when preparing citations for Part 1915 violations not occurring on U.S. navigable waters. Due to caselaw in the Third, Fifth, Ninth, and Eleventh Circuit Courts of Appeals, in those states (DE, NJ, PA, USVI, MS, LA, TX, AK, AZ, CA, HI, Guam, AL, FA, GA), OSHA can only cite Part 1915 if the work occurs on U.S. navigable waters. Note, however, that this limitation does not apply to violations of Subpart B (confined spaces), Subpart F (General Working Conditions), Subpart I (PPE), and Subpart P (fire protection), since these subparts expressly apply regardless of geographical location. In addition, when Part 1915 violations involve exposure to crew members only, the Area Office should consult with RSOL.
+
+Shipyard employment involves work activities aboard floating vessels as well as vessel-related work activities on the land, docks, or piers, of a shipyard. Although
+29 CFR Part 1915
+covers many hazards in shipyard employment, it does not cover all such hazards. Therefore, some of the
+29 CFR Part 1910
+General Industry Standards are also applicable in shipyard employment. (See Appendix A of
+CPL 02-00-162
+,
+Shipyard Employment "Tool Bag" Directive
+, May 22, 2019).
+
+NOTE
+: Not all activities within a shipyard are considered shipyard employment covered by
+29 CFR Part 1915
+. For example, erection of a new building, roadway construction, demolition activities (including the dismantling of cranes), and the installation of water pipes are covered by Construction Standards,
+29 CFR Part 1926
+.
+
+Shipyard Authority
+.
+
+
+U.S. Coast Guard
+.
+
+
+➣ OSHA and the U.S. Coast Guard each have authority over shipyard employment activities. The U.S. Coast Guard regulates working conditions for seamen (crew members) on inspected vessels through
+46 CFR 90.05-1
+. OSHA has authority to cite shipyard employment activities on inspected vessels if the work is performed by shipyard employees (non-crew members).
+
+➣
+NOTE
+: An inspected vessel is any ship, boat, or barge, that has or is required to have a Certificate of Inspection (COI) issued by the U.S. Coast Guard. On uninspected vessels, OSHA has authority to cite shipyard employers for all working conditions. OSHA also can cite the owners or operators of uninspected vessels for violations involving shipbuilding, shipbreaking, and ship repair operations regardless of whether the work is performed by seamen (crew members) or by non-crew members unless the hazards are covered by U.S. Coast Guard regulations. (See Section XIV.B.1. in
+CPL 02-01-066
+-
+OSHA Authority over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS)
+, November 13, 2024.)
+
+CSHOs should contact the vessel owner, master, or captain of the Port obtain the vessel identification or official number (VIN or ON). That information can be used in the
+Port State Information Exchange
+website to determine if the vessel has a COI. In addition, the Area Office may consult with the local U.S. Coast Guard office to determine whether the vessel has a COI or is supposed to have a COI as required by 46 CFR Part 2.
+
+U.S. Navy
+.
+
+Under the OSH Act, OSHA has authority over shipyard employment aboard U.S. Navy vessels and within a U.S. Navy shipyard when the work is performed by a contractor. U.S. Navy civilian personnel are covered under
+Presidential Executive Order 12196
+, implemented by
+29 CFR Part 1960
+. There are no geographic limitations of OSHA's coverage for Executive Branch federal civilian employees who are not performing uniquely military operations as defined in
+29 CFR 1960.2(i)
+. Therefore, OSHA's authority extends to all federal civil service mariners (CIVMARs) in the U.S. Navy's Military Sealift Command (MSC).
+
+OSHA does not cover Armed Forces personnel (uniformed military both active and reserve) such as: U.S. Navy (including MSC military department (MILDEPT)), U.S. Army, U.S. Air Force, U.S. Space Force, U.S. Marine Corps, and U.S. Coast Guard. However, OSHA does cover uniformed services of the commissioned corps of NOAA and the Public Health Service.
+
+State Pans
+.
+
+
+➣
+Private Sector Employees
+.
+
+States that operate their own OSHA-approved State Plans can elect to exercise authority over private sector maritime employees. States that have authority to exercise safety and health standards over private sector, land-side shipyard employment activities are:
+California
+,
+Minnesota
+,
+Vermont
+, and
+Washington
+. (See the State Plan standards in
+29 CFR Part 1952
+of these states for specific areas of authority.) However, OSHA retains authority in these four States on U.S. navigable waters. In the remaining states, OSHA has authority over all shipyard employees whether working land-side or on U.S. navigable waters.
+
+NOTE
+: U.S. navigable waters include graving-docks, dry-docks, lifting-docks, and marine railways (i.e., federal jurisdiction).
+
+➣
+Public Sector Employees
+.
+
+State Plans have authority over employees of state and local governments (e.g., port authorities, cities, counties), on both the land-side areas and aboard vessels. OSHA has no authority over "…any State or political subdivisions of a State."
+Section 3(5) of the OSH Act, 29 U.S.C. 652(5)
+.
+
+Shipyard Inspections
+.
+
+
+Inspection Scheduling
+.
+
+The shipyard employment industry is made up of several industrial activities. Due to the unique differences among these activities, and differing yard locations, sizes, and number of employers, several scheduling methods are necessary. Consequently, shipyard employment inspections can be scheduled under National Emphasis Programs (NEPs), Regional Emphasis Programs (REPs), Special Emphasis Programs (SEPs), Local Emphasis Programs (LEPs), the Severe Violator Enforcement Program (SVEP), or from lists developed in accordance with
+CPL 02-00-025
+,
+Scheduling System for Programmed Inspections
+, January 4, 1995. However,
+Chapter 2 of the FOM
+will take precedence over CPL 02-00-025 when there is a divergence between the two instructions.
+
+
+➣
+National Emphasis Programs (NEPs)
+.
+
+Guidance for conducting NEP inspections in the shipyard employment industry can be found on the
+OSHA public webpage
+and includes:
+
+
+CPL 03-00-020,
+OSHA's National Emphasis Program (NEP) on Shipbreaking
+, March 7, 2016;
+
+CPL 03-00-009
+,
+National Emphasis Program-Lead
+, August 14, 2008;
+
+CPL 03-00-023
+,
+National Emphasis Program: Crystalline Silica
+, February 4, 2020 (See also
+Safety and Health Topics: Silica, Crystalline
+);
+
+CPL 02-02-076
+,
+National Emphasis Program - Hexavalent Chromium
+, February 23, 2010; and
+
+CPL 03-00-025
+,
+National Emphasis Program - Falls
+, May 1, 2023.
+
+NOTE
+: All other scheduled shipyard employment inspections can be conducted under LEPs that support DOL's Strategic Plan and OSHA's Agency Management Plan goals.
+
+➣
+Local Emphasis Programs (LEPs)
+.
+
+LEPs are a type of Special Emphasis Program in which one or more area offices in a region participate. LEPs can be originated at the area or regional office level and should follow
+CPL 04-00-002
+,
+Procedures for Approval of Local Emphasis Programs (LEPs)
+, November 13, 2018.
+
+LEPs are generally based on knowledge and experience of local industry hazards, injuries, and illnesses. The LEP effective period is specified in the directive and will not exceed five years. LEPs can include targeting of employers with 10 or fewer employees, as long as they do not conflict with restrictions under congressional appropriations act riders described in OSHA Instruction
+CPL 02-00-170
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, dated July 18, 2024 or successor guidance.
+
+The most recent list of OSHA Local Emphasis Programs (LEPs) in effect is available on the
+OSHA public webpage
+.
+
+➣
+Severe Violator Enforcement Program (SVEP)
+.
+
+This program is intended as a means to focus on employers who have demonstrated indifference to their OSH Act obligations by committing willful, repeated, or failure-to-abate violations. (See
+Severe Violator Enforcement Program (SVEP)
+directive, CPL 02-00-169, September 15, 2022
+.) Enforcement actions for severe violator cases include mandatory follow-up inspections, increased company/corporate awareness of OSHA enforcement, corporate-wide agreements, enhanced settlement provisions, and federal court enforcement under Section 11(b) of the OSH Act.
+
+
+
+If an unprogrammed inspection arises for an establishment that is to receive a follow-up inspection or additional targeted inspection as a result of the SVEP, the two inspections can be conducted either concurrently or separately. The SVEP does not affect in any way the conduct of unprogrammed inspections.
+
+Some establishments can be selected for inspection under the SVEP and also under other OSHA initiatives such as National Emphasis Programs (NEPs), Regional Emphasis Programs (REPs), or Local Emphasis Programs (LEPs). These other programs run concurrently with the SVEP.
+
+➣
+Inspection Lists
+.
+
+All fixed maritime (shipyard) establishments shall be scheduled and inspected by either using an industry rank report or establishment lists as detailed in
+CPL 02-00-025
+.
+
+The Area Director shall compile a complete list of active establishments (worksites) considering all establishments within the coverage of the office and using the best available information (internet and local listings, local knowledge, shipyard and boatyard lists provided by OME, etc.). Inspection lists can be compiled in various ways. Two ways that have been used successfully in scheduling shipyard inspections are:
+
+List by Port Area
+; or
+
+A list of shipyard sites by port areas can be prepared at the beginning of the fiscal year by the Area Office, using LEP inspection lists, local knowledge, and experience.
+
+List by Employer
+.
+
+A list of all shipyard industry employers within the Area Office's jurisdiction can be prepared, using LEP inspection lists, local knowledge, and experience.
+
+CSHO Training
+.
+
+The OTI Course #2090,
+Shipyard Employment
+introduces shipyard operations and standards, including the jurisdictional considerations of enforcement. This course covers ship building, repair, breaking, and barge cleaning, and the application of shipyard standards. The course consists of several workshops where the student will have to analyze various scenarios to determine the hazard(s), related standard(s), and apply corrective actions. Course highlights include a field trip to an operating shipyard for a shipyard orientation, and to review the processes involved in building a ship.
+
+CSHO Preparation
+.
+
+In addition to normal inspection preparation procedures, CSHOs must be properly equipped and attired. All necessary personal protective equipment (PPE) must be available for use and in proper operating condition. CSHOs must be trained in the uses and limitations of PPE before beginning the inspection. At the opening conference, the CSHO will request a copy of the employer's certification of hazard assessment prepared in accordance with
+29 CFR 1915.152(b)
+in order to be aware of the necessary PPE. The suggested minimum PPE for a CSHO is: a safety helmet, safety shoes, gloves, eye protection, hearing protection, a personal flotation device (PFD), and a high-visibility/retro-reflective vest. Additional PPE, such as a respirator, can be required if conditions warrant. All testing and monitoring equipment must be calibrated (if necessary) and in good condition. It may be advisable for a CSHO to carry a multi-gas meter when conducting a vessel inspection to test for O2, H2S, CO, and/or LEL.
+
+Safety and Health Rules at Shipyards
+.
+
+Under
+29 CFR 1903.7(c)
+, CSHOs must comply with all site safety and health rules and practices at a shipyard or on a vessel, and must wear or use the safety clothing or protective equipment required by OSHA standards or by the employer for the protection of employees.
+
+Inspection Data
+.
+
+Inspection data
+is accessible through OSHA's webpage. This "Statistics & Data" page will allow the user to conduct searches by establishment, Standard Identification Classification (SIC) code, North American Industry Classification System (NAICS) code, OSHA inspection number, accidents, and frequently cited standards. The page also contains links to the Bureau of Labor Statistics (BLS) for injury and illness statistics. The NAICS codes that correspond to shipyard employment include, but are not limited to:
+
+
+➣
+336611 Ship Building and Repairing
+: This U.S. industry comprises establishments primarily engaged in operating a shipyard. Shipyards are fixed facilities with drydocks and fabrication equipment capable of building a ship, defined as watercraft typically suitable or intended for other than personal or recreational use. Activities of shipyards include the construction of ships; their repair, conversion, and alteration; the production of prefabricated ship and barge sections; and specialized services, such as ship scaling (Shipbreaking and dismantling at shipyards);
+
+➣
+336612 Boat Building
+: This U.S. industry comprises establishments primarily engaged in building boats. Boats are defined as watercraft not built in shipyards and typically of the type suitable or intended for personal use. Included in this industry are establishments that manufacture heavy-duty inflatable rubber or inflatable plastic boats (RIBs);
+
+NOTE
+: Boats are defined by NAICS code 336612 as watercraft
+not built in shipyards
+and typically of the type suitable or intended for recreational or personal use (such as dinghy manufacturing, motorboat building, rowboat manufacturing, and sailboat/yacht building that is
+not done in shipyards
+). Boat building, repair, and breaking, including recreational boat building and manufacturing facilities, that are
+not
+located on or adjacent to U.S. navigable waters of the United States are covered by 29 CFR Part 1910 General Industry Standards.
+
+➣
+423930 Recyclable Material Merchant Wholesalers
+(except at floating drydocks and shipyards): Some shipbreaking falls under this NAICS code;
+
+➣
+488390 Other Support Activities for Water Transportation
+: This industry comprises establishments primarily engaged in providing services to water transportation (includes ship dismantling, maintenance, and routine repairs for ships at floating drydocks);
+
+➣
+713930 Marinas
+: This industry comprises establishments, commonly known as marinas, engaged in operating docking and/or storage facilities for pleasure craft owners, with or without one or more related activities, such as retailing fuel and marine supplies; and repairing, maintaining, or renting pleasure boats; and
+
+➣
+811490 Other Personal and Household Goods Repair and Maintenance
+: This industry comprises establishments primarily engaged in repairing motorboats, canoes, sailboats, and other recreational boats (includes inboard and outboard repair and maintenance services).
+
+NOTE
+: Operating marinas and facilities providing a range of other services, including boat cleaning and repair are classified in Industry 713930, Marinas;
+
+NOTE
+: The repair of recreational boats is covered by the 29 CFR Part 1915 Shipyard Employment Standards if performed on or adjacent to U.S. navigable waters;
+
+NOTE
+: A complete list of NAICS codes is available on the U.S.
+Census Bureau website
+.
+
+Leased Employees and Employer Responsibilities
+.
+
+Many shipyards use contract or temporary leased employees. The company on whose payroll the employee is listed, as well as the company that supervises and controls the employee's activities, can be regarded as the employer. However, only the company that supervises the employee's daily work activities is responsible for injury and illness recordkeeping for that employee. (See the OSHA/NIOSH Publication,
+Recommended Practices: Protecting Temporary Workers
+OSHA Temporary Worker Initiative Bulletin #11,
+Safety and Health in Shipyard Employment
+.)
+
+Multi-Employer Worksites
+.
+
+More than one employer can be liable for a hazardous condition that violates an OSHA standard. The process that must be followed in determining whether more than one employer is liable for employee safety and health conditions can be found in OSHA Instruction
+CPL 02-00-124
+,
+Multi-Employer Citation Policy
+, December 10, 1999. See also the multi-employer worksite provisions in
+29 CFR 1915.12(f)
+and
+29 CFR 1915.501
+. The Regional Solicitor's Office is available to address issues concerning the application of the multi-employer citation policy after approval from the respective Regional Administrator.
+
+Applicable Standards
+.
+
+
+29 CFR Part 1915
+- Shipyard Employment Standards.
+
+Apply to all ship repairing, shipbuilding, shipbreaking, and related employments.
+
+29 CFR Part 1910
+- General Industry Standards.
+
+For a list of general industry standards that do or do not apply in shipyard employment, refer to Appendix A: Application of 29 CFR Part 1910 Standards to 29 CFR Part 1915 Shipyard Employment, in
+CPL 02-00-162
+,
+Shipyard Employment "Tool Bag"
+Directive.
+
+29 CFR Part 1926
+- Construction Standards.
+
+Apply when:
+
+➣ Construction activities occur on shipyards; or
+
+➣ Construction materials, equipment and supplies in support of a construction project are unloaded, moved, or handled into, in, on, or out of any vessel, from shore to vessel, from vessel to shore, or from vessel to vessel. (See
+STD 03-13-002
+, 29 CFR 1926.605(a)(1)
+as Applied to Maritime Construction
+; July 15, 1982.)
+
+NOTE
+: Incidental maintenance or normal upkeep performed on floating equipment during actual construction operations is not covered by 29 CFR 1915.115(a), but major overhauls of floating equipment when equipment is taken out of service and is not being used for construction operations are covered by 29 CFR 1915.115(a). (See
+STD 03-13-002
+, 29 CFR 1926.605(a)(1) as Applied to Maritime Construction; July 15, 1982.)
+
+29 CFR Part 1919
+- Gear Certification.
+
+
+➣ Provides guidance for the approval of OSHA-accredited agencies and criteria for Part 1919 agencies to evaluate and issue a certificate (OSHA Form-71 and -72) for certain cranes in shipyards. The 29 CFR Part 1919 standards cannot be cited; rather, CSHOs shall use the appropriate 29 CFR Part 1915 standards to cite hazards. (See
+1915.115(a)
+and
+CPL 02-01-055
+, Maritime Cargo Gear Standards and 29 CFR 1919 Certification, September 30, 2013.)
+
+Marine Cargo Handling Industry (Parts 1917 & 1918)
+
+Coverage
+.
+
+The marine cargo handling industry includes:
+
+
+Longshoring and related employment aboard a vessel Longshoring is the loading, unloading, moving, or handling of cargo, ship's stores, gear, or any other materials into, in, on, or out of any vessel Related employment is any employment performed incidental to or in conjunction with longshoring, including securing cargo, rigging, and employment as a porter, clerk, checker, or security officer (see
+29 CFR 1918.2
+); and
+
+Marine terminal (on shore) employment, as defined in
+29 CFR 1917.1
+, includes the loading, unloading, movement or other handling of cargo, ship's stores, or gear within the terminal or into or out of any land carrier, holding or consolidation area, and any other activity within and associated with the overall operations and functions of the terminal, except as noted in the standards It includes all cargo transfers using shore-based material handling devices (See
+CPL 02-00-154
+,
+Longshoring and Marine Terminals "Tool Shed" Directive
+, July 31, 2012.)
+
+Marine Cargo Handling Authority
+.
+
+
+U.S. Coast Guard
+.
+
+OSHA has authority to cite employers engaged in longshoring and marine terminal operations; U.S. Coast Guard regulations do not preempt OSHA from citing such employers. On inspected vessels, OSHA has no authority to cite the owner or operator of the vessel with respect to any working conditions of seamen (crew members) regardless of the work they are performing. On uninspected vessels OSHA can cite the owner or operator of the vessel for any violation of working conditions affecting seamen or non-seamen, unless the hazards are covered by U.S. Coast Guard regulations. (See
+CPL 02-01-066
+,
+OSHA Authority over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS)
+, November 13, 2024.)
+
+U.S. Navy
+.
+
+OSHA has authority under the OSH Act over longshoring operations aboard U.S. Navy vessels and within a marine terminal at a U.S. Navy facility when the work is performed by a contractor. U.S. Navy civilian personnel are covered under
+Presidential Executive Order 12196
+, implemented by
+29 CFR Part 1960
+. There are no geographic limitations of OSHA's coverage for Executive Branch federal civilian employees who are not performing uniquely military operations as defined in
+29 CFR 1960.2(i)
+. Therefore, OSHA's authority extends to all federal civil service mariners (CIVMARs) in the U.S. Navy's Military Sealift Command (MSC).
+
+Note
+: OSHA does not cover Armed Forces personnel (uniformed military both active and reserve) such as: U.S. Navy (including MSC military department (MILDEPT)), U.S. Army, U.S. Air Force, U.S. Space Force, U.S. Marine Corps, and U.S. Coast Guard. However, OSHA does cover uniformed services of the commissioned corps of NOAA and the Public Health Service.
+
+State Plans
+.
+
+
+➣
+Private Sector Employees
+.
+
+States that operate their own OSHA-approved State Plans can elect to exercise authority over private sector maritime employees. States that have authority to exercise safety and health standards over private sector, land-side marine terminal employment activities are:
+California
+,
+Minnesota
+,
+Vermont
+, and
+Washington
+. (See the State Plan standards in
+29 CFR Part 1952
+, of these states for specific areas of authority.) However, OSHA retains authority in these four states on U.S. navigable waters (i.e., longshoring employment). In the remaining states, OSHA has authority over all marine cargo handling employees whether working land-side or on U.S. navigable waters.
+
+➣
+Public Sector Employees
+.
+
+State Plans have authority over employees of state and local governments (e.g., port authorities, cities, counties), on both the land-side areas and aboard vessels. OSHA has no authority over "…any State or political subdivisions of a State." Section 3(5) of the OSH Act, 29 U.S.C. 652(5).
+
+Marine Cargo Handling Inspections
+.
+
+
+Inspection Scheduling
+.
+
+The marine cargo handling industry is made up of longshoring activities (i.e., cargo handing aboard vessels) and activities within marine terminals (i.e., cargo handling ashore). Due to the unique differences among these activities and differing port locations, sizes, and number of employers (i.e., stevedores), several scheduling methods are necessary. Consequently, marine cargo handling industry inspections can be scheduled as National Emphasis Programs (NEPs), Special Emphasis Programs (SEPs), Regional Emphasis Programs (REPs), Local Emphasis Programs (LEPs), the Severe Violator Enforcement Program (SVEP), or from lists developed in accordance with
+CPL 02-00-025
+,
+Scheduling System for Programmed Inspections
+, January 4, 1995. However, this Instruction will take precedence over CPL 02-00-025 when there is a divergence between the two instructions.
+
+
+➣
+National Emphasis Programs (NEPs)
+.
+
+Guidance for conducting NEP inspections in the marine cargo handling industry includes:
+
+
+CPL 03-00-009
+,
+National Emphasis Program-Lead
+, August 14, 2008; and
+
+NOTE
+: All other scheduled marine cargo handling inspections can be conducted under LEPs that support DOL's Strategic Plan and OSHA's Agency Management Plan goals.
+
+➣
+Local Emphasis Programs (LEPs)
+.
+
+LEPs are a type of Special Emphasis Program in which one or more area offices in a region participate. LEPs can be originated at the area or regional office level and should follow
+CPL 04-00-002
+,
+Procedures for Approval of Local Emphasis Programs (LEPs)
+, November 13, 2018.
+
+LEPs are generally based on knowledge and experience of local industry hazards, injuries, and illnesses. LEPs can include targeting of employers with 10 or fewer employees, as long as they do not conflict with restrictions under congressional appropriations act riders described in OSHA Instruction
+CPL 02-00-170
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, dated July 18, 2024 or successor guidance.
+
+The most recent list of OSHA Local Emphasis Programs (LEPs) in effect is available at the Directorate of Enforcement Program's Intranet page.
+
+➣
+Severe Violator Enforcement Program (SVEP)
+.
+
+This program concentrates resources on inspecting employers who have demonstrated indifference to their OSH Act obligations by committing willful, repeated, or failure-to-abate violations. (See
+Severe Violator Enforcement Program (SVEP)
+Directive, CPL 02-00-169, September 15, 2022
+.) Enforcement actions for severe violator cases include mandatory follow-up inspections and, where appropriate, ensure increased company/corporate awareness of OSHA enforcement actions, corporate-wide agreements, enhanced settlement provisions, and federal court enforcement under Section 11(b) of the OSH Act. It also provides for nationwide referral procedures, which include OSHA's State Plans.
+
+If an unprogrammed inspection arises for an establishment that is to receive a follow-up inspection or additional targeted inspection as a result of the SVEP, then the two inspections can be conducted either concurrently or separately. The SVEP does not affect in any way the conduct of unprogrammed inspections.
+
+Some establishments can be selected for inspection under the SVEP and also under other OSHA initiatives such as National Emphasis Programs (NEPs), Regional Emphasis Programs (REPs), or Local Emphasis Programs (LEPs). These other programs can be run concurrently with the SVEP.
+
+➣
+Inspection Lists
+.
+
+Water transportation services inspection lists can be developed either by port area or by employer.
+
+
+List by Port Area
+.
+
+A list of port areas can be prepared at the beginning of the fiscal year by the Area Director, using OSHA inspection history, local knowledge and experience, company schedules, and information from other sources. For example, the Port of Savannah might be subdivided into three port areas; the Port of Houston might be subdivided into eight or more port areas. Other large ports can be subdivided in the same manner.
+
+List by Employer
+.
+
+A list of all water transportation services employers within the Area Office's jurisdiction can be prepared, based on OSHA inspection history, local knowledge and experience, company schedules, and other sources.
+
+NOTE
+: Due to differing locations, loading/unloading equipment, products, site conditions, or any other reasons determined by the CSHO, he/she can inspect multiple worksites (i.e., vessels) being worked by the same employer. Each vessel shall be considered a separate inspection for recording purposes.
+
+CSHO Training and Preparation
+.
+
+The OTI Course #2060,
+Longshoring and Marine Terminal Processes and Standards
+, introduces longshoring, covers vessel and equipment nomenclature and the application of the longshoring and marine terminal standards. Course highlights include field exercises at a working vessel or landship for longshoring orientation. CSHO Preparation.
+
+In addition to normal inspection preparation procedures, CSHOs must be properly equipped and attired. All necessary personal protective equipment (PPE) must be available for use and in proper operating condition. CSHOs must be trained in the uses and limitations of PPE before beginning the inspection. The suggested minimum PPE for a CSHO is a safety helmet, safety shoes, gloves, eye protection, hearing protection, a personal flotation device (PFD), and a high-visibility/retro-reflective vest. Additional PPE can be required, such as a respirator, if conditions warrant. All testing and monitoring equipment must be calibrated (if necessary) and in good condition. It may be advisable for a CSHO to carry a multi-gas meter when conducting a vessel inspection to test for O2, H2S, CO, and/or LEL.
+
+Safety and Health Rules at a Marine Cargo Handling Facility
+.
+
+29 CFR 1903.7(c) requires CSHOs to comply with all site safety and health rules and practices at marine cargo handling facility or vessel, and to wear or use the safety clothing or protective equipment required by OSHA standards or by the employer for the protection of employees.
+
+Inspection Procedures
+.
+
+
+➣ A CSHO shall gain access to a marine terminal by following local security measures (see also Section III.E of this chapter, Security Procedures, for more information). When a longshoring operation inspection involves only a stevedoring company (i.e., a company that hires longshoring employees) and does not involve the marine terminal operator, the CSHO shall go directly to the vessel to initiate the inspection. The employer's representative (such as a superintendent, crew leader, supervisor, or hatch boss) and an employee representative (if applicable) will be contacted, and the opening conference held. The inspection will usually be limited to the vessel being worked by the stevedore. When the stevedore and the terminal operator are the same, an inspection of both the terminal and vessel will typically be conducted when Federal OSHA has authority.
+
+➣ A CSHO shall always notify the master of the vessel (i.e., captain) or have the stevedore's representative notify the master prior to performing the walkaround portion of the inspection on a vessel.
+
+Inspection Data
+.
+
+Inspection data
+is accessible through OSHA's webpage. This "Statistics & Data" page will allow the user to conduct searches by establishment, Standard Identification Classification (SIC) code, North American Industry Classification System (NAICS) code, OSHA inspection number, accidents, and frequently cited standards. The page also contains links to the Bureau of Labor Statistics (BLS) for injury and illness statistics. The NAICS codes that correspond to the marine cargo handling industry include, but are not limited to:
+
+
+➣
+488310 Port and Harbor Operations
+: This industry comprises establishments primarily engaged in operating ports, harbors (including docking and pier facilities), or canals;
+
+➣
+488320 Marine Cargo Handling
+: This industry comprises establishments primarily engaged in providing stevedoring and other marine cargo handling services (except warehousing);
+
+➣
+483211 Inland Water Freight Transportation
+: This U.S. industry comprises establishments primarily engaged in providing inland water transportation of cargo on lakes, rivers, or intracoastal waterways (except on the Great Lakes System);
+
+➣
+483111 Deep Sea Freight Transportation
+: This U.S. industry comprises establishments primarily engaged in providing deep sea transportation of cargo to or from foreign ports; and
+
+➣
+483113 Coastal and Great Lakes Freight Transportation
+: Establishments primarily engaged in providing coastal and/or Great Lakes barge transportation services are included in this industry.
+
+NOTE
+: A complete list of NAICS codes is available on the
+U.S. Census Bureau website
+.
+
+Multi-employer Worksites
+.
+
+More than one employer can be liable for a hazardous condition that violates an OSHA standard. The process which must be followed in determining whether more than one employer is liable for employee safety and health conditions can be found in OSHA Instruction
+CPL 02-00-124
+,
+Multi-Employer Citation Policy
+, December 10, 1999. The Regional Solicitor's Office is available to address issues concerning the application of the multi-employer citation policy after approval from the respective Regional Administrator.
+
+Applicable Standards
+.
+
+
+There are separate standards for the two components of marine cargo handling
+.
+
+
+➣
+Marine Terminal Standards
+.
+
+Material handling activities that occur on piers, docks, wharves, and other shore-side locations are covered by
+29 CFR Part 1917
+, Marine Terminals Standards. (See also the Longshoring Industry "
+Green Book
+," OSHA Publication 2232 (2001)).
+
+➣
+Longshoring Standards
+.
+
+Material handling activities occurring on a vessel are covered by
+29 CFR Part 1918
+, Longshoring Standards. (See also the Longshoring Industry "
+Green Book
+," OSHA Publication 2232 (2001)).
+
+General Criteria for Standard Application
+.
+
+There are often uncertainties about which part applies. The following are some basic “rule-of-thumb” criteria for determining standard applicability.
+
+
+➣
+Lifting Devices
+.
+
+
+Use 29 CFR Part 1917 for cranes, derricks, hoists, spouts, etc., located on the marine terminal.
+
+Use 29 CFR Part 1918 for cranes, derricks, hoists, etc., located on the vessel.
+
+NOTE
+: See
+CPL 02-01-055
+,
+Maritime Cargo Gear Standards and 29 CFR Part 1919 Certification
+, September 30, 2013.
+
+NOTE
+: See the third bullet under
+II.C.4.c
+, below, if cranes, derricks, or hoists are involved in construction activities.
+
+➣
+Work Location
+.
+
+
+29 CFR Part 1917 applies if the work occurs within a marine terminal (i.e., on the land-side), including all piers, docks and wharves.
+
+29 CFR Part 1918 applies if the work occurs on a vessel (i.e., on the water), including the gangway.
+
+NOTE
+: If cranes, derricks, or hoists are involved in construction activities, see in this chapter, Section II.C.4.c. under the third bullet below.
+
+Other Applicable Standards
+.
+
+
+➣
+Gear Certification
+- 29 CFR Part 1919.
+
+Provides guidance for the approval of OSHA-accredited agencies and criteria for Part 1919 agencies to evaluate and issue a certificate (OSHA Form-71 and -72) for cargo handling gear onboard vessels and at marine terminals. The 29 CFR Part 1919 standards cannot be cited by CSHOs. They shall use the appropriate 29 CFR Part 1917 or 1918 standards to cite hazards. (See
+1917.50
+,
+1918.11
+, and
+1918.66
+.) (Also see,
+CPL 02-01-055
+, Maritime Cargo Gear Standards and 29 CFR 1919 Certification, September 30, 2013.)
+
+➣
+General Industry Standards
+- 29 CFR Part 1910.
+
+The only 29 CFR Part 1910 General Industry Standards that are applicable to marine terminals and longshoring operations are identified in the Scope and Applicability sections of each part. (See
+1917.1(a)(2)
+and
+1918.1(b)
+).
+
+➣
+Construction Standards
+- 29 CFR Part 1926.
+
+Apply when:
+
+
+Construction activities occur on marine terminals; or
+
+Construction materials, equipment and supplies in support of a construction project are unloaded, moved, or handled into, in, on, or out of any vessel, from shore to vessel, from vessel to shore, or from vessel to vessel. (See
+STD 03-13-002
+, 29 CFR 1926.605(a)(1)
+as Applied to Maritime Construction
+; July 15, 1982.)
+
+➣
+Shipyard Employment Standards
+- 29 CFR Part 1915.
+
+When vessels located at marine terminals are repaired, 29 CFR Part 1915 Shipyard Employment Standards apply.
+
+Other Marine Activities
+
+A number of other activities occur on, above, or in water, but no separate 29 CFR parts specifically address them. Rather, the activities are covered by either General Industry or Construction standards.
+
+
+Commercial Diving
+- 29 CFR Part 1910, Subpart T. (See
+CPL 02-00-151
+,
+29 CFR Part 1910, Subpart T - Commercial Diving Operations
+, June 13, 2011.)
+
+Diving activities related to shipyard employment are covered by
+29 CFR 1915.6
+; diving activities related to construction activities are covered by
+29 CFR Part 1926, Subpart Y
+. Both standards reference 29 CFR Part 1910, Subpart T.
+
+NOTE
+: Diving is classified as NAICS code 561990.
+
+Commercial Fishing
+- 29 CFR Part 1910. (See
+CPL 02-01-066
+,
+OSHA Authority over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS)
+, November 13, 2024.)
+
+Shipyard employment activities for fishing vessels are covered by 29 CFR Part 1915; marine cargo handling activities for fishing vessels are covered by 29 CFR Parts 1917 and 1918.
+
+➣ Commercial fishing is classified as NAICS codes:
+
+
+114111 Finfish Fishing;
+
+114112 Shellfish Fishing; and
+
+114119 Other Marine Fishing (Except finfish and shellfish).
+
+Marine Construction
+- 29 CFR Part 1926. (See in particular
+29 CFR 1926.605
+and
+29 CFR 1926.106
+.)
+
+Construction activities (e.g., bridge and pier construction, bulkhead construction, installation of sewage outfalls) occurring from a vessel are considered marine construction and are covered under the 29 CFR Part 1926 Construction Standards.
+
+Renewable Energy Facilities on the OCS
+. -The
+Department of Interior (DOI) Policy Statement on Regulating Workplace Safety and Health Conditions on Renewable Energy Facilities on the Outer Continental Shelf
+went into effect on October 18, 2019. The Policy Statement provides that the Bureau of Safety and Environmental Enforcement (BSEE) of DOI will act as the principal Federal agency for the enforcement of safety and health requirements for OCS renewable energy facilities by creating a Safety Management System (SMS) that addresses risks associated with construction, operation, maintenance, and decommissioning of renewable energy facilities. DOI considers its regulatory program to occupy the field of workplace renewable energy facilities, and to preempt the applicability of the OSHA requirements, including recordkeeping and reporting regulations. See 29
+U.S.C. 653(b)(1)
+. In carrying out its responsibilities on the OCS, DOI will collaborate and consult with OSHA (which serves in a non-regulatory role) on workplace safety and health matters for the offshore wind industry and other offshore renewable energy industries.
+
+Marine Oil Spill Response Employees
+. - Training needed for marine oil spill response employees is covered under
+29 CFR 1910.120
+- Hazardous waste operations and emergency response (HAZWOPER) and explained in
+OSHA Publication 3172 (2010), Training Marine Oil Spill Response Workers Under OSHA's Hazardous Waste Operations and Emergency Response Standard
+.
+
+OSHA's webpage,
+Keeping Workers Safe During Oil Spill Response and Cleanup Operations
+, compiles safety and health information for workers conducting such operations including: multi-lingual fact sheets and guidance documents, oil spill training materials, national response system information, and many other resources relating to oil spills and cleanup operations.
+
+Other Regulatory Agencies
+.
+
+During a maritime inspection, CSHOs may encounter other regulatory agencies such as, but not limited to, the Department of Homeland Security (DHS), including the U.S. Coast Guard (USCG) and the Transportation Security Administration (TSA); U.S. Army Corps of Engineers (USACE); Department of Transportation (DOT); Environmental Protection Agency (EPA); Bureau of Ocean Energy Management, Regulation and Enforcement (BOEMRE); Bureau of Safety and Environmental Enforcement (BSEE): Federal Railroad Administration (FRA); Mine Safety and Health Administration (MSHA); Nuclear Regulatory Commission (NRC); and Federal Grain Inspection Service (FGIS). CSHOs should contact the Office of Maritime Enforcement for any questions about OSHA coverage and/or coordination with other agencies or consult CPL
+02-01-066
+,
+OSHA Authority Over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and on the Outer Continental Shelf (OCS)
+.
+
+Security Procedures
+.
+
+
+Transportation Worker Identification Card (TWIC)
+.
+
+The TWIC program is a Transportation Security Administration (TSA) and U.S. Coast Guard initiative. The TWIC program provides a tamper-resistant biometric credential to maritime workers requiring unescorted access to secure areas of port facilities, outer continental shelf facilities, and vessels regulated under the
+Maritime Transportation Security Act
+(MTSA); and all U.S. Coast Guard credentialed merchant mariners. An estimated 750,000 individuals require TWICs.
+
+NOTE
+: A CSHO's credentials and government identification card are equivalent to a TWIC for the purposes of access to and escorting non-TWIC holders on maritime facilities (see
+Redefining Secure Areas and Acceptable Access Control
+, January 7, 2008, and
+TWIC & Law Enforcement Officials & Other Regulatory Agencies
+, November 21, 2007). Should problems arise, the CSHO should contact the local U.S. Coast Guard office (
+http://homeport.uscg.mil
+) to obtain resolution and access. Difficulties in obtaining access to maritime facilities using CSHO credentials and a government identification card should be reported by the Regional Administrator to the Directorate of Enforcement Programs, Office of Maritime Enforcement at 202-693-2399.
+
+Photography and Security at U.S. Navy Worksites
+.
+
+Area Directors should establish a photography and security policy agreement with an installation prior to conducting inspections. The U.S. Navy has advised its shore and afloat (ship) activities that permission is granted for Federal OSHA compliance officials to conduct safety and health inspections and investigations of U.S. Navy civilian and contractor workplaces. CSHOs will be required to present appropriate identifying credentials and a government identification card; also, for entry into nuclear, explosive, and other security-sensitive areas, a security clearance may be required. CSHOs shall be required to possess appropriate security clearances for entry into areas where the workplace is situated.
+
+The current U.S. Navy policy prohibits OSHA compliance officials from taking photographs. CSHOs can request that photographs of safety and health conditions to be taken by U.S. Navy personnel. Any photographs taken by the U.S. Navy will initially be classified CONFIDENTIAL and shall not be delivered to OSHA compliance officials until all photographs have been fully screened and censored, as appropriate, in the interest of national security. Screening officials will normally complete this process within 15 days. Also, any design or system performance data (e.g., recordings of noise sound level profiles and light level readings) shall be screened by the U.S. Navy prior to release to OSHA. See chapter 11 in
+OPNAV 5100.23G
+-
+Navy Safety and Occupational Health (SOH) Program Manual
+, Change 2, September 5, 2022, for details on security and photography policies.

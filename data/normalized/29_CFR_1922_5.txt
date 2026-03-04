@@ -1,0 +1,7 @@
+Source: 29 CFR 1922.5
+Title: § 1922.5 Notice of investigational hearings.
+Section: 1922.5
+Path: PART 1922—INVESTIGATIONAL HEARINGS UNDER SECTION 41 OF THE LONGSHOREMEN'S AND HARBOR WORKERS' COMPENSATION ACT
+ > PART 1922—INVESTIGATIONAL HEARINGS UNDER SECTION 41 OF THE LONGSHOREMEN'S AND HARBOR WORKERS' COMPENSATION ACT
+
+The Chairman of the Board shall give reasonable notice of the time and place of any investigational hearing to any person whose conduct is or may be pertinent to the subjects of investigation; to any prospective witnesses; and to any Federal or State agency engaged in similar investigative work.

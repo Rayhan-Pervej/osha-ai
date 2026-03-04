@@ -1,0 +1,8 @@
+Source: 29 CFR 1912.4
+Title: § 1912.4 Avoidance of duplication.
+Section: 1912.4
+Path: PART 1912—ADVISORY COMMITTEES ON STANDARDS
+ > PART 1912—ADVISORY COMMITTEES ON STANDARDS
+ > Organizational Matters
+
+No standards advisory committee shall be created if its duties are being, or could be, performed by an existing advisory committee established under section 7(b) of the Act.

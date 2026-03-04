@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.19
+Title: § 1919.19 Gear requiring welding.
+Section: 1919.19
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart D—Certification of Vessels' Cargo Gear
+
+Chains or other gear which have been lengthened, altered or repaired by welding shall be properly heat treated where necessary, and, before again being put into use, shall be tested and reexamined in the manner set forth in subpart E of this part.

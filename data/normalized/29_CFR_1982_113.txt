@@ -1,0 +1,9 @@
+Source: 29 CFR 1982.113
+Title: § 1982.113 Judicial enforcement.
+Section: 1982.113
+Path: PART 1982—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER THE NATIONAL TRANSIT SYSTEMS SECURITY ACT AND THE FEDERAL RAILROAD SAFETY ACT
+ > PART 1982—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER THE NATIONAL TRANSIT SYSTEMS SECURITY ACT AND THE FEDERAL RAILROAD SAFETY ACT
+ > Subpart C—Miscellaneous Provisions
+
+(a) Whenever any person has failed to comply with a preliminary order of reinstatement, or a final order, including one approving a settlement agreement, issued under NTSSA, the Secretary may file a civil action seeking enforcement of the order in the United States district court for the district in which the violation was found to have occurred. Whenever any person has failed to comply with a preliminary order of reinstatement, or a final order, including one approving a settlement agreement, issued under NTSSA, a person on whose behalf the order was issued may file a civil action seeking enforcement of the order in the appropriate United States district court.
+(b) Whenever a person has failed to comply with a preliminary order of reinstatement, or a final order, including one approving a settlement agreement, issued under FRSA, the Secretary may file a civil action seeking enforcement of the order in the United States district court for the district in which the violation was found to have occurred.

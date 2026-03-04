@@ -1,0 +1,702 @@
+Field Operations Manual
+
+Chapter 2
+
+PROGRAM PLANNING
+
+Introduction
+.
+
+OSHA's mission is to assure the safety and health of America's working men and women by promulgating and enforcing standards and regulations; providing training, outreach, and education; establishing partnerships; and encouraging continual improvement in workplace safety and health as well as the development of comprehensive safety and health management systems. Effective and efficient use of resources requires careful, flexible planning. In this way, the overall goal of hazard abatement and employee protection is best served.
+
+Area Office Responsibilities
+.
+
+
+Providing Assistance to Small Employers
+.
+
+
+In 1996, Congress passed the Small Business Regulatory Enforcement Fairness Act (
+SBREFA
+) to respond to the concern expressed by the small business community that federal regulations were too numerous and complex, and that small business needed special assistance in understanding and complying with those regulations.
+
+SBREFA requires all federal agencies regulating small businesses to have in place programs to provide guidance and compliance assistance. These programs must contain procedures to answer inquiries by small entities (small businesses). These programs also provide information on and advice about compliance with the statutes and regulations, interpretations, and applications of the law to specific sets of facts supplied by the small entity. See OSHA's
+Small Business Assistance
+webpage.
+
+Area Office Outreach Program
+.
+
+The Area Director or designee will ensure that the Area Office maintains an outreach program appropriate to local conditions and the needs of the service area. The plan can include Regional and National Office support services, compliance assistance services including assistance in developing compliance safety and health management systems, training and education services, referral services, cooperative programs, abatement assistance, and technical services. Area Office staff that conduct outreach should enter their activities into the OIS Compliance Assistance module.
+
+Responding to Requests for Assistance
+.
+
+All requests from employers or employees for compliance information or assistance shall receive timely, accurate, and helpful responses from OSHA. See the section on
+Information Requests
+in this chapter for additional information.
+
+OSHA Cooperative Programs Overview
+.
+
+OSHA offers a number of avenues for businesses and organizations to work cooperatively with the agency. Compliance Officers should discuss the various cooperative programs with employers.
+
+
+Voluntary Protection Programs (VPP)
+.
+
+The Voluntary Protection Programs (VPP) are designed to recognize and promote effective safety and health management. A hallmark of VPP is the principle that management, workers, and OSHA can work together in pursuit of a safe and healthy workplace. VPP participants are employers who have successfully designed and implemented a health and safety management system at their worksites, and are exempt from programmed inspections.
+
+NOTE: See
+CSP 03-01-003
+,
+Voluntary Protection Programs (VPP): Policies and Procedures Manual
+, April 18, 2008, for additional information.
+
+On-Site Consultation Program
+.
+
+OSHA On-Site Consultation Programs offer no-cost and confidential occupational safety and health services to small- and medium-sized businesses in all 50 states, the District of Columbia, Guam, Northern Mariana Islands, Puerto Rico, and the U.S. Virgin Islands under
+Section 21(d)
+or
+23(g)
+funding agreements with Federal OSHA. On-Site Consultation programs established by the states or U.S. territories in their local agencies or universities have consultants who provide occupational safety and health services.
+
+Consultants work with employers to identify workplace hazards and how to fix them, provide advice for compliance with OSHA standards, provide occupational safety and health training and education to employers and employees, and assist in establishing and improving safety and health programs, with priority given to high-hazard worksites. On-Site Consultation services are separate from OSHA's enforcement efforts and do not result in penalties or citations. However, employers must agree to correct any serious and imminent danger hazards identified in a timely manner. Employers can locate their nearest OSHA On-Site Consultation program by calling 1-800-321-OSHA (6742) or visiting
+www.osha.gov/consultation
+.
+
+Each of OSHA's Regions has Regional Consultation Project Officers (RPOs) that directly liaise with the On-Site Consultation programs within their Regions to provide implementation guidance and oversight in accordance with regulatory (see
+29 CFR 1908
+, Consultation Agreements) and Federal OSHA policy requirements. At the national level the On-Site Consultation Program is administered by OSHA's Directorate of Cooperative and State Programs, Office of Small Business Assistance.
+
+Safety and Health Achievement Recognition Program (SHARP)
+.
+
+The Safety and Health Achievement Recognition Program (SHARP) acknowledges small- and medium-sized businesses that have used the no-cost and confidential OSHA On-Site Consultation Program services and operate exemplary workplace safety and health programs. SHARP applicants receive a full-service, comprehensive consultation visit that involves a complete safety and health hazard identification survey, including a comprehensive assessment of the worksite's safety and health management system. Acceptance of a worksite into SHARP by OSHA is an achievement that identifies employers as models for occupational safety and health among their business peers. Businesses that achieve SHARP status receive an exemption from OSHA programmed inspections for the period that the SHARP certification is valid.
+
+NOTE: See
+CSP 02-00-003
+,
+Consultation Policies and Procedures Manual
+, November 19, 2015, for additional information or visit
+https://www.osha.gov/sharp
+.
+
+Pre-Safety and Health Achievement Recognition Program (Pre-SHARP)
+.
+
+Those employers who do not meet the SHARP requirements, but who exhibit a reasonable promise of achieving agreed-upon milestones within the set time frames for SHARP participation, may be granted Pre-SHARP status. Pre-SHARP applicants receive a full-service, comprehensive consultation visit that involves a complete safety and health hazard identification survey, including a comprehensive assessment of the worksite's safety and health management system. Upon achieving Pre-SHARP status, employers receive an exemption from OSHA programmed inspections for the specified period.
+
+Strategic Partnerships
+.
+
+Organizations can enter into Strategic Partnerships with OSHA to address specific safety and health issues. In these partnerships, OSHA enters into extended, voluntary, cooperative relationships with groups of employers, employees, and employee representatives (sometimes including other stakeholders, and sometimes involving only one employer) in order to encourage, assist, and recognize efforts to eliminate serious hazards and to achieve a high level of worker safety and health.
+
+NOTE: See
+CSP 03-02-003
+, OSHA
+Strategic Partnership Program for Worker Safety and Health
+, November 6, 2013, for additional information.
+
+Alliance Program
+.
+
+Through the Alliance Program, OSHA works with groups committed to worker safety and health to prevent workplace fatalities, injuries, and illnesses. These groups include unions, consulates, trade or professional organizations, businesses, faith- and community-based organizations, and educational institutions. OSHA and the groups work together to develop compliance assistance tools and resources, share information with workers and employers, and educate workers and employers about their rights and responsibilities. Alliance Program participants do not receive exemptions from OSHA inspections or any other enforcement benefits.
+
+NOTE: See
+CSP 04-01-002
+, OSHA
+Alliance Program
+, July 29, 2015, for additional information.
+
+NOTE: See
+Section VI.H
+, of this chapter, Enforcement Scheduling and Interface with Cooperative Program Participants, for additional information
+
+Enforcement Program Scheduling
+.
+
+
+General
+.
+
+
+OSHA's priority system for conducting inspections is designed to allocate available OSHA resources as effectively as possible to ensure that maximum feasible protection is provided to working men and women. The Area Director or designee will ensure that inspections are scheduled within the framework of this chapter, that they are consistent with the objectives of the agency, and that appropriate documentation of scheduling practices is maintained.
+
+The Area Director or designee will also ensure that OSHA resources are effectively distributed during inspection activities. If an inspection is of a complex nature, the Area Director or designee may consider utilizing additional OSHA resources (e.g., the Health Response Team). In other circumstances, the use of outside resources may aid the Area or District Office to deploy available resources more effectively. The Area Office will retain control of the inspection.
+
+Inspection Priority Criteria
+.
+
+Generally, priority of accomplishment and of assigning staff resources for inspection categories is as shown in Table 2-1:
+
+Table 2-1: Inspection Priorities
+
+Table 2-1: Inspection Priorities
+
+Priority
+
+Category
+
+First
+
+Imminent Danger
+
+Second
+
+Fatality/Catastrophe (NOTE)
+
+Third
+
+Complaints/Referrals
+
+Fourth
+
+Programmed Inspections
+
+NOTE: OSHA Area Offices will determine the inspection priority of a
+catastrophe
+using the Memorandum entitled, "
+Revised Interim Enforcement Procedures for Reporting Requirements under 29 C.F.R. 1904.39
+," dated March 04, 2016, or unless superseded by future agency-approved correspondence.
+
+Efficient Use of Resources
+.
+
+Deviations from this priority list are allowed so long as they are justifiable, lead to the efficient use of resources, and promote effective worker protection. An example of such a deviation would be when the Agency, Regional Administrator or an Area Director commits a certain percentage of resources to programmed Special Emphasis Program (SEP) inspections such as a National Emphasis Program (NEP), a Regional Emphasis Program (REP), or Local Emphasis Program (LEP). Inspection scheduling deviations must be documented in the case file.
+
+Follow-up Inspections
+.
+
+In cases where follow-up inspections are necessary, it shall be conducted as promptly as resources permit. In general, follow-up inspections shall take priority over all programmed inspections and any unprogrammed inspection in which the hazards are anticipated to be other-than-serious.
+
+NOTE: See
+Chapter 7
+, Post-Citation Procedures and Abatement Verification, for additional information.
+
+Monitoring Inspections
+.
+
+When a monitoring inspection is necessary, the priority is the same as for a follow-up inspection.
+
+NOTE: See
+Chapter 7
+, Post-Citation Procedures and Abatement Verification, for additional information.
+
+Employer Information Requests
+.
+
+Contacts for technical information initiated by employers or their representatives will not trigger an inspection, nor will such employer inquiries protect the requesting employer against inspections conducted pursuant to existing policy, scheduling guidelines and inspection programs established by the Agency.
+
+Reporting of Imminent Danger, Catastrophe, Fatality, Amputations, Accidents, Referrals or Complaints
+.
+
+The Area Director or designee will act in accordance with established inspection priority procedures.
+
+NOTE: See
+Section V
+of this chapter, Unprogrammed Activity – Hazard Evaluation and Inspection Scheduling, for additional information.
+
+Effect of Contest
+.
+
+If an employer has contested a citation and/or a penalty from a previous inspection at a specific worksite, and the case is still pending before the Review Commission, the following guidelines apply to additional inspections of the employer at that worksite:
+
+
+If the employer has contested the penalty only, the inspection will be scheduled as if there were no contest.
+
+If the employer has contested the citation itself or any items therein, then programmed and unprogrammed inspections will be scheduled, but all violative conditions under contest will be excluded from the inspection unless a potential imminent danger is involved.
+
+NOTE: See
+Section IV.B
+, Inspection Priority Criteria, of this chapter for additional information.
+
+Enforcement Exemptions and Limitations
+.
+
+
+In providing funding for OSHA, Congress has consistently placed restrictions on enforcement activities for two categories of employers: small farming operations and small employers in low-hazard industries.
+
+Before initiating an inspection of an employer in these categories, the Area Office will evaluate whether the Appropriations Act for the fiscal year would prohibit the inspection. Where this determination cannot be made beforehand, the CSHO will determine the status of the small farming operation or a small employer in a low-hazard industry upon arrival at the workplace. If the prohibition applies, the inspection shall immediately be discontinued.
+
+NOTE: See
+CPL 02-00-051
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, May 28, 1998, for additional information.
+
+Preemption by Another Federal Agency
+.
+
+
+Section 4(b)(1)
+of the Act states that the Act does not apply to working conditions over which other federal agencies exercise statutory responsibility "to prescribe or enforce standards or regulations affecting occupational safety or health."
+
+If a question arises, usually upon receipt of a complaint, referral, or other inquiry, consult the list of
+Memoranda of Understanding (MOU)
+on the OSHA website to determine if the issue has been previously addressed. A MOU is an agreement created to address/resolve coverage issues and to improve the working relationships between other federal agencies and organizations regarding employee safety and health.
+
+At times an inspection may have already begun when the coverage jurisdiction question arises. Any such situation will be brought to the attention of the Area Director, Regional Solicitor, or designee as soon as it arises, and dealt with on a case-by-case basis.
+
+Two examples of MOUs include the following:
+
+
+Mine Safety and Health Administration
+- Interagency Agreement between the Mine Safety and Health Administration and OSHA, March 29, 1979.
+
+United States Coast Guard/U.S. Department of Transportation
+- Authority of Coast Guard and OSHA regarding enforcement of safety and health standards aboard vessels inspected and certified by the Coast Guard, March 4, 1983.
+
+United States Postal Service
+.
+
+
+The Postal Employee Safety Enhancement Act of 1998
+applies the Act to the U.S. Postal Service in the same manner as the Act applies to a private sector employer.
+
+All State Plan States elected not to cover the U.S. Postal Service. Thus, Federal OSHA retains authority to cover the U.S. Postal Service nationwide. Federal coverage in State Plan States encompasses U.S. Postal Service employees and contract employees engaged in U.S. Postal Service mail operations. Coverage includes contractor-operated facilities engaged in mail operations and postal stations in public or commercial facilities. State Plan States continue to exercise jurisdiction over all other private sector contractors working on U.S. Postal Service sites who are not engaged in U.S. Postal Service mail operations, such as building maintenance and construction employees. (See the Final Rule on
+State Plans Coverage of the U.S. Postal Service
+(
+65 FR 36618
+, June 9, 2000)).
+
+Violations documented during inspections initiated at a U.S. Postal Service site will be cited with penalties in accordance with the FOM and other applicable OSHA policies for the private sector.
+
+NOTE: See
+CPL 02-00-122
+,
+Enforcement Guidance for the U.S. Postal Service
+, April 16, 1999, for additional information.
+
+Home-Based Worksites
+.
+
+
+OSHA will not perform any inspections of employees' home offices. A home office is defined as office work activities in a home-based setting/worksite (e.g., filing, keyboarding, computer research, reading, writing) and may include the use of office equipment (e.g., telephone, facsimile machine, computer, scanner, copy machine, desk, file cabinet).
+
+OSHA will only conduct inspections of other home-based worksites, such as home manufacturing operations, when it receives a complaint or referral alleging that a violation of a safety or health standard exists that threatens physical harm, that an imminent danger is present, or that there was a work-related fatality.
+
+NOTE: See
+CPL 02-00-125
+,
+Home-Based Worksites
+, February 25, 2000, for additional information.
+
+Inspection/Investigation Types
+.
+
+
+Unprogrammed
+.
+
+Inspections scheduled in response to alleged hazardous working conditions identified at a specific worksite are classified as unprogrammed. This type of inspection responds to:
+
+
+Imminent Dangers;
+
+Fatalities/catastrophes; and
+
+Complaints/referrals; and
+
+It also includes follow-up and monitoring inspections scheduled by the Area Office.
+
+NOTE: This category includes all employers/employees directly affected by the subject of the unprogrammed inspection activity, and is especially applicable on multi-employer worksites.
+
+NOTE: Not all complaints and referrals qualify for an inspection. See
+Chapter 9
+, Complaint and Referral Processing, for additional information.
+
+NOTE: See
+CPL 02-00-124
+,
+Multi-Employer Worksite Citation Policy
+, December 10, 1999, for additional information.
+
+Unprogrammed Related
+.
+
+Inspections of employers at multi-employer worksites whose operations are not directly addressed by the subject of the conditions identified in a complaint, accident, or referral are designated as unprogrammed related.
+
+An example would be: A trenching inspection conducted at the unprogrammed worksite where the trenching hazard was not identified in the complaint, accident report, or referral.
+
+Programmed
+. Worksite safety and health inspections that have been scheduled based upon objective or neutral selection criteria are programmed inspections. The worksites are selected according to national scheduling plans or under local, regional, and national special emphasis programs.
+
+Program Related
+.
+
+Inspections of employers at multi-employer worksites whose activities were not included in the programmed assignment, such as a low injury rate employer at a worksite where programmed inspections are being conducted for all high rate employers.
+
+Unprogrammed Activity – Hazard Evaluation and Inspection Scheduling
+.
+
+Enforcement procedures relating to unprogrammed activity are located in subject-specific chapters of this manual:
+
+
+Follow-ups and Monitoring, see
+Chapter 7
+, Post-Citation Procedures and Abatement Verification.
+
+Complaint/Referral Processing, see
+Chapter 9
+, Complaint and Referral Processing.
+
+Whistleblower Complaints, see
+Chapter 9
+, Complaint and Referral Processing.
+
+Imminent Danger, see
+Chapter 11
+, Imminent Danger, Fatality, Catastrophe, and Emergency Response.
+
+Fatality/Catastrophe, see
+Chapter 11
+, Imminent Danger, Fatality, Catastrophe, and Emergency Response.
+
+Emergency Response, see
+Chapter 11
+, Imminent Danger, Fatality, Catastrophe, and Emergency Response.
+
+Programmed Inspections.
+
+
+Scheduling for Construction Inspections
+.
+
+Due to the mobility of the construction industry, the transitory nature of construction worksites and the fact that construction worksites frequently involve more than one employer, inspections are scheduled from a list of construction worksites rather than construction employers. The OSHA National Office will provide to each Area/District Office a randomly selected list of construction projects from identified or known covered active projects. This list will contain the projected number of sites that the field office has reported that it plans to inspect during the next month. Projects are selected in accordance with the inspection schedule for construction.
+
+NOTE: See
+CPL 02-00-155
+,
+Inspection Scheduling for Construction
+, September 6, 2013.
+
+Scheduling for Maritime Inspections.
+
+Maritime inspection activities are covered in greater detail in
+Chapter 10, Section III
+., Maritime.
+
+
+Marine Cargo Handling Industry.
+
+The marine cargo handling industry is made up of longshoring activities (i.e., cargo handling aboard vessels, 29 C.F.R. Part 1918) and activities within marine terminals (i.e., cargo handling ashore; 29 C.F.R. 1917). Because these activities are different, several scheduling methods are necessary. Consequently, marine cargo handling industry inspections can be scheduled as National Emphasis Programs (NEPs), Regional Emphasis Programs (REPs), Local Emphasis Programs (LEPs), or from lists developed in accordance with
+CPL 02-00-025
+,
+Scheduling System for Programmed Inspections
+, January 4, 1995.
+
+NOTE: See
+CPL 02-00-154
+,
+Longshoring and Marine Terminals "Tool Shed" Directive
+, July 31, 2012, for more information.
+
+Shipbreaking
+.
+
+CPL-03-00-020
+,
+OSHA's National Emphasis Program (NEP) on Shipbreaking
+, March 7, 2016, describes policies and procedures to reduce or eliminate workplace hazards associated with shipbreaking operations. Also, OSHA has entered into a
+Memorandum of Understanding
+on Coordination and Information Sharing of Domestic Ship Recycling Operations between DOD/DOT/EPA/DOL-OSHA
+, July 30, 2015.
+
+Shipyard Employment
+.
+
+The shipyard employment industry is made up of several industrial activities. Because these activities are different, several scheduling methods are necessary. Consequently, shipyard employment inspections can be scheduled under NEPs, REPs, LEPs, or from lists developed in accordance with
+CPL 02-00-025
+,
+Scheduling System for Programmed Inspections
+, January 4, 1995, and
+CPL 02-01-060
+,
+Enforcement Guidance for Personal Protective Equipment (PPE) in Shipyard Employment
+, May 22, 2019.
+
+NOTE: See
+CPL 02-00-162
+,
+Shipyard Employment "Tool Bag" Directive
+, May 22, 2019, for more information.
+
+Special Emphasis Programs (SEPs)
+.
+
+Special Emphasis Programs provide for programmed inspections of establishments in industries with potentially high injury or illness rates that are not covered by other programmed inspection scheduling systems or, if covered, where the potentially high injury or illness rates are not addressed to the extent considered adequate under the specific circumstances. SEPs are also based on potential exposure to health hazards. Special emphasis programs can also be used to develop and implement alternative scheduling procedures or other departures from national procedures. Special emphasis programs can include National Emphasis Programs, Regional Emphasis Programs, and Local Emphasis Programs.
+
+
+Identification of Special Emphasis Programs
+.
+
+The description of the particular Special Emphasis Program shall be identified by one or more of the following:
+
+
+Specific industry;
+
+Trade/craft;
+
+Substance or other hazard;
+
+Type of workplace operation;
+
+Type/kind of equipment; and
+
+Other identifying characteristics.
+
+Special Emphasis Program Scope
+.
+
+The reasons for and the scope of a Special Emphasis Program shall be described; and may be limited by geographic boundaries, size of worksite, or similar considerations.
+
+Pilot Programs
+.
+
+National or local pilot programs can also be established under Special Emphasis Programs. Such programs can be conducted for the purpose of assessing the actual extent of suspected or potential hazards, determining the feasibility of new or experimental compliance procedures, or for any other legitimate reason.
+
+National Emphasis Programs (NEPs)
+.
+
+OSHA develops National Emphasis Programs to focus outreach efforts and inspections on specific hazards in a workplace. NEPs may include targeting of employers with 10 or fewer employees, as long as they do not conflict with restrictions under congressional Appropriations Act riders described in OSHA Instruction
+CPL 02-00-051
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, or any successor guidance. All NEPs should advance the Department of Labor's strategic goal of ensuring safe and healthy workplaces and align with Agency goals. NEPs can be developed to support OSHA's annual Operating Plan, but can also be developed in response to an emerging hazard.
+
+In general, each NEP should include the same elements and considerations as listed in OSHA's
+CPL 04-00-002
+.
+Procedures for the Approval of Local Emphasis Programs (LEPs)
+, November 13, 2018. Additionally, an assessment shall be conducted to determine whether State Plan adoption should be mandatory. This assessment shall take into account the applicability of the program within each state's area of coverage. DEP/DOC shall consult with DCSP in making that determination.
+
+Local Emphasis Programs (LEPs) and Regional Emphasis Programs (REPs)
+.
+
+LEPs and REPs are types of special emphasis programs in which one or more Area Offices of a Region participate. LEPs and REPs are generally based on knowledge of local industry hazards or local industry injury/illness experience. LEPs and REPs must be developed and approved when one or more Area Offices within a Region target inspections to a specific industry(s), hazard(s), or other workplace characteristic(s) - e.g., as part of, or in conjunction with, a local initiative or problem-solving project. A list of LEPs is on the OSHA website under the Enforcement tab.
+
+NOTE: See
+CPL 04-00-002
+,
+Procedures for Approval of Local Emphasis Programs (LEPs)
+, November 13, 2018.
+
+OSHA directives include topic-specific scheduling procedures in addition to the general information provided in this section.
+
+Site-Specific Targeting (SST) Inspection Programs
+.
+
+The SST inspection program is OSHA's main site-specific programmed inspection initiative for non-construction workplaces that have 20 or more employees. The SST program uses data received from injury and illness information that employers submitted under 1904.41.
+
+Other Special Programs
+.
+
+The Agency may develop programs to cover special categories of inspections that are not covered under a Special Emphasis Program.
+
+Inspection Scheduling and Interface with Cooperative Program Participants
+.
+
+Employers who participate in voluntary compliance programs can be exempt from programmed inspections and eligible for inspection deferrals or other enforcement incentives. The Area Director or designee will determine whether the employer is actively participating in a Cooperative Program that would impact inspection and enforcement activity at the worksite being considered for inspection. Where possible, this determination should be made prior to scheduling the inspection.
+
+Information regarding a facility's participation in the following programs should be available prior to scheduling inspection activity:
+
+VPP Program;
+
+Pre-SHARP and SHARP Participants;
+
+Consultation and 90-Day Deferrals.
+
+
+
+Voluntary Protection Program
+
+Regional VPP Manager Responsibilities
+.
+
+The Regional VPP managers must keep Area Directors or their designees informed about VPP applicants and the status of participants in VPP. This will prevent unnecessary scheduling of programmed inspections at VPP sites and ensure efficient use of resources. Area Directors or their designee should be informed:
+
+
+That the site can be removed from the programmed inspection list. Such removal can occur no more than 75 days prior to the on-site evaluation;
+
+Of the site's approval for the VPP program;
+
+Of the site's withdrawal or termination from the VPP program; and . If the Regional VPP Manager is the first person notified by the site of an event requiring enforcement, then the VPP Manager must instruct the site to contact the appropriate Area Office.
+
+Programmed Inspections and VPP Participation
+.
+
+
+Inspection Deferral
+. Approved sites must be removed from any programmed inspection lists for the duration of participation, unless a site chooses otherwise. The applicant worksite will be deferred starting no more than 75 calendar days prior to the commencement of its scheduled pre-approval on-site review.
+
+Inspection Exemption
+. The exemption from programmed inspections for approved VPP sites will continue for as long as they continue to meet VPP requirements. Sites that have withdrawn or have been terminated from VPP will be returned to the programmed inspection list, if applicable, at the time of the next inspection cycle.
+
+Unprogrammed Enforcement Activities at VPP Sites
+.
+
+When an Area Office receives a complaint, or a referral other than from the OSHA VPP on-site team, or is notified of a fatality, catastrophe, or other event requiring an enforcement inspection at a VPP site, the Area Director or designee must initiate the inspection following normal OSHA enforcement procedures.
+
+
+The Area Office must immediately notify the Regional VPP Manager of any fatalities, catastrophes or other incidents occurring at a VPP worksite that require an enforcement inspection; as well as of a referral or complaint that concerns a VPP worksite, including complaint inquiries that would receive a letter response.
+
+If the Regional VPP Manager is the first person notified by the site of an event requiring an enforcement inspection, the VPP Manager must instruct the site to contact the appropriate Area Office.
+
+The inspection will be limited to the specific issue of the unprogrammed activity. If citations are issued as a result of the inspection, a copy of the citation will be sent to the Regional VPP Manager. When an Area Office receives a referral from the VPP on-site team, the Area Director must notify the participant and the Assistant Secretary. Enforcement action can be initiated only after the Assistant Secretary approves such action. See
+CSP 03-01-003
+,
+Voluntary Protection Programs (VPP): Policies and Procedures Manual
+, April 18, 2008.
+
+The Area Director will send the VPP Manager a copy of any report resulting from an enforcement case.
+
+Consultation
+.
+
+
+Consultation Visit in Progress
+.
+
+
+If an On-Site Consultation Visit is in progress, it will take priority over OSHA programmed inspections as outlined below. An On-Site Consultation Visit will be considered "in progress" in relation to the working conditions, hazards, or situations covered by the visit from the beginning of the opening conference through the end of the correction due dates and any extensions thereof. If an On-Site Consultation Visit is already in progress, it will terminate when one of the following OSHA unprogrammed inspections is about to take place:
+
+Imminent danger inspection;
+
+Fatality/catastrophe inspection;
+
+Complaint inspections; and/or
+
+Other critical inspections, as determined by the Assistant Secretary.
+
+NOTE: Referrals and reportable injuries (except fatalities and catastrophes) must be forwarded to the Consultation Project for follow-up.
+
+"Other critical inspections" can include, but are not limited to, referrals as defined in
+Chapter 9
+, Complaint and Referral Processing. Following an evaluation of the hazards alleged in a referral, if the Assistant Secretary determines that enforcement action is required prior to the end of an abatement period established by the state consultation project, then the consultation visit in progress shall be immediately terminated to allow for an enforcement inspection.
+
+For purposes of efficiency and expediency, an employer's worksite shall not be subject to concurrent consultation and enforcement-related visits. The following excerpts from
+CSP 02-00-003
+,
+Consultation Policies and Procedures Manual, Chapter 7: Relationship to Enforcement
+, November 19, 2015, clarify the interface between enforcement and consultation activity at the worksite:
+
+
+Full Service On-Site Consultation Visits
+. While a worksite is undergoing a full service on-site consultation visit for safety
+and
+health, programmed enforcement activity may not occur until after the end of the worksite's visit "In Progress" status.
+
+Full Service Safety or Health On-Site Consultation Visits
+. When an on-site consultation visit "in progress" is discipline-related, whether for safety
+or
+health, programmed enforcement activity cannot proceed until after the end of the worksite's visit "In Progress" status and is limited to the discipline examined, safety or health.
+
+Limited Service On-Site Consultation Visits
+. If a worksite is undergoing a limited service on-site consultation visit, whether focused on a particular type of work process or a hazard, programmed enforcement activity cannot proceed while the consultant is at the worksite. The re-scheduled enforcement activity must be limited to those areas that were not addressed by the scope of the consultative visit (posted List of Hazards).
+
+Enforcement Follow-Up and Monitoring Inspections
+.
+
+If an enforcement follow-up or monitoring inspection is scheduled while a worksite is undergoing an on-site consultation visit, then the inspection shall not be deferred. However, the scope of the follow-up/monitoring inspection shall be limited to those areas required to be covered by the follow-up or monitoring inspection, unless there is a reasonable belief, based on specific evidence (e.g., injuries or illnesses recorded in both OSHA forms 300 and 301, employee statements, or "plain view" observations), that violative conditions may be found in other areas of the workplace. See
+Chapter 3, Section IV.C.1.c
+for steps to take when the employer objects to a broader inspection, and
+Chapter 15, Section III.A
+regarding the circumstances under which a broader inspection warrant can be sought. In either case, the consultant must halt the on-site visit until the enforcement inspection is completed. In the event OSHA issues a citation(s) as a result of the follow-up or monitoring inspection, an on-site consultation visit cannnot proceed until the citation(s) becomes a final order(s).
+
+
+On-Site Consultation Follow-up and/or Training and Assistance Visits
+. On-Site Consultation follow-up and/or training and assistance visits must be deferred if an OSHA enforcement inspection is to be conducted. The consultant may continue with follow-up and/or training and assistance activity only after enforcement inspection activity at the worksite is final and any cited item(s) have become final order(s).
+
+Severe Violator Enforcement Program (SVEP)
+. A company identified on OSHA's Severe Violator Enforcement Program (SVEP) list may still receive On-Site Consultation Services. Although the company is receiving consultation services, in this situation Consultation visit-in-progress status does not block enforcement from performing an inspection.
+
+Enforcement Programmed Inspections
+.
+
+On-Site Consultation and 90-Day Deferral.
+
+
+If an establishment has requested an initial full-service comprehensive consultation visit for safety
+and
+health from an OSHA On-Site Consultation program, and that visit has been scheduled by the consultation program, a programmed inspection can be deferred for 90 calendar days from the date of the notification by the consultation program to the Regional Office. No extension of the deferral beyond the 90 calendar days is possible, unless the consultation visit is "in progress."
+
+OSHA can, however, in exercising its authority to schedule inspections, assign a lower priority to worksites where consultation visits are scheduled.
+
+NOTE: See
+CSP 02-00-003
+,
+Consultation Policies and Procedures Manual
+, November 19, 2015, of Chapter 7, Relationship to Enforcement, for additional information.
+
+Pre-Safety and Health Achievement Recognition Program (Pre-SHARP) Status
+.
+
+
+Those employers who do not meet the SHARP requirements, but who exhibit a reasonable promise of achieving agreed-upon milestones and time frames for SHARP participation, can be granted Pre-SHARP status. Pre-SHARP participants receive a full-service, comprehensive consultation visit that involves a complete safety and health hazard identification survey, including a comprehensive assessment of the worksite's safety and health management system.
+
+The deferral time frame recommended by the State Consultation Program Manager must not exceed a total of 18 months from the expiration of the latest hazard correction due date(s), including extensions. Upon achieving Pre-SHARP status, employers can be granted a deferral from OSHA programmed inspections. The following types of incidents can trigger an OSHA enforcement inspection at Pre-SHARP sites:
+
+
+Imminent danger;
+
+Fatality/catastrophe; and
+
+Formal complaints.
+
+Safety and Health Achievement Recognition Program (SHARP)
+.
+
+SHARP is designed to provide support and incentives to those employers that implement and continuously improve effective safety and health management system(s) at their worksite. SHARP participants are exempted from OSHA programmed inspections. See
+§1908.7(b)(4)
+.
+
+
+Duration of SHARP Status
+.
+
+All initial approvals of SHARP status will be for a period of up to two years, commencing with the date the Regional Office approves an employer's SHARP application. After the initial approval, all SHARP renewals will be for a period of up to three years.
+
+OSHA Inspection(s) at SHARP Worksites
+.
+
+As noted above, employers who meet all the requirements for SHARP status will have the names of their establishments deleted from OSHA's Programmed Inspection Schedule. However, pursuant to
+§1908.7(b)(4)(ii)
+, the following types of incidents can trigger an OSHA enforcement inspection at SHARP sites: imminent danger; fatality/catastrophe; or formal complaints.
+
+NOTE: See
+CSP 02-00-003
+, Consultation Policies and Procedures Manual, Chapter 8: OSHA's Safety and Health Achievement Recognition Program (SHARP) and Pre-SHARP, November 19, 2015, for additional information.
+
+OSHA Strategic Partnership Program (OSPP)
+.
+
+
+Deferral from Programmed Inspection List for Non-Construction OSHA Strategic Partnerships (OSP)
+.
+
+
+New or renewed OSP will no longer include any programmed inspection deferral or deletion provisions. Only active VPP or SHARP worksites are eligible for this incentive. (See
+CSP 03-02-003
+, OSHA Strategic Partnership Program for Worker Safety and Health, November 6, 2013, for additional information.)
+
+Programmed Inspection with a Limited Scope
+.
+
+
+For non-construction worksites, OSHA will no longer offer a limited-scope inspection to an establishment operated by an OSHA partnering employer. However, a National partnership agreement can include a limited-scope inspection where it can be clearly demonstrated to result in a more effective partnership. Therefore, any partnership agreement that contains a provision for a limited-scope inspection must be approved by the Assistant Secretary in advance of the OSP's development based on a detailed statement of the benefits to the partnership. For inspections with limited scope, the workplace hazards to be addressed will be determined by OSHA with input from the partner(s). OSHA can expand the scope of the inspection when there is reasonable belief, based on specific evidence (e.g., injuries or illnesses recorded in both OSHA forms 300 and 301, employee statements, or "plain view" observations), that violative conditions may be found in other areas of the workplace. See
+Chapter 15
+, Legal Issues.
+
+Deletion from Programmed Inspection List
+.
+
+
+Only cooperative worksites qualifying for VPP or SHARP are eligible for this benefit. In addition, new or renewed OSPs will not allow the use of OSHA's "Phone & Fax" procedures beyond the scope of those permitted in the FOM.
+
+Alliances
+.
+
+Alliance Program signatories do not receive exemptions from OSHA inspections, or any other enforcement benefit.

@@ -1,0 +1,8 @@
+Source: 29 CFR 1991.113
+Title: § 1991.113 Judicial enforcement.
+Section: 1991.113
+Path: PART 1991—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER THE CRIMINAL ANTITRUST ANTI-RETALIATION ACT (CAARA)
+ > PART 1991—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER THE CRIMINAL ANTITRUST ANTI-RETALIATION ACT (CAARA)
+ > Subpart C—Miscellaneous Provisions
+
+Whenever any person has failed to comply with a preliminary order of reinstatement or a final order issued by the Secretary under CAARA, including one approving a settlement agreement, the Secretary or the person on whose behalf the order was issued may file a civil action seeking enforcement of the order in the United States district court for the district in which the violation was found to have occurred.

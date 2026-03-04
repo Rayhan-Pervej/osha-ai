@@ -1,0 +1,8 @@
+Source: 29 CFR 1984.113
+Title: § 1984.113 Judicial enforcement.
+Section: 1984.113
+Path: PART 1984—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER SECTION 1558 OF THE AFFORDABLE CARE ACT
+ > PART 1984—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER SECTION 1558 OF THE AFFORDABLE CARE ACT
+ > Subpart C—Miscellaneous Provisions
+
+Whenever any person has failed to comply with a preliminary order of reinstatement, or a final order, including one approving a settlement agreement, issued under section 18C of the FLSA, the Secretary may file a civil action seeking enforcement of the order in the United States district court for the district in which the violation was found to have occurred or in the United States district court for the District of Columbia. Whenever any person has failed to comply with a preliminary order of reinstatement, or a final order, including one approving a settlement agreement, issued under section 18C of the FLSA, a person on whose behalf the order was issued may file a civil action seeking enforcement of the order in the appropriate United States district court.

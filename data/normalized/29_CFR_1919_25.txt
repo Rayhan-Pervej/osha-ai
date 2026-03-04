@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.25
+Title: § 1919.25 Limitations on use of chains.
+Section: 1919.25
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart D—Certification of Vessels' Cargo Gear
+
+Chains forming a part of vessel's cargo gear shall not be used when, due to stretch, the increase of length of a measured section exceeds five percent, when a link is damaged, or when other external defects are evident. Chains shall not be shortened by bolting, wiring, or knotting.

@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.34
+Title: § 1919.34 Proof tests after repairs or alterations.
+Section: 1919.34
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart E—Certification of Vessels: Tests and Proof Loads; Heat Treatment; Competent Persons
+
+When proof loads are applied after repairs or alterations, all parts of the assembled gear shall be examined as required in §§ 1919.30, 1919.31(c), or 1919.32(c), whichever is applicable.

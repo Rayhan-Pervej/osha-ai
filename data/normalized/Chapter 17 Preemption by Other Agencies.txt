@@ -1,0 +1,203 @@
+Field Operations Manual
+
+Chapter 17
+
+PREEMPTION BY OTHER AGENCIES
+
+Introduction
+
+In enacting the Occupational Safety and Health Act of 1970 (OSH Act), Congress recognized that other federal agencies possess authority over occupational safety and health matters in certain industries. To avoid a duplication of federal effort and to prevent conflict between different sets of regulations covering the same working condition, Congress specified, in section 4(b)(1) of the Act:
+
+Nothing in this Act shall apply to working conditions of employees with respect to which other Federal agencies, and State agencies acting under Section 274 of the Atomic Energy Act of 1954, as amended (42 U.S.C. 2021), exercise statutory authority to prescribe or enforce standards or regulations affecting occupational safety or health. (29 U.S.C. 653(b)(1)).
+
+In cases where OSHA and one or more federal agencies could inspect or investigate the working condition at issue and enforce rules with respect to that working condition, a determination must be made as to whether OSHA has the authority to enforce its requirements. The process of making the determination (often called a section 4b1 determination or section 4b1 analysis) is fact-specific and involves a review of the other federal agencies’ regulations, policy statements, memoranda of understanding (MOUs), federal court cases, and Occupational Safety and Health Review Commission (Commission) cases. All agencies regularly or frequently promulgate and amend their regulations and policy statements, develop new MOUs, and issue interpretations and directives. Because the federal regulatory universe is in a constant state of flux, this Chapter does not comprehensively address the coverage of the OSH Act within each industry. Although it is useful to contact the field offices of the other agency, the guidance received from that agency may not necessarily be determinative. The determination should be made only after consultation with the Regional Solicitor’s Office.
+
+General Principles
+
+Applying the Two-Pronged Test
+
+There is a two-pronged test to determine whether or not working conditions are exempted from coverage by
+section 4(b)(1)
+of the OSH Act:
+
+(1) Does the other federal agency possess the statutory authority to prescribe or enforce standards or regulations affecting occupational safety or health; and
+
+(2) Has the other federal agency exercised its statutory authority over the particular working condition?
+
+Types of Agencies Preempting OSHA
+
+With one express exception, the agencies which preempt OSHA are federal agencies. These include sister agencies within DOL, such as the Mine Safety and Health Administration, (MSHA). Section 4(b)(1) applies even if the primary enforcement agency is a state agency if the agency is enforcing federal regulations and the federal agency retains enforcement authority where the state agency does not enforce the regulations adequately. The only exception to the rule that only federal agencies pre-empt OSHA is for state agencies acting under section 274 of the Atomic Energy Act of 1954, as amended, 42 U.S.C. § 2021. Under that provision the state agency does not necessarily enforce federal regulations; it is only required to provide adequate protection from radiation hazards. In this chapter, the reference to a federal agency includes state atomic energy agencies.
+
+Exercise of Statutory Authority
+
+OSHA requirements are preempted pursuant to section 4(b)(1) only if the working condition at issue is addressed by a standard or regulation of another agency. A working condition is generally defined as a particular occupational hazard. Another agency’s requirement addressing an occupational hazard preempts OSHA even if the requirement also protects public safety or health unless the other agency’s requirement only incidentally affects occupational safety or health. For example, natural gas pipeline safety regulations preempt OSHA with respect to explosion and fire hazards because those regulations protect workers, as well as the general public. But Department of Agriculture meatpacking plant sanitation regulations, designed to protect consumers, only incidentally protect workers, and thus do not preempt OSHA from citing for violations of its sanitation standards. It is important to note that the Commission and the courts have stated that OSHA is preempted even in cases where the other agency’s rule is less protective than OSHA’s or if the other agency does not enforce its rule. The mere fact that the other federal agency has exercised its statutory authority over the working condition is legally sufficient to preempt OSHA.
+
+In some cases, the other agency has formally decided that its regulations comprehensively address an entire industry or subject. In such cases, OSHA is preempted with respect to the entire industry or subject matter. In other cases, an agency has formally decided that a particular hazard will not be regulated. In such situations, OSHA is also preempted from citing that hazard.
+
+Forms of Statutory Exercise
+
+In the majority of cases, an exercise of statutory authority takes the form of a regulation in the Code of Federal Regulations (CFR). However, the Commission and the courts have recognized other less formal agency actions as an exercise of authority. For instance, safety and health requirements contained in a maintenance manual that has been reviewed and approved by the Federal Aviation Administration (FAA) have been deemed to be an exercise of statutory authority, thereby exempting working conditions covered by manual provisions from applicable OSHA requirements. Another example is a requirement on an EPA-approved label on a pesticide container. Policy statements, such as those published by the Federal Railroad Administration (FRA) and the FAA, have also been regarded as exercises of authority. Statutory provisions setting forth specific health or safety requirements, such as ones for railroads, are also regarded as standards or regulations within the meaning of section 4(b)(1). However, a contractual obligation in a Government contract or agreement is not deemed as an exercise of authority, even if that obligation is published in the CFR, as long as the only method for enforcing the requirement is a contractual remedy.
+
+In addition, to be preemptive the rule must be final, not merely an advanced notice of proposed rulemaking or a proposed rule. However, if the final rule has been published, but the compliance date is not yet effective, it is still considered preemptive at the time of publication.
+
+Provisions of the OSH Act Subject to Section 4(b)(1)
+
+Generally, all provisions of the OSH Act are subject to section 4(b)(1). So, for example, OSHA may not issue citations dealing with working conditions regulated by other agencies and the Government may not prosecute employers for violating the criminal willful provision in section 17(e), 29 U.S.C. § 666(e), with respect to such conditions.
+
+However, section 4(b)(1) does not bar OSHA from conducting an inspection because another agency always has exercised the authority to determine coverage.
+
+It is the position of OSHA, based on the precedent of the Ninth Circuit, that its recordkeeping provisions are not subject to preemption. However, the Commission has ruled that if another agency has injury recordkeeping regulations OSHA is preempted with respect to injury recordkeeping, but not illness recordkeeping. Consultation with the Regional Solicitor’s Office is required if a citation for recordkeeping violations is planned and another agency has recordkeeping regulations.
+
+Reverse 4(b)(1) Provisions
+
+In some cases, there are statutory provisions which prevent the operation of section 4(b)(1). This is referred to as reverse 4(b)(1). Some of the statutes expressly state that certain action by a particular agency does not constitute an exercise of statutory authority within the meaning of section 4(b)(1). See, e.g., 15 U.S.C. § 2608(c) (action by EPA under the Toxic Substances Control Act); 42 U.S.C. § 7412(r)(7)(G) (action by EPA to prevent accidental release of chemicals not exercise of authority; OSHA PSM standard not preempted); 49 U.S.C. § 5107(g)(2) (action by the Pipeline and Hazardous Materials Safety Administration (PHMSA) of the Department of Transportation to regulate the transportation of hazardous materials not exercise of authority). Sometimes the reverse 4(b)(1) may not be expressly stated. It will usually say something to the effect that nothing in the statute should be construed to limit other laws. Examples are 42 U.S.C. § 7610 (Clean Air Act) and 42 U.S.C. § 1396r(h)(8) (regulation of infection control in nursing homes not preempted by regulations of Centers for Medicare and Medicaid Services).
+
+State Plans
+
+At times, OSHA State Plan officials may have questions regarding preemption by other federal agencies. Section 4(b)(1) does not apply to State Plan agencies. However, some state OSHA statutes have provisions that are the same as, or similar to, section 4(b)(1). In those cases, Area Offices should consult with their Regional Solicitors. Also, the federal statutes granting authority to the other federal agencies may preempt the States directly. Thus, when State Plan officials ask questions about preemption by other federal agencies, they should be advised to consult with their attorneys and with the relevant federal agency.
+
+Federal Agency Program
+
+Section 4(b)(1) does not exempt federal agencies from complying with OSHA standards and regulations. If a federal agency is required to comply with a conflicting regulation of another federal agency, these federal agencies and OSHA will undertake joint efforts to resolve the issue. Until the conflict is resolved, the former federal agency must comply with the more protective standard. 29 C.F. R. § 1960.19(c).
+
+Procedures
+
+Section 4(b)(1) is not a jurisdictional issue. Employers may use section 4(b)(1) as an affirmative defense to a citation. When doing so they must prove that OSHA is preempted pursuant to section 4(b)(1) to defeat the citation and show that the other agency’s requirements are enforceable against that employer, and not others who may also be involved in the work. For example, a contractor for a natural gas transmission company, which is not subject to the enforcement of natural gas pipeline safety regulations by the Department of Transportation, will not be successful alleging section 4(b)(1) as an affirmative defense even though the natural gas company is subject to those regulations.
+
+When it appears that an employer may be subject to the regulations of another agency, e. g., in cases where the employer is part of an industry regulated by another federal agency, the CSHO may ask the following question to assist with the section 4(b)(1) analysis: Has the employer ever been the subject of an inspection/investigation by another federal agency? If the answer is yes, the CSHO should contact the investigative agency to determine the assertion of authority and scope of the inspection. This will assist in determining if OSHA is preempted or if joint authority can be exercised.
+
+Note: the fact that the employer might not have been the subject an inspection/investigation does not mean that a section 4(b)(1) analysis should not be conducted when it appears that the employer may be subject to the regulations of another federal agency.
+
+Agencies whose Regulations Preempt OSHA
+.
+
+The following information is meant to help OSHA personnel determine whether OSHA is preempted pursuant to section 4(b)(1).Should an instance arise where one or more federal agencies are at the scene of an inspection or investigation, or where there is some other indication that another federal agency has authority, e.g., the employer says that it is subject to the authority of another federal agency,, the Directorate of Enforcement Programs (DEP) should be contacted for additional guidance. DEP will work with National Office staff from other federal agencies to make the
+section 4(b)(1)
+determination. The agencies that prompt the most section 4(b)(1) questions are discussed below, along with their websites. This is not an exhaustive list of all agencies whose requirements may preempt OSHA. See also, OSHA’s Memoranda of Understanding and Memoranda of Agreement with other agencies at:
+
+MOU page
+.
+
+
+Department of Transportation
+
+The Department of Transportation (DOT) protects the safety and health of employees and the public under various federal transportation laws.
+
+
+Federal Aviation Administration
+
+The Federal Aviation Administration (FAA) has the authority to develop and enforce regulations in the interest of safety in air commerce.
+
+The Commission has held that FAA-mandated maintenance manual provisions concerning safety instructions for aircraft maintenance personnel trigger
+section 4(b)(1)
+preemption of OSHA requirements. OSHA does cover baggage handlers and other ground crew to the extent a manual requirement does not cover that working condition.
+
+The FAA has issued a policy statement stating that the FAA comprehensively regulates the working conditions of a flight crew, except that OSHA can enforce its noise, hazard communication, and bloodborne pathogens standards to protect all cabin crewmembers other than flight deck crew. OSHA began this enforcement on March 26, 2014.
+http://www.faa.gov/
+
+Federal Motor Carrier Safety Administration
+
+DOT’s Federal Motor Carrier Safety Administration (FMCSA) regulates commercial motor vehicles. The types of vehicles covered are listed in
+49 U.S.C. 31132
+, as follows: “commercial motor vehicle” means a self-propelled or towed vehicle used on the highways in interstate commerce to transport passengers or property, if the vehicle--
+
+(A) has a gross vehicle weight rating or gross vehicle weight of at least 10,001 pounds, whichever is greater;
+
+(B) is designed or used to transport more than 8 passengers (including the driver) for compensation;
+
+(C) is designed or used to transport more than 15 passengers, including the driver, and is not used to transport passengers for compensation; or
+
+(D) is used in transporting material found by the Secretary of Transportation to be hazardous under section 5103 of this title and transported in a quantity requiring placarding under regulations prescribed by the Secretary under section 5103.
+
+FMCSA has issued extensive regulations related to commercial motor vehicle safety, including regulations to prevent the unintended movement of parked vehicles, regardless of their location.
+http://www.fmcsa.dot.gov/
+
+Pipeline and Hazardous Materials Safety Administration
+
+The Pipeline and Hazardous Materials Safety Administration (PHMSA) prescribes safety requirements for natural gas and oil pipelines, liquefied natural gas facilities, and breakout tanks. These statutes reach only the owners and operators of pipelines and the other facilities mentioned above. Therefore, a contractor who is not the owner or operator of such a facility is covered by OSHA. States are authorized, by statute, to enforce PHMSA natural gas pipeline safety regulations. Such regulations, although enforced by a state agency, preempt OSHA.
+
+PHMSA also regulates the transportation of hazardous materials by vehicles. Because of a special provision in the hazardous materials transportation law, section 4(b)(1) does not apply to this transportation. However, as matter of policy, OSHA does not issue citations regarding the design of, or materials used for, containers of hazardous materials.
+http://www.phmsa.dot.gov/
+. OSHA, however, does enforce the whistleblower provision of the Pipeline Safety Improvement Act (PSIA).
+
+Federal Railroad Administration
+
+The Federal Railroad Administration (FRA) enforces a number of statutes covering railroad safety. FRA regulations comprehensively regulate the movement of equipment over the rails. The FRA generally does not regulate working conditions in railroad repair shops. FRA Policy Statement, 43 FR 10583 (March 14, 1978). The FRA also has fall protection regulations for railroad bridge workers. . 29 C.F.R. 1926.1442 delineates the circumstances under which a railroad is exempt from the construction crane standard with respect to railroad roadway maintenance machines. As a matter of policy, the FRA does not regulate plant railroads, i. e., those using tracks outside the general system of transportation, e.g., yard tracks.
+http://www.fra.dot.gov/.
+
+Department of Labor, Mine Safety and Health Administration
+
+The Mine Safety and Health Administration (MSHA) extensively regulates the safety and health of employees engaged in mining and mineral milling. To clarify where milling ends and OSHA authority begins, OSHA and MSHA entered into an extensive Memorandum of Understanding (MOU) that delineates respective agency authorities.
+http://www.msha.gov/
+.
+
+Environmental Protection Agency
+
+The Environmental Protection Agency (EPA) administers the Federal Insecticide, Fungicide and Rodenticide Act (FIFRA). Under that law, EPA requires pesticides to have labels containing instructions for the safe use of pesticides. Some of those labels incorporate EPA regulations for the protection of farmworkers. Those label instructions related to occupational pesticide hazards preempt OSHA.
+http://www.epa.gov/pesticides/
+.
+
+EPA regulation under the Toxic Substances Control Act (TOSCA) and the Clean Air Act (CAA) does not preempt OSHA because of reverse 4(b)(1) provisions.
+
+Nuclear Regulatory Commission
+
+The Nuclear Regulatory Commission (NRC) is responsible for licensing and regulating nuclear facilities and materials. In 2013, OSHA and NRC entered into a revised MOU that identifies three kinds of hazards associated with NRC-licensed nuclear facilities and designates which agency will be responsible for each kind of hazard. Generally, the NRC is responsible for the following hazards at NRC-licensed facilities: 1) radiation hazards produced by radioactive materials; 2) chemical hazards produced by radioactive materials, and 3) facility conditions that affect the safety of radioactive materials, such as fire and explosion hazards. At these facilities, OSHA has authority over facility conditions that do not involve the use of radioactive materials, such as toxic nonradioactive material, electrical, fall, confined space, and equipment energization hazards.
+http://www.nrc.gov/
+. Regulation of radioactive materials under the Atomic Energy Act by State atomic energy agencies also preempts OSHA. OSHA is not preempted from regulating exposure to X-rays.
+
+Department of Energy
+
+The Department of Energy (DOE) is responsible for the production of nuclear weapons, as well as the dismantling and cleanup of nuclear sites under the Atomic Energy Act. DOE has established and enforces a comprehensive set of occupational safety and health standards for the working conditions of contractor employees at its Government-Owned, Contractor-Operated (GOCO) facilities engaged in the Atomic Energy Act activities described above. Therefore, OSHA does not inspect the working conditions of these contractor employees. DOE’s statutory authority extends to construction, including new construction, on GOCO facilities.
+http://energy.gov/
+.
+
+Department of Homeland Security, United States Coast Guard
+
+The United States Coast Guard (USCG) promulgates and enforces safety and health regulations for U.S. flag vessels on the high seas and navigable waters of the United States. USCG has exercised its statutory authority over “inspected vessels” by issuing a comprehensive set of regulations. An inspected vessel is one for which the Coast Guard has issued a Certificate of Inspection (COI). The types of “inspected vessels’ are listed in
+46 U.S.C. 3301
+and exemptions in
+46 U.S.C. 3302
+. OSHA and the USCG entered into a MOU acknowledging that, due to USCG’s extensive regulations, OSHA will not enforce the OSH Act with respect to the working conditions of seamen aboard inspected vessels.
+
+Conversely, USCG has issued only a limited number of regulations applicable to “uninspected” vessels. To the extent USCG has not regulated a particular working condition on an uninspected vessel, OSHA can conduct enforcement activity. For more information see the OSHA directive on
+
+Under the Outer Continental Shelf Lands Act, the Coast Guard, along with the Bureau of Safety and Environmental Enforcement (BSEE) of the Interior Department (see below), has issued many safety and health regulations for offshore platforms on the Outer Continental Shelf—in particular, provisions designed to prevent fires and explosions. The MOU between OSHA and the Coast Guard, appended to the directive noted below, should be consulted.
+
+Enforcement Directive
+CPL 02-01-047
+,
+OSHA Authority Over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and the Outer Continental Shelf (OCS)
+, Feb. 22, 2010, or any new directive updating the 2010 directive addresses the issues in this paragraph.
+http://www.uscg.mil/
+.
+
+Department of Justice, Bureau of Alcohol, Tobacco, Firearmsand Explosives
+
+A law enforcement agency in the United States Department of Justice, the Bureau of Alcohol, Tobacco, Firearms and Explosives (BATFE) promulgates and enforces regulations relating to the use and storage of explosives.
+
+OSHA directive CPL 02-01-053,
+Compliance Policy for Manufacture, Storage, Sale, Handling, Use and Display of Pyrotechnics
+, October 27, 2011, clarifies the interplay between OSHA’s Process Safety Management Standard, 29 CFR 1910.119, OSHA’s Explosives and Blasting Agents standard, 1910.109; and the BATFE regulations.
+http://www.atf.gov/
+.
+
+Department of Interior, Bureau of Safety and Environmental Enforcement
+
+Policy Statement on Regulating Workplace Safety and Health Conditions on Renewable Energy Facilities on the Outer Continental Shelf.
+
+DOI will act as the principal Federal agency for the regulation and enforcement of safety and health requirements for OCS renewable energy facilities, such as wind turbines. DOI considers its regulatory program, to occupy the field of workplace safety and health for personnel and others on OCS renewable energy facilities, and to preempt the applicability of Occupational Safety and Health Administration (OSHA) regulations. See 29 U.S.C. 653(b)(1). In carrying out its responsibilities on the OCS, DOI will collaborate and consult with OSHA on the applicability and appropriateness of workplace safety and health standards for the offshore wind industry and other offshore renewable energy industries. See
+https://www.govinfo.gov/content/pkg/FR-2019-10-18/pdf/2019-22826.pdf
+.
+
+Other Relevant Agencies
+
+U.S. Chemical Safety and Hazard Investigation Board
+
+The U.S. Chemical Safety and Hazard Investigation Board do not preempt enforcing OSHA requirements. However, OSHA and CSB will cooperate while carrying out their respective statutory responsibilities. Additionally, CSB and OSHA investigators will work with other federal, state, and local investigatory and response groups, to the extent permitted by law, to minimize duplication of effort and to ensure that response and investigation activities do not compromise the protection of worker or public safety and health. Where possible, OSHA and CSB will coordinate incident notification, data and information exchange, training, technical and professional assistance, and related activities to ensure the safety, health, and well-being of the Nation’s workforce and the public. In recognition of the agencies’ statutory authorities and responsibilities, please review the “Memorandum of Understanding between The United State Department of Labor Occupational Safety and Health Administration and The United States Chemical Safety and Hazard Investigation Board on Chemical Incident Investigations”. See
+https://www.osha.gov/laws-regs/mou/1998-09-24
+
+National Transportation Safety Board
+
+The National Transportation Safety Board (NTSB) was established in 1967 to conduct independent investigations of all civil aviation accidents in the United States and major accidents in the other modes of transportation and does not preempt OSHA. However, OSHA and NTSB will cooperate while carrying out their respective statutory responsibilities. Except as provided in 49 U.S.C. 1131(a)(2)(B) and (C) regarding suspected criminal actions, an investigation conducted under the authority of the NTSB has priority over any investigation conducted by another Federal agency. The NTSB will provide for appropriate participation by other Federal agencies in any NTSB investigation and such agencies may not participate in the NTSB’s probable cause determination. NTSB has first right to access wreckage, information, and resources, and to interview witnesses the agency deems pertinent to its investigation. As indicated in § 49 CFR Part 831.9(c), the NTSB has exclusive authority to decide when and how the testing and examination of evidence will occur. Also, the NTSB and other federal agencies will exchange the information obtained or developed about the accident in the course of their investigations in a timely manner. Nothing prohibits the NTSB from sharing factual information with other agencies. For additional information on NTSB’s Incident command system, see
+https://www.govinfo.gov/content/pkg/FR-2017-06-29/pdf/2017-12988.pdf
+.

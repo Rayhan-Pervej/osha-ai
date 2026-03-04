@@ -1,0 +1,9 @@
+Source: 29 CFR 1926.33
+Title: § 1926.33 Access to employee exposure and medical records.
+Section: 1926.33
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart C—General Safety and Health Provisions
+
+Note: The requirements applicable to construction work under this section are identical to those set forth at § 1910.1020 of this chapter.
+[61 FR 31431, June 20, 1996]

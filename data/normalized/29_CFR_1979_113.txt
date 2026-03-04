@@ -1,0 +1,8 @@
+Source: 29 CFR 1979.113
+Title: § 1979.113 Judicial enforcement.
+Section: 1979.113
+Path: PART 1979—PROCEDURES FOR THE HANDLING OF DISCRIMINATION COMPLAINTS UNDER SECTION 519 OF THE WENDELL H. FORD AVIATION INVESTMENT AND REFORM ACT FOR THE 21ST CENTURY
+ > PART 1979—PROCEDURES FOR THE HANDLING OF DISCRIMINATION COMPLAINTS UNDER SECTION 519 OF THE WENDELL H. FORD AVIATION INVESTMENT AND REFORM ACT FOR THE 21ST CENTURY
+ > Subpart C—Miscellaneous Provisions
+
+Whenever any person has failed to comply with a preliminary order of reinstatement or a final order or the terms of a settlement agreement, the Secretary or a person on whose behalf the order was issued may file a civil action seeking enforcement of the order in the United States district court for the district in which the violation was found to have occurred.

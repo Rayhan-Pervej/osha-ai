@@ -1,0 +1,8 @@
+Source: 29 CFR 1926.860
+Title: § 1926.860 Selective demolition by explosives.
+Section: 1926.860
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart T—Demolition
+
+Selective demolition by explosives shall be conducted in accordance with the applicable sections of subpart U of this part.

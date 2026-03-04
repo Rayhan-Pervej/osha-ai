@@ -1,0 +1,8 @@
+Source: 29 CFR 1902.51
+Title: § 1902.51 Certification of the records of a hearing.
+Section: 1902.51
+Path: PART 1902—STATE PLANS FOR THE DEVELOPMENT AND ENFORCEMENT OF STATE STANDARDS
+ > PART 1902—STATE PLANS FOR THE DEVELOPMENT AND ENFORCEMENT OF STATE STANDARDS
+ > Subpart D—Procedures for Determinations Under section 18(e) of the Act > Procedure for Reconsideration and Revocation of an Affirmative 18(
+
+Upon completion of an informal hearing, the transcript thereof, together with written submissions, exhibits filed during the hearing, and any post-hearing presentations shall be certified by the officer presiding at the hearing to the Assistant Secretary.

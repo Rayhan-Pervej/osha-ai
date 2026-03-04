@@ -1,0 +1,8 @@
+Source: 29 CFR 1926.431
+Title: § 1926.431 Maintenance of equipment.
+Section: 1926.431
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart K—Electrical > Safety-Related Maintenance and Environmental Considerations
+
+The employer shall ensure that all wiring components and utilization equipment in hazardous locations are maintained in a dust-tight, dust-ignition-proof, or explosion-proof condition, as appropriate. There shall be no loose or missing screws, gaskets, threaded connections, seals, or other impairments to a tight condition.

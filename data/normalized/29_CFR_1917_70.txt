@@ -1,0 +1,8 @@
+Source: 29 CFR 1917.70
+Title: § 1917.70 General.
+Section: 1917.70
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart D—Specialized Terminals
+
+The provisions of this subpart D shall apply to specialized terminals in addition to any other applicable requirements of this part.

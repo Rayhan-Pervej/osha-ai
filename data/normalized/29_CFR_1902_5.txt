@@ -1,0 +1,8 @@
+Source: 29 CFR 1902.5
+Title: § 1902.5 Intergovernmental Cooperation Act of 1968.
+Section: 1902.5
+Path: PART 1902—STATE PLANS FOR THE DEVELOPMENT AND ENFORCEMENT OF STATE STANDARDS
+ > PART 1902—STATE PLANS FOR THE DEVELOPMENT AND ENFORCEMENT OF STATE STANDARDS
+ > Subpart B—Criteria for State Plans
+
+This part shall be construed in a manner consistent with the Intergovernmental Cooperation Act of 1968 (42 U.S.C. 4201-4233), and any regulations pursuant thereto.

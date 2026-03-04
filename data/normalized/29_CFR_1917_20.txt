@@ -1,0 +1,9 @@
+Source: 29 CFR 1917.20
+Title: § 1917.20 Interference with communications.
+Section: 1917.20
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart B—Marine Terminal Operations
+
+Cargo handling operations shall not be carried on when noise-producing, maintenance, construction or repair work interferes with the communication of warnings or instructions.
+[62 FR 40197, July 25, 1997]

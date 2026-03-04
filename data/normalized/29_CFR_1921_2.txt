@@ -1,0 +1,11 @@
+Source: 29 CFR 1921.2
+Title: § 1921.2 Definitions.
+Section: 1921.2
+Path: PART 1921—RULES OF PRACTICE IN ENFORCEMENT PROCEEDINGS UNDER SECTION 41 OF THE LONGSHOREMEN'S AND HARBOR WORKERS' COMPENSATION ACT
+ > PART 1921—RULES OF PRACTICE IN ENFORCEMENT PROCEEDINGS UNDER SECTION 41 OF THE LONGSHOREMEN'S AND HARBOR WORKERS' COMPENSATION ACT
+ > Subpart A—Applicability of Rules; Definitions
+
+(a) Act means the Longshoremen's and Harbor Workers' Compensation Act.
+(b) Chief Hearing Examiner means the Chief Hearing Examiner, United States Department of Labor, Washington DC 20210.
+(c) Respondent means the person or organization proceeded against.
+(d) Assistant Secretary means the Assistant Secretary for Occupational Safety and Health.

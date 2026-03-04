@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.80
+Title: § 1919.80 Heat treatment.
+Section: 1919.80
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart H—Certification of Shore-Based Material Handling Devices
+
+(a) Wherever heat treatment of any loose gear is recommended by the manufacturer, it shall be carried out in accordance with the specifications of the manufacturer.

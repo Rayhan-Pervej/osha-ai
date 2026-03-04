@@ -1,0 +1,8 @@
+Source: 29 CFR 1917.19
+Title: § 1917.19 Movement of barges and railcars.
+Section: 1917.19
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart B—Marine Terminal Operations
+
+Barges and railcars shall not be moved by cargo runners (running rigging) from vessel cargo booms, cranes or other equipment not suitable for the purpose.

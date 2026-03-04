@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.75
+Title: § 1919.75 Determination of crane or derrick safe working loads and limitations in absence of manufacturer's data.
+Section: 1919.75
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart H—Certification of Shore-Based Material Handling Devices
+
+(a) In the event neither manufacturer's data nor design data on safe working loads (including any applicable limitations) are obtainable, the safe working load ratings assigned shall be based on the owner's information and warranty that those so assigned are correct. Unit test certificates shall state the basis for any such safe working load assignment.

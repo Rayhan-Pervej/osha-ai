@@ -1,0 +1,8 @@
+Source: 29 CFR 1902.23
+Title: § 1902.23 Publication of decisions.
+Section: 1902.23
+Path: PART 1902—STATE PLANS FOR THE DEVELOPMENT AND ENFORCEMENT OF STATE STANDARDS
+ > PART 1902—STATE PLANS FOR THE DEVELOPMENT AND ENFORCEMENT OF STATE STANDARDS
+ > Subpart C—Procedures for Submission, Approval and Rejection of State Plans > Decisions
+
+All decisions approving or disapproving a plan shall be published in the Federal Register.

@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.35
+Title: § 1919.35 Order of tests.
+Section: 1919.35
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart E—Certification of Vessels: Tests and Proof Loads; Heat Treatment; Competent Persons
+
+When both unit and loose gear proof load tests are required, the loose gear test may be carried out after completion of the unit test.

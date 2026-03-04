@@ -1,0 +1,8 @@
+Source: 29 CFR 1912.6
+Title: § 1912.6 Conflict of interest.
+Section: 1912.6
+Path: PART 1912—ADVISORY COMMITTEES ON STANDARDS
+ > PART 1912—ADVISORY COMMITTEES ON STANDARDS
+ > Organizational Matters
+
+No members of any advisory committee other than members representing employers or employees shall have an economic interest in any proposed rule.

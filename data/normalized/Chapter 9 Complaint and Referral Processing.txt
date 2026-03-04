@@ -1,0 +1,421 @@
+Field Operations Manual
+
+Chapter 9
+
+COMPLAINT AND REFERRAL PROCESSING
+
+Safety and Health Complaints and Referrals
+.
+
+
+
+Definitions
+.
+
+
+
+Complaint
+.
+
+Notice of an alleged safety or health hazard (over which OSHA has jurisdiction), or a violation of the Act. There are two types; formal and non-formal.
+
+
+Formal Complaint
+.
+
+Complaint made by a current employee or a representative of employees that meets all the following requirements:
+
+
+Asserts that an imminent danger, a violation of the Act, or a violation of an OSHA standard exposes employees to a potential physical or health harm in the workplace;
+
+Is reduced to writing or submitted on a Complaint (OSHA-7); and
+
+Is signed by at least one current employee or employee representative.
+
+Non-formal Complaint
+.
+
+Any complaint alleging a safety or health violation(s) that does not meet all the requirements of a formal complaint identified above and does not come from one of the sources identified under the definition of Referral, below.
+
+Inspection
+.
+
+An on-site examination of an employer's worksite conducted by an OSHA compliance officer, initiated as the result of a complaint or referral, and meeting at least one of the criteria identified in Section C, Criteria Warranting an Inspection, below.
+
+Inquiry
+.
+
+A process conducted in response to a complaint or a referral that does not meet one of the identified inspection criteria as listed in Section C. It does not involve an on-site inspection of the workplace but, rather, the employer is notified of the alleged hazard(s) or violation(s) by telephone, fax, email, or by letter, if necessary. The employer is then requested to provide a response, and OSHA will notify the complainant of that response through appropriate means.
+
+Electronic Complaint
+.
+
+A complaint submitted through OSHA's public website. All complaints submitted via OSHA's public website are initially considered non-formal.
+
+See Chapter 9
+Section I.E.5
+, to determine when electronic complaints are to be considered formal.
+
+Permanently Disabling Injury or Illness
+.
+
+An injury or illness that has resulted in permanent disability, work-related injury, or an illness that is chronic or irreversible. Permanently disabling injuries or illnesses include, but are not limited to: amputation, blindness, a standard threshold shift in hearing, lead or mercury poisoning, paralysis or third-degree burns.
+
+Referral
+.
+
+An allegation of a potential workplace hazard or violation received from one of the sources listed below:
+
+
+CSHO referral – information based on the direct observation of a CSHO.
+
+Safety and health agency referral – from sources including, but not limited to: NIOSH, state programs, consultation, and state or local health departments, as well as safety and/or health professionals in other federal agencies.
+
+Discrimination or Whistleblower complaint referral – made by a whistleblower investigator when an employee alleges that he or she was retaliated against for complaining about safety or health conditions in the workplace, refusing to do an allegedly imminently dangerous task, engaging in other activities related to occupational safety or health or for raising concerns under any of the federal anti-retaliation statues that OSHA enforces. See the
+Whistleblower Statutes Desk Aid
+for more information.
+
+Other government agency referral – made by other federal, state, or local government agencies or their employees, including local police and fire departments.
+
+Media report – either news items reported in the media or information reported directly to OSHA by a media source.
+
+Employer/Employer Representative report – of accidents other than fatalities and catastrophes.
+
+Representative of Employees
+.
+
+Any of the following:
+
+
+An authorized representative of the employee bargaining unit, such as a certified or recognized labor organization.
+
+An attorney acting for an employee.
+
+Any other person acting in a bona fide representative capacity, including, but not limited to, members of the clergy, social workers, spouses and other family members, and government officials or nonprofit groups and organizations acting upon specific complaints and injuries from individuals who are employees.
+
+NOTE: The representative capacity of the person filing complaints on behalf of another should be ascertained unless it is already clear. In general, the affected employee should have requested, or at least approved, the filing of the complaint on his or her behalf.
+
+Classifying as a Complaint or a Referral
+.
+
+Whether the information received is classified as a complaint or a referral, an inspection of a workplace is normally warranted if at least one of the conditions in Section C, Criteria Warranting an Inspection, is met.
+
+Criteria Warranting an Inspection
+.
+
+An inspection is normally warranted if at least one of the conditions below is met (but see also
+Section I.D
+, of this chapter, Scheduling an Inspection of an Employer in an Exempt Industry):
+
+
+A valid formal complaint is submitted. Specifically, the complaint must be reduced to writing or submitted on a Complaint (OSHA-7 or OSHA Online Complaint Form), be signed by a current employee or representative of employees, and state the reason for the inspection request with reasonable particularity. Additionally, there must be reasonable grounds to believe either that a violation of the Act or OSHA standard that exposes employees to physical harm exists, or that an imminent danger of death or serious injury exists, as provided in
+Section 8(f)(1)
+of the Act.
+
+The information received in a signed, written complaint from a current employee or employee representative that alleges a recordkeeping deficiency that indicates the existence of a potentially serious safety or health violation.
+
+The information alleges that an imminent danger situation, a violation of the Act or of an OSHA standard exists, that exposes employees to a potential serious physical or health hazard in the workplace.
+
+The information concerns an establishment and an alleged hazard covered by a local, regional, or national emphasis program (such as the Site-Specific Targeting Plan).
+
+The employer fails to provide an adequate response to an inquiry, or the individual who provided the original information provides further evidence that the employer's response is false or does not adequately address the hazard(s). The evidence must be descriptive of current or recurring hazardous conditions.
+
+The establishment that is the subject of the information has a history of egregious, willful, failure-to-abate, or repeated citations within the Area Office's jurisdiction during the past five years, or is an establishment or related establishment in the Severe Violator Enforcement Program. However, if the employer has previously submitted adequate documentation for these violations, demonstrating that they were corrected and that programs have been implemented to prevent a recurrence of hazards, then the Area Director will normally determine that an inspection is not necessary.
+
+The Whistleblower Protection Program requests that an inspection be conducted in response to an employee's allegation that the employee was discriminated against for complaining about safety or health conditions in the workplace, refusing to perform an allegedly dangerous job or task, or engaging in other activities related to occupational safety or health.
+
+If an inspection is scheduled or has begun at an establishment and a complaint or referral that would normally be handled through inquiry is received, then this complaint or referral can, at the Area Director's discretion, be incorporated into the scheduled or ongoing inspection. If such a complaint is formal, then the complainant must receive a written response that addresses the complaint items.
+
+If the information gives reasonable grounds to believe that an employee under 18 years of age is exposed to a serious violation of a safety or health standard or a serious hazard, then an on-site inspection will be initiated if the information relates to construction, manufacturing, maritime, agriculture, or other industries as determined by the Area Director. Limitations placed on OSHA's activities in agriculture by Appropriations Act provisions will be observed. See
+CPL 02-00-051
+, Enforcement Exemptions and Limitations under the Appropriations Act, May 28, 1998. A referral to Wage and Hour should also be initiated.
+
+NOTE: The information does not need to allege that a child labor law has been violated.
+
+Scheduling an Inspection of an Employer in an Exempt Industry
+.
+
+In order to schedule an inspection of an employer in an exempt industry classification as specified by Appropriations Act provisions (See
+CPL 02-00-051
+,
+Enforcement Exemptions and Limitations under the Appropriations Act
+, May 28, 1998), one of the following conditions must be met:
+
+
+The information must come directly from a current employee; OR
+
+It must be determined and documented in the case file that the information came from a representative of the employee (see
+Section I.A.7
+of this chapter, Representative of Employees), with the employee's knowledge of the representative's intended action.
+
+Electronic Complaints Received through the OSHA Public Website
+.
+
+
+Electronic complaints submitted through the OSHA public website are automatically forwarded by email to a designated Area Office in the appropriate state. That office then forwards the electronic complaints to the appropriate Area Office in the state.
+
+Each Area Office manages a "Complaints" mailbox and processes electronic complaints according to internal complaint processing procedures. The complaints mailbox is monitored daily and every incoming complaint is reviewed for jurisdiction.
+
+
+If the complaint falls within the jurisdiction of the Area Office, then the complaint is entered into OIS and processed as usual. b. If the complaint falls within the jurisdiction of another Area Office, the complaint is forwarded appropriately.
+
+Area Offices will coordinate with State Plan states to establish procedures to process electronic complaints. The state establishes its own internal procedures for responding to such complaints. These procedures can be the state's usual procedures for handling unsigned complaints or they can include some further coordination with the complainant prior to action. In State Plan states, the Federal Monitoring Office will screen the complaints unless there is another arrangement. If the complaint falls within the individual State Plan's jurisdiction, then the Screening Office will follow the procedures developed with the State Plan for processing the complaint.
+
+Complete a Complaint (OSHA-7) for all complaint information received. In order to facilitate the tracking of electronic complaints, please enter the electronic complaint number in the Receipt/Activity Info tab when applicable.
+
+Electronic complaints where a current employee has provided their name and checked the "This constitutes my electronic signature" box shall be considered as a formal complaint and processed accordingly.
+
+All complaint-related material received electronically should be printed and date-stamped with the date indicating when the material was submitted and received. When these dates are not the same, the Area Director will determine the appropriate date for the incoming material.
+
+Information Received by Telephone
+.
+
+
+While speaking with the caller, OSHA personnel will attempt to obtain the following information:
+
+
+Whether the caller is a current employee or an employee representative.
+
+The exact nature of the alleged hazard(s) and the basis of the caller's knowledge. The individual receiving the information must determine, to the extent possible, whether the information received describes an apparent violation of OSHA standards or the OSH Act.
+
+The employer's name, address, email address, telephone and fax numbers, as well as the name of a contact person at the worksite.
+
+The name, address, telephone number, and email address of any union and/or employee representative at the worksite.
+
+As appropriate, OSHA will provide the caller with the following information:
+
+
+Describe the complaint process, and if appropriate, the concepts of "inquiry" and "inspection," as well as the relative advantages of each.
+
+If the caller is a current employee or a representative of employees, explain the distinction between a formal complaint and a non-formal complaint, and the rights and protections that accompany filing a formal complaint. These rights and protections include: . The right to request an on-site inspection.
+
+
+Notification in writing if an inspection is deemed unnecessary because there are no reasonable grounds to believe that a violation or danger exists.
+
+The right to obtain review of a decision not to inspect by submitting a request for review in writing.
+
+Information received by telephone from a current employee is considered a non-formal complaint until that individual provides a signed copy of the information. The employee can mail, email, or fax a signed copy of the information, request that a Complaint (OSHA-7) be sent, or sign the information in person at the Area Office. Normally a complainant has five working days to formalize an electronic complaint.
+
+If appropriate, inform the complainant of rights to confidentiality in accordance with
+Section 8(f)(1)
+of the Act for private sector employees, and
+Executive Order 12196
+for federal employees, and ask whether the complainant wishes to exercise this right. When confidentiality is requested, the identity of the complainant is protected regardless of the formality of the complaint.
+
+Explain
+Section 11(c)
+rights to private sector employees and employees of the U.S. Postal Service, or reprisal and discrimination protection provided by
+Executive Order 12196
+,
+§1960.46
+and the Whistleblowers Protection Act of 1989 to federal employees. See
+Chapter 13, Section III.E
+for reports of reprisal or discrimination from federal employees.
+
+Procedures for Handling Complaints Filed in Multiple Area Offices or Regions
+.
+
+
+When a Regional Office determines that multiple offices within the Region have received the same complaint or, if the Regional Office suspects that the same complaint has been filed in multiple Regions, the Regional Office should contact the Director or Deputy Director of the Directorate of Enforcement Programs (DEP).
+
+DEP will query all 10 Regions and coordinate with the Directorate of Cooperative and State Programs to query the State Plan states to determine whether similar complaints were filed in multiple offices.
+
+
+If multiple Regions have received the same complaint, then the National Office will address the complaint with the employer.
+
+Area Offices should indicate in OIS that these complaints have been transferred to the National Office.
+
+Procedures for an Inspection
+.
+
+
+Upon receipt of a complaint or referral, the Area Director or designee will evaluate all available information to determine whether there are reasonable grounds to believe that a violation or hazard exists.
+
+
+If necessary, reasonable attempts will be made to contact the individual who provided the information in order to obtain additional details or to clarify issues raised in the complaint or referral. See the
+Complaint Questionnaire
+beginning on page 9-13.
+
+The Area Director can determine not to inspect a facility if he/she has a substantial reason to believe that the condition in the complaint is being or has been abated.
+
+Despite the existence of a complaint, if the Area Director determines that there are no reasonable grounds to believe that a violation or hazard exists, then no inspection or inquiry will be conducted.
+
+
+Where a formal complaint has been submitted, the complainant will be notified in writing of OSHA's intent not to conduct an inspection, the reasoning behind the determination, and the right to have the determination reviewed under
+§1903.12
+. The justification for not inspecting will be noted in the case file.
+
+In the event of a non-formal complaint or referral, if possible, the individual providing the information will be notified by appropriate means of OSHA's intent not to conduct an inquiry or inspection. The justification for not inspecting or conducting an inquiry will be noted in the case file.
+
+If the information contained in the complaint or referral meets at least one of the inspection criteria listed in
+Section I.C
+of this chapter, Criteria Warranting an Inspection, and there are reasonable grounds to believe that a violation or hazard exists, the Area Office is authorized to conduct an inspection.
+
+
+If appropriate, then the Area Office will inform the individual who has provided the information that an inspection will be scheduled and that he or she will be advised of the results.
+
+After the inspection, the Area Office will send the complainant a letter addressing each information item, with reference to the citation(s) or a sufficiently detailed explanation for why a citation was not issued.
+
+If an inspection is warranted, it will be initiated as soon as resources permit. Inspections resulting from formal complaints of serious hazards will normally be initiated within five working days of formalizing.
+
+As a general rule, the scope of a complaint/referral inspection must bear an appropriate relationship to the alleged violative conditions. The CSHO must have probable cause to expand the inspection beyond the violations alleged in the complaint/referral. See Chapter 3, Section III,
+Inspection Scope
+, and Chapter 15, Section III, Obtaining Warrants, for more information.
+
+Procedures for an Inquiry
+.
+
+
+If the complaint or referral does not meet the criteria for initiating an onsite inspection, then an inquiry will be conducted. OSHA will promptly notify the employer about the complaint or referral and its allegation(s), and fax or email a confirming letter.
+
+If a non-formal complaint is submitted by a current employee or a representative of employees that does not meet any of the inspection criteria, then the complainant can be given five working days to make the complaint formal.
+
+
+The complainant can come into the Area Office and sign the complaint, or mail, email, or fax a signed complaint letter to OSHA. A Complaint (OSHA-7) can also be mailed or faxed to the complainant, if appropriate.
+
+If the complaint is not made formal after five working days, after making a reasonable attempt to inform the complainant of the decision, OSHA will proceed with the inquiry process.
+
+The employer will be advised of what information is needed to answer the inquiry and encouraged to respond by fax or email. See
+Chapter 13
+, Federal Agency Field Activities, for differing federal agency procedures. Employers are encouraged to do the following:
+
+
+Immediately investigate and determine whether the complaint or referral information is valid and make any necessary corrections or modifications.
+
+Advise the Area Director either in writing by email or fax within five working days of the results of the investigation into the alleged complaint or referral information. At the discretion of the Area Director and depending on the circumstances, the response time can be longer or shorter than five working days. Also, although the employer is requested to respond within the above time frame, the employer may not be able to complete abatement action during the above timeframe, the employer should be encouraged to do so.
+
+Provide the Area Director with supporting documentation of the findings, including any applicable measurements or monitoring results, and photographs and/or videos that the employer believes would be helpful, as well as a description of any corrective action that the employer has taken or is in the process of taking.
+
+Post a copy of the letter from OSHA where it is readily accessible for review by all employees.
+
+Return a copy of the signed Certificate of Posting to the Area Office.
+
+If there is a recognized employee union or safety and health committee in the facility, provide them with a copy of OSHA's letter and the employer's response.
+
+As soon as possible after contacting the employer, a notification letter will be faxed to the employer, or mailed where no fax is available. Sample letters to complainants and employers are provided in OIS. Note that some of these letters are for private sector use and some are for federal agency use. If email is an acceptable means of responding, then this should be indicated in the notification letter and the proper email address should be provided.
+
+If no employer response or an inadequate employer response is received after the allotted five working days, additional contact with the employer can be made before an inspection is scheduled. If the employer provides no response or an inadequate response, or if OSHA determines from other information that the condition has not been or is not being corrected, then an inspection will be scheduled.
+
+The complainant will be advised of the employer's response, as well as the complainant's rights to dispute that response and, if the alleged hazard persists, of the right to request an inspection. When OSHA receives an adequate response from the employer and the complainant does not dispute or object to the response, an onsite inspection normally will not be conducted.
+
+If the complainant is a current employee or a representative of employees and wishes to dispute the employer's response, the disagreement must be submitted in writing and signed, thereby making the complaint formal.
+
+
+If the employee disagreement takes the form of a written and signed formal complaint, then see
+Section I.H
+of this chapter, Procedures for an Inspection.
+
+If the employee disagreement does not take the form of a written and signed formal complaint, then some discretion is allowed in situations where the information does not justify an on-site inspection. In such situations, the complainant will be notified of OSHA's intent not to conduct an inspection and the reasoning behind the determination. This decision should be thoroughly documented in the case file.
+
+If a signed complaint is received after the complaint inquiry process has begun, then the Area Director will determine whether the alleged hazard is likely to exist based on the employer's response and by contacting the complainant. The complainant will be informed that the inquiry has begun and that the complainant retains the right to request an on-site inspection if he/she disputes the results and believes that the hazard still exists.
+
+The complaint must not be closed until OSHA verifies that the hazard has been abated.
+
+The justification for not conducting an inquiry will be noted in the case file.
+
+Complainant Protection
+.
+
+
+Identity of the Complainant
+.
+
+
+Upon request of the complainant, his or her identity will be withheld from the employer in accordance with
+Section 8(f)(1)
+of the Act. No information will be given to the employer that would allow the employer to identify the complainant.
+
+Generally, names and other personally identifiable information of employees will not be included in the warrant application. Where employees' names or other personally identifiable information appear in affidavits and other supporting documents attached to the warrant application, such information must be redacted. Where inclusion of the employee's name is necessary, Area Offices should consult with RSOL about filing the warrant application under seal.
+
+Whistleblower Protection
+.
+
+
+Section 11(c)
+of the Act provides protection for employees who believe that they have been the subject of an adverse employment action in retaliation for engaging in activities related to workplace safety or health. Any employee who believes that he or she has been discharged or otherwise retaliated against by any person as a result of engaging in such activities can file a whistleblower complaint. The complaint must be filed within thirty (30) days of the discharge or other retaliation.
+
+Complainants should always be advised of their
+Section 11(c)
+rights and protections upon initial contact with OSHA and whenever appropriate in subsequent communications.
+
+Recording in OIS
+.
+
+Information about complaint and referral inspections or inquiries must be recorded in OIS following the current instructions outlined in the FOM. Referrals reported by the employer will be recorded in OIS following the guidance provided in the Memorandum entitled,
+Revised Interim Enforcement Procedures for Reporting Requirements under 29 C.F.R. 1904.39
+, dated March 4, 2016, or unless superseded by future Agency-approved correspondence.
+
+Whistleblower Complaints
+.
+
+
+OSHA enforces the whistleblower or anti-retaliation provisions of the OSH Act and 21 other other federal statutes. These anti-retaliation statutes protect employees who report violations of various workplace safety and health, airline, commercial motor carrier, consumer product, environmental, financial reform, food safety, health insurance reform, motor vehicle safety, nuclear, pipeline, public transportation agency, railroad, maritime, and securities laws. The statutes generally prohibit employers from discharging or otherwise retaliating against their employees for exercising their rights under these statutes. In particular, under Section 11(c) of the OSH Act, these rights include filing an OSHA complaint, participating in an inspection or talking to an inspector, seeking access to employer exposure and injury records, reporting an injury, and raising a safety or health complaint with the employer. A desk reference summarizing these statutes can be found at
+www.whistleblowers.gov
+.
+
+When a whistleblower complaint is made under any of the federal whistleblower statutes enforced by OSHA other than the OSH Act, the complainant should be referred promptly to the Assistant Regional Administrator for Whistleblower Protection Programs because the requirements for filing complaints under those statutes can vary from those of the OSH Act. They should also be advised that there are statutory deadlines for filing these complaints.
+
+In the context of an OSHA enforcement action or a consultation activity, the complainant will be advised of the protection against retaliation afforded by
+Section 11(c)
+of the Act. A Section 11(c) complaint can be in any form, including an oral complaint made to a CSHO. Thus, if a person alleges that he or she has suffered an adverse action because of activity protected under Section 11(c), CSHOs will record that person's identifying information and the date and time of this initial contact on an OSHA-87 form and forward it to the Assistant Regional Administrator for Whistleblower Protection Programs for processing.
+
+In State Plan states, employees can file occupational safety and health retaliation complaints with Federal OSHA, the state, or both. Federal OSHA normally refers such complaints to the State Plan states for investigation. OSHA's Whistleblower Manual outlines the Agency's referral/deferral policies for such complaints.
+
+Decision Trees
+.
+
+
+See tree on page 9-12 for OSHA enforcement action or consultation activity when information is obtained in writing.
+
+See tree on page 9-14 for OSHA enforcement action or consultation activity when information is obtained orally.
+
+Complaint Questionnaire
+
+Obtain information from the caller by asking the following questions, where relevant.
+
+For All Complaints
+:
+
+1. What is the specific safety or health hazard?
+
+2. Has the hazardous condition been brought to the employer's attention? If so, when? How?
+
+3. How are employees exposed to this hazard? Describe the unsafe or unhealthful working conditions; identify the location.
+
+4. What work is done in the unsafe/unhealthful area? Identify, as well as possible, the type and condition of equipment in use, the materials (e.g., chemicals) being used, the process/operation involved, and the kinds of work being done near the hazardous area. Have there been any recent chemical spills, releases, or incidents?
+
+5. With what frequency are employees doing the task that leads to the exposure? Continuously? Every day? Every week? Rarely? For how long at one time? How long has the condition existed (so far as can be determined)? Has it been brought to the employer's attention? Have any attempts been made to correct the condition, and, if so, who took these actions? What were the results?
+
+6. How many shifts are there? What time do they start? On which shift does the hazardous condition exist?
+
+7. What personal protective equipment (e.g., hearing protection, gloves, or respirators) is required by the employer relevant to the alleged exposure? Is it used by employees? Include all PPE and describe it as specifically as possible. Include the manufacturer's name and any identifying numbers.
+
+8. How many people work in the establishment? How many are exposed to the hazardous conditions? How near do they get to the hazard?
+
+9. Is there an employee representative or a union in the establishment? Include the name, address, and telephone number of the union and/or the employee representative(s).
+
+For Health Hazards
+:
+
+10. Has the employer administered any tests to determine employee exposure levels to the hazardous conditions or substance? Describe these tests. Can the employees get the results (as required by the standard)? What were the results?
+
+11. What engineering controls are in place in the area(s) in which the exposed employees work? For instance, are there any fans or acoustical insulation in the area which can reduce exposure to the hazard?
+
+12. What administrative or work practice controls has the employer put in place?
+
+13. Do any employees have any symptoms that could have been caused by exposure to hazardous substances? Have any employees ever been treated by a physician for a work-related disease or condition? What was it?
+
+14. Have there been any "near-miss" incidents?
+
+15. Are respirators worn to protect against health hazards? If so, what kind? What exposures are they protecting against?
+
+16. If the complaint is related to noise, what, if any, hearing protection is provided and worn by the employees?
+
+17. Do employees receive audiograms on a regular basis?
+
+For Safety Hazards
+:
+
+18. Under what adverse or hazardous conditions are employees required to work? This should include conditions contributing to stress and "other" probability factors.
+
+19. Have any employees been injured as a result of this hazardous condition? Have there been any "near-miss" incidents?

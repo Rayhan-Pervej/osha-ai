@@ -1,0 +1,8 @@
+Source: 29 CFR 1917.125
+Title: § 1917.125 Guarding temporary hazards.
+Section: 1917.125
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart F—Terminal Facilities
+
+Ditches, pits, excavations and surfaces in poor repair shall be guarded by readily visible barricades, rails or other equally effective means.

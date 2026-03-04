@@ -1,0 +1,9 @@
+Source: 29 CFR 1918.82
+Title: § 1918.82 Building drafts.
+Section: 1918.82
+Path: PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > Subpart H—Handling Cargo
+
+(a) Drafts shall be built or means shall be taken to prevent cargo from falling from them.
+(b) Buckets and tubs used in handling bulk or frozen cargo shall not be loaded above their rims.

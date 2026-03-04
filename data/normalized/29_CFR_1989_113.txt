@@ -1,0 +1,8 @@
+Source: 29 CFR 1989.113
+Title: § 1989.113 Judicial enforcement.
+Section: 1989.113
+Path: PART 1989—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER THE TAXPAYER FIRST ACT (TFA)
+ > PART 1989—PROCEDURES FOR THE HANDLING OF RETALIATION COMPLAINTS UNDER THE TAXPAYER FIRST ACT (TFA)
+ > Subpart C—Miscellaneous Provisions
+
+Whenever any person has failed to comply with a preliminary order of reinstatement or a final order issued under TFA, including one approving a settlement agreement, the Secretary may file a civil action seeking enforcement of the order in the United States district court for the district in which the violation was found to have occurred. Whenever any person has failed to comply with a preliminary order of reinstatement or a final order issued under TFA, including one approving a settlement agreement, a person on whose behalf the order was issued may file a civil action seeking enforcement of the order in the appropriate United States district court.

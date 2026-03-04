@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.23
+Title: § 1919.23 Means of derrick attachment.
+Section: 1919.23
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart D—Certification of Vessels' Cargo Gear
+
+Appropriate measures shall be taken to prevent the foot of a derrick from being accidentally lifted from its socket or support during the test.

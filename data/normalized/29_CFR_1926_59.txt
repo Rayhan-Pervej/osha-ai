@@ -1,0 +1,9 @@
+Source: 29 CFR 1926.59
+Title: § 1926.59 Hazard communication.
+Section: 1926.59
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart D—Occupational Health and Environmental Controls
+
+Note: The requirements applicable to construction work under this section are identical to those set forth at § 1910.1200 of this chapter.
+[61 FR 31431, June 20, 1996]

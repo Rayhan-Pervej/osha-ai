@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.29
+Title: § 1919.29 Limitations on safe working loads and proof loads.
+Section: 1919.29
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart E—Certification of Vessels: Tests and Proof Loads; Heat Treatment; Competent Persons
+
+The proof loads specified by §§ 1919.27 and 1919.28 shall be adjusted as necessary to meet any pertinent limitations based on stability and/or on structural competence at particular radii. Safe working loads shall be reduced accordingly.

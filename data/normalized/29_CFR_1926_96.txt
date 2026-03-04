@@ -1,0 +1,9 @@
+Source: 29 CFR 1926.96
+Title: § 1926.96 Occupational foot protection.
+Section: 1926.96
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart E—Personal Protective and Life Saving Equipment
+
+Safety-toe footwear for employees shall meet the requirements and specifications in American National Standard for Men's Safety-Toe Footwear, Z41.1-1967.
+[58 FR 35152, June 30, 1993]

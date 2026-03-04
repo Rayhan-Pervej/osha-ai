@@ -1,0 +1,8 @@
+Source: 29 CFR 1926.1418
+Title: § 1926.1418 Authority to stop operation.
+Section: 1926.1418
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart CC—Cranes and Derricks in Construction
+
+Whenever there is a concern as to safety, the operator must have the authority to stop and refuse to handle loads until a qualified person has determined that safety has been assured.

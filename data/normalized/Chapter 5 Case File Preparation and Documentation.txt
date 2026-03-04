@@ -1,0 +1,509 @@
+Field Operations Manual
+
+Chapter 5
+
+CASE FILE PREPARATION AND DOCUMENTATION
+
+Introduction
+.
+
+These instructions are provided to help CSHOs in determining the minimum level of written documentation necessary to prepare an inspection case file. All necessary information for documenting violations shall be obtained during the inspection, (including but not limited to notes, audio/video recordings, photographs, employer and employee interviews and employer maintained records). CSHOs shall develop detailed information for the case file to establish the specific elements of each violation. CSHOs and Area Directors shall follow all Regional consultation procedures, including those established by the RSOL's Office, when an inspection involves important or novel facts or presents potentially complex litigation issues. If consultation is necessary, it shall be conducted at the earliest possible stage of the inspection.
+
+Inspection Conducted, Citations Being Issued
+.
+
+All case files must include the following forms and documents:
+
+
+Inspection Report
+.
+
+The CSHO shall obtain available information to complete the
+Inspection Report
+and other appropriate forms.
+
+Narrative
+.
+
+The
+Narrative
+shall include the following:
+
+
+Establishment Name;
+
+Inspection Number;
+
+Additional Citation Mailing Addresses;
+
+Names and Addresses of all Organized Employee Groups;
+
+Names, Addresses, and Phone Numbers of Authorized Representatives of Employees;
+
+Employer Representatives contacted and the extent of their participation in the inspection;
+
+CSHO's evaluation of the Employer's Safety and Health System, and if applicable, a discussion of any penalty reduction for good faith efforts;
+
+A written narrative containing accurate and concise information about the employer and the worksite;
+
+Date that the closing conference(s) was held and description of any unusual circumstances encountered;
+
+Any other relevant comments/information that CSHOs believe may be helpful, based on his/her professional judgment;
+
+Names, Addresses, and Phone Numbers of other persons contacted during the inspection, such as the police, coroner, attorney;
+
+Names and Job Titles of any individuals who accompanied the CSHO on the inspection;
+
+Calculation of the DART rate for at least three full calendar years and the current year;
+
+Discussion clearly addressing all items on any applicable Complaint or Referral;
+
+Type of Legal Entity: indicate whether the employer is a corporation, partnership, sole proprietorship. Do not use the word "owner." If the employer named is a subsidiary of another firm, indicate this; and
+
+Coverage Information.
+
+Violation Worksheet
+.
+
+
+A separate
+Violation Worksheet
+should normally be completed for each alleged violation. Describe the observed hazardous conditions or practices, including all relevant facts, and all information pertaining to how and/or why a standard is violated. Specifically identify the hazard to which employees have been or could be exposed. Describe the type of injury or illness which the violated standard was designed to prevent in this situation, or note the name and exposure level of any contaminant or harmful physical agent to which employees are, have been, or could be potentially exposed. If employee exposure was not actually observed during the inspection, state the facts on which the determination was made (i.e., tools left inside an unprotected trench) that an employee has been or could have been exposed to a safety or health hazard.
+
+The following information shall be documented:
+
+
+Explanation of the hazard(s), hazardous workplace condition(s), or practice(s);
+
+Identification of the machinery or equipment (such as equipment type, manufacturer, model number, serial number);
+
+Specific location of the hazard and employee exposure to the hazard;
+
+Injury or illness likely to result from exposure to the hazard;
+
+Employee proximity to the hazard and specific measurements taken, (describe how measurements were taken, identify the measuring techniques and equipment used, identify those who were present and who observed the measurements being made, and include calibration dates of equipment used);
+
+For contaminants and physical agents, any other facts that clarify the nature of employee exposure. A representative number of Safety Data Sheet (SDS) should be collected for hazardous chemicals that employees could be exposed to;
+
+Names, addresses, phone numbers, and job titles for exposed employees;
+
+Approximate duration of time that the hazard has existed and frequency of exposure to the hazard;
+
+Employer knowledge;
+
+Any and all facts establishing that the employer actually knew of the hazardous condition, or what reasonable steps the employer failed to take (including regular inspections of the worksite) that could have revealed the presence of the hazardous condition. The mere presence of the employer in the workplace is not sufficient evidence of knowledge. There must be evidence that demonstrates why the employer reasonably could have recognized the presence of the hazardous condition. Avoid relying on conclusory statements such as "reasonable diligence" to establish employer knowledge. See
+Chapter 4, Section II.C.4
+., Knowledge of the Hazardous Condition, for more information.
+
+
+In order to establish that a violation can be potentially classified as willful, facts shall be documented to show either that the employer knew of the applicable legal requirements and intentionally violated them or that the employer showed plain indifference to employee safety or health (See
+Chapter 4, Section V
+, Willful Violations). For example, document evidence that the employer knew that the condition existed and that the employer was required to take additional steps to abate the hazard. Such evidence could include prior OSHA citations, previous warnings by a CSHO, insurance company or city/state inspector statements regarding the requirements of the standard(s), the employer's familiarity with the standard(s), contract specifications requiring compliance with applicable standards, or warnings by employees or employee safety representatives of the presence of a hazardous condition or practice and what protections are required by OSHA standards.
+
+Also include evidence showing that even if the employer was not consciously or intentionally violating the Act, the employer acted with such plain indifference for employee safety that had the employer known of the standard, it probably would not have complied anyway. This type of evidence would include instances where an employer was aware of an employee exposure to an obviously hazardous condition(s) or practice(s) and made no reasonable effort to eliminate it.
+
+Any relevant comments made by the employer or employee during the walkaround or closing conference, including any employer comments regarding why it violated the standard, that can be characterized as admissions of the specific violations described; and
+
+Include any other facts, that could assist in evaluating the situation or in reconstructing the total inspection picture in preparation for testimony in possible legal actions.
+
+Appropriate and consistent abatement dates should be assigned and documented for abatement periods longer than 30 days. The abatement period shall be the shortest interval within which the employer can reasonably be expected to correct the violation. An abatement period should be indicated in the citation as a specific date, not a number of days. When abatement is witnessed by the CSHO during an inspection, the abatement period shall be listed on the citation as "Corrected During Inspection."
+
+The establishment of the shortest practicable abatement date requires the exercise of professional judgment on the part of the CSHO. Abatement periods exceeding 30 days shall not normally be offered, particularly for simple safety violations. Situations can arise, however, especially for complex health or program violations, where abatement cannot be completed within 30 days (e.g., ventilation equipment needs to be installed, new parts or equipment need to be ordered, delivered and installed or a process hazard analysis needs to be performed as part of a PSM program). When an initial abatement date is granted that is in excess of 30 calendar days, the reason should be documented in the case file.
+
+Records obtained during the course of the inspection that the CSHO determines are necessary to support the violations.
+
+For violations classified as repeated, the file shall include a copy of the previous citation(s) on which the repeat classification is based and documentation of the final order date of the original citation.
+
+Inspection Conducted But No Citations Issued
+.
+
+For inspections that do not result in citations being issued, a lesser amount of documentation can be included in the case file. At a minimum, the case file shall include the
+Inspection Report
+, the
+Narrative
+, and a general statement that at the time of the inspection no conditions were observed in violation of any standard, and a complaint/referral response letter, if appropriate shall clearly address all of the item(s).
+
+No Inspection
+.
+
+For "No Inspections," the CSHO shall include in the case file an
+Inspection Report
+, which indicates the reason why no inspection was conducted. If there was a denial of entry, then the information necessary to obtain a warrant or an explanation of why a warrant is not being sought shall be included. The case file shall also include a complaint/referral response letter, if appropriate, that explains why an inspection was not conducted.
+
+Health Inspections
+.
+
+
+Document Potential Exposure
+.
+
+In addition to the documentation indicated above, CSHOs shall document all relevant information concerning potential exposure(s) to chemical substances or physical agents (including, as appropriate, collection and evaluation of applicable SDSs), such as symptoms experienced by employees, duration and frequency of exposures to the hazard, employee interviews, sources of potential health hazards, types of engineering or administrative controls implemented by the employer, and personal protective equipment being provided by the employer and used by employees.
+
+Employer's Occupational Safety and Health System
+.
+
+CSHOs shall request and evaluate information on the following aspects of the employer's occupational safety and health system as it relates to the scope of the inspection:
+
+
+Monitoring
+.
+
+The employer's system for monitoring safety and health hazards in the establishment should include a program for self-inspection. CSHOs shall discuss the employer's maintenance schedules and inspection records. Additional information shall be obtained concerning activities such as sampling and calibration procedures, ventilation measurements, preventive maintenance procedures for engineering controls, and laboratory services. Compliance with the monitoring requirements of any applicable substance-specific health standards shall be determined.
+
+Medical
+.
+
+CSHOs shall determine whether the employer provides the employees with pre-placement and periodic medical examinations. The medical examination protocol shall be requested to determine the extent of the medical examinations and, if applicable, compliance with the medical surveillance requirements of any applicable substance-specific health standards.
+
+Records Program
+.
+
+CSHOs shall determine the extent of the employer's records program, such as whether records pertaining to employee exposure and medical records are being maintained in accordance with
+§1910.1020
+.
+
+Engineering Controls
+.
+
+CSHOs shall identify any engineering controls present, including substitution, isolation, general dilution and local exhaust ventilation, and equipment modification.
+
+Work Practice and Administrative Controls
+.
+
+CSHOs shall identify any control techniques, including personal hygiene, housekeeping practices, employee job rotation, and employee training and education. Rotation of employees as an administrative control requires employer knowledge of the extent and duration of exposure.
+
+NOTE: Employee rotation is not permitted as a control under some standards.
+
+Personal Protective Equipment
+.
+
+An effective personal protective equipment program should exist for the worksite. A detailed evaluation of the program shall be documented to determine compliance with specific standards, such as,
+§1910.95
+,
+§1910.134
+, and
+§1910.132
+.
+
+Regulated Areas
+.
+
+CSHOs shall investigate compliance with the requirements for regulated areas as specified by certain standards. Regulated areas must be clearly identified and known to all appropriate employees. The regulated area designation must be maintained according to the prescribed criteria of the applicable standard.
+
+Emergency Action Plan
+.
+
+CSHOs shall evaluate the employer's emergency action plan when such a plan is required by a specific standard. When standards specify that specific emergency procedures must be developed where certain hazardous substances are handled, CSHOs evaluation shall determine if: potential emergency conditions are included in the written plan, emergency conditions are explained to employees, and there is a training program for the protection of affected employees, including use and maintenance of personal protective equipment.
+
+Affirmative Defenses
+.
+
+An affirmative defense is a claim that, if established by the employer and found to exist by the CSHO, will excuse the employer from a citation that has otherwise been documented.
+
+
+Burden of Proof
+.
+
+Although employers have the burden of proving any affirmative defenses at the time of a hearing, CSHOs must anticipate when an employer is likely to raise an argument supporting such a defense. CSHOs shall keep in mind all potential affirmative defenses, and shall attempt to gather contrary evidence, particularly when an employer makes an assertion that would indicate raising a defense/excuse against the violation(s). CSHOs shall bring all documentation of hazards and facts related to possible affirmative defenses to the attention of the Area Director or designee.
+
+Explanations
+.
+
+The following are explanations of common affirmative defenses.
+
+
+Unpreventable Employee or Supervisory Misconduct or "Isolated Event."
+
+To establish this defense in most jurisdictions, employers must show all the following elements:
+
+
+A work rule adequate to prevent the violation;
+
+Effective communication of the rule to employees;
+
+Methods for discovering violations of work rules; and
+
+Effective enforcement of rules when violations are discovered.
+
+CSHOs shall document whether these elements are present, including whether the work rule at issue tracks the requirements of the standard addressing the hazardous condition.
+
+EXAMPLE 5-1
+: An unguarded table saw is observed. However, a guard is reattached while the CSHO watches. Facts to be documented include:
+
+Who removed the guard and why? . Did the employer know that the guard had been removed?
+
+How long or how often had the saw been used without the guard?
+
+Were there any supervisors in the area while the saw was operated without a guard?
+
+Did the employer have a work rule that the saw should be operated only when the guard is on?
+
+How was the work rule communicated to employees?
+
+Did the employer monitor compliance with the rule?
+
+How was the work rule enforced by the employer when it found noncompliance?
+
+
+
+Impossibility/Infeasibility of Compliance
+.
+
+Compliance is considered impossible or infeasible when compliance with the requirements of a standard is impossible or would prevent performance of required work
+and the employer took reasonable alternative steps to protect employees or there are no alternative means of employee protection available
+.
+
+EXAMPLE 5-2
+: An unguarded table saw is observed. The employer states that a guard would interfere with the nature of the work. Facts to be documented include:
+
+Would a guard make performance of the work impossible or merely more difficult?
+
+Could a guard be used some of the time or for some of the operations?
+
+Has the employer attempted to use a guard?
+
+Has the employer considered any alternative means of avoiding or reducing the hazard?
+
+
+
+Greater Hazard
+.
+
+A greater hazard exists when compliance with a standard would result in a greater hazard(s) to employees than would noncompliance and the employer took reasonable alternative protective measures, or there are no alternative means of employee protection. Also, an application for a variance would be inappropriate.
+
+EXAMPLE 5-3
+: The employer indicates that a saw guard had been removed because it caused the operator to be struck in the face by particles thrown from the saw. Facts to be documented include:
+
+Was the guard initially properly installed and used?
+
+Would a different type of guard eliminate the problem?
+
+How often was the operator struck by particles and what kind of injuries resulted?
+
+Would personal protective equipment such as safety glasses or a face shield worn by the employee solve the problem?
+
+Was the operator's work practice causing the problem and did the employer attempt to correct the problem?
+
+Was a variance requested?
+
+
+
+Interview Statements
+.
+
+
+Generally
+.
+
+Interview statements of employees or other individuals shall be obtained to adequately document a potential violation. Statements shall normally be in writing and the individual shall be encouraged to sign and date the statement. During management interviews, CSHOs are encouraged whenever possible to take immediate, detailed notes, and verbatim quotes, as these tend to be more credible than later, general recollections.
+
+CSHOs shall obtain written statements when:
+
+
+There is an actual or potential controversy related to the material facts of a violation;
+
+There is a conflict or difference among employee statements concerning the facts of the case;
+
+There is a potentially willful or repeated violation; and
+
+In incident investigations, attempting to determine whether potential violations existed at the time of the incident.
+
+Language and Wording of Statement
+.
+
+Interview statements shall normally be written in the first person and in the language of the individual when feasible. (Statements taken in a language other than English shall be subsequently translated.) The wording of the statement shall be understandable to the individual and reflect only the information that has been brought out in the interview. The individual shall initial any changes or corrections to the statement; otherwise, the statement shall not be modified, added to, or altered in any way. The statement shall end with the wording: "I have read the above, or the statement has been read to me, and it is true to the best of my knowledge." Where appropriate, the statement shall also include the following: "I request that my statement be held confidential to the extent allowed by law." Only the individual interviewed can later waive the confidentiality of the statement. The individual shall sign and date the interview statement and the CSHO shall sign it as a witness.
+
+Refusal to Sign Statement
+.
+
+If the individual refuses to sign the statement, the CSHO shall note such refusal on the statement. Statements shall be read to the individual and an attempt made to obtain an agreement. A note to this effect shall be documented in the case file. Recorded statements shall be transcribed whenever possible.
+
+Video and Audio-Recorded Statements
+.
+
+Interview statements can be video-or audio-recorded, with the consent of the person being interviewed. The statement shall be reduced to writing in egregious, fatality/catastrophe, willful, repeated, failure to abate, and other significant cases, so that it can be signed. CSHOs are encouraged to produce the written statement for correction and signature as soon as possible, and identify the transcriber.
+
+Administrative Depositions
+.
+
+When necessary to document or develop investigative facts, a management official or other individual can be administratively deposed.
+
+NOTE: See
+Chapter 3, Section VII.I.4
+, Interviews of Non-Managerial Employees, for further guidance about interviews of non-managerial employees.
+
+Paperwork and Written Program Requirements
+.
+
+In certain cases, violations of standards requiring employers to have a written program to address a hazard or make a written certification (e. g., hazard communication, personal protective equipment, permit required confined spaces, and others) are considered paperwork deficiencies. However, in some circumstances, violations of such standards can have an adverse impact on employee safety and health. See
+CPL 02-00-111
+,
+Citation Policy for Paperwork and Written Program Requirement Violations
+.
+
+Guidelines for Case File Documentation for Use with Video and Audio Recordings
+.
+
+The use of video recording as a method of documenting violations and of gathering evidence for inspection case files is encouraged. Certain types of inspections, such as fatalities, imminent danger, and ergonomics shall include video recording. Other methods of documentation, such as handwritten notes, audio recording, and photography, continue to be acceptable and are encouraged to be used whenever they add to the quality of the evidence and whenever video recording equipment is not available. See
+CPL 02-00-098
+,
+Guidelines for Case File Documentation for use with Videotapes and Audiotapes
+, October 12, 1993.
+
+Case File Activity Diary Sheet
+.
+
+All case files shall contain an activity diary sheet, which is designed to provide a ready record and summary of all actions relating to a case. It will be used to document important events or actions related to the case, especially those not noted elsewhere in the case file. Diary entries should be clear, concise, and legible and should be dated in chronological order to reflect a timeline of the case development. Information provided should include, at a minimum, the date of the action or event, a brief description of the action or event and the initials of the person making the entry. When a case file is completed, the CSHO must ensure that it is properly organized. See
+ADM 03-01-005
+, OSHA
+Compliance Records
+, August 3, 1998.
+
+Citations
+.
+
+Section 9
+of the OSH Act addresses the form and issuance of citations.
+
+Section 9(a) provides: "…Each citation shall be in writing and shall describe with particularity the nature of the violation including a reference to the provision of the Act, standard, rule, regulation, or order alleged to have been violated. In addition, the citation shall fix a reasonable time for the abatement of the violation…."
+
+Statute of Limitations
+.
+
+Section 9(c)
+specifies "…No citation may be issued under this Section after the expiration of six months following the occurrence of any violation." Accordingly, a citation shall not be issued where any alleged violation last occurred six months or more prior to the date on which the citation is actually signed, dated and served by certified mail as provided by
+Section 10(a)
+of the Act. Where the actions or omissions of the employer concealed the existence of the violation, the six-month issuance limitation is tolled until such time that OSHA learns or could have learned of the violation. The RSOL shall be consulted in such cases. In some cases, particularly those involving fatalities or other incidents, the six-month period begins to run from the date of the incident, not from the opening conference date.
+
+Issuing Citations
+.
+
+
+Citations shall be sent by certified mail. Hand delivery of citations to the employer or an appropriate agent of the employer, or use of a mail delivery service other than the United States Postal Service, can be used
+in addition
+to certified mail if it is believed that these methods would effectively give the employer notice of the citation. A signed receipt shall be obtained whenever possible. The circumstances of delivery shall be documented in the diary sheet.
+
+Citations shall be mailed to employee representatives after the certified mail receipt card is received by the Area Office. Citations shall also be mailed to any employee upon request and without the need to make a written request under the Freedom of Information Act (FOIA). In the case of a fatality, the family of the victim shall be provided with a copy of the citations without charge or the need to make a written request.
+
+Amending/Withdrawing Citations and Notification of Penalties
+.
+
+
+Amendments/Withdrawal Justification
+.
+
+Amendments to, or withdrawal of, a citation shall be made when information is presented to the Area Director or designee, which indicates a need for such action and may include administrative or technical errors such as:
+
+
+Citation of an incorrect standard;
+
+Incorrect or incomplete description of the alleged violation;
+
+Additional facts not available to the CSHO at the time of the inspection establish a valid affirmative defense;
+
+Additional facts not available to the CSHO at the time of the inspection that establish there was no employee exposure to the hazard; or
+
+Additional facts establish a need for modification of the abatement date or the penalty, or reclassification of citation items.
+
+When Amendments/Withdrawal is not Appropriate
+.
+
+Amendments to, or withdrawal of, a citation shall not be made by the Area Director or designee for any of the following:
+
+
+Timely Notice of Contest received;
+
+The 15 working days for filing a Notice of Contest has expired and the citation has become a Final Order; or
+
+Employee representatives were not given the opportunity to present their views (unless the revision involves only an administrative or technical error).
+
+Procedures for Amending or Withdrawing Citations
+.
+
+The following procedures apply whenever amending or withdrawing citations.
+
+NOTE: The instructions contained in this section, with appropriate modifications, are also applicable to the amendment of the
+Notification of Failure to Abate Alleged Violation (OSHA-2B)
+.
+
+Withdrawal of, or modifications to, the
+Citation and Notification of Penalty (OSHA-2)
+, shall normally be accomplished by means of Informal or Formal Settlement Agreements.
+
+In exceptional circumstances, the Area Director or designee can initiate a change to a
+Citation and Notification of Penalty (OSHA-2)
+without an informal conference. If proposed amendments to citation items (individual violations) change the original classification of the items, such as willful to repeated, then the original items shall be withdrawn and the new, appropriate items will be issued. The amended
+Citation and Notification of Penalty (OSHA-2)
+shall clearly indicate that the employer is obligated under the Act to post the amendment to the citation along with the original citation, until the amended violation has been corrected, or for three working days, whichever is longer.
+
+The 15-working-day contest period for the amended portions of the citation will begin on the day following the day of receipt of the amended Citation and Notification of Penalty (OSHA-2).
+
+The contest period is not extended for the un-amended portions of the original citation. A copy of the original citation shall be attached to the amended
+Citation and Notification of Penalty (OSHA-2)
+, when the amended form is forwarded to the employer.
+
+When circumstances warrant, the Area Director or designee can withdraw a
+Citation and Notification of Penalty (OSHA-2)
+in its entirety. Justification for the withdrawal must be noted in the case file. A letter withdrawing the
+Citation and Notification of Penalty (OSHA-2)
+shall be sent to the employer. The letter, signed by the Area Director or designee, shall refer to the original
+Citation and Notification of Penalty (OSHA-2)
+, state that they are withdrawn and direct that the employer to post the letter for three working days in the same location(s) where the original citation was posted. When applicable, a copy of the letter shall also be sent to the employee representative(s) and/or complainant.
+
+Inspection Records
+.
+
+
+Generally
+.
+
+
+Inspection records are any record made by a CSHO that concern, relate to, or are part of, any inspection, or are a part of the performance of any official duty.
+
+All official forms and notes constituting the basic documentation of a case must be part of the case file. All original field notes are part of the inspection record and shall be maintained in the file. Inspection records also include photographs (including digital photographs), negatives of photographs, video recordings, DVDs, and audio recordings. Inspection records are the property of the United States Government and not the property of the CSHO, and are not to be retained or used for any private purpose.
+
+Release of Inspection Information
+.
+
+The information obtained during inspections is confidential, but can be disclosable or non-disclosable based on criteria established in the Freedom of Information Act. Requests for release of inspection information shall be directed to the Area Director or designee.
+
+Classified and Trade Secret Information
+.
+
+
+Any classified or trade secret information and/or personal knowledge of such information by Agency personnel shall be handled in accordance with OSHA regulations. Trade secrets are matters that are not of public or general knowledge. A trade secret, as referenced in
+Section 15
+of the Act, includes information concerning or related to processes, operations, style of work, or apparatus, or related to the identity, confidential statistical data, amount or source of any income, profits, losses, or expenditures of any person, firm, partnership, corporation, or association. (See
+18 USC 1905
+). The collection of such information and the number of agency personnel with access to it shall be limited to the minimum necessary for the conduct of investigative activities. CSHOs shall specifically identify any classified and trade secret information in the case file. Title 18 USC 1905, as referenced by
+Section 15
+of the
+OSH Act
+, specifies criminal penalties in the event of improper disclosure.
+
+It is essential to the effective enforcement of the
+OSH Act
+that CSHOs and all OSHA personnel preserve the confidentiality of all information and investigations that could reveal a trade secret. When the employer identifies an operation or condition as a trade secret, it shall be treated as such (unless, after following proper procedures, including consulting with the Solicitor's Office, the Agency determines that the matter is not a trade secret). Information obtained in such areas, including all negatives, photographs, video, and audio recordings and documentation forms shall be labeled:
+
+"ADMINISTRATIVELY CONTROLLED INFORMATION" "RESTRICTED TRADE INFORMATION"
+
+Under
+Section 15
+of the
+OSH Act
+, all information reported to or obtained by CSHOs in connection with any inspection or other activity thatcontains or may reveal a trade secret shall be kept confidential. Such information shall not be disclosed except to other OSHA officials concerned with the enforcement of the
+OSH Act
+or, when relevant, in any proceeding under the
+OSH Act
+.
+
+Title 18 USC 1905
+, specifies criminal penalties for federal employees who disclose such information. These penalties include fines up to $1,000 or imprisonment up to one year, or both, and removal from office or employment.
+
+Trade secret materials shall not be labeled as "Top Secret," "Secret," or "Confidential," nor shall these security classification designations be used in conjunction with other words, unless the trade secrets are also classified by an agency of the U.S. Government in the interest of national security.
+
+If the employer objects to the taking of photographs and/or video recordings because trade secrets would or may be disclosed, CSHOs should advise employers of the protection against such disclosure afforded by
+Section 15
+of the OSH Act and
+§1903.9
+. If the employer still objects, CSHOs shall contact the RSOLs office, Area Director, or designee for guidance.

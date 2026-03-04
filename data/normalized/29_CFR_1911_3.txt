@@ -1,0 +1,7 @@
+Source: 29 CFR 1911.3
+Title: § 1911.3 Petition for the promulgation, modification, or revocation of a standard.
+Section: 1911.3
+Path: PART 1911—RULES OF PROCEDURE FOR PROMULGATING, MODIFYING, OR REVOKING OCCUPATIONAL SAFETY OR HEALTH STANDARDS
+ > PART 1911—RULES OF PROCEDURE FOR PROMULGATING, MODIFYING, OR REVOKING OCCUPATIONAL SAFETY OR HEALTH STANDARDS
+
+Any interested person may file with the Assistant Secretary, Occupational Safety and Health Administration, U.S. Department of Labor, Washington, D.C. 20210, a written petition for the promulgation, modification, or revocation of a standard. The petition should include, or be accompanied by, the proposed rule desired and a statement of the reasons therefor and intended effect thereof.

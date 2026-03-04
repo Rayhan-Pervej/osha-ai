@@ -1,0 +1,8 @@
+Source: 29 CFR 1917.15
+Title: § 1917.15 Coopering.
+Section: 1917.15
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart B—Marine Terminal Operations
+
+Repair and reconditioning of damaged or leaking cargo packaging (coopering) shall be performed so as not to endanger employees.

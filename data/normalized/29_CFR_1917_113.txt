@@ -1,0 +1,8 @@
+Source: 29 CFR 1917.113
+Title: § 1917.113 Clearance heights.
+Section: 1917.113
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart F—Terminal Facilities
+
+Clearance heights shall be prominently posted where the height is insufficient for vehicles and equipment.

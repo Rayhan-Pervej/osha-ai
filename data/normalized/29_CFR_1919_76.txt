@@ -1,0 +1,8 @@
+Source: 29 CFR 1919.76
+Title: § 1919.76 Safe working load reduction.
+Section: 1919.76
+Path: PART 1919—GEAR CERTIFICATION
+ > PART 1919—GEAR CERTIFICATION
+ > Subpart H—Certification of Shore-Based Material Handling Devices
+
+(a) If the operation in which equipment is engaged never utilizes more than a fraction of the safe working load rating, the owner of such equipment may, at his option, have the crane or derrick certificated for and operated at a lesser maximum safe working load in keeping with the use and based on radius and other pertinent factors: Provided, however, That the equipment concerned is physically capable of operation at the original load rating and the load reduction is not for the purpose of avoiding correction of any deficiency.

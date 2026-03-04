@@ -1,0 +1,8 @@
+Source: 29 CFR 1915.171
+Title: § 1915.171 Scope and application of subpart.
+Section: 1915.171
+Path: PART 1915—OCCUPATIONAL SAFETY AND HEALTH STANDARDS FOR SHIPYARD EMPLOYMENT
+ > PART 1915—OCCUPATIONAL SAFETY AND HEALTH STANDARDS FOR SHIPYARD EMPLOYMENT
+ > Subpart K—Portable, Unfired Pressure Vessels, Drums and Containers, Other Than Ship's Equipment
+
+The standards contained in this subpart shall apply to ship repairing and shipbuilding and shall not apply to shipbreaking.

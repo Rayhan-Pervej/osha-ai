@@ -1,0 +1,8 @@
+Source: 29 CFR 1926.27
+Title: § 1926.27 Sanitation.
+Section: 1926.27
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart C—General Safety and Health Provisions
+
+Health and sanitation requirements for drinking water are contained in subpart D of this part.

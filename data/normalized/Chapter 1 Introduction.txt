@@ -1,0 +1,543 @@
+Field Operations Manual
+
+Chapter 1
+
+INTRODUCTION
+
+Purpose
+.
+
+This FOM is a reference document for field personnel, providing enforcement policies and procedures in conducting OSHA investigations.
+
+Scope
+.
+
+This Instruction applies OSHA-wide.
+
+References
+.
+
+
+The Equal Access to Justice Act,
+5 U.S.C. § 504
+.
+
+Small Business Regulatory Enforcement Fairness Act,
+5 U.S.C. § 611
+.
+
+Disclosure of Confidential Information,
+18 U.S.C. § 1905
+.
+
+Rules Implementing the Equal Access to Justice Act; Costs and Fees,
+28 U.S.C. § 2412
+.
+
+Occupational Safety and Health Act of 1970,
+29 U.S.C. § 651
+et seq.
+
+Migrant and Seasonal Agricultural Worker Protection Act,
+29 U.S.C. § 1802
+.
+
+Debt Collection Improvement Act,
+31 U.S.C. § 3717
+.
+
+The Postal Employee Safety Enhancement Act of 1998,
+39 U.S.C. § 101
+.
+
+Employees Served with Subpoenas,
+29 C.F.R. 2.21
+and
+2.22
+.
+
+Federal Claims Collection,
+29 C.F.R. Part 20
+.
+
+Applicable Federal Standards: ETA and OSHA Housing Standards,
+29 C.F.R. 500.132
+.
+
+Social Responsibilities of the Employment Service System,
+20 C.F.R. Part 654
+.
+
+Advance Notice of Inspections,
+29 C.F.R. 1903.6
+.
+
+Policy Regarding Employee Rescue Activities,
+29 C.F.R. 1903.14
+.
+
+Abatement Verification,
+29 C.F.R. 1903.19
+.
+
+Recording and Reporting Occupational Injuries and Illness,
+29 C.F.R. 1904.35
+.
+
+Reporting Fatalities, Hospitalizations, Amputations, and Losses of an Eye as a Result of Work Related Incidents to OSHA,
+29 C.F.R. 1904.39
+.
+
+Consultation Agreements,
+29 C.F.R. Part 1908
+.
+
+Occupational Safety and Health Standards,
+29 C.F.R. Part 1910
+.
+
+Occupational Safety and Health Standards for Shipyard Employment,
+29 C.F.R. Part 1915
+.
+
+Marine Terminals,
+29 C.F.R. Part 1917
+.
+
+Safety and Health Regulations for Longshoring,
+29 C. F. R. Part 1918
+.
+
+Gear Certification,
+29 C.F.R. Part 1919
+.
+
+Safety and Health Regulations for Construction,
+29 C.F.R. Part 1926
+.
+
+Occupational Safety and Health Standards for Agriculture,
+29 C.F.R. Part 1928
+.
+
+Approved State Plans for Enforcement of State Standards,
+29 C.F.R. Part 1952
+.
+
+Basic Program Elements for Federal Employees OSHA,
+29 C.F.R. Part 1960
+.
+
+Coverage – Agricultural Employers,
+29 C.F.R. 1975.4(b)(2)
+.
+
+Rules of Procedure,
+29 C.F.R. Part 2200
+.
+
+Worker Protection Standard,
+40 C.F.R. Part 170
+.
+
+Housing for Agricultural Workers: Final Rule,
+Federal Register
+, March 4, 1980 (45 FR 14180).
+
+Safety and Health Program Management Guidelines; Issuance of Voluntary Guidelines,
+Federal Register
+, January 16, 1989 (
+54 FR 3904
+).
+
+Incorporation of General Industry Safety and Health Standards Applicable to Construction Work,
+Federal Register
+, August 12, 1996 (
+61 FR 41738
+).
+
+Delegation of Authorities and Assignment of Responsibilities to the Assistant Secretary for Employment Standards and Other Officials in the Employment Standards Administration,
+Federal Register
+, January 2, 1997 (
+62 FR 107
+).
+
+Final Rule on State Plans Coverage of the U.S. Postal Service (
+Federal Register
+, June 9, 2000 (
+65 FR 36618
+).
+
+Final Policy Concerning the Occupational Safety and Health Administration’s Treatment of Voluntary Employer Safety and Health Self-Audits,
+Federal Register
+, July 28, 2000 (
+65 FR 46498
+).
+
+Secretary’s Order 5-2002; Delegation of Authority and Assignment of Responsibility to the Assistant Secretary for Occupational Safety and Health,
+Federal Register
+, October 22, 2002 (
+67 FR 65007
+).
+
+Occupational Injury and Illness Recording and Reporting Requirements – NAICS Update and Reporting Revisions, September 18, 2014 (
+79 FR 56129
+).
+
+OSHA Instruction
+ADM 01-00-003
+, Redelegation of Authority and Responsibility of the Assistant Secretary for Occupational Safety and Health, March 6, 2003.
+
+OSHA Instruction
+ADM 03-01-005
+, OSHA Compliance Records, August 3, 1998.
+
+OSHA Instruction
+CPL 02-00-025
+, Scheduling System for Programmed Inspections, January 4, 1995.
+
+OSHA Instruction
+CPL 02-00-028
+, Compliance Assistance the Powered Industrial Truck Operator Training Standards, November 30, 2000.
+
+OSHA Instruction
+CPL 02-00-051
+, Enforcement Exemptions and Limitations under the Appropriations Act, May 28, 1998.
+
+OSHA Instruction
+CPL 02-00-080
+, Handling of Cases to be Proposed for Violation-By-Violation Penalties, October 21, 1990.
+
+OSHA Instruction
+CPL 02-00-152
+, Guidelines for Administering Corporate-Wide Settlement Agreements, June 22, 2011.
+
+OSHA Instruction
+CPL 02-00-094
+, OSHA Response to Significant Events of Potentially Catastrophic Consequences, Edited on November 21, 2015.
+
+OSHA Instruction
+CPL 02-00-098
+, Guidelines for Case File Documentation for use with Videotapes and Audiotapes, October 12, 1993.
+
+OSHA Instruction
+CPL 02-00-111
+, Citation Policy for Paperwork and Written Program Requirement Violations, November 27, 1995.
+
+OSHA Instruction
+CPL 02-00-158
+, Inspection Procedures for the Respiratory Protection Standard, June 26, 2014.
+
+OSHA Instruction
+CPL 02-00-121
+, Providing Assistance to Smaller Employers, March 12, 1998.
+
+OSHA Instruction
+CPL 02-00-122
+, Enforcement Guidance for the U.S. Postal Service, April 16, 1999.
+
+OSHA Instruction
+CPL 02-00-124
+, Multi-Employer Citation Policy, December 10, 1999.
+
+OSHA Instruction
+CPL 02-00-125
+, Home-Based Worksites, February 25, 2000.
+
+OSHA Instruction
+CPL 02-00-135
+, Recordkeeping Policies and Procedures Manual (RKM), December 30, 2004.
+
+OSHA Instruction
+CPL 03-00-020
+, OSHA’s National Emphasis Program (NEP) on Shipbreaking, March 7, 2016.
+
+OSHA Instruction
+CPL 02-00-162
+, Shipyard Employment "Tool Bag" Directive, May 22, 2019.
+
+OSHA Instruction
+CPL 02-00-155
+, Inspection Scheduling for Construction, September 6, 2013.
+
+OSHA Instruction
+CPL-02-00-153
+, Communicating OSHA Fatality Inspection to a Victim’s Family, April 17, 2012.
+
+OSHA Instruction
+CPL 02-00-151
+, 29 CFR Part 1910, Subpart T – Commercial Diving Operations, June 13, 2011.
+
+OSHA Instruction
+CPL 02-00-149
+, Severe Violator Enforcement Program (SVEP), June 18, 2010.
+
+OSHA Instruction
+CPL 02-01-055
+, Maritime Cargo Gear Standards and 29 CFR Part 1919 Certification, September 30, 2013.
+
+OSHA Instruction
+CPL 02-01-058
+,
+Enforcement Procedures and Scheduling for Occupational Exposure to Workplace Violence
+, January 10, 2017.
+
+OSHA Instruction
+CPL 02-01-061
+, 29 CFR Part 1915, Subpart B, Confined and Enclosed Spaces and Other Dangerouse Atmosphers in Shipyard Employement, May 22, 2019.
+
+OSHA Instruction
+CPL 02-01-047
+, OSHA Authority Over Vessels and Facilities on or Adjacent to U.S. Navigable Waters and the Outer Continental Shelf (OCS), February 22, 2010.
+
+OSHA Instruction
+CPL 02-01-060
+, 29 CFR Part 1915, Subpart I, Enforcement Guidance for Personal Protective Equipment (PPE) in Shipyard Employment, May 22, 2019.
+
+OSHA Instruction
+CPL 02-02-035
+, 29 CFR 1910.95(b)(1), Guidelines for Noise Enforcement; Appendix A, December 19, 1983.
+
+OSHA Instruction
+CPL 02-02-079
+, Inspection Procedures for the Hazard Communication Standard (HCS 2012), July 9, 2015.
+
+OSHA Occupational Chemical Database webpage.
+
+OSHA Instruction
+CPL 02-02-054
+, Respiratory Protection Program Guidelines, July 14, 2000.
+
+OSHA Instruction
+CPL 02-02-063
+, Inspection Procedures for Occupational Exposure to Asbestos Final Rule 29 CFR Parts 1910.1001, 1926.1101, 1915.1001, January 9, 1996.
+
+OSHA Instruction
+CPL 02-02-072
+, Rules of Agency Practice and Procedure Concerning OSHA Access to Employee Medical Records, August 22, 2007.
+
+OSHA Instruction
+CPL 02-02-073
+, Inspection Procedures for 29 CFR 1910.120 and 1926.65, Paragraph (q): Emergency Response to Hazardous Substance Releases, August 27, 2007.
+
+OSHA Instruction
+CPL 02-02-074
+, Inspection Procedures for the Chromium (VI) Standards, January 24, 2008.
+
+OSHA Instruction
+CPL 02-02-076
+, National Emphasis Program – Hexavalent Chromium, February 23, 2010.
+
+OSHA Instruction
+CPL 03-00-021
+, PSM Covered Chemical Facilities National Emphasis Program, January 17, 2017.
+
+OSHA Instruction
+CPL 03-00-008
+, Combustible Dust National Emphasis Program (Reissued), March 11, 2008.
+
+OSHA Instruction
+CPL 03-00-009
+, National Emphasis Program – Lead, August 14, 2008.
+
+OSHA Instruction
+CPL 02-03-007
+, Whistleblower Investigations Manual, January 28, 2016.
+
+OSHA Instruction
+CPL 04-00-002
+, Procedures for Approval of Local Emphasis Programs (LEPs), November 13, 2018.
+
+OSHA Instruction
+CSP 01-00-004
+, State Plan Policies and Procedures Manual, September 22, 2015.
+
+OSHA Instruction
+CSP 02-00-003
+, Consultation Policies and Procedures Manual, November 19, 2015.
+
+OSHA Instruction
+CSP 03-01-003
+, Voluntary Protection Programs (VPP) Polices and Procedures Manual, April 18, 2008.
+
+OSHA Instruction
+CSP 03-02-003
+, OSHA Strategic Partnership Program for Worker Safety and Health, November 6, 2013.
+
+OSHA Instruction
+CSP 04-01-002
+, OSHA Alliance Program, July 29, 2015.
+
+OSHA Instruction
+HSO 01-00-001
+, National Emergency Management Plan (NEMP), December 18, 2003.
+
+OSHA Instruction
+TED 01-00-015
+, OSHA Technical Manual (OTM), September 15, 2017, or latest version.
+
+OSHA Notice
+CSP 02-16-05
+, FY2017 On-Site Consultation Cooperative Agreement Instructions, May 25, 2016.
+
+Memoranda on Construction Fatality Case Study, Reasons and Methodology, for Regional Administrators from H. Berrien Zettler, Deputy Director, D.O.C. (by email), regarding transmittal of information on construction fatalities to the University of Tennessee, dated September 12 and 13, 2000.
+
+Memorandum of Understanding
+on Coordination of Information Sharing of Domestic Ship Recycling Operations between DOD/DOT/EPA/DOL-OSHA, July 30, 2015.
+
+Memorandum on Construction Fatality Investigation Case Files, for Regional Administrators from R. Davis Layne, Deputy Assistant Secretary, regarding transmittal of information on construction fatalities to the University of Tennessee, dated May 14, 2003 and February 18, 2004.
+
+Memorandum on Procedures for Significant Enforcement Cases, for Regional Administrators from R. Davis Layne, Deputy Assistant Secretary, dated March 24, 2004.
+
+Memorandum on "Procedures for Significant and Novel Enforcement Cases," August 1, 2016.
+
+Presidential Executive Order 12196
+, Occupational safety and health programs for Federal employees.
+
+Settlement Agreement
+dated July 14, 2000, concerning Powered Industrial Truck Operator Training Standard between the National Maritime Safety Association (NMSA) and the Occupational Safety and Health Administration, U.S. Department of Labor.
+
+Frank Diehl Farms v. Secretary of Labor
+, 696 F.2d 1325 (11th Cir. 1983).
+
+Int. Union UAW v. General Dynamics Land Systems Division
+, 815 F.2d 1570 (D.D. Cir. 1987).
+
+Marion Stevens dba Chapman & Stephens Company
+, 5 BNA OSHC 1395 (No.13535, 1977).
+
+Darragh Company
+, 9 BNA OSHC 1205, (Nos. 77-2555, 77-3074, and 77-3075, 1980).
+
+J. C. Watson Company
+, 22 BNA OSHC 1235 (Nos. 05-0175 and 05-0176, 2008). (Aff’d D.C. Cir. No. 08-1230, April 17, 2009.) (unpubl.)
+
+Chao v. Mallard Bay Drilling, Inc.
+, 212 F.3d 898, (534 U.S. 235, 2002).
+
+Cancellations
+.
+
+This Instruction supersedes OSHA Instructions CPL 02-00-160, Field Operations Manual (FOM), issued August 2, 2016; CPL 02-00-045 [CPL 2.45B CH-5] - Changes to the Field Operations Manual (FOM) [03/03/1995]; CPL 02-00-045 [CPL 2.45B CH-4] - Changes to the Field Operations Manual (FOM) [12/13/1993]; CPL 02-00-045 [CPL 2.45B CH-3] - Changes to the Field Operations Manual (FOM) [06/15/1992]; CPL 02-00-045 [CPL 2.45B CH-2] - Changes to the Field Operation Manual (FOM) [03/01/1991]; CPL 02-00-045 [CPL 2.45B CH-1] - Changes to the Revised Field Operations Manual (FOM) [12/31/1990]; and CPL 02-00-045 [CPL 2.45B] - Revised Field Operations Manual (FOM) [06/15/1989].
+
+Action Information
+.
+
+
+Responsible Office
+. Directorate of Enforcement Programs (DEP).
+
+Action Offices
+. National, Regional, and Area Offices.
+
+Information Offices
+. State Plan States, OSHA Training Institute, Consultation Program Managers, VPP Managers and Coordinators, OSHA Strategic Partnership Coordinators, Compliance Assistance Coordinators, Compliance Assistance Specialists, Assistant Regional Administrators, and Regional EEP Coordinators.
+
+Federal Program Change – Notice of Intent and Equivalency Required
+.
+
+This Instruction describes a Federal Program Change that consolidates and updates OSHA’s field enforcement policies and procedures. States must have, as a part of their State Plan, formal written policies and procedures on all aspects of their compliance program, including inspections, targeting, citations, penalties, and post citation processes, which are at least as effective as the procedures in this revised Field Operations Manual (FOM). State Plans have the option of adopting identical or different, but at least as effective, enforcement policies as those contained in this FOM, and in doing so, State Plans must address each chapter and/or policy area in this manual. Significant changes to this manual are listed in section VII of this chapter.
+
+An identical State Plan change is one in which the State Plan adopts the same program provisions as the federal program with the only differences being those modifications necessary to reflect a State Plan’s unique structure. With respect to this FOM, State Plans can adopt identically without adopting the internal OSHA administrative procedures set out in this manual, such as those relating to organizational structure and such matters as penalty collection. However, State Plans must provide for their own comparable internal administrative procedures and processes.
+
+Within 60 days of the date of issuance of this Directive, State Plans must submit a notice of intent indicating if the State Plan will adopt or already has in place enforcement policies and procedures that are identical to or different from the federal program. State adoption, either identically or different, should be accomplished within six months. If adopting identically, the State Plan must provide the date of adoption to OSHA, due within 60 days of adoption. If the State Plan adopts or maintains enforcement policies that differ from the FOM, the State Plan must either post its different policies on its State Plan website and provide a link to OSHA, or provide OSHA with an electronic copy and the name and contact information of someone within the State Plan who can assist the public with obtaining a copy. This action must occur within 60 days of the date of adoption. OSHA will post summary information of the State Plan responses to this Instruction on its website.
+
+Significant Changes
+.
+
+
+Changes made by the 2019 Update
+.
+
+
+Updated
+Enforcement Follow-Up and Monitoring Inspection
+in Chapter 2, Section VI.G.2.b.
+
+Updated
+Inspection Preparation and Planning
+in Chapter 3, Section II.A.
+
+Updated
+Inspection Scope
+in Chapter 3, Section III.B.
+
+Updated
+Refusal to Permit Inspection and Interference
+in Chapter 3, Section IV.C.1.
+
+Updated
+Walkaround Representatives
+in Chapter 3, Section VII.A.2.
+
+Updated
+General Penalty Policy
+in Chapter 6, Section I.
+
+Updated
+Civil Penalties
+to include the "Inflation Adjustment Act" in Chapter 6, Section II.A.
+
+Updated Chapter 6 to replace specific inflation-adjusted penalty amounts with references to the Annual Adjustments to OSHA Civil Penalties memorandum.
+
+Updated
+Procedures for an Inspection
+in Chapter 9, Section I.H.5.
+
+Updated
+Fatality and Catastrophe Investigations
+in Chapter 11, Section II.C.2.
+
+Updated
+Federal Agency Appeals Procedures
+in Chapter 13, Section VIII.G.2.f and VIII.G.3.
+
+Updated
+Citable Program Elements
+in Chapter 13, Table 13-1.
+
+Updated
+Obtaining Warrants
+in Chapter 15, Section III.
+
+Background
+.
+
+The Field Inspection Reference Manual (FIRM) was issued September 26, 1994, and later replaced with the Field Operations Manual (FOM), dated November 9, 2009. The FOM was later revised in April 22, 2011, October 1, 2015, and August 2, 2016, to include additional directives, memoranda, and interpretations.
+
+This instruction cancels and replaces OSHA Instruction CPL 02-00-160, Field Operations Manual, August 2, 2016, and includes revisions to Chapters 1, 2, 3, 6, 9, 11, 13, and 15. The FOM is designed to be updated on a regular basis by amending chapters or sections thereof to embody modifications and clarifications to OSHA’s general enforcement policies and procedures.
+
+Definitions and Terminology
+.
+
+
+The Act
+. This term refers to the Occupational Safety and Health Act of 1970 (29 U.S.C. § 651 et seq.).
+
+Compliance Safety and Health Officer (CSHO)
+. This term refers to Safety Engineers, Safety Compliance Officers, and Industrial Hygienists.
+
+He/She and His/Hers
+. The terms
+he
+and
+she
+, as well as
+his
+or
+her
+, when used throughout this manual, are interchangeable. That is, male(s) applies to female(s), and vice versa.
+
+Professional Judgment
+. All OSHA employees are expected to exercise their best judgment as safety and health professionals and as representatives of the United States Department of Labor in every aspect of carrying out their duties.
+
+Workplace and Worksite
+. The terms
+workplace
+and
+worksite
+are interchangeable.
+Workplace
+is used more frequently in general industry, while
+worksite
+is more commonly used in the construction industry.

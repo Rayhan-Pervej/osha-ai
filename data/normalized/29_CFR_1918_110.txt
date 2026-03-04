@@ -1,0 +1,8 @@
+Source: 29 CFR 1918.110
+Title: § 1918.110 COVID-19.
+Section: 1918.110
+Path: PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > Subpart K—COVID-19.
+
+The requirements applicable to longshoring work under this section are identical to those set forth at 29 CFR 1910.501.

@@ -1,0 +1,9 @@
+Source: 29 CFR 1926.1152
+Title: § 1926.1152 Methylene chloride.
+Section: 1926.1152
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart Z—Toxic and Hazardous Substances
+
+Note: The requirements applicable to construction employment under this section are identical to those set forth at 29 CFR 1910.1052.
+[62 FR 1619, Jan. 10, 1997]

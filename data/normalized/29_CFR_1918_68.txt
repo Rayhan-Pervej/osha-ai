@@ -1,0 +1,8 @@
+Source: 29 CFR 1918.68
+Title: § 1918.68 Grounding.
+Section: 1918.68
+Path: PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > Subpart G—Cargo Handling Gear and Equipment Other Than Ship's Gear
+
+The frames of portable electrical equipment and tools, other than double insulated tools and battery operated tools, shall be grounded through a separate equipment conductor run with or enclosing the circuit conductors.

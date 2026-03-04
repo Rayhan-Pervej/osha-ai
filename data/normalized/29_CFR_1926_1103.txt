@@ -1,0 +1,9 @@
+Source: 29 CFR 1926.1103
+Title: § 1926.1103 13 carcinogens (4-Nitrobiphenyl, etc.).
+Section: 1926.1103
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart Z—Toxic and Hazardous Substances
+
+Note: The requirements applicable to construction work under this section are identical to those set forth at § 1910.1003 of this chapter.
+[61 FR 31433, June 20, 1996]

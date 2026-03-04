@@ -1,0 +1,8 @@
+Source: 29 CFR 1926.1213
+Title: § 1926.1213 Provision of documents to Secretary.
+Section: 1926.1213
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart AA—Confined Spaces in Construction
+
+For each document required to be retained in this standard, the retaining employer must make the document available on request to the Secretary of Labor or the Secretary's designee.

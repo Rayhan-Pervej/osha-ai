@@ -1,0 +1,8 @@
+Source: 29 CFR 1921.20
+Title: § 1921.20 Subpoenas.
+Section: 1921.20
+Path: PART 1921—RULES OF PRACTICE IN ENFORCEMENT PROCEEDINGS UNDER SECTION 41 OF THE LONGSHOREMEN'S AND HARBOR WORKERS' COMPENSATION ACT
+ > PART 1921—RULES OF PRACTICE IN ENFORCEMENT PROCEEDINGS UNDER SECTION 41 OF THE LONGSHOREMEN'S AND HARBOR WORKERS' COMPENSATION ACT
+ > Subpart E—Miscellaneous
+
+All applications for subpoenas ad testificandum and subpoenas duces tecum shall be made in writing to the hearing examiner. Application for subpoenas duces tecum shall specify as exactly as possible the documents to be produced, showing their general relevancy and reasonable scope.

@@ -1,0 +1,1555 @@
+Field Operations Manual
+
+Chapter 4
+
+VIOLATIONS
+
+Basis of Violations
+.
+
+
+
+Standards and Regulations
+.
+
+
+
+Section 5(a)(2)
+of the Act states that each employer has a responsibility to comply with occupational safety and health standards promulgated under the Act, which includes standards incorporated by reference. For example, the American National Standards Institute (ANSI) standard A92.2 – 1969, "Vehicle Mounted Elevating and Rotating Work Platforms," including appendix, is incorporated by reference as specified in
+§1910.67
+. Only the mandatory provisions (i.e., those containing the word "shall" or other mandatory language of standards incorporated by reference) are adopted as standards under the Act.
+
+The specific standards and regulations are found in Title 29 Code of Federal Regulations (CFR) 1900 series. Subparts A and B of 29 CFR 1910 specifically establish the source of all the standards, which serve as the basis for violations. Standards are subdivided as follows as per OIS Application. For example, §1910.305(j)(6)(ii)(A)(2) would be entered as follows:
+
+Table showing examples of standards naming conventions
+
+Subdivision Naming Convention
+
+Example
+
+Title
+
+29
+
+Part
+
+1910
+
+Section
+
+305
+
+Paragraph
+
+(j)
+
+Subparagraph
+
+(6)
+
+Item
+
+(ii)
+
+Sub Item
+
+(A)
+
+Sub Item 2
+
+(2)
+
+NOTE: The most specific provision of a standard shall be used for citing violations.
+
+Definition and Application of Vertical and Horizontal Standards
+.
+
+Vertical standards are standards that apply to a particular industry or to particular operations, practices, conditions, processes, means, methods, equipment, or installations. Horizontal standards are other (more general) standards applicable to multiple industries. See
+§1910.5(c)
+.
+
+Application of Horizontal and Vertical Standards
+.
+
+If a CSHO is uncertain whether to cite under a horizontal or a vertical standard when both may be applicable, the supervisor or the Area Director shall be consulted. The following guidelines shall be considered:
+
+
+When a hazard in a particular industry is covered by both a vertical (e.g.,
+29 CFR 1915
+) and a horizontal (e.g.,
+29 CFR 1910
+) standard, the vertical standard shall take precedence even if the horizontal standard is more stringent.
+
+In situations covered by both a horizontal (general) and a vertical (specific) standard where the horizontal standard appears to offer greater protection, the horizontal (general) standard can be cited only if its requirements are not inconsistent or in conflict with the requirements of the vertical (specific) standard. To determine whether there is a conflict or inconsistency between the standards, an analysis of the intent of the two standards must be performed. For the horizontal standard to apply, the analysis must show that the vertical standard does not address the precise hazard involved, even though it may address related or similar hazards.
+
+EXAMPLE 4-1
+: When employees are connecting structural steel,
+§1926.501(b)(15)
+cannot be cited for fall hazards above 6 feet since that specific situation is covered by
+§1926.760(b)(1)
+for fall distances of more than 30 feet.
+
+If the particular industry does not have a vertical standard that covers the hazard, then the CSHO shall use the horizontal (general industry) standard.
+
+When determining whether a horizontal or a vertical standard is applicable to a work situation, the CSHO shall focus attention on the particular activity in which an employer is engaged in rather than on the nature of the employer's general business.
+
+Hazards found in construction work that are not covered by a specific
+29 CFR 1926
+standard shall not normally be cited under
+29 CFR 1910
+unless that standard has been identified as being applicable to construction. See Incorporation of General Industry Safety and Health Standards Applicable to Construction Work,
+58 FR 35076
+(June 30, 1993).
+
+If a question arises about whether an activity is deemed "construction" for purposes of the Act, contact the Directorate of Construction (DOC). See
+§1910.12
+, Construction Work.
+
+For the application of standards in the maritime industries (29 CFR Parts
+1915
+,
+1917
+,
+1918
+, and
+1919
+) see
+Chapter 10 Section III
+., Maritime.
+
+Violation of Variances
+.
+
+The employer's requirement to comply with a standard can be modified by granting a variance, as outlined in
+Section 6(d)
+of the Act.
+
+
+In the event that the employer is not in compliance with the requirements of the variance, a violation of the controlling standard shall be cited with a reference in the citation to the variance provision that has not been met.
+
+If, during an inspection, CSHOs discover that an employer has filed a variance application regarding a condition that is an apparent violation of a standard, the Area Director or designee shall determine whether the variance request has been granted. If the variance has not been granted, a citation for the violative condition can be issued.
+
+Employee Exposure
+.
+
+A hazardous condition that violates an OSHA standard or the general duty clause shall be cited only when employee exposure can be documented. The exposure(s) must have occurred within the six months immediately preceding the issuance of the citation to serve as a basis for a violation, except where the employer has concealed the violative condition or misled OSHA, in which case the citation must be issued within six months from the date when OSHA learns, or should have known, of the condition. The RSOL should be consulted in such cases.
+
+
+Determination of Employer/Employee Relationship
+.
+
+Whether or not workers are employees of a particular employer depends on several factors, the most important of which is who controls the manner in which employees perform their assigned work. The question of who pays these employees cannot be the key factor. For cases where determination of the employer/employee relationship is complex, the Area Director shall seek the advice of the RSOL.
+
+Proximity to the Hazard
+.
+
+The actual and/or potential proximity of the employees to a hazard shall be thoroughly documented (i.e., photos, measurements, and employee interviews).
+
+Observed Exposure
+.
+
+
+Employee exposure is established if CSHOs witness, observe, or monitor the proximity or access of an employee to the hazard or potentially hazardous condition.
+
+The use of personal protective equipment cannot, in itself, adequately prevent employee exposures to a hazardous condition. Such exposures can be cited where the applicable standard requires the additional use of engineering and/or administrative (including work practice) controls, or where the personal protective equipment used is inadequate.
+
+Unobserved Exposure
+.
+
+Where employee exposure is not observed, witnessed, or monitored by CSHOs, employee exposure can be established through witness statements or other evidence that exposure to a hazardous condition has occurred or may continue to occur.
+
+
+Past Exposure
+.
+
+In fatality/catastrophe (or other "accident/incident") investigations, prior employee exposure(s) can be established if CSHOs establish, through written statements or other evidence, that exposure(s) to a hazardous condition occurred at the time of the accident/incident. Prior exposures also can serve as the basis for a violation when:
+
+
+The hazardous condition continues to exist, or it is reasonably predictable that the same or similar condition could recur;
+
+It is reasonably predictable that employee exposure to a hazardous condition could recur when:
+
+
+The employee exposure has occurred in the previous six months;
+
+The hazardous condition is an integral part of an employer's normal operations; and
+
+The employer has not established a policy or program to ensure that exposure to the hazardous condition will not recur.
+
+Potential Exposure
+.
+
+Potential exposure to a hazardous condition can be established if there is evidence that employees have access to the hazard, and can include one or more of the following:
+
+
+When a hazard has existed and could recur because of work patterns, circumstances, or anticipated work requirements;
+
+When a hazard would pose a danger to employees simply by their presence in an area and it is reasonably predictable that they could come into that area during the course of the work, to rest or to eat, or to enter or exit from an assigned work area; or
+
+When a hazard is associated with the use of unsafe machinery or equipment or arises from the presence of hazardous materials and it is reasonably predictable that an employee could again use the equipment or be exposed to the materials in the course of work; however
+
+If the inspection reveals an adequately communicated and effectively enforced safety policy or program that would prevent or minimize employee exposure, including accidental exposure to the hazardous condition, it would not be reasonably predictable that employee exposure could occur. In such circumstances, no citation should be issued in relation to the condition.
+
+Documenting Employee Exposure
+.
+
+CSHOs shall thoroughly document exposure, both observed and unobserved, for each potential violation. This includes:
+
+
+Statements by the exposed employees, the employer (particularly the immediate supervisor of the exposed employee), other witnesses (other employees who have observed exposure to the hazardous condition), union representatives, engineering personnel, management, or members of the exposed employee's family;
+
+Recorded statements or signed written statements;
+
+Photographs, video recordings, and/or measurements; and
+
+All relevant documents (e.g., autopsy reports, police reports, job specifications, site plans,
+OSHA-300/301
+, equipment manuals, employer work rules, employer sampling results, employer safety and health programs, and employer disciplinary policies).
+
+Regulatory Requirements
+.
+
+Violations of 29 CFR
+Part 1903
+and
+Part 1904
+shall be documented and cited when an employer does not comply with posting, recordkeeping and reporting requirements contained in these Parts as provided by OSHA policy. See
+CPL 02-00-135
+,
+Recordkeeping Policies and Procedures Manual
+(December 30, 2004). See also
+CPL 02-00-111
+,
+Citation Policy for Paperwork and Written Program Requirement Violations
+, dated November 27, 1995.
+
+NOTE: If prior to the lapse of the 8 hour or 24 hour reporting periods, the Area Director becomes aware of an incident required to be reported under
+§1904.39
+through means other than an employer report, then there is no violation for failure to report.
+
+NOTE: 29 CFR Part 1904 has requirements for reporting work-related fatalities, hospitalizations, amputations or losses of an eye. The rule updates the list of employers partially exempt from OSHA record-keeping requirements, went into effect on January 1, 2015, for workplaces under federal OSHA jurisdiction. (See
+79 FR 56129
+, Occupational Injury and Illness Recording and Reporting Requirements – NAICS Update and Reporting Revisions, September 18, 2014.)
+
+Hazard Communication
+.
+
+Under
+29 CFR 1910.1200
+chemical manufacturers and importers are required to classify the chemicals they produce or import, and applies to these employers even though they may not have their own employees exposed. Violations of this standard by manufacturers or importers shall be documented and cited, regardless of any employee exposure at the manufacturing or importing location. See
+CPL 02-02-079
+, Inspection Procedures for the Hazard Communication Standard (HCS 2012), dated July 9, 2015.
+
+Employer/Employee Responsibilities
+.
+
+
+Employer Responsibilities
+.
+
+Section 5(a)
+of the Act states that each employer "shall furnish to each of his employees employment and a place of employment which are free from recognized hazards that are causing or are likely to cause death or serious physical harm to his employees." This section also states that each employer "shall comply with occupational safety and health standards promulgated under this Act."
+
+Employee Responsibilities
+.
+
+
+Section 5(b)
+of the Act states: "Each employee shall comply with occupational safety and health standards and all rules, regulations, and orders issued pursuant to the Act which are applicable to his own actions and conduct." The Act does not provide for the issuance of citations or the proposal of penalties against employees. Employers are responsible for employee compliance with the standards.
+
+In cases where the CSHO determines that employees are systematically refusing to comply with a standard applicable to their own actions and conduct, the matter shall be referred to the Area Director who shall consult with the Regional Administrator or designee.
+
+The CSHO is expected to obtain information to ascertain whether the employer is exercising appropriate oversight of the workplace to ensure compliance with the Act. Concerted refusals by employees to comply will not ordinarily bar the issuance of a citation where the employer has failed to exercise its authority to adequately supervise employees, including taking appropriate disciplinary action.
+
+Affirmative Defenses
+.
+
+An affirmative defense is a claim which, if established by the employer, will excuse the employer from a violation that has otherwise been documented by the CSHO. Although affirmative defenses must be proved by the employer at the time of the hearing, CSHOs should preliminarily gather evidence to rebut an employer's potential argument supporting any such defenses. See
+Chapter 5, Section VI
+, Affirmative Defenses, for additional information.
+
+Multi-Employer Worksites
+.
+
+On multi-employer worksites in all industry sectors, more than one employer can be cited for a hazardous condition that violates an OSHA standard. For specific and detailed guidance, see the multi-employer policy contained in
+CPL 02-00-124
+, Multi-Employer Citation Policy, December 10, 1999.
+
+Serious Violations
+.
+
+
+Section 17(k)
+.
+
+Section 17(k)
+of the Act states that "a serious violation shall be deemed to exist in a place of employment if there is a substantial probability that death or serious physical harm could result from a condition which exists, or from one or more practices, means, methods, operations, or processes which have been adopted or are in use, in such place of employment unless the employer did not, and could not with the exercise of reasonable diligence, know of the presence of the violation."
+
+Establishing Serious Violations
+.
+
+
+CSHOs shall consider four factors in determining whether a violation is to be classified as serious.
+
+
+The first three factors address whether there is a substantial probability that death or serious physical harm could result from an accident/incident or exposure relating to the violative condition. The probability that an incident or illness will occur is not to be considered in determining whether a violation is serious, but is considered in determining the relative gravity of the violation.
+
+The fourth factor addresses whether the employer knew or could have known of the violative condition.
+
+The classification of a violation need not be completed for each instance. It should be done once for each citation or, if violation items are grouped in a citation, once for the group.
+
+If the citation consists of multiple instances or grouped violations, the overall classification shall normally be based on the most serious item.
+
+The four-factor analysis outlined below shall be followed in making a determination of whether the violation is serious. Potential violations of the general duty clause shall also be evaluated on the basis of these steps to establish whether they may cause death or serious physical harm.
+
+Four Steps to be Documented
+.
+
+
+Type of Hazardous Exposure(s)
+.
+
+The first step is to identify the type of potential exposures to a hazard that the violated standard or the general duty clause is designed to prevent.
+
+
+CSHOs need not establish the exact manner in which an exposure to a hazard could occur. However, CSHOs shall note all facts which could affect the probability of an injury or illness
+resulting
+from a potential accident or hazardous exposure.
+
+If more than one type of hazardous exposure exists, CSHOs shall determine which hazard could reasonably be predicted to result in the most severe injury or illness and shall base the classification of the violation on that hazard.
+
+The following are examples of some types of hazardous exposures that a standard is designed to prevent:
+
+EXAMPLE 4-2
+: Employees are observed working at the unguarded edge of an open-sided floor 30 feet above the ground in apparent violation of
+§1926.501(b)(1)
+. The regulation requires that employees be protected from falls by the use of guardrail systems, safety net systems, or personal fall arrest systems. The type of hazard that the standard is designed to prevent is a fall from the edge of the floor to the ground below.
+
+EXAMPLE 4-3
+: Employees are observed working in an area in which debris is located in apparent violation of
+§1915.81(c)(2)
+. The type of hazard that the standard is designed to prevent here, is employees tripping on debris.
+
+EXAMPLE 4-4
+: An 8-hour time-weighted average sample reveals regular, ongoing employee overexposure to methylene chloride at 100 ppm in apparent violation of
+§1910.1052
+. This is 75 ppm above the PEL, mandated by the standard.
+
+The Type of Injury or Illness
+.
+
+The second step is to identify the most serious injury or illness that could reasonably be expected to result from the potential hazardous exposure identified in Step 1.
+
+
+In making this determination, CSHOs shall consider all factors that would affect the severity of the injury or illness that could reasonably result from the exposure to the hazard. CSHOs shall not give consideration at this point to factors relating to the probability that an injury or illness will occur.
+
+The following are examples of types of injuries that could reasonably be predicted to result from exposure to a particular hazard:
+
+EXAMPLE 4-5
+: If an employee falls from the edge of an open-sided floor 30 feet to the ground below, the employee could die, break bones, suffer a concussion, or experience other serious injuries that would substantially impair a bodily function.
+
+EXAMPLE 4-6: If an employee trips on debris, the trip may cause abrasions or bruises, but it is only marginally predictable that the employee could suffer a substantial impairment of a bodily function. If however, the area is littered with broken glass or other sharp objects, it is reasonably predictable that an employee who tripped on debris could suffer deep cuts which could require suturing.
+
+For conditions involving exposure to air contaminants or harmful physical agents, the CSHO shall consider the concentration levels of the contaminant or physical agent in determining the types of illness that could reasonably result from the exposure. The
+Occupational Chemical Database
+webpage shall be used to determine both toxicological properties of substances listed and a Health Code Number. (See also the
+Label Abbreviations and Descriptions
+webpage).
+
+To support a classification of "serious," a determination must be made that exposure(s) at the sampled level could lead to illness. Thus, CSHOs must document all evidence demonstrating that the sampled exposure(s) is representative of employee exposure(s) under normal working conditions, including identifying and recording the frequency and duration of employee exposure(s). Evidence to be considered includes:
+
+
+The nature of the operation from which the exposure results;
+
+Whether the exposure is regular and on-going or is of limited frequency and duration;
+
+How long employees have worked at the operation;
+
+Whether employees are performing functions that can be expected to continue; and
+
+Whether work practices, engineering controls, production levels, and other operating parameters are typical of normal operations.
+
+Where such evidence is difficult to obtain or inconclusive, CSHOs shall estimate frequency and duration of exposures from any evidence available. In general, if it is reasonable to infer that regular, ongoing exposures could occur, CSHOs shall consider such potential exposures in determining the types of illness that could result from the violative condition. The following are some examples of illnesses that could reasonably result from exposure to a health hazard:
+
+EXAMPLE 4-7
+: If an employee is exposed regularly to methylene chloride above 25 ppm, it is reasonable to predict an increased risk of developing cancer, adverse effects on the heart, central nervous system, and liver, and skin or eye irritation.
+
+EXAMPLE 4-8
+: If an employee is exposed regularly to acetic acid above 10 ppm, it is reasonable that the resulting serious physical harm or illnesses would be irritation to eyes, nose, throat, lungs, and skin, rhinitis, sinusitis, bronchitis, and irritant-induced occupational asthma.
+
+Potential for Death or Serious Physical Harm
+.
+
+The third step is to determine whether the type of injury or illness identified in Step 2 could include death or a form of serious physical harm. In making this determination, the CSHO shall utilize the following definition of "serious physical harm."
+
+NOTE: Impairment of the body occurs when part of the body is made functionally useless or is substantially reduced in efficiency on or off the job. Such impairment may be permanent or temporary, chronic or acute. Injuries involving such impairment would usually require treatment by a medical doctor or other licensed health care professional.
+
+Injuries that constitute serious physical harm include, but are not limited to:
+
+
+Amputations (loss of all or part of a bodily appendage);
+
+Concussion;
+
+Crushing (internal, even though skin surface may be intact);
+
+Fractures (simple or compound);
+
+Burns or scalds, including electrical and chemical burns;
+
+Cuts, lacerations, or punctures involving significant bleeding and/or requiring suturing;
+
+Sprains and strains; and
+
+Musculoskeletal disorders.
+
+Illnesses that constitute serious physical harm include, but are not limited to:
+
+
+Cancer;
+
+Respiratory illnesses (e.g., silicosis, asbestosis, byssinosis);
+
+Hearing impairment;
+
+Central nervous system impairment;
+
+Visual impairment; or
+
+Poisoning.
+
+The following are examples of injuries or illnesses that could reasonably result from an accident/incident or exposure and lead to death or serious physical harm:
+
+EXAMPLE 4-9
+: An employee falls 15 feet to the ground, suffers broken bones or a concussion, and experiences substantial impairment of a part of the body that requires treatment by a medical doctor. This injury would be classified as serious.
+
+EXAMPLE 4-10
+: An employee trips on debris and because of the presence of sharp debris or equipment suffers a deep cut to the hand, requiring suturing, and the use of the hand is substantially reduced. This injury would be classified as serious.
+
+EXAMPLE 4-11
+: An employee develops chronic beryllium disease after long-term exposure to beryllium above 0.2 micrograms per cubic meter of air (µg/m3), and his or her breathing capacity is significantly reduced. This illness would constitute serious physical harm.
+
+NOTE: The key determination is the likelihood that death or serious harm will result
+if
+an accident or exposure occurs.
+The likelihood of an accident occurring is addressed in penalty assessments and not by the classification
+.
+
+Knowledge of Hazardous Condition
+.
+
+The fourth step is to determine whether the employer knew, or with the exercise of reasonable diligence could have known, of the presence of the
+hazardous condition
+.
+
+
+The knowledge requirement is met if it is established that the employer actually knew of the hazardous condition constituting the apparent violation.
+
+Examples include: the employer saw the condition, an employee or employee representative reported it to the employer, or an employee was previously injured by the condition and the employer knew of the injury. CSHOs shall record any/all evidence that establishes employer knowledge of the condition or practice.
+
+If it cannot be determined that the employer has actual knowledge of a hazardous condition, the knowledge requirement can be established if there is evidence that the employer could have known of it through the exercise of reasonable diligence. CSHOs shall record any evidence that substantiates that the employer could have known of the hazardous condition. Examples of such evidence include:
+
+
+The violation/hazard was in plain view and obvious;
+
+The duration of the hazardous condition was not brief;
+
+The employer failed to regularly inspect the workplace for readily identifiable hazards; and
+
+The employer failed to train and supervise employees about the particular hazard.
+
+The actual or constructive knowledge of a supervisor who is aware of a violative condition or practice can usually be imputed to the employer for purposes of establishing knowledge. In cases where the employer contends that the supervisor's own conduct constituted an isolated event of employee misconduct, the CSHO shall attempt to determine whether the supervisor violated an established work rule, and the extent to which the supervisor was trained in the rule and supervised regarding compliance to prevent such conduct.
+
+General Duty Requirements
+.
+
+Section 5(a)(1)
+of the Act specifies that "Each employer shall furnish to each of his employees employment and a place of employment which are free from recognized hazards that are causing or are likely to cause death or serious physical harm to his employees." The general duty requirement also exists for federal agencies. See
+§1960.8
+.
+
+
+Evaluation of General Duty Requirements
+.
+
+In general, Review Commission and court precedent have established that the following elements are necessary to prove a violation of the general duty clause:
+
+The employer failed to keep the workplace free of a hazard to which employees of that employer were exposed;
+
+The hazard was recognized;
+
+The hazard was causing or was likely to cause death or serious physical harm; and
+
+There was a feasible and useful method to correct the hazard.
+
+A general duty citation must involve both the presence of a serious hazard and exposure of the cited employer's own employees.
+
+Elements of a General Duty Requirement Violation
+.
+
+
+Definition of a Hazard
+.
+
+
+In a
+Section 5(a)(1)
+citation, a "hazard" is defined as a
+workplace condition
+or
+practice
+to which employees are exposed, creating the
+potential for death or serious physical harm
+to employees.
+
+Such a condition or practice must be
+clearly stated in a citation
+so as to apprise employers of their obligations regarding the hazard. The hazard must therefore be defined in terms of the
+presence of a hazardous condition or practice
+that presents a particular danger to employees. Also, the hazard must be a condition or practice that can reasonably be abated by the employer.
+
+Do Not Cite the Lack of a Particular Abatement Method
+.
+
+
+General duty clause citations are not intended to allege that the violation is a failure to implement certain precautions, corrective actions, or other abatement measures, but rather addresses the failure to prevent or remove a particular hazard.
+Section 5(a)(1)
+therefore does not mandate a particular abatement measure but only requires an employer to render the workplace free of recognized hazards by any feasible and effective means the employer wishes to use.
+
+In situations where a question arises regarding distinguishing between a hazardous workplace condition or practice and the lack of an abatement method, the Area Director shall consult with the Regional Administrator or designee, or RSOL for assistance in correctly identifying the hazard.
+
+EXAMPLE 4-12
+: Employees are conducting sanding operations that create sparks near magnesium dust (workplace condition or practice), exposing them to the serious injury of burns from a fire (potential for physical harm). One proposed method of abatement can be engineering controls such as adequate ventilation. The hazard is sanding that creates sparks in the presence of magnesium that may result in a fire capable of seriously injuring employees, not the lack of adequate ventilation
+
+EXAMPLE 4-13
+: Employees are operating tools that generate sparks in the presence of an ignitable gas (workplace condition) exposing them to the danger of an explosion (physical harm). The hazard is use of tools that create sparks in a volatile atmosphere that may cause an explosion capable of seriously injuring employees, not the lack of approved equipment.
+
+EXAMPLE 4-14
+: An employer has failed to abate three hazards in a specific work area: High-pressure machinery that vents gases next to a work area, improper installation of the equipment that is in place, and no established work rules addressing the dangers of high-pressure gas. However, there is only one hazard (i.e., employee exposure to the venting of high-pressure gases into the work area that may cause serious burns from steam discharges).
+
+The Hazard is Not a Particular Accident/Incident
+.
+
+
+The occurrence of an accident/incident does not necessarily mean that the employer has violated
+Section 5(a)(1)
+, although the accident/incident may be evidence of a hazard. In some cases, a Section 5(a)(1) violation may be unrelated to the cause of the accident/incident. Although accident/incident facts may be relevant and shall be documented, the citation shall address the hazard in the workplace that existed prior to the accident/incident, not the occurrence of the accident/incident itself.
+
+EXAMPLE 4-15
+: A fire occurred in a workplace where flammable materials were present. No one was injured by the fire but an employee, disregarding the clear instructions of his supervisor to use an available exit, jumped out a window and broke a leg. The danger of fire due to the presence of flammable materials may be a recognized hazard causing or likely to cause death or serious physical harm, but the action of the employee may be an instance of unpreventable employee misconduct. The citation must address the underlying workplace fire hazard, not the accident/incident involving the employee.
+
+The Hazard Must be Reasonably Foreseeable
+.
+
+The hazard for which a citation is issued must be reasonably foreseeable. All the factors that could cause a hazard need not be present in the same place or at the same time to prove foreseeability of the hazard (e.g., an explosion need not be imminent).
+
+EXAMPLE 4-16
+: If sufficient quantities of combustible gas and oxygen are present in a confined area to cause an explosion if ignited, but no ignition source is present or could be present, no
+Section 5(a)(1)
+violation would exist. However, if the employer has not taken sufficient safety precautions to preclude the presence or use of ignition sources in the confined area, then a foreseeable hazard may exist.
+
+NOTE: It is necessary to establish the reasonable foreseeability of the workplace hazard, rather than the particular circumstances that led to an accident/incident.
+
+EXAMPLE 4-17
+: A titanium dust fire spreads from one room to another because an open can of gasoline was in the second room. An employee who usually worked in both rooms is burned in the second room as a result of the gasoline igniting. The presence of gasoline in the second room may be a rare occurrence. However, it is not necessary to demonstrate that a fire in both rooms could reasonably occur, but only that a fire hazard, in this case due to the presence of titanium dust, was reasonably foreseeable.
+
+The Hazard Must Affect the Cited Employer's Employees
+.
+
+
+The employees exposed to the
+Section 5(a)(1)
+hazard must be the employees of the cited employer. An employer who may have created, contributed to, and/or controlled the hazard normally shall not be cited for a Section 5(a)(1) violation if his own employees are not exposed to the hazard.
+
+In complex situations, such as multi-employer worksites, where it can be difficult to identify the precise employment relationship between the employer to be cited and the exposed employees, the Area Director shall consult with the Regional Administrator or designee and the RSOL to determine the sufficiency of the evidence regarding the employment relationship.
+
+The fact that an employer denies that exposed workers are his/her employees, does not necessarily determine the employment relationship issue. Whether or not exposed persons are employees of an employer depends on several factors, the most important of which is who controls the manner in which the employees perform their assigned work. The question of who pays employees, by itself cannot be the determining factor to establish a relationship. (See OSHA INTRANET Region I Legal Resources entitled,
+Employee Relationships
+and
+Determining an Employment Relationship
+under the OSH Act.)
+
+The Hazard Must Be Recognized
+.
+
+Recognition of a hazard can be established on the basis of employer recognition, industry recognition, or "common-sense" recognition. The use of common sense as the basis for establishing recognition shall be limited to special circumstances. Recognition of the hazard must be supported by the following evidence and adequate documentation in the file:
+
+
+Employer Recognition
+.
+
+
+A recognized hazard can be established by evidence of actual employer knowledge of a hazardous condition or practice. Evidence of employer recognition can consist of written or oral statements made by the employer or other management or supervisory personnel during or before the OSHA inspection.
+
+Employer awareness of a hazard can also be demonstrated by a review of company memorandums, safety work rules that specifically identify a hazard, operations manuals, standard operating procedures, and collective bargaining agreements. In addition, prior accidents/incidents, "near misses" (close calls) known to the employer, injury and illness reports, or workers' compensation data may also show employer knowledge of a hazard.
+
+Employer awareness of a hazard can also be demonstrated by prior Federal OSHA or OSHA State Plan state inspection history that involved the same hazard.
+
+Employee complaints or grievances and safety committee reports to supervisory personnel may establish recognition of the hazard, but the evidence should show that the complaints were not merely infrequent, off-hand comments.
+
+An employer's own corrective actions may serve as the basis for establishing employer recognition of the hazard, if the employer did not adequately continue or maintain the corrective action or if the corrective action did not afford effective protection to the employees.
+
+NOTE: CSHOs are to gather as many of these facts as possible to support establishing a
+Section 5(a)(1)
+violation.
+
+Industry Recognition
+.
+
+
+A hazard is recognized if the employer's relevant industry is aware of its existence. Recognition by an industry other than the industry to which the employer belongs is generally insufficient to prove this element of a
+Section 5(a)(1)
+violation. Although evidence of recognition by an employer's similar operations within an industry is preferred, evidence that the employer's overall industry recognizes the hazard may be sufficient. The Area Director shall consult with the Regional Administrator or designee on such an issue. Industry recognition of a hazard can be established in several ways:
+
+
+Statements by safety or health experts who are familiar with the relevant conditions (regardless of whether they work in the employer's industry);
+
+Evidence of implementation of abatement methods to deal with the particular hazard by other members of the employer's industry;
+
+Manufacturers' warnings on equipment or in literature that are relevant to the hazard;
+
+Statistical or empirical studies conducted by the employer's industry that demonstrate awareness of the hazard. Evidence such as studies conducted by the employee representatives, the union or other employees must also be considered if the employer or the industry has been made aware of them;
+
+Government and insurance industry studies, if the employer or the employer's industry is familiar with the studies and recognizes their validity;
+
+State and local laws or regulations that apply in the jurisdiction where the violation is alleged to have occurred and which currently are enforced against the industry in question. In such cases, however, corroborating evidence of recognition is recommended; and/or
+
+If the relevant industry participated in the committees drafting national consensus standards such as the American National Standards Institute (ANSI), the National Fire Protection Association (NFPA), and other private standard-setting organizations, this can constitute industry recognition. Otherwise, such private standards normally shall be used only as corroborating evidence of recognition. Preambles to these standards that discuss the hazards involved may show hazard recognition as much as, or more than, the actual standards. However, these private standards
+cannot
+be enforced as OSHA standards, but they can be used to provide evidence of industry recognition, seriousness of the hazard, or feasibility of abatement methods.
+
+In cases where state and local government agencies have codes or regulations covering hazards not addressed by OSHA standards, the Area Director, upon consultation with the Regional Administrator or designee, shall determine whether the hazard is to be cited under
+Section 5(a)(1)
+or referred to the appropriate local agency for enforcement.
+
+EXAMPLE 4-18
+: A safety hazard on a factory personnel elevator is documented during an inspection. It is determined that the hazard cannot be cited under
+Section 5(a)(1)
+, but there is a local code that addresses this hazard and a local agency actively enforces the code. The situation normally shall be referred to the local enforcement agency instead of citing Section 5(a)(1).
+
+References that can be used to supplement other evidence to help demonstrate industry recognition include the following:
+
+
+NIOSH criteria documents
+.
+
+EPA publications
+.
+
+National Cancer Institute
+and other agency publications.
+
+OSHA Hazard Alerts
+.
+
+OSHA Technical Manual
+.
+
+Common Sense Recognition
+.
+
+If industry or employer recognition of the hazard cannot be established in accordance with (a) and (b), hazard recognition can still be established if a hazardous condition is so obvious that any reasonable person would have recognized it. This form of recognition should be used only in flagrant or obvious cases.
+
+EXAMPLE 4-19
+: In a general industry situation, courts have held that any reasonable person would recognize that it is hazardous to use an unenclosed chute to dump bricks into an alleyway 26 feet below where unwarned employees worked. In construction,
+Section 5(a)(1)
+could not be cited in this situation because
+§1926.252
+or
+§1926.852
+applies. In the context of a chemical processing plant, common sense recognition was established where hazardous substances were being vented into a work area.
+
+The Hazard Was Causing or Likely to Cause Death or Serious Physical Harm
+.
+
+
+This element of a
+Section 5(a)(1)
+violation is virtually identical to the substantial probability element of a serious violation under
+Section 17(k)
+of the Act. Serious physical harm is defined in
+Section II.C.3
+of this chapter.
+
+This element of a
+Section 5(a)(1)
+violation can be established by showing that:
+
+
+An actual death or serious injury resulted from the recognized hazard, whether immediately prior to the inspection or at other times and places; or
+
+If an accident/incident occurred, the likely result would be death or serious physical harm.
+
+EXAMPLE 4-20
+: An employee is standing at the edge of an unguarded floor 25 feet above the ground. If a fall occurred, death or serious physical harm (e.g., broken bones) is likely to result.
+
+In the health context, establishing serious physical harm at the cited levels can be challenging if the potential for illness/harm requires the passage of a substantial period of time. In such cases, expert testimony is crucial in establishing that there is reasonable probability that long-term serious physical harm will occur. It will be less difficult to establish this element for acute illnesses, since the immediacy of the effects will make the causal relationship clearer. In general, the following must be shown to establish that the hazard causes, or is likely to cause, death or serious physical harm when such illness or death will occur only after the passage of time:
+
+
+Regular and continuing employee exposure at the workplace to the toxic substance at the measured levels could reasonably occur;
+
+An illness reasonably could result from such regular and continuing employee exposures; and
+
+If illness does occur, its likely result is death or serious physical harm.
+
+The Hazard May be Corrected by a Feasible and Useful Method
+.
+
+
+To establish a
+Section 5(a)(1)
+violation, the Agency must also identify the existence of a measure(s) that is feasible, available, and likely to correct the hazard. Evidence of feasible abatement measures shall indicate that the recognized hazard, rather than a particular accident/incident, is preventable.
+
+If the proposed abatement method would eliminate or significantly reduce the hazard beyond whatever measures that the employer may be taking, a
+Section 5(a)(1)
+citation can be issued. A citation will not be issued merely because the Agency is aware of an abatement method different from that of the employer, if the proposed method would not reduce the hazard significantly more than the employer's method. In some cases, only a series of abatement methods will materially reduce a hazard; all potential abatement methods shall be listed. For example, an abatement note shall be included on the
+Violation Worksheet
+and
+Citation and Notification of Penalty (OSHA-2)
+, such as "Among other methods, one feasible and acceptable means of abatement would be to ____." (Fill in the blank with the specified abatement recommendation.)
+
+Examples of such feasible and acceptable means of abatement include, but are not limited to:
+
+The employer's own abatement method, which existed prior to the inspection but was not implemented;
+
+The implementation of feasible abatement measures by the employer after the accident/incident or inspection;
+
+The implementation of abatement measures by other employers/companies; and
+
+Recommendations made by the manufacturer addressing safety measures for the hazardous equipment involved, as well as suggested abatement methods contained in trade journals, national consensus standards and individual employer work rules. National consensus standards shall not solely be relied on to mandate specific abatement methods.
+
+EXAMPLE 4-21
+: An ANSI standard addresses the hazard of exposure to hydrogen sulfide gas and refers to various abatement methods, such as the prevention of the buildup of materials that create the gas and the provision(s) for ventilation. The ANSI standard can be used as general evidence of the existence of feasible abatement measures.
+
+In this example, the citation shall state that the recognized hazard of exposure to hydrogen sulfide gas was present in the workplace and that a feasible and useful abatement method existed (e.g., preventing the buildup of gas by providing an adequate ventilation system). It would not be correct to base the citation on the employer's failure to prevent the buildup of materials that could create the gas and to provide a ventilation system, since both of these are abatement methods, not recognized hazards.
+
+Evidence provided by expert witnesses can be used to demonstrate feasibility of abatement methods. In addition, although it is not necessary to establish that an industry recognizes a particular abatement measure, such evidence can be used if available.
+
+Use of the General Duty Clause
+.
+
+
+The general duty clause shall be used only where there is no standard that applies to the particular hazard and in situations where a recognized hazard is created in whole or in part by workplace conditions or practices that are not covered by a standard. See
+§1910.5(f)
+.
+
+EXAMPLE 4-22: A hazard covered only partially by a standard would be construction employees exposed to a collapse hazard because of a failure to properly install reinforcing steel. Construction standards contain requirements for reinforcing steel in walls, piers, columns, and similar vertical structures, but do not contain requirements for steel placement in horizontal planes, e.g., a concrete floor. A failure to properly install reinforcing steel in a floor in accordance with industry standards and/or structural drawings could be cited under the general duty clause.
+
+EXAMPLE 4-23: The powered industrial truck standard at
+§1910.178
+does not address all potential hazards associated with forklift use. For instance, while this standard deals with the hazards associated with a forklift operator leaving his vehicle unattended or dismounting the vehicle and working in its vicinity, it does not contain requirements for the use of operator restraint systems. An employer's failure to address the hazard of a tipover (forklifts are particularly susceptible to tipovers) by requiring operators of powered industrial trucks equipped with restraint devices or seat belts to use those devices could be cited under the general duty clause. See
+CPL 02-01-028
+,
+Compliance Assistance for the Powered Industrial Truck Operator Training Standards
+, dated November 30, 2000, for additional guidance.
+
+The general duty clause can also be applicable to some types of employment that are inherently dangerous (fire brigades, emergency rescue operations, confined space entry).
+
+
+Employers involved in such occupations must take the necessary steps to eliminate or minimize employee exposure to all recognized hazards that are likely to cause death or serious physical harm. These steps include an assessment of hazards that may be encountered, providing appropriate protective equipment, and conducting necessary training and instruction, for all employees.
+
+An employer, who has failed to take such steps and allows its employees to be exposed to a hazard can be cited under the general duty clause.
+
+Limitations of Use of the General Duty Clause
+.
+
+Section 5(a)(1)
+is to be used only within the guidelines given in this chapter.
+
+
+Section 5(a)(1) Shall Not be Used When a Standard Applies to a Hazard
+.
+
+As discussed above, Section 5(a)(1) cannot be cited if an OSHA standard applies to the hazardous working condition or practice. If there is a question as to whether a standard applies, the Area Director shall consult with the Regional Administrator or designee. The RSOL will assist the Regional Administrator or designee in determining the applicability of a standard prior to the issuance of a citation.
+
+EXAMPLE 4-24
+:
+Section 5(a)(1)
+shall not be cited for electrical hazards since
+§1910.303(b)
+and
+§1926.403(b)
+require that electrical equipment is to be kept free from recognized hazards that are likely to cause death or serious physical harm to employees.
+
+Section 5(a)(1) Shall Normally Not Be Used to Impose a Stricter Requirement than that Imposed by the OSHA Standard
+.
+
+When an existing standard is inadequate to protect worker safety and health, a section 5(a)(1) citation can be considered. All of the section 5(a)(1) elements discussed above must be satisfied, AND there must be actual employer knowledge that the standard was inadequate to protect employees from death or serious physical harm. See
+Int'l Union UAW v. Gen. Dynamics Land Sys. Div.
+, 815 F.2d 1570 (D.C. Cir. 1987).
+Area Offices shall contact the RSOL early in the investigation of these types of cases, which will also be subject to pre-citation review by DEP and NSOL
+.
+
+EXAMPLE 4-25
+: An OSHA standard provides for a permissible exposure limit (PEL) of 15 ppm, and a recognized occupational exposure limit (OEL)—such as an ACGIH® Threshold Limit Value (TLV®) or NIOSH Recommended Exposure Limit (REL)—is 3 ppm. A 5(a)(1) citation can be considered only for exposures between the OEL and the PEL if the data establishes that exposures at the measured level are likely to cause death or serious physical harm
+and
+the employer has actual knowledge that the PEL is inadequate to protect its employees.
+
+Section 5(a)(1) Shall Normally Not be Used to Require Additional Abatement Methods Not Set Forth in an Existing Standard
+.
+
+If a toxic substance standard covers engineering control requirements but not requirements for medical surveillance,
+Section 5(a)(1)
+shall not be cited to additionally require medical surveillance. Area Directors shall evaluate the circumstances of special situations in accordance with guidelines stated herein and consult with the Regional Administrator or designee to determine whether a 5(a)(1) citation can be issued.
+
+Alternative Standards
+.
+
+The following standards shall be considered carefully before issuing a
+Section 5(a)(1)
+citation for a health hazard.
+
+
+There are a number of standards that shall be considered rather than
+Section 5(a)(1)
+in situations where the hazard is not covered by a particular standard. If a hazard not covered by a specific standard can be substantially corrected by compliance with a personal protective equipment (PPE) standard, the PPE standard shall be cited. In general industry,
+§1910.132(a)
+may be appropriate where exposure to a hazard may be prevented by the wearing of PPE.
+
+For a health hazard, the particular toxic substance standard, such as asbestos and coke oven emissions, shall be cited where appropriate. If those particular standards do not apply, however, other standards may be applicable (e.g., the air contaminant levels contained in
+§1910.1000
+in general industry and in
+§1926.55
+for construction).
+
+Another general standard is
+§1910.134(a)
+, which addresses the hazards of breathing harmful air contaminants not covered under
+§1910.1000
+or another specific standard, and which may be cited for failure to use feasible engineering controls or respirators.
+
+Violations of
+§1910.141(g)(2)
+or
+§1915.88(h)
+can be cited when employees are allowed to consume food or beverages in an area exposed to a toxic material, and
+§1910.132(a)
+where there is a potential for toxic materials to be absorbed through the skin.
+
+Classification of Violations Cited under the General Duty Clause
+.
+
+Only hazards presenting serious physical harm or death can be cited under the general duty clause (including willful and/or repeated violations that would otherwise qualify as serious violations). Other-than-serious citations shall not be issued for general duty clause violations.
+
+Procedures for Implementation of Section 5(a)(1) Enforcement
+.
+
+To ensure that citations of the general duty clause are defensible, the following procedures shall be followed:
+
+
+Gathering Evidence and Preparing the File
+.
+
+
+The evidence necessary to establish each element of a
+Section 5(a)(1)
+violation shall be documented in the file. This includes all photographs, video recordings, sampling data, witness statements, and other documentary and physical evidence necessary to establish the violation. Additional documentation includes evidence of specific and/or general awareness of a hazard, why it was detectable and recognized, and any supporting statements or reference materials.
+
+If copies of documents relied on to establish the various
+Section 5(a)(1)
+elements cannot be obtained before issuing the citation, these documents shall be accurately cited and identified in the file so they can be obtained later if necessary.
+
+If experts are necessary to establish any element(s) of a
+Section 5(a)(1)
+violation, such experts and RSOL shall be consulted prior to the citation being issued and their opinions noted in the file.
+
+Pre-Citation Review
+.
+
+The Area Director shall review and approve all proposed
+Section 5(a)(1)
+citations. These citations shall undergo additional pre-citation review as follows:
+
+
+The Regional Administrator or designee and RSOL shall be consulted prior to the issuance of all
+Section 5(a)(1)
+citations where complex issues or exceptions to the outlined procedures are involved; and
+
+If a standard does not apply and all criteria for issuing a
+Section 5(a)(1)
+citation are not met, yet the Area Director determines that the hazard warrants some type of notification, a Hazard Alert Letter shall be sent to the employer and employee representative describing the hazard and suggesting corrective action.
+
+Other-than-Serious Violations
+.
+
+This type of violation shall be cited in situations where the accident/incident or illness that would be most likely to result from a hazardous condition would probably not cause death or serious physical harm, but would have a direct and immediate relationship to the safety and health of employees.
+
+Willful Violations
+.
+
+A willful violation exists under the Act where an employer has demonstrated either an intentional disregard for the requirements of the Act or a plain indifference to employee safety and health. Area Directors are encouraged to consult with RSOL when developing willful citations. The following guidance and procedures apply whenever there is evidence that a willful violation may exist:
+
+
+Intentional Disregard of Violations
+.
+
+An employer commits an intentional and knowing violation if:
+
+
+An employer was aware of the requirements of the Act or of an applicable standard or regulation and was also aware of a workplace condition or practice in violation of those requirements, but did not abate the hazard; or
+
+An employer was not aware of the requirements of the Act or standards, but had knowledge of a comparable legal requirement (e.g., state or local law) and was also aware of a workplace condition or practice in violation of that requirement.
+
+NOTE: Good faith efforts made by the employer to minimize or abate a hazard may sometimes preclude the issuance of a willful violation. In such cases, CSHOs should consult the Area Director or designee if a willful classification is under consideration.
+
+A willful citation can also be issued where an employer knows that specific steps must be taken to address a hazard, but substitutes his or her judgment for the requirements of the standard. See the internal
+Memorandum
+on
+Procedures for Significant and Novel Enforcement Cases
+, and
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-by-Violation
+, dated October 21, 1990.
+
+EXAMPLE 4-26
+: The employer was issued repeated citations addressing the same or similar conditions, but did not take corrective action.
+
+Plain Indifference Violations
+.
+
+
+An employer commits a violation with plain indifference to employee safety and health where:
+
+
+Management officials were aware of an OSHA requirement applicable to the employer's business but made little or no effort to communicate the requirement to lower level supervisors and employees.
+
+Company officials were aware of a plainly obvious hazardous condition but made little or no effort to prevent violations from occurring.
+
+EXAMPLE 4-27
+: The employer is aware of the existence of unguarded power presses that have caused near misses, lacerations, and amputations in the past and has done nothing to abate the hazard.
+
+An employer was not aware of any legal requirement, but knows that a workplace condition or practice is a serious hazard to the safety or health of employees and makes little or no effort to determine the extent of the problem or to take the corrective action. Knowledge of a hazard may be gained from such means as insurance company reports, safety committee or other internal reports, the occurrence of illnesses or injuries, or complaints by employees or their representatives.
+
+NOTE: Voluntary employer self-audits that assess workplace safety and health conditions and practices shall not normally be used as a basis of a willful violation. However, once an employer's self-audit identifies a hazardous workplace condition or practice, the employer must promptly take appropriate measures to correct a violative hazard and provide interim employee protection. See
+OSHA's Policy on Voluntary Employer Safety and Health Self-Audits
+(Federal Register, July 28, 2000 (
+65 FR 46498
+)).
+
+Willfulness can also be established despite lack of knowledge of a legal requirement if circumstances show that the employer would have placed no importance on such knowledge.
+
+EXAMPLE 4-28
+: An employer sends employees into a deep unprotected excavation containing a hazardous atmosphere without ever inspecting for potential hazards.
+
+It is not necessary that the violation be committed with a bad purpose or malicious intent to be deemed "willful." It is sufficient that the violation was deliberate, voluntary, or intentional as distinguished from inadvertent, accidental, or ordinarily negligent.
+
+CSHOs shall develop and record on the
+Violation Worksheet
+all evidence that indicates employer knowledge of the requirements of a standard, and any reasons for why it disregarded statutory or other legal obligations to protect employees against a hazardous condition. Willfulness can exist if an employer is informed by employees or employee representatives about an alleged hazardous workplace condition or practice and the employer does not make a reasonable effort to verify or correct the hazard. Other factors to consider in determining whether to characterize a violation as willful include:
+
+
+The nature of the employer's business and the knowledge of safety and health matters that could reasonably be expected in the industry;
+
+Any precautions taken by the employer to limit the hazardous workplace conditions or practices;
+
+The employer's awareness of the Act and of the responsibility to provide safe and healthful workplace; and
+
+Whether similar violations and/or hazardous workplace conditions and practices have been brought to the attention of the employer through prior citations, accidents, warnings from OSHA or officials from other government agencies or an employee safety committee regarding the requirements of a standard.
+
+NOTE: This includes prior citations or warnings from OSHA State Plan officials.
+
+Also, include facts showing that even if the employer was not consciously violating the Act, it was aware that the violative condition or practice existed and made no reasonable effort to eliminate it.
+
+Criminal/Willful Violations
+.
+
+Section 17(e)
+of the Act, as amended, provides that: "Any employer who willfully violates any standard, rule or order promulgated pursuant to
+Section 6
+of this Act, or of any regulations prescribed pursuant to this Act, and that violation caused death to any employee, shall, upon conviction, be punished by a fine of not more than $10,000 or by imprisonment for not more than six months, or by both; except that if the conviction is for a violation committed after a first conviction of such person, punishment shall be by a fine of not more than $20,000 or by imprisonment for not more than one year, or by both."
+
+
+Area Director Coordination
+.
+
+The Area Director, in coordination with the RSOL, shall carefully evaluate all willful cases involving employee deaths to determine whether they may involve criminal violations of
+Section 17(e)
+of the Act. Because the quality of the evidence available is of paramount importance in these investigations, there shall be early and close discussions among the CSHO, the Area Director, the Regional Administrator, and the RSOL to develop all evidence when there is a potential Section 17(e) violation.
+
+Criteria for Investigating Possible Criminal/Willful Violations
+.
+
+The following criteria shall be considered when investigating possible criminal/willful violations:
+
+
+To establish a criminal/willful violation, OSHA must prove that:
+
+
+The employer violated an OSHA standard. A criminal/willful violation cannot be based on the general duty clause,
+Section 5(a)(1)
+.
+
+The violation was willful in nature.
+
+The violation of the standard caused the death of an employee. To prove that the violation caused the death of an employee, there must be evidence that clearly demonstrates that the violation of the standard was the direct cause of, or a contributing factor to, an employee's death.
+
+If asked during an investigation, CSHOs should inform employers that any violation found to be willful which has caused or contributed to the death of an employee, is evaluated for potential criminal referral to the U.S. Department of Justice.
+
+Following the investigation, if the Area Director decides to recommend criminal prosecution, a memorandum shall be forwarded promptly to the Regional Administrator. It shall include an evaluation of the possible criminal charges, taking into consideration the burden of proof requiring that the government's case to be proven beyond a reasonable doubt. In addition, if correction of the hazardous condition is at issue, this shall be noted in the transmittal memorandum, because in most cases prosecution of a criminal/willful case stays the resolution of the civil case and its abatement requirements.
+
+The Area Director shall normally issue a civil citation in accordance with current procedures even if the citation involves charges under consideration for criminal prosecution. The Regional Administrator shall be notified of such cases. In addition, the case shall be promptly forwarded to the RSOL for possible referral to the U.S. Department of Justice.
+
+Willful Violations Related to a Fatality
+.
+
+Where a willful violation is related to a fatality and a decision is made not to recommend a criminal referral, the Area Director shall ensure that the case file contains documentation justifying that conclusion. The file documentation should indicate which elements of a potential criminal violation make the case unsuitable for referral.
+
+Repeated Violations
+.
+
+
+Federal and State Plan Violations
+.
+
+
+An employer can be cited for a repeated violation if that employer has been cited previously for the same or a substantially similar condition or hazard
+and the citation has become a final order of the Occupational Safety and Health Review Commission
+(hereafter, OSHRC). A citation can become a final order by operation of law when an employer does not contest the citation, or pursuant to court decision or settlement. The underlying citation which the repeated violation will be based on must have become a final order
+before
+the occurrence or observation of the second substantially similar violation.
+
+Prior citations by State Plan states cannot be used as a basis for Federal OSHA repeated violations. Only violations that have become final orders of the federal OSHRC can be considered.
+
+Identical Standards
+.
+
+Generally, similar workplace conditions or hazards can be demonstrated by showing that in both situations the identical standard was violated, but there are exceptions.
+
+EXAMPLE 4-29
+: A citation was previously issued for a violation of
+§1910.132(a)
+for not requiring the use of safety-toe footwear for employees. A recent inspection of the same establishment revealed a violation of
+§1910.132(a)
+for not requiring the use of head protection (hard hats). Although the same standard was involved, the hazardous conditions in each case are not substantially similar and, therefore, a repeated citation would not be appropriate.
+
+Different Standards
+.
+
+In some circumstances, similar conditions or hazards can be demonstrated even when different standards are violated.
+
+NOTE: There is no requirement that the previous and current violations occur at the same workplace or under the same supervisor.
+
+Obtaining Inspection History
+.
+
+For purposes of determining whether a violation is repeated, the following criteria shall apply:
+
+
+High-Gravity Serious Violations
+.
+
+
+When high-gravity serious violations are to be cited, the Area Director shall obtain a history of citations previously issued to this employer at all its identified establishments nationwide, within the same two digit Standard Industrial Classification (SIC) or three-digit North American Industry Classification System (NAICS) code. The history of repeated violations is based on the employer's establishments nationwide and cannot be limited to region-wide.
+
+If these violations have been previously cited within the time limitations (described in
+Section VII.E
+of this chapter) and have become final orders of the OSHRC, a repeated citation can be issued.
+
+Citations from previous inspections upon which a proposed repeated citation will be based must have become a final order before the initiation of the second inspection.
+
+Under special circumstances, the Area Director, in consultation with the RSOL, can also issue citations for repeated violations without regard for the NAICS code.
+
+Violations of Lesser Gravity
+.
+
+When violations are of lesser gravity than high-gravity serious, Area Directors should obtain a national inspection history whenever the circumstances of the current inspection would result in multiple serious, repeat, or willful citations. This is particularly essential if the employer is known to have establishments nationwide and has been subject to a significant case in other areas or at other mobile worksites.
+
+Time Limitations
+.
+
+
+Although there are no statutory limitations on the length of time that a previously issued citation can be used as a basis for a repeated violation, the following policy shall generally be followed.
+
+A citation will be issued as a repeated violation if:
+
+The citation is issued within five years of the final order date of the previous citation or within five years of the final abatement date, whichever is later, or
+
+The occurrence of the new violation is within five years of OSHRC's final order or the U.S. Court of Appeals, final mandate.
+
+
+
+When a violation is found during an inspection and a repeated citation has previously been issued for a substantially similar condition, the violation can be classified as a second instance repeated violation with a corresponding increase in penalty.
+
+EXAMPLE 4-30
+: An inspection is conducted in an establishment and a violation of
+§1910.217(c)(1)(i)
+is found. That citation is not contested by the employer and becomes a final order of the OSHRC on October 17, 2006. On December 8, 2008, a citation for repeated violation of the same standard was issued. The violation found during the December inspection can be treated as a second instance repeated.
+
+In cases of multiple prior repeated citations, the Regional Administrator or designee shall be consulted for guidance.
+
+Repeated v. Failure to Abate
+.
+
+A failure to abate exists when a previously cited hazardous condition, practice or non-complying equipment has not been brought into compliance since the prior inspection (i.e., the violation is continuously present) and is discovered at a later inspection. If, however, the violation was corrected, but later recurs, the subsequent occurrence is a repeated violation.
+
+Area Director Responsibilities
+.
+
+After the CSHO makes a recommendation that a violation should be cited as repeated, the Area Director shall:
+
+
+Ensure that the violation meets the criteria outlined in the preceding subparagraphs of this section.
+
+Ensure that the case file includes a copy of the citation for the prior violation, the
+Violation Worksheets
+describing the prior violation that serves as the basis for the repeated citation, and any other supporting evidence that describes the violation. If the prior violation citation is not available, the basis for the repeated citation shall nevertheless, be adequately documented in the case file. The file shall also include all documents showing that the citation is a final order and on what date it became final, as follows: If the case was not contested, the
+certified mail card
+(final 15 working days from employer's receipt of the citation);
+signed Informal Settlement
+(on the date of the last signature of both parties as long as the contest period has not expired);
+Formal Settlement Agreements and Notice of Docketing
+(final 30 days after docketing date); or Judge's Decision and Notice of Docketing (final 30 days after docketing).
+
+OIS information shall not be used as the sole means to establish that a prior violation has been issued.
+
+In circumstances when it is not clear that the violation meets the criteria outlined in this section, consult with the Regional Administrator or designee before issuing a repeated citation.
+
+If a repeated citation is issued, ensure that the cited employer is fully informed of the previous violations serving as a basis for the repeated citation by notation in the Alleged Violation Description (AVD) portion of the citation. For example, following the AVD state appropriate language such as:
+
+[
+Employer Name or Establishment Name
+] was previously cited for a violation of this Occupational Safety and Health Standard [
+insert previously cited standard
+], which was contained in OSHA inspection number___________, citation number ______, item number ______ and was affirmed as a final order on [
+insert date
+], with respect to a workplace located at____________________________________.
+
+OR
+
+[
+Employer Name or Establishment Name
+] was previously cited for a violation of an equivalent Occupational Safety and Health Standard [
+insert previously cited standard
+], which was contained in OSHA inspection number___________, citation number ______, item number ______ and was affirmed as a final order on [
+insert date
+], with respect to a workplace located at ______________________________.
+
+De Minimis Conditions
+.
+
+De
+minimis
+conditions are those where an employer has implemented a measure different from one specified in a standard, that has no direct or immediate relationship to safety or health. Whenever de minimis conditions are found during an inspection, they shall be documented in the same manner as violations.
+
+
+Criteria
+.
+
+The criteria for finding a
+de minimis
+condition are as follows:
+
+
+An employer complies with the intent of the standard, yet deviates from its particular requirements in a manner that has no direct or immediate impact on employee safety or health. These deviations may involve, for example, distance specifications, construction material requirements, use of incorrect color, minor variations from recordkeeping, testing, or inspection regulations.
+
+EXAMPLE 4-31
+:
+§1910.27(b)(1)(ii)
+allows 12 inches as the maximum distance between ladder rungs. Where the rungs are 13 inches apart, the condition is de minimis.
+
+EXAMPLE 4-32
+:
+§1910.217(e)(1)(ii)
+requires that mechanical power presses be inspected and tested at least weekly. If the machinery is seldom used, inspection and testing prior to each use is adequate to meet the intent of the standard.
+
+An employer complies with a proposed OSHA standard or amendment or a consensus standard rather than with the standard in effect at the time of the inspection, and the employer's action clearly provides equal or greater employee protection.
+
+An employer complies with a written interpretation issued by the OSHA National Office or an OSHA Regional Office.
+
+An employer's workplace protections are state-of-the-art and technically more enhanced than the requirements of the applicable standard, and provides equivalent or more effective employee safety or health protection.
+
+Professional Judgment
+.
+
+Professional judgment should be exercised in determining whether noncompliance with a standard constitutes a de minimis condition.
+
+Area Director Responsibilities
+.
+
+Area Directors shall ensure that all proposed de minimis notices meet the criteria set out above.
+
+Citing in the Alternative
+.
+
+In rare cases, the same factual situation can present a possible violation of more than one standard.
+
+Where it appears that more than one standard is applicable to a given factual situation and that compliance with any of the applicable standards would effectively eliminate the hazard, it is permissible to cite alternative standards using the words "in the alternative." A reference in the citation to each of the standards involved shall be accompanied by a separate Alleged Violation Description (AVD) that clearly alleges all of the necessary elements of a violation of that standard. Only one penalty shall be proposed for the violative condition.
+
+Combining and Grouping Violations
+.
+
+
+Combining
+.
+
+Separate violations of a single standard, for example
+§1910.212(a)(3)(ii)
+, having the same classification found during the inspection of an establishment or worksite generally shall be combined into one alleged citation item. Different options presented in the Standard Alleged Violation Elements (SAVEs) of the same standard shall normally also be combined. Each instance of the violation shall be separately noted within that item of the citation.
+
+NOTE: Except for standards which address multiple hazards (e.g.,
+Tables Z-1
+,
+Z-2
+, and
+Z-3
+cited under
+§1910.1000
+(a), (b), or (c)), the same standard cannot normally be cited more than once on a single citation. However, the same standard can be cited on different citations based on separate classifications and facts for the same inspection.
+
+Grouping
+.
+
+When a source of an identified hazard involves interrelated violations of different standards, the violations can be grouped into a single violation. The following situations normally call for grouping violations:
+
+
+Grouping Related Violations
+.
+
+If violations classified either as serious or other-than-serious are so closely related that they may constitute a single hazardous workplace condition or practice, such violations shall be grouped and the overall classification shall normally be based on the most serious item.
+
+Grouping Other-than-Serious Violations Where Grouping Results in a Serious Violation
+.
+
+When two or more violations are found which, if considered individually, represent other-than-serious violations but together create a substantial probability of death or serious physical harm, the violations shall be grouped as a serious violation.
+
+Where Grouping Results in a High-Gravity Other-than-Serious Violation
+.
+
+Where the CSHO finds, during the course of the inspection, that a number of other-than-serious violations are present, the violations shall be considered in relation to each other to determine the overall gravity of possible injury resulting from an accident or incident involving the hazardous condition.
+
+Penalties for Grouped Violations
+.
+
+If penalties are to be proposed for grouped violations, the penalty shall be written across from the first violation item appearing on the
+Citation and Notification of Penalty (OSHA-2)
+.
+
+When Not to Group or Combine
+.
+
+
+Multiple Inspections
+.
+
+Violations discovered during multiple inspections of a single establishment or worksite cannot be grouped. Where only one
+Inspection Report
+has been completed, an inspection at the same establishment or worksite shall be considered a single inspection even if it continues for a period of more than one day, or is discontinued with the intention of later resuming it.
+
+Separate Establishments of the Same Employer
+. The employer shall be issued separate citations for each establishment or worksite where inspections are conducted, either simultaneously or at different times. If CSHOs conduct inspections at two establishments belonging to the same employer and instances of the same violation are discovered during each inspection, then the violations shall not be grouped.
+
+General Duty Clause
+.
+
+Because a
+Section 5(a)(1)
+citation covers all aspects of a serious hazard where no standard exists, there shall be no grouping of separate Section 5(a)(1) violations. This policy, however, does not prohibit grouping a Section 5(a)(1) violation with a related violation of a specific standard.
+
+Egregious Violations
+.
+
+Violations, which are proposed as instance-by-instance citations, shall not normally be combined or grouped. See
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-by-Violation Penalties
+, October 21, 1990.
+
+Health Standard Violations
+.
+
+
+Citation of Ventilation Standards
+.
+
+In cases where a citation of a ventilation standard is appropriate, consideration shall be given to standards intended to control exposure to hazardous levels of air contaminants, prevent fire or explosions, or regulate operations that may involve confined spaces or specific hazardous conditions. In such cases, the following guidelines shall be observed:
+
+
+Health-Related Ventilation Standards.
+
+
+Where an overexposure to an airborne contaminant is present, the appropriate air contaminant engineering control requirement shall be cited (e.g.,
+§1910.1000(e)
+). Citations under this standard shall not be issued to require specific volumes of air to reduce such exposures.
+
+Other requirements contained in health related ventilation standards shall be evaluated without regard to the concentration of airborne contaminants. Where a specific standard has been violated and an actual or potential hazard has been documented, a citation shall be issued.
+
+Fire and Explosion-Related Ventilation Standards
+.
+
+Although not normally considered health violations, fire and explosion-related ventilation standards shall be cited using the following guidelines:
+
+
+Adequate Ventilation
+.
+
+An operation is considered to have
+adequate
+ventilation when
+both
+of the following criteria are present:
+
+
+The requirement(s) of the specific standard has been met.
+
+The concentration of flammable vapors is 25 percent or less of the lower explosive limit (LEL).
+
+EXCEPTION
+: Some maritime standards require levels to be kept to below 10 percent of the LEL (e.g.,
+§1915.36(a)
+).
+
+Citation Policy
+.
+
+If 25 percent (10 percent when specified for maritime operations) of the LEL has been exceeded and:
+
+
+The standard's requirements have not been met, then violations of the applicable ventilation standard normally shall be cited as serious.
+
+If there is no applicable ventilation standard, then
+Section 5(a)(1)
+of the Act shall be cited in accordance with the guidelines in Section III of this chapter, General Duty Requirement.
+
+Violations of the Noise Standard
+.
+
+Current enforcement policy regarding
+§1910.95(b)(1)
+allows employers to rely on personal protective equipment and a hearing conservation program, rather than engineering and/or administrative controls, when hearing protectors will effectively attenuate the noise to which employees are exposed to acceptable levels. (See
+Tables G-16
+or
+G-16a
+of the standard).
+
+
+Citations for violations of
+§1910.95(b)(1)
+shall be issued when technologically and economically feasible engineering and/or administrative controls have not been implemented; and
+
+
+Employee exposure levels are so elevated that hearing protectors alone cannot reliably reduce noise levels received to levels specified in
+Tables G-16
+or
+G-16a
+of the standard, (e.g., hearing protectors which offer the greatest attenuation can reliably be used to protect employees when their exposure levels border on 100 dba). See
+CPL 02-02-035
+,
+29 CFR 1910.95 (b)(1), Guidelines for Noise Enforcement; Appendix A
+, December 19, 1983; or
+
+The costs of engineering and/or administrative controls are less than the cost of an effective hearing conservation program.
+
+When an employer has an ongoing hearing conservation program and the results of audiometric testing indicate that existing controls and hearing protectors are adequately protecting employees, no additional controls may be necessary. In making this assessment, factors such as exposure levels present, number of employees tested, and duration of the testing program shall be considered.
+
+When employee noise exposures are less than 100 dBA but the employer does not have an ongoing hearing conservation program, or results of audiometric testing indicate that the employer's existing program is inadequate, the CSHO shall consider whether:
+
+
+Reliance on an effective hearing conservation program would be less costly than engineering and/or administrative controls.
+
+An effective hearing conservation program can be established or improvements made in an existing program that could bring the employer into compliance with
+Tables G-16
+or
+G-16a
+.
+
+Engineering and/or administrative controls are both technologically and economically feasible.
+
+If noise workplace levels can be reduced to the levels specified in
+Tables G-16
+or
+G-16a
+by means of hearing protectors along with an effective hearing conservation program, then a citation for any missing program elements shall be issued rather than for lack of engineering controls. If improvements in the hearing conservation program cannot be made or, if made, cannot reasonably be expected to reduce exposures, but feasible controls exist to address the hazard, then
+§1910.95(b)(1)
+shall be cited.
+
+When hearing protection is required but not used and employee exposures exceed the limits of
+Tables G-16
+, then
+§1910.95(i)(2)(i)
+shall be cited and classified as serious (per 8), whether or not the employer has instituted a hearing conservation program. Only in the oil and gas drilling industry shall
+§1910.95(a)
+be cited.
+
+NOTE: Citations of
+§1910.95(i)(2)(ii)(b)
+shall also be classified as serious.
+
+Where an employer has instituted a hearing conservation program and a violation of one or more elements (other than
+§1910.95(i)(2)(ii)(a)
+) is found, citations for the deficient elements of the noise standard shall be issued if exposures equal or exceed an 8-hour time-weighted average of 85 dBA.
+
+If an employer has not instituted a hearing conservation program and employee exposures equal or exceed an 8-hour time-weighted average of 85 dBA, then a citation for
+§1910.95(c)
+only shall be issued.
+
+Violations of
+§1910.95(i)(2)(i)
+can be grouped with violations of
+§1910.95(b)(1)
+and classified as serious when employees are exposed to noise levels above the limits of
+Table G-l6
+and:
+
+
+Hearing protection is not utilized or is not adequate to prevent overexposures; or
+
+There is evidence of hearing loss that could reasonably be considered:
+
+
+To be work-related, and
+
+To have been preventable, if the employer had been in compliance with the cited provisions.
+
+NOTE: No citation shall be issued where, in the absence of feasible engineering or administrative controls, employees are exposed to elevated noise levels, but effective hearing protection is being provided and used, and the employer has implemented a hearing conservation program.
+
+Violations of the Respiratory Protection Standard (
+§1910.134
+)
+.
+
+If an inspection reveals the presence of potential respirator violations,
+CPL 02-00-158
+,
+Inspection Procedures for the Respiratory Protection Standard
+, June 26, 2014, shall be followed.
+
+Violations of Air Contaminant Standards (
+§1910.1000
+)
+.
+
+
+Requirements under the standard
+:
+
+
+Section §1910.1000(a) through (d) provides ceiling values and 8-hour time-weighted averages applicable to employee exposure to air contaminants.
+
+Section §1910.1000(e) specifies that to achieve compliance with exposure limits, administrative or engineering controls shall first be identified and implemented to the extent feasible. When such controls do not achieve full compliance, personal protective equipment shall be used. Whenever respirators are used, their use shall comply with
+§1910.134
+.
+
+Section
+§1910.134(a)
+specifies that when effective engineering controls are not feasible, or while they are being instituted, appropriate respirators shall be used.
+
+There may be cases where workplace conditions require that employers to provide engineering controls as well as administrative controls (including work practice controls) and personal protective equipment. Section
+§1910.1000(e)
+allows employers to implement feasible engineering controls and/or administrative and work practice controls in any combination, provided that the selected means of abatement eliminates the overexposure.
+
+Where engineering and/or administrative controls are feasible, but do not or would not reduce air contaminant levels below applicable ceiling values or threshold limit values, an employer must nevertheless institute such controls to reduce the exposure levels. In cases where the implementation of all feasible engineering and administrative controls fails to reduce the level of air contaminants below applicable levels, employers must also provide personal protective equipment to reduce exposures.
+
+Classification of Violations of Air Contaminant Standards
+.
+
+Where employees are exposed to a toxic substance in excess of the PEL established by OSHA standards (without regard to the use of respirator protection), a citation for exceeding the air contaminant standard shall be issued. The violation shall be classified as serious or other-than-serious on the criteria set forth in the
+Occupational Chemical Database
+webpage and based on whether respirators are being used. Classification of these violations is dependent upon the determination that an illness is reasonably predictable at the measured exposure level.
+
+
+Classification Considerations
+.
+
+Exposure to regulated substances shall be characterized as serious if exposures could cause impairment to the body as described in
+Section II.C.3
+. of this chapter.
+
+
+In general, substances are considered as posing a serious health hazard at any level above the Permissible Exposure Limit (PEL) when they have a single health code of 13 or less. However, substances in categories 6, 8 and 12, are not considered serious at levels where only mild, temporary effects would be expected to occur.
+
+Substances causing irritation (i.e., categories 14 and 15) shall be considered other-than-serious up to levels at which "moderate" irritation could be expected.
+
+For a substance having multiple health codes covering both serious and other-than-serious effects (e.g., cyclohexanol), a classification of other-than-serious is appropriate up to levels where a serious health effect(s) could be expected to occur.
+
+For a substance having an ACGIH Threshold Limit Value (TLV) or a NIOSH-recommended value, but no OSHA PEL, a citation for exposure in excess of the recommended value can be considered under
+Section 5(a)(1)
+of the Act. Prior to citing a Section 5(a)(1) violation under these circumstances, CSHOs must document that a
+hazardous
+exposure is occurring or has occurred at the workplace, not just that a recognized occupational exposure recommendation has been exceeded. See instructions in recognized occupational exposure recommendation has been exceeded. See instructions in recognized occupational exposure recommendation has been exceeded. See instructions in
+Section III
+of this chapter, General Duty Requirements.
+
+If an employee is exposed to concentrations of a substance below the PEL, but in excess of a recommended value (e.g., ACGIH TLV or NIOSH recommended value), citations will not normally be issued. CSHOs shall advise employers that a reduction of the PEL has been recommended.
+
+NOTE: An exception to this can apply if it can be documented that an employer knows that a particular safety or health standard fails to protect his/her workers against the specific hazard that it is intended to address.
+
+For a substance having an 8-hour PEL with no ceiling PEL, but ACGIH or NIOSH has recommended a ceiling value, the case shall be referred to the Regional Administrator in accordance with
+Section III.D.2
+. of this chapter. If no citation is issued, the CSHO shall advise the employer(s) that a ceiling value is recommended.
+
+Additive and Synergistic Effects
+.
+
+
+Substances which have a known additive effect and, therefore, result in a greater probability/severity of risk when found in combination with each other shall be evaluated using the formula found in
+§1910.1000(d)(2)
+. Use of this formula specifies that exposures have an additive effect on the same body organ or system.
+
+If CSHOs suspect that synergistic effects are possible, they shall consult with their supervisor, who shall then refer the question to the Regional Administrator. If a synergistic effect of the cited substances is determined to be present, violations shall be grouped to accurately reflect severity and/or penalty.
+
+Citing Improper Personal Hygiene Practices
+.
+
+The following guidelines apply when citing personal hygiene violations:
+
+
+Ingestion Hazards
+.
+
+A citation under
+§1910.141(g)(2)
+and
+(4)
+shall be issued where there is reasonable probability that, in areas where employees consume food or beverages (including drinking fountains), a significant quantity of a toxic material may be ingested and subsequently absorbed.
+
+
+For citations under
+§1910.141(g)(2)
+and
+(4)
+, wipe sampling results shall be taken to establish the potential for a serious hazard.
+
+Where, for any substance, a serious hazard is determined to exist due to potential for ingestion or absorption for reasons other than the consumption of contaminated food or drink (e.g., smoking materials contaminated with the toxic substance), a serious citation shall be considered under
+Section 5(a)(1)
+of the Act.
+
+Absorption Hazards
+.
+
+A citation for exposure to materials that can be absorbed through the skin or can cause a skin effect (e.g., dermatitis) shall be issued where appropriate personal protective clothing is necessary but is not provided or worn. If a serious skin absorption or dermatitis hazard exists that cannot be eliminated with protective clothing, then a
+Section 5(a)(1)
+citation can be considered. Engineering or administrative (including work practice) controls can be required in these cases to prevent the hazard. See
+§1910.132(a)
+.
+
+Wipe Sampling
+.
+
+In general, wipe samples and not measurements for air concentrations, will be necessary to establish the presence of a toxic substance posing a potential absorption or ingestion hazard. (See
+TED 01-00-015
+,
+OSHA Technical Manual
+, January 20, 1999, for sampling procedures.)
+
+Citation Policy
+.
+
+The following criteria should be considered prior to issuing a citation for ingestion or absorption hazards:
+
+
+A health risk exists as demonstrated by one of the following:
+
+
+A potential for an illness, such as dermatitis, and/or
+
+The presence of a toxic substance that could be ingested or absorbed through the skin. (See the
+Occupational Chemical Database
+webpage.)
+
+The potential for employee exposure by ingestion or absorption can be established by taking both qualitative and quantitative wipe samples. The substance must be present on surfaces that employees contact (such as lunch tables, water fountains, work areas, etc.) or on other surfaces, which, if contaminated, present the potential for ingestion or absorption.
+
+The sampling results must reveal that the substance has properties and exists in quantities that pose a serious hazard.
+
+Biological Monitoring
+. If an employer has been conducting biological monitoring, CSHOs shall evaluate the results of such testing. These results may assist in determining whether a significant quantity of the toxic substance is being ingested or absorbed through the skin.

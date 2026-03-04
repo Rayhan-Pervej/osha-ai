@@ -1,0 +1,810 @@
+Field Operations Manual
+
+Chapter 11
+
+IMMINENT DANGER, FATALITY, CATASTROPHE, AND EMERGENCY RESPONSE
+
+Imminent Danger Situations
+.
+
+
+
+General
+.
+
+
+
+Definition of Imminent Danger
+.
+
+Section 13(a)
+of the OSH Act defines imminent danger as "…any conditions or practices in any place of employment which are such that a danger exists which could reasonably be expected to cause death or serious physical harm immediately or before the imminence of such danger can be eliminated through the enforcement procedures otherwise provided by this Act."
+
+Conditions of Imminent Danger
+.
+
+The following conditions must be present for a hazard to be considered an imminent danger:
+
+
+Death or serious harm must be threatened; AND
+
+It must be reasonably likely that a serious accident could occur immediately OR, if not immediately, then before abatement would otherwise be implemented.
+
+NOTE: For a health hazard, exposure to the toxic substance or other hazard must cause harm to such a degree as to shorten life or be immediately dangerous to life and health (IDLH) or cause substantial reduction in physical or mental efficiency or health, though the resulting harm may not manifest itself immediately.
+
+Pre-Inspection Procedures
+.
+
+
+Imminent Danger Report Received by the Field
+.
+
+
+After the Area Director or designee receives a report of imminent danger, he or she will evaluate the inspection requirements and assign a CSHO to conduct the inspection.
+
+Every effort will be made to conduct the imminent danger inspection on the same day that the report is received. In any case, the inspection will be conducted no later than the day after the report is received.
+
+When an immediate inspection cannot be made, the Area Director or designee will contact the employer and obtain as many pertinent details as possible about the situation, and attempt to have any employee(s) affected by the imminent danger voluntarily removed.
+
+
+A record of what steps, if any, that the employer intends to take to eliminate the danger will be included in the case file.
+
+This notification is considered an advance notice of inspection to be handled in accordance with the advance notice procedures described below.
+
+Advance Notice
+.
+
+
+Section 1903.6
+authorizes advance notice of an inspection of potential imminent danger situations in order to encourage employers to eliminate dangerous conditions as quickly as possible.
+
+Where an immediate inspection cannot be made after the Area Office is alerted to an imminent danger condition and advance notice will speed the elimination of the hazard, the Team Leader or CSHO, at the direction of the Area Director, will give notice of an impending inspection to the employer.
+
+Where advance notice of an inspection is given to an employer, it shall also be given to the authorized employee representative, if present. If the inspection is in response to a formal
+Section 8(f)(1)
+complaint, the complainant will be informed of the inspection unless this will cause a delay in speeding the elimination of the hazard.
+
+Imminent Danger Inspection Procedures
+.
+
+All alleged imminent danger situations brought to the attention of or discovered by CSHOs while conducting any inspection will be inspected immediately. Additional inspection activity will take place only after the imminent danger condition has been resolved.
+
+
+Scope of Inspection
+.
+
+CSHOs can seek to expand the scope of an imminent danger inspection based on any additional hazards discovered or brought to their attention during the inspection. See Chapter 15, for more information.
+
+Procedures for Inspection
+.
+
+
+Every imminent danger inspection will be conducted as expeditiously as possible.
+
+CSHOs will offer the employer and employee representatives the opportunity to participate in the worksite inspection,
+unless
+the immediacy of the hazard makes it impractical to delay the inspection in order to afford time to reach the area of the alleged imminent danger.
+
+As soon as reasonably practicable after discovery of existing conditions or practices constituting an imminent danger, the employer shall be informed of such hazards. The employer shall be asked to notify affected employees and to remove them from exposure to the imminent danger hazard. The employer should be encouraged to voluntarily take appropriate abatement measures to promptly eliminate the danger.
+
+Elimination of the Imminent Danger
+.
+
+
+Voluntary Elimination of the Imminent Danger
+.
+
+
+How to Voluntarily Eliminate a Hazard
+.
+
+
+Voluntary elimination of the hazard has been accomplished when the employer:
+
+
+Immediately removes affected employees from the dangerous area;
+
+Immediately removes or abates the hazardous condition; and
+
+Gives satisfactory assurance that the dangerous condition will remain abated before permitting employees to work in the area.
+
+Satisfactory assurance can be evidenced by
+:
+
+After the affected employees are removed, immediate corrective action is initiated to bring the dangerous condition, practice, means, or method of operation, or process into compliance, which, when completed, would permanently eliminate the dangerous condition; or
+
+A good faith effort by the employer that shows permanent corrective action will be taken as soon as possible, and that affected employees will not be permitted to work in the area of the imminent danger until the condition is permanently corrected; or
+
+A good faith effort by the employer that shows permanent corrective action will be instituted as soon as possible. Where personal protective equipment can eliminate the imminent danger, such equipment will be issued and its use strictly enforced until the condition is permanently corrected.
+
+NOTE: Through on-site observations, CSHOs shall ensure that any/all representations from the employer that an imminent danger has been abated are accurate.
+
+Where a Hazard is Voluntarily Eliminated
+.
+
+If an employer voluntarily and completely eliminates the imminent danger without unreasonable delay:
+
+
+No imminent danger legal proceeding shall be instituted;
+
+The
+Notice of an Alleged Imminent Danger
+does not need to be completed;
+
+An appropriate citation(s) and notice(s) of penalty will be proposed for issuance with an appropriate notation on the
+Violation Worksheet
+to document corrective actions; and
+
+CSHOs will inform the affected employees or their authorized representative(s) that, although an imminent danger had existed, the danger has been eliminated. They will also be informed of any steps taken by the employer to eliminate the hazardous condition.
+
+Refusal to Eliminate an Imminent Danger
+.
+
+
+If the employer does not or cannot voluntarily eliminate the hazard or remove affected employees from the exposure and the danger is immediate, then CSHOs will immediately consult with the Area Director or designee and obtain permission to post a
+Notice of an Alleged Imminent Danger
+.
+
+Area Directors or designees will then contact the Regional Administrator and determine whether to consult with the RSOL to obtain a Temporary Restraining Order (TRO).
+
+The employer will be advised that
+Section 13
+of the OSH Act gives United States district courts the authority to restrain any condition or practice that poses an imminent danger to employees.
+
+NOTE: The Agency has no authority to order the closing of a worksite or to order affected employees to leave the area of the imminent danger or the workplace.
+
+CSHOs will notify affected employees and the employee representative that a
+Notice of an Alleged Imminent Danger
+has been posted and will advise them of the
+Section 11(c)
+discrimination protections under the OSH Act. Employees will be advised that they have the right to refuse to perform work in the area where the imminent danger exists.
+
+The Area Director or designee and the Regional Administrator, in consultation with the RSOL, will assess the situation and, if warranted, make arrangements for the expedited initiation of court action, or instruct the CSHO to remove the
+Notice of an Alleged Imminent Danger
+.
+
+When Harm Will Occur Before Abatement is Required
+.
+
+
+If CSHOs have clear evidence that harm will occur before abatement is required (i.e., before a final order of the Commission in a contested case or before a TRO can be obtained), then they will confer with the Area Director or designee to determine a course of action.
+
+NOTE: In some cases, the evidence may not support the finding of an imminent danger at the time of the physical inspection, but rather after further evaluation of the case file or presence of additional evidence.
+
+As appropriate, an imminent danger notice can be posted at the time citations are delivered or even after the notice of contest is filed.
+
+Fatality and Catastrophe Investigations
+.
+
+
+Definitions
+.
+
+Fatality
+.
+
+Fatality is an employee death resulting from a work-related incident or exposure; in general, from an injury or an illness caused by or related to a workplace hazard.
+
+Catastrophe
+.
+
+Catastrophe is the hospitalization of three or more employees resulting from a work-related incident or exposure; in general, from an injury or an illness caused by a workplace hazard.
+
+NOTE: OSHA Area Offices will determine the inspection priority of a catastrophe using the Memorandum, Revised Interim Enforcement Procedures for Reporting Requirements under 29 C.F.R. 1904.39, March 04, 2016, or unless superseded by future Agency-approved correspondence.
+
+Hospitalization
+.
+
+In-patient hospitalization is the formal admission to the inpatient service of a hospital or clinic for care or treatment. It excludes admission for diagnostic testing or observation only.
+
+Incident Requiring a Coordinated Federal Response
+.
+
+An incident involving multiple fatalities, extensive injuries, massive toxic exposures, extensive property damage, or one that presents potential employee injury and generates widespread media interest.
+
+NOTE: 29 CFR Part 1904 requires reporting work-related fatalities, hospitalizations, amputations or losses of an eye and has a list of employers partially exempt from OSHA record-keeping requirements, which went into effect on January 1, 2015, for workplaces under Federal OSHA jurisdiction. (See
+79 FR 56129
+, Occupational Injury and Illness Recording and Reporting Requirements – NAICS Update and Reporting Revisions, September 18, 2014.)
+
+Initial Report, Recording and Tracking for Fatality/Castrophe Investigations
+.
+
+
+The
+Fatality/Catastrophe Report in OIS (FAT/CAT)
+is an unprogrammed activity (UPA) intake form that must be completed for all fatalities or catastrophes unless knowledge of the event occurs during the course of an inspection at the establishment involved. The purpose of the
+FAT/CAT
+is to provide OSHA with enough information to determine whether or not to investigate the event. It is also used as a research tool by OSHA and other agencies. Processing of the
+FAT/CAT
+shall be as follows:
+
+
+The Area Office will complete and enter into OIS a
+FAT/CAT
+for all fatalities and catastrophes as soon as possible after learning of the event. As much information as is known at the time of the initial report should be provided; however, all items on the
+FAT/CAT
+need not be completed at the time of this initial report. Wherever possible, the age of the victim(s) should be provided, because this information is used for research by OSHA and other agencies.
+
+If additional information relating to the event becomes available that affects the decision to investigate, the
+FAT/CAT
+should be updated. If the additional information does not affect the decision to investigate, or the investigation has been initiated or completed, the
+FAT/CAT
+need not be updated.
+
+In addition, the Regional Administrator will contact the Deputy Director of Enforcement Programs (or Construction, as appropriate) to promptly notify the National Office of major events, such as those likely to generate significant public or congressional interest.
+
+Investigation Procedures
+.
+
+
+All fatalities and catastrophes will be thoroughly investigated in an attempt to determine the cause of the event (whether a violation of OSHA safety and health standards, regulations, or the general duty clause occurred), and any effect the violation had on the incident. Each Regional Administrator will establish a procedure to ensure that each fatality or catastrophe is thoroughly investigated and processed in accordance with established policy.
+
+The investigation should be initiated as soon as possible after receiving an initial report of the incident, ideally within one working day, by an appropriately trained and experienced compliance officer assigned by the Area Director or designee. The Area Director or designee shall determine the appropriate scope of the fatality/catastrophe investigation based on factors such as a prior history of willful, serious, or repeat violations, reports of near misses/close calls, an evaluation of violations in plain view, or the existence of an NEP or LEP. To the extent circumstances allow, all investigations must be completed in an expeditious manner.
+
+Inspections following fatalities or catastrophes should include video recording as a method of documentation and gathering evidence when appropriate. The use of photography is also encouraged in documenting and gathering evidence.
+
+As in all inspections, under no circumstances should OSHA personnel conducting fatality/catastrophe investigations be unprotected against a hazard encountered during the course of an investigation. OSHA personnel must use appropriate personal protective equipment and take all necessary precautions to avoid and/or prevent occupational exposure to potential hazards that may be encountered.
+
+Interview Procedures
+.
+
+
+Identify and Interview Persons.
+
+
+As early as possible in the investigation, identify and interview all persons with firsthand knowledge of the incident, including first responders, police officers, medical responders, and management. The sooner a witness is interviewed, the more accurate and candid the witness statement will be.
+
+If an employee representative is involved in the inspection, he or she can serve as a valuable resource by helping to identify employees who might have information relevant to the investigation.
+
+Conduct employee interviews privately, outside the presence of the employer. Employees are not required to inform their employer that they provided a statement to OSHA.
+
+When interviewing:
+
+
+Properly document the contact information of all parties because follow-up interviews with a witness are sometimes necessary.
+
+When appropriate, reduce interviews to writing and have the witness sign the document. Transcribe video and audio recorded interviews and have the witness sign the transcription.
+
+Read the statement to the witness and attempt to obtain agreement. Note any witnesses' refusal to sign or initial his/her statement.
+
+Ask the interviewee to initial any changes or corrections made to his/her statement.
+
+Advise interviewee of OSHA whistleblower protections.
+
+See Chapter 3, Inspection Procedures, for more information on conducting interviews.
+
+Informer's Privilege
+.
+
+
+The informer's privilege allows the government to withhold the
+identity
+of individuals who provide information about the violation of laws, including OSHA rules and regulations. The identity of witnesses will remain confidential to the extent possible. However, inform each witness that disclosure of his/her identity may be necessary in connection with enforcement or court actions.
+
+The informer's privilege also protects the contents of statements to the extent that disclosure would reveal the witness' identity. When the contents of a statement will not disclose the identity of the informant (i.e., statements that do not reveal the witness' job title, work area, job duties, or other information that would likely reveal the individual's identity), the privilege does not apply and such statements can be released.
+
+Inform each witness that his/her interview statements can be released if he or she authorizes such a release or if he or she voluntarily discloses the statement to others, resulting in a waiver of the privilege.
+
+Inform witnesses in a tactful and nonthreatening manner that making a false statement to a CSHO during the course of an investigation could be a criminal offense. Making a false statement, upon conviction, is punishable by a fine of up to $10,000 or six months in jail, or both.
+
+Investigation Documentation
+.
+
+Document all fatality and catastrophe investigations thoroughly.
+
+
+Personal Data – Victim
+.
+
+Potential items to be documented include: Name; Address; Email Address; Telephone; Age; Sex; Nationality; Job Title; Date of Employment; Time in Position; Job being done at the time of the incident; Training for job being performed at the time of the incident; Employee deceased/injured; Nature of injury – fracture, amputation; and Prognosis of injured employee.
+
+Incident Data
+.
+
+Potential items to be documented include: How and why the incident occured; the physical layout of the worksite; sketches/ drawings; measurements; video/audio/photos to identify sources; and whether the accident was work-related.
+
+Equipment or Process Involved.
+
+Potential items to be documented include: Equipment type; Manufacturer; Model; Manufacturer's instructions; Kind of process; Condition; Misuse; Maintenance program; Equipment inspection (logs, reports); Warning devices (detectors); Tasks performed; How often equipment is used; Energy sources and disconnecting means identified; and Supervision or instruction provided to employees involved in the incident.
+
+Witness Statements
+.
+
+Potential witnesses include: the Public; Fellow employees; Management; Emergency responders (e.g., police department, fire department); and Medical personnel (e.g., medical examiner).
+
+Safety and Health Program
+.
+
+Potential questions include:
+
+
+Does the employer have a safety and/or health program?
+
+Does the program address the type of hazard that resulted in the fatality/catastrophe?
+
+How are the elements of the program specifically implemented at the worksite?
+
+Multi-Employer Worksite
+.
+
+Describe the contractual and in practice relationships of the employer with the other employers involved with the work being performed at the worksite.
+
+Records Request
+.
+
+Potential records include: Injury and Illness Records (OSHA 300, 300A, and 301 data); Disciplinary Records; Training Records; and Next of Kin information.
+
+NOTE: Next of kin information should be gathered as soon as possible to ensure that condolence letters can be sent in a timely manner.
+
+Potential Criminal Penalties in Fatality and Catastrophe Cases
+.
+
+
+Criminal Penalties
+.
+
+
+Section 17(e)
+of the OSH Act provides criminal penalties for an employer who is convicted of having willfully violated an OSHA standard, rule or order when the violation results in the death of an employee. However, Section 17(e) does not apply to violations of the general duty clause. When there are violations of an OSHA standard, rule or order, or a violation of the general duty clause, criminal provisions relating to false statements and obstruction of justice could also be relevant.
+
+The circumstances surrounding all occupationally-related fatalities will be evaluated to determine whether the fatality was caused by a willful violation of a standard, thus creating the basis for a possible criminal referral. The evidence obtained during a fatality investigation is of paramount importance and must be carefully gathered and considered.
+
+Early in the investigation, the Area Director or designee, in consultation with the investigator, should make an initial determination as to whether there is potential for a criminal violation. The decision will be based on consideration of the following:
+
+
+A fatality has occurred.
+
+There is evidence that an OSHA standard has been violated and that the violation contributed to the employee death.
+
+There is reason to believe that the employer was aware of the requirements of the standard and knew it was in violation of the standard, or that the employer was plainly indifferent to employee safety.
+
+If the Regional Administrator agrees with the Area Director or designee's assessment of the case, then the Regional Administrator will notify the RSOL at the discretion of the Regional Administrator and the Area Director or designee, and dependent upon Regional procedures in place, a Regional team or trained criminal investigator can assist in or perform portions of an investigation.
+
+When there is a potential criminal referral in a case, it is essential that the Regional Administrator and/or the Area Director involve the RSOL's Office in the early stages of the investigation—particularly during the evidence-gathering process.
+
+Additional Prosecution
+.
+
+In addition to criminal prosecution under
+Section 17(e)
+of the OSH Act, employers can face prosecution under a number of other sections of the United States Code, including, but not limited to:
+
+
+Crimes and Criminal Procedures, for actions such as conspiracy, making false statements, fraud, obstruction of justice, and destruction, alteration or falsification of records during a federal investigation.
+
+The Clean Water Act.
+
+The Clean Air Act.
+
+The Resource Conservation Recovery Act (RCRA).
+
+The Comprehensive Environmental Response, Compensation, and Liability Act (CERCLA).
+
+Procedures for Criminal Referral
+.
+
+When a case is forwarded from the Regional Office to the RSOL for criminal review, advise the Director of Enforcement Programs (or, when appropriate, the Director of the Directorate of Construction). Provide follow-up reports to indicate any subsequent actions.
+
+Families of Victims
+.
+
+
+Contacting Family Members
+.
+
+Family members of employees involved in fatal or catastrophic occupational injuries or illnesses shall be contacted early in the investigation and given the opportunity to discuss the circumstances of the injury or illness. OSHA staff contacting family members must exercise tact and good judgment in their discussions.
+
+See
+CPL 02-00-153
+, Communicating OSHA Fatality Inspection Procedures to a Victim's Family, dated April 17, 2012, for more information.
+
+Information Letter
+.
+
+The standard information letter will normally be sent to the individual(s) listed as the emergency contact on the victim's employment records (if available) and/or the otherwise determined next of kin within 5 working days of determining the victim's identity and verifying the proper address where communications should be sent.
+
+NOTE: In some circumstances, it may not be appropriate to follow these exact procedures (i.e., in the case of a small business, the owner or supervisor may be a relative of the victim). Modify the form letter to take into account any special circumstances or do not send the letter, as appropriate.
+
+Letter to Victim's Emergency Contact
+.
+
+In addition to the standard information letter sent by the Area Director or designee, the Assistant Secretary also sends a letter to the victim's emergency contact or otherwise verifiable next of kin.
+
+All Area Offices must send a brief two-to-three sentence description of the incident that resulted in the fatality. This description should be sent by email and accompany the Assistant Secretary's next-of-kin letter when it is transmitted to the National Office.
+
+In cases presenting language concerns, the Area Office should inquire about the primary language of the next of kin. If it has been verified that the primary language of the next of kin is Spanish and not English, the Area Office will advise the National Office concerning this and specify that a Spanish language letter should also be sent.
+
+Also, in situations where it is not immediately possible to determine the primary language of the next of kin recipient of the fatality letter, or in instances where it has been determined that a primary language other than English or Spanish is spoken by the next of kin, this information should also be communicated to the National Office. Unofficial translation of the fatality letter into other languages may be available and permitted.
+
+The National Office will send a Spanish language letter along with the English letter for Spanish-speaking next of kin recipients. All foregoing information related to language concerns should be sent by email and accompany the Assistant Secretary's next-of-kin letter when it is transmitted to the National Office.
+
+Interviewing the Family
+.
+
+
+When taking a statement from families of the victim(s), explain that the interview will be handled following the same procedures as those in effect for witness interviews. Sensitivity and professionalism are required during these interviews. Carefully evaluate the information received and attempt to corroborate it during the investigation.
+
+Maintain follow-up contact with key family members or other contact persons so that these parties can be kept up to date on the status of the investigation. Provide family members or their legal representatives with a copy of all citations, subsequent settlement agreements or Review Commission decisions as these are issued, or as soon thereafter as possible. However, such information will be provided to family members only after it has been provided to the employer.
+
+The releasable portions of the case file will not be made available to family members until after the contest period has passed and no contest has been filed. If a contest is filed, the case file will not be made available until after the litigation is completed. Also, if a criminal referral is under consideration or has been made, then the case file cannot be released to the family. Notify the family of these policies and inform them that this is necessary so that any potential litigation is not compromised.
+
+Post-Inspection Communications [With Next of Kin]
+.
+
+After the inspection, OSHA will make every effort to contact the next of kin by telephone to explain findings, address any questions, and give the family an opportunity to provide input. Depending on the case, OSHA may issue a press release. If a press release is planned, OSHA will make every attempt to notify the family by telephone before the information is released to the public. OSHA will also provide a copy of the press release to the family.
+
+Public Information Policy
+.
+
+OSHA's public information policy regarding response to fatalities and catastrophes is to explain the federal presence to the news media; not to issue periodic updates on the progress of the investigation. The Area Director and his or her designee normally will handle response to media inquiries.
+
+Recording and Tracking for Fatality/Catastrophe Investigations
+.
+
+
+Investigation
+.
+
+
+The
+Investigation Tab
+in OIS is used to summarize the results of investigations of all events that involve fatalities, catastrophes, amputations, hospitalizations of two or more days, have generated significant publicity, and/or have resulted in significant property damage. An Unprogrammed Activity (UPA) must be entered in OIS and saved saved as final as soon as the Agency becomes aware of a workplace fatality and determines that it is within its jurisdiction, even if most of the
+FAT/CAT Info
+Tab data fields are left blank. The
+Inspection
+must be associated with the UPA for the initial report information in the
+FAT/CAT Info
+Tab to populate in the Investigation. The information on this form enables the Agency to track fatalities and summarizes circumstances surrounding the event.
+
+NOTE: The two-day hospitalization criterion is a cutoff to preclude completing an
+Investigation
+for events that may not be serious. There is no relationship between this criterion and the definition of hospitalization in
+Section II.A
+, of this chapter, Definitions.
+
+For fatality/catastrophe investigations, the Investigation form will be:
+
+
+Entered in OIS at the beginning of the inspection and saved as final, even if most of the data fields are left blank, so that the Agency can track fatality/catastrophe investigations in a close to "real time" fashion.
+
+Modified as needed during the investigation to account for updated information.
+
+Updated with all data fields completely and accurately completed at the conclusion of the investigation, including a thorough narrative description of the incident.
+
+The
+Investigation
+narrative should not be a copy of the summary provided on the
+FAT/CAT
+pre-inspection form. The narrative must comprehensively describe the characteristics of the worksite; the employer and its relationship with other employers, if relevant; the employee task/activity being performed; the related equipment used; and other pertinent information in enough detail to provide a third party reader of the narrative with a mental picture of the fatal incident and the factual circumstances surrounding the event.
+
+In addition, a single fatality or catastrophe event shall normally result in only one fatality [catastrophe] inspection of the employer of the deceased employee(s) [injured employees], but one event at a multi-employer work site may possibly lead to one or more unprogrammed- related inspection(s) of other involved employers. The exception to this would occur if an event involves multiple fatalities of workers of two or more employers, resulting in more than one fatality inspection.
+
+EXAMPLE 11-1
+: A fatality occurs in employer's facility in August. Both a safety and health inspection are initiated. One Investigation should be filed to summarize the results of the inspections that resulted from the August fatality. One
+Investigation
+will be included in the Inspection that is coded as a fatality in OIS (safety or health), with all of the related activities appropriately associated in OIS. However, in September, while the employer's facility is still undergoing the inspections, a second fatality occurs. In this case, a second
+Investigation
+should be submitted for the second fatality and an additional inspection should be opened.
+
+EXAMPLE 11-2
+: An employer reports a severe injury and the injury subsequently results in a fatality. If an
+Inspection
+was scheduled or opened based on Employer Reported Referral UPA then enter a new FAT/CAT UPA and link both UPAs to the Inspection. Change the Initiating Type of the existing
+Inspection
+to Fatality/Catastrophe. If an Inspection was scheduled but not opened, verify the Comp/Ref Actions Tab on the Employer Reported Referral UPA has a Do Inspection = Y entry.
+
+Immigrant Language Questionnaire (IMMLANG)
+.
+
+
+The IMMLANG Questionnaire is designed to allow the Agency to track fatalities among Spanish-speaking and other immigrant employees and to assess the impact of potential language barriers and training deficiencies on fatal incidents. Information for this questionnaire should be collected as early in the investigation as possible, as the availability of immigrant workers for questioning later in the process is often uncertain.
+
+The IMMLANG Questionnaire shall be completed before the conclusion of a fatality investigation according to the procedures outlined in the Memorandum
+Change to the Interim Procedure for Fatality Investigations (IMMLANG)
+, for Regional Administrators from R. Davis Layne, Deputy Assistant Secretary, December 16, 2003. It should be completed only if the CSHO marks IMMLANG as "Yes" in the Victim Information of the Investigation. The Questionnaire is not to be completed if IMMLANG is marked as "No" on the Victim Information of the Investigation.
+
+The IMMLANG Questionnaire shall be submitted by OIS. A copy of the completed questionnaire should be printed and placed in the case file.
+
+Related Event Code (REC)
+.
+
+The
+Violation Worksheet
+provides specific supplemental information documenting hazards and violations. If any item cited is directly related to the occurrence of the fatality or catastrophe, then select FAT/CAT/Accident. If multiple related event codes apply, then the only code that has priority over relation to a fatality/catastrophe is imminent danger.
+
+Pre-Citation Review
+.
+
+
+Because cases involving a fatality can result in civil or criminal enforcement actions, the Area Director is responsible for reviewing all fatality and catastrophe investigation case files to ensure that the case has been properly developed and documented in accordance with the procedures outlined here.
+
+The Area Director is responsible for ensuring that an Investigation is reported to OIS for each incident (see
+Section II.I.1
+of this chapter,
+Investigation
+).
+
+Review all proposed violation-by-violation penalties in accordance with
+CPL 02-00-080
+,
+Handling of Cases to be Proposed for Violation-by-Violation Penalties
+, October 21, 1990.
+
+Review citations covered by Regional OSHA/SOL workload agreements in accordance with those agreements.
+
+Each Regional Administrator should establish a procedure to ensure that each fatality or catastrophe is thoroughly investigated and processed in accordance with established policy.
+
+Post-Citation Procedures/Abatement Verification
+.
+
+The regulation governing abatement verification is found at
+§1903.19
+, and OSHA's enforcement policies and procedures for this regulation are outlined in
+Chapter 7
+, Post-Citation Procedures and Abatement Verification.
+
+
+Due to the transient nature of many of the worksites where fatalities occur and because the worksite could be destroyed by the catastrophic event, it is frequently impossible to conduct follow-up inspections. In such cases, the Area Director should obtain abatement verification from the employer, along with an assurance that appropriate safety and health programs have been implemented to prevent the hazard(s) from recurring.
+
+While site closure due to the completion of the cited project is an acceptable method of abatement, it can be accepted as abatement without certification only where a CSHO directly verifies that closure; otherwise, certification by the employer is required. Follow-up inspections need not be conducted if the CSHO has verified abatement during the inspection or if the employer has provided other proof of abatement.
+
+Where the worksite continues to exist, OSHA will normally conduct a follow-up inspection if serious citations have been issued.
+
+Include abatement language and safety and health system implementation language in any subsequent settlement agreement.
+
+If there is a violation that requires abatement verification, then the
+Violation Worksheet
+must be completed with the date of abatement verified.
+
+If the case is a Severe Violator Enforcement Program (SVEP) case, follow-up inspections will be conducted in accordance with OSHA Instruction
+CPL 02-00-149
+,
+Severe Violator Enforcement Program (SVEP)
+, June 18, 2010. Follow-up inspections will normally be conducted even if abatement of cited violations has been verified through abatement verification.
+
+Audit Procedures
+.
+
+The following procedures will be implemented to evaluate compliance with, and the effectiveness of, fatality/catastrophe investigation procedures:
+
+
+Regional Offices will incorporate the review and analysis of fatality/catastrophe files into their audit functions and include their findings in the regular audit reports to the National Office. The review and analysis will use random case files to address the following:
+
+
+Inspection Findings
+.
+
+Ensure that hazards have been appropriately addressed and violations have been properly classified. Also ensure that criminal referrals are made when appropriate.
+
+Documentation
+.
+
+Ensure that the
+Investigation
+narrative and data fields and the
+Violation Worksheet
+narrative have been completed accurately and detailed enough to allow for analysis at the national level of the circumstances of fatal incidents. Ensure that the IMMLANG Questionnaire is completed, if relevant.
+
+Construction Fatalities
+.
+
+Ensure that the case file has been copied and forwarded to the University of Tennessee in accordance with the Memoranda
+Construction Fatality Case Study, Reasons and Methodology
+, for Regional Administrators from H. Berrien Zettler, Deputy Director, D.O.C. (by email), regarding transmittal of information on construction fatalities to the University of Tennessee, dated September 12
+and
+13, 2000, and the Memorandum
+Construction Fatality Investigation Case Files
+, for Regional Administrators from R. Davis Layne, Deputy Assistant Secretary, regarding transmittal of information on construction fatalities to the University of Tennessee, dated May 14, 2003, and February 18, 2004.
+
+Settlement Terms
+.
+
+Ensure that settlement terms are appropriate, including violation reclassification, penalty reductions, and additional abatement language.
+
+Abatement Verification
+.
+
+Ensure that abatement verification has been obtained.
+
+OIS Reports
+.
+
+Review OIS reports to identify any trends or cases that could indicate that a further review of those cases might be necessary.
+
+Relationship of Fatality and Catastrophe Investigations to Other Programs and Activities
+.
+
+
+Homeland Security
+.
+
+OSHA's
+National Emergency Management Plan (NEMP)
+, as contained in
+HSO 01-00-001
+, December 18, 2003, clarifies the procedures and policies for OSHA's National Office and Regional Offices during responses to incidents of national significance. Generally, OSHA will provide technical assistance and consultation in coordinating the protection of response worker and recovery worker safety and health. When the President of the United States makes an emergency declaration under the Stafford Act, the National Response Framework (NRF) is activated. The NEMP can then be activated by the Assistant Secretary, the Deputy Assistant Secretary, or by request from a Regional Administrator. Whether OSHA will conduct a formal fatality or catastrophe investigation in such a situation will be determined on a case-by-case basis.
+
+Severe Violator Enforcement Program
+.
+
+.
+
+
+Inspections that result in citations being issued for at least one of the following are considered Severe Violator Enforcement Program (SVEP) cases:
+
+
+A fatality/catastrophe inspection in which OSHA finds one or more willful or repeated violations or failure-to-abate notices based on a serious violation related to a death of an employee or three or more hospitalizations;
+
+An inspection in which OSHA finds two or more willful or repeated violations or failure-to-abate notices (or any combination of these violations/notices), based on high gravity serious violations related to a High-Emphasis Hazard as defined in Section XII of OSHA Instruction
+CPL 02-00-149
+, Severe Violator Enforcement Program (SVEP), June 18, 2010;
+
+An inspection in which OSHA finds three or more willful or repeated violations or failure-to-abate notices (or any combination of these violations/notices), based on high gravity serious violations related to hazards due to the potential release of a highly hazardous chemical, as defined in the PSM standard; or
+
+All egregious (e.g., per-instance citations) enforcement actions.
+
+In such cases, the instructions outlined in OSHA Instruction
+CPL 02-00-149
+,
+Severe Violator Enforcement Program (SVEP)
+, June 18, 2010, shall be followed to ensure that the proper measures are taken regarding classification, coding and treatment of the case.
+
+NOTE: See the
+Memorandum
+Inclusion of Upstream Oil and Gas Hazards to the High-Emphasis Hazards in the Severe Violator Enforcement Program (SVEP), February 11, 2015, for policy relating to the addition of upstream oil and gas hazards to the list of High-Emphasis Hazards in the Severe Violator Enforcement Program (SVEP).
+
+Significant Enforcement Cases
+.
+
+Significant enforcement cases are defined as inspection cases with initial proposed penalties over $100,000 or which involve novel enforcement issues, including federal agency cases, regardless of penalty. An inspection resulting from an employee fatality or a workplace catastrophe may well be a significant enforcement case and, therefore, particularly thorough documentation is necessary to sustain legal sufficiency. (See the
+Memorandum
+on "Procedures for Significant and Novel Enforcement Cases," August 1, 2016).
+
+Special Emphasis Programs
+.
+
+If a fatality or catastrophe investigation arises at an establishment that is also in the current inspection cycle to receive a programmed inspection under any Site-Specific Targeting program, the investigation and the inspection can be conducted either concurrently or separately.
+
+Cooperative Programs
+.
+
+If a fatality or catastrophe occurs at a worksite operating under OSHA's Voluntary Protection Program (VPP), the OSHA Strategic Partnership Program (OSPP) site, or OSHA's Safety and Health Achievement Recognition Program (SHARP), or Pre-SHARP, then the Regional VPP Manager, OSPP Coordinator, or Assistant Regional Administrator (ARA) for On-Site Consultation Program and the Consultation Program Manager, as well as the Director of the Directorate of Cooperative and State Programs, should be notified. When enforcement activity has concluded, the Regional VPP Manager, OSPP Coordinator, or ARA for On-Site Consultation Program and Consultation Program Manager should be informed so that the site can be reviewed for program issues.
+
+Special Issues Related to Workplace Fatalities
+.
+
+
+Death by Natural Causes
+.
+
+Workplace fatalities that are attributed to natural causes, including work-related heart attacks, must be reported by the employer. The Area Director will then decide whether to investigate the incident.
+
+Workplace Violence
+.
+
+As with heart attacks, fatalities caused by incidents of workplace violence must be reported to OSHA by the employer. The Area Director or designee will determine whether or not the incident will be investigated.
+
+Motor Vehicle Incidents
+.
+
+
+OSHA does not require reporting injuries including motor vehicles that occur on public roads or highways, unless the incident occurs in a construction work zone.
+
+Although employers who are required to keep records must record such vehicle incidents in their
+OSHA-300
+Log of Work-Related Injuries and Illnesses, OSHA does not investigate such events. (See
+§1904.39(b)(3)
+.)
+
+NOTE: 29 CFR Part 1904 has new requirements for reporting work-related fatalities, hospitalizations, amputations or losses of an eye. The new rule, which also updates the list of employers partially exempt from OSHA record-keeping requirements, went into effect on January 1, 2015, for workplaces under Federal OSHA jurisdiction. (See
+79 FR 56129
+, Occupational Injury and Illness Recording and Reporting Requirements – NAICS Update and Reporting Revisions, September 18, 2014.)
+
+Rescue Operations and Emergency Response
+.
+
+
+OSHA's Authority to Direct Rescue Operations
+.
+
+
+Direction of Rescue Operations
+.
+
+OSHA has no authority to direct rescue operations. These are the responsibility of the employer and/or local political subdivisions or state agencies.
+
+Monitoring and Inspecting Working Conditions of Rescue Operations
+.
+
+OSHA can monitor and inspect working conditions of covered employees engaged in rescue operations to ensure compliance with standards that protect rescuers, and to provide technical assistance where appropriate.
+
+Voluntary Rescue Operations Performed by Employees
+.
+
+OSHA recognizes that an employee can choose to place himself/herself at risk to save the life of another person. The following provides guidance on OSHA citation policy toward employers whose employees perform, or attempt to perform, rescues of individuals in life-threatening danger.
+
+
+Imminent Danger
+.
+
+§1903.14(f)
+specifies that no citation can be issued to an employer because of a rescue activity undertaken by an employee of that employer when an individual is in imminent danger (i.e., the existence of any condition or practice that could reasonably be expected to cause death or serious physical harm before such condition or practice can be abated) unless:
+
+
+Such employee is designated or assigned by the employer to have responsibility to perform or assist in rescue operations,
+
+AND
+
+the employer fails to provide protection of the safety and health of such employee, including failing to provide appropriate training and rescue equipment;
+
+or
+
+Such employee is directed by the employer to perform rescue activities in the course of carrying out the employee's job duties,
+
+AND
+
+the employer fails to provide protection of the safety and health of such employee, including failing to provide appropriate training and rescue equipment;
+
+or
+
+Such employee is employed in a workplace that requires the employee to carry out duties that are directly related to a workplace operation where the likelihood of life-threatening events is foreseeable, such as operations where employees are in confined spaces or trenches, handle hazardous waste, respond to emergency situations, perform excavations, or perform construction over water;
+
+AND
+
+such employee has not been designated or assigned to perform or assist in rescue operations and voluntarily elects to rescue such an individual;
+
+AND
+
+the employer has failed to instruct employees (1) not designated or assigned to perform or assist in rescue operations of the arrangements for rescue, (2) not to attempt rescue, and (3) of the hazards of attempting rescue without adequate training or equipment.
+
+Citation for Voluntary Actions
+.
+
+If an employer has trained his or her employees in accordance with
+§1903.14
+, then no citation will be issued for an employee's voluntary rescue actions, regardless of whether they are successful.
+
+Emergency Response
+.
+
+
+Role in Emergency Operations
+.
+
+While it is OSHA's policy to respond as quickly as possible to significant events that could affect the health or safety of employees, the Agency does not have authority to direct emergency operations.
+
+Response to Catastrophic Events
+.
+
+OSHA responds to catastrophic events promptly and acts as an active and forceful protector of employee safety and health during the response, cleanup, removal, storage, and investigation phases of these incidents, while maintaining a visible but limited role during the initial response phase.
+
+OSHA's Role
+.
+
+
+For inspections of an ongoing emergency response or post-emergency response operation where there has been a catastrophic event, or where OSHA is acting under the National Emergency Management Plan (NEMP), Regional Administrators will determine the overall role that OSHA will play. See
+CPL 02-02-073
+,
+Inspection Procedures for 29 CFR 1910.120 and 1926.65, Paragraph (q): Emergency Response to Hazardous Substance Releases
+, August 27, 2007.
+
+During an event that is covered by the NEMP, OSHA has a responsibility and authority to both enforce its regulations and provide technical advice and assistance to the federal on-scene coordinator. If such an event occurs in a State Plan state, OSHA will coordinate with the State Plan agency to ensure the agency's involvement in the response.
+
+For details on OSHA's response to occupationally related incidents involving multiple fatalities, extensive injuries, massive toxic exposures, extensive property damage, or potential worker injury that generates widespread media interest. See
+CPL 02-00-094
+,
+OSHA Response to Significant Events of Potentially Catastrophic Consequences
+, July 22, 1991.
+
+Incidents of National Significance
+.
+
+For detailed instructions on how to proceed during incidents of national significance when OSHA has been designated as the primary federal agency for the coordination of technical assistance and consultation for emergency response and recovery worker health and safety, and the Assistant Secretary has activated the National Emergency Response Plan, see
+HSO 01-00-001
+
+National Emergency Management Plan
+, December 18, 2003, and the
+National Response Framework
+(Worker Safety and Health Support Annex).
+
+NOTE: These documents apply when activated.

@@ -1,0 +1,8 @@
+Source: 29 CFR 1918.89
+Title: § 1918.89 Handling hazardous cargo (See also § 1918.2 and § 1918.99).
+Section: 1918.89
+Path: PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > PART 1918—SAFETY AND HEALTH REGULATIONS FOR LONGSHORING
+ > Subpart H—Handling Cargo
+
+Hazardous cargo shall be slung and secured so that neither the draft nor individual packages can fall because of tipping of the draft or slacking of the supporting gear.

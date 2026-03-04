@@ -1,0 +1,9 @@
+Source: 29 CFR 1912.30
+Title: § 1912.30 Quorum; committee procedure.
+Section: 1912.30
+Path: PART 1912—ADVISORY COMMITTEES ON STANDARDS
+ > PART 1912—ADVISORY COMMITTEES ON STANDARDS
+ > Operation of Advisory Committees
+
+(a) A majority of the members of any advisory committee, including the Construction Safety Advisory Committee, shall constitute a quorum, so long as there are present at least one member who is a representative of employees and one member who is a representative of employers.
+(b) In the absence of its chairman, the committee may designate a member to preside at any meeting thereof.

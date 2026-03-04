@@ -1,0 +1,8 @@
+Source: 29 CFR 1926.26
+Title: § 1926.26 Illumination.
+Section: 1926.26
+Path: PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > PART 1926—SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION
+ > Subpart C—General Safety and Health Provisions
+
+Construction areas, aisles, stairs, ramps, runways, corridors, offices, shops, and storage areas where work is in progress shall be lighted with either natural or artificial illumination. The minimum illumination requirements for work areas are contained in subpart D of this part.

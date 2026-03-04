@@ -1,0 +1,8 @@
+Source: 29 CFR 1917.14
+Title: § 1917.14 Stacking of cargo and pallets.
+Section: 1917.14
+Path: PART 1917—MARINE TERMINALS
+ > PART 1917—MARINE TERMINALS
+ > Subpart B—Marine Terminal Operations
+
+Cargo, pallets and other material stored in tiers shall be stacked in such a manner as to provide stability against sliding and collapse.

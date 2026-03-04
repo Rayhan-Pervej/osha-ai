@@ -1,0 +1,1245 @@
+Field Operations Manual
+
+Chapter 16
+
+DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT (FOIA)
+
+Scope of Chapter and Information Requests
+
+This chapter explains the process and legal requirements for responding to requests under the Freedom of Information Act, 5 U.S.C. § 552, (FOIA) for disclosure of records in OSHA's Safety and Health inspection files and other OSHA records, excluding requests for whistleblower inspection files. Requests for OSHA's whistleblower investigation files are subject to disclosure under OSHA's non-public disclosure policy, the Privacy Act, and FOIA and must be processed in accordance with Chapter 23,
+Responding To Disclosure Requests For Whistleblower Case File Materials: Non-Public Disclosure, Privacy Act, and FOIA Requests
+. See CPL-02-03-007, January 28, 2016, or as amended.
+
+FOIA requests for Voluntary Protection Program files are coordinated through the Directorate of Cooperative and State Programs.
+
+The disclosure of information in Safety and Health inspection files is governed by: (1) FOIA, the goal of which is to enable public access to government records; (2) the Department of Labor's FOIA implementing regulations found at 29 CFR Part 70; (3) Executive Order 12600, (52 FR 23781, 3 CFR, 1987 Comp., p. 235); and (4) FOIA Case Law and accompanying Department of Justice Guidance.
+
+**************************************************************
+
+ANY TIME YOU HAVE A QUESTION ABOUT HOW TO PROCESS A PARTICULAR RECORD OR FOIA REQUEST, PLEASE CONSULT WITH OSHA'S OFFICE OF COMMUNICATIONS (OOC), THE REGIONAL OSHA OFFICE, OR YOUR SERVICING OFFICE OF THE SOLICITOR.
+
+*************************************************************
+
+
+This Chapter Applies to OSHA's Safety and Health Inspection Records
+
+The guidelines in this chapter apply to requests for all investigative records maintained by OSHA's safety and health inspection programs as well as requests for OSHA guidance documents, standards records, database records, and similar records. While this chapter emphasizes the processing of investigative materials, all requests for OSHA records are treated similarly, except for whistleblower investigation files and other files covered by Privacy Act System of Records Notices.
+1
+
+Inspection records may include interviews, notes, work papers, memoranda, email, documents, pictures and audio or video recordings received or prepared by OSHA, concerning or relating to the performance of any inspection, or in the performance of any official duties related to an inspection. Such records are the property of the United States government and must be included in the case file. Under no circumstances is a government employee to destroy, retain, or use inspection notes and work papers for any private purpose. In addition, files must be maintained and destroyed in accordance with official agency schedules for retention and destruction of records.
+2
+
+When responding to a request, OSHA will ordinarily include only those records existing as of the date OSHA begins the search for them. If any other date is used by the agency, OSHA will inform the requester of the date.
+
+Determine Whether the Request Is a Perfected FOIA Request
+
+Only a perfected FOIA request must be answered under FOIA. Upon receipt of a request, the receiving office should make sure that the request is perfected. A perfected request is:
+
+
+Properly Submitted:
+
+The request is written and includes the name and mailing address (email address and/or a contact telephone number are not required, but are helpful if included) of the requester.
+
+The request arrives through permissible means. Generally this means that the request must be submitted by mail, by fax, by hand delivery to the OSHA office, or to an email address dedicated to receipt of FOIA requests (
+Foiarequests@dol.gov
+is currently the only email address dedicated to receiving these requests). A FOIA request may not be submitted to an OSHA staff person's individual email address, although the requester may choose to copy individual OSHA staff members on an email request submitted to the dedicated FOIA email address. If a request is submitted directly to an employee's email address, the request is not perfected and cannot be processed. The employee receiving the request should email the requester and inform the requester that he/she must resubmit the request using one of the permissible means.
+
+The records sought are reasonably described. A description of a requested record is sufficient if it enables a professional agency employee familiar with the subject area to find the record with a "reasonable amount of effort;" and
+
+The requester agrees to pay any applicable fees and the OSHA processor is not aware if the same requester currently owes OSHA any FOIA-related fees for other prior FOIA requests.
+
+What Is Not A FOIA Request?
+
+Requests for tangible materials (e.g. objects or samples collected);
+
+Spoken requests;
+
+Questions;
+
+Requests for OSHA to create records;
+
+Requests for personal records;
+
+Requests that OSHA add explanatory materials to records disclosed;
+
+Requests from other federal agencies; and
+
+Subpoenas. When OSHA receives a request for records via a subpoena, a FOIA Officer must immediately notify the National Office of the Solicitor (NSOL - as of this writing the Division of Management and Administrative Legal Services (SOL-MALS)) or appropriate Regional Office of the Solicitor (RSOL) of its receipt, so that the subpoena may be reviewed for 29 CFR 2.21 (Third Party Subpoena Regulation [Touhy Regs.]) compliance. The FOIA Officer should then follow SOL instructions on how to proceed with the subpoena request.
+
+Also, under FOIA, OSHA is not required to:
+
+Seek return of records over which it retains no control (such as records that have been permanently transferred to the National Archive and Records Agency);
+3
+
+Recreate records properly disposed of;
+
+Release records as they are created; or
+
+Process requests for records already publicly available (typically on OSHA's website).
+
+Non-Perfected Requests
+
+If an office directly receives a non-perfected request it should not enter the request in the Secretary's Information Management System for FOIA (SIMS-FOIA) or subsequent tracking system (Tracking System). The office should contact the requester and work with them to perfect the request. After a perfected, written request is received, it should be entered into the Tracking System and processed as outlined below. If a non-perfected request is received through the Tracking System, toll for clarity or fees as appropriate, and work with the requester to perfect the request. Once the request is perfected, upload the perfected request into the Tracking System. If the requester owes outstanding fees to the agency, OSHA may refuse to process the FOIA request. If the request cannot be perfected, close the request as non-perfected and upload a copy of the closure letter into the Tracking System.
+
+
+Determining Whether the Case is Open or Closed
+
+In most cases, the first question that must be answered after determining that the request is perfected is whether the case is open or closed. The following guidance should be used in determining if a case is considered open or closed.
+
+Open Cases versus Closed Cases.
+4
+When an enforcement or litigation action is ongoing, a case file must be reviewed for records that may be released without harming the open enforcement action. Examples of when an enforcement or litigation action is ongoing include:
+
+When a citation has either not been issued or has not become final;
+
+When OSHA and/or SOL is reviewing an inspection for further enforcement action;
+
+When OSHA/SOL is before the Occupational Safety and Health Review Commission (OSHRC) or litigating a case in court;
+
+When SOL believes that it is appropriate to invoke FOIA Exemption 7(A) (see 7(A) below)); or
+
+If SOL or the Department of Justice is working with OSHA on a case, the solicitor assigned to the case must be consulted prior to releasing any materials.
+
+For uncontested citations, the enforcement action is considered open until the cited violations become a final order (i.e. end of the 15-day period to contest) or until all parties have signed an informal settlement agreement.
+
+Below are documents that are often released while an enforcement action is open:
+
+Citation and Notification of Penalty (OSHA-2 Form).
+
+Notices of Alleged Imminent Danger.
+
+Other records already in the public domain (i.e., newspaper articles, pages printed from websites, and maps).
+
+Other scenarios may arise which generate questions about whether a case is open or closed. Please contact SOL for clarification.
+
+Sharing Records Between OSHA and Other Government Entities
+
+OSHA generally shares an unredacted copy of the safety and health inspection files with other federal agencies through the use of Sharing Letters. Another federal agency is not a person under the FOIA and, therefore, may not make a FOIA request to OSHA.
+
+At OSHA's discretion, investigative records may be shared with other federal agencies or with state or local government agencies. The person making the request must speak for the agency. The request must be in writing, signed by the head of the agency or other high-level agency official with the authority to speak for the agency, specifying the particular records sought and the purpose for which the records are sought. If there is any ambiguity in the nature of the request, the office should seek clarity from the requesting agency.
+
+When OSHA receives a request for records from a law enforcement agency, a FOIA officer must immediately notify the appropriate contact in OSHA or SOL of its receipt, so that the disclosure may be made in full compliance with the FOIA. When disclosing records, OSHA will inform the recipient agency that the records are not public and request that no further disclosures be made.
+
+Sharing Letters.
+A sharing letter makes a limited disclosure to another government agency and asks the recipient government agency to make no further public disclosures. Before entering into a sharing letter with another governmental agency, consult with the appropriate contact in OSHA or SOL to see if a sharing agreement exists, as some agencies are required by statute to make all records public. Please see Appendix C for a sample sharing letter.
+
+FOIA Coverage of Safety and Health Inspection Case Files
+
+Under FOIA, a person has a right to access federal agency records unless an exemption applies.
+
+OSHA's policy regarding the disclosure of documents in inspection and other files is governed by the FOIA as amended (5 U.S.C. § 552); the DOL's regulations (29 CFR Part 70); E.O. 12600; interpretations of FOIA by the Department of Justice; and other relevant guidance.
+
+Records.
+Federal records include books, papers, maps, photographs, machine readable materials, or other documentary materials, regardless of physical form or characteristics, made or received by an agency of the United States government under federal law or in connection with the transaction of public business and preserved or appropriate for preservation by that agency or its legitimate successor as evidence of the organization, functions, policies, decisions, procedures, operations or other activities of the government, or because of the informational value of the data in them.
+See
+DLMS 1, Chapter 413,
+citing
+44 U.S.C. § 3301.
+
+Not all records maintained in OSHA files are OSHA records. OSHA may also be in possession of records from another federal agency or agency component.
+5
+
+Referral: When OSHA has possession of records that originated with another federal agency, those records must be referred to the originating agency for processing and a release determination made directly from that agency.
+
+Consultation: When records originate with OSHA, but contain within them information of interest to another federal agency, the processor should consult with that other agency prior to making a release determination.
+6
+
+When a FOIA officer refers records to another federal agency, OSHA's determination letter should inform the requester of the nature and amount of records referred, and the contact information of the agency to which the records have been referred in case the requester has any questions.
+
+State or local government records provided to OSHA become OSHA records. These records cannot be referred back to a state or local government for processing. However, "work-around" language should be used to refer a requester directly to a state or local government for certain records before OSHA processes the records. It should be noted that "work-around" language is a legal sidestep in which OSHA asks the requester to go to the primary source of the records (the state or local government, usually a coroner, the local police, or other first responder). If the requester cannot get the record from the state or local government agency, then the requester can come back to OSHA, and OSHA will process the record.
+
+General Procedures for Processing FOIA Requests from an Employee, an Employer Involved in an Inspection or a Third Party
+
+The following describes procedures for processing requests for information under FOIA from an employee, an employer involved in an inspection, or a third party.
+
+After ensuring that the request is perfected, make a new record entry in the Tracking System and scan the incoming FOIA letter into the Tracking System. The Tracking System will generate a unique identifier for each FOIA request entered into the database. See Section D.
+
+A critical reading of the FOIA request is required. Some requesters will identify the inspection number sought; others may request any records associated with an incident, an establishment, or a particular address. If there is any question about the scope of the request, the processor should immediately toll the request in the Tracking System and contact the requester for more information. The clarified request must be reduced to writing by either the requester to OSHA or OSHA to the requester confirming the revised request.
+
+Send an acknowledgment letter or email to the FOIA requester providing the tracking number and URL to the DOL web portal so that the requester can track the processing of the FOIA request. If a request is sent via email, the subsequent SOL acknowledgment email is not a substitute for an OSHA acknowledgment letter or email. When necessary, the acknowledgment letter should also alert the requester of any additional information that OSHA needs to process the request, any fee matters, whether a request for expedited processing has been granted, and whether OSHA expects any processing delays or "unusual circumstances."
+
+Check the status of the inspection in the OSHA Information System (OIS) or legacy database if applicable to determine if the inspection is an open or closed case (as discussed in Section E, above).
+
+Make a complete copy of all responsive records (including audio and video records) and place them in the FOIA file. This file must be maintained separately from the inspection file. Requesters familiar with OSHA inspection files often target specific documents in a file under FOIA. If a request is so targeted, only the targeted documents are responsive and only those documents must be copied into the FOIA file.
+7
+
+Process the responsive records:
+
+If the enforcement action is open:
+
+In cases where OSHA is not making a Glomar response,
+8
+review the case file for information that would impair the ongoing inspection or litigation. Withhold such information under Exemption 7(A). Process the remaining documents/information normally under the FOIA (i.e., redact/withhold documents/information under other applicable exemptions).
+
+If the enforcement action is closed, the processing and review of a closed file may be different depending upon who is the requester:
+
+If the FOIA request is from a complainant, injured party or their representative – Release all of the complainant's or injured party's documents and personally identifiable information (PII) to the complainant/injured party (or the complainant's/injured party's representative). Process the remaining documents normally under the FOIA (i.e., redact/withhold documents under applicable exemptions).
+
+If the FOIA request is from an employer or employer representative – Release all of the company's documents to the company (or the company's representative). Process the remaining documents normally under the FOIA (i.e., redact/withhold documents under applicable exemptions).
+
+If the FOIA request is from a third party requester – Process all documents normally under the FOIA (i.e., redact/withhold documents under applicable exemptions).
+
+In some instances, if the request is from a third party requester, a Glomar response is appropriate. A Glomar response can be used when the enforcement action is open or closed. In a Glomar response, OSHA will neither confirm nor deny the existence of responsive records. If a requester seeks an OSHA investigative file about a confidential complaint filed by Jane Doe, a Glomar response might be appropriate if processing the case file would be an admission that Jane Doe did, in fact, file the complaint that led to the investigation. A Glomar response is not appropriate if OSHA, the complainant/injured party, or the employer has publicized an inspection resulting from the complaint. Because the use of Glomar is rare, check with your Regional or National Office FOIA officer and/or SOL before using a Glomar response.
+
+Scan all relevant correspondence including: clarifications, amended requests, fees, tolling, processing delays, instructions from OSHA's Office of Communications, expedited processing denials, consultations with other government entities, E.O. 12600 processing, and final response letters to the FOIA request into the Tracking System and close out in the Tracking System database.
+
+Time Requirements.
+OSHA has 20 working days to determine whether to grant or deny in whole or in part a FOIA request (i.e. process the FOIA request) and to notify the requester. When OSHA cannot meet the 20 working-day statutory time limit because of "unusual circumstances," as defined in the FOIA, the directorate, regional, or area offices processing the request must notify the requester as soon as practicable in writing to advise the requester of the unusual circumstances and provide an estimated date by which OSHA expects to complete the processing of the request.
+91
+When OSHA requires an extension of more than ten working days, OSHA must provide the requester with an opportunity either to modify the request so that it can be processed within 20 working days or arrange for an alternative time period for processing the request.
+
+Expedited Processing.
+Expedited processing must be requested in writing by a requester. Requests will be taken out of order and given expedited treatment only if: (i) the failure to provide expedited treatment could reasonably be expected to pose an imminent threat to the life or physical safety of an individual; (ii) there is an urgency to inform the public about an actual or alleged federal government activity, if made by a person primarily engaged in disseminating information; (iii) there will be a loss of substantial due process rights; or (iv) there is widespread and exceptional media interest and there are questions about the government's integrity that affect public confidence.
+
+A requester may ask for expedited processing at the time of the initial FOIA request or at a later time. The requester must submit a statement, certified to be true and correct to the best of that person's knowledge and belief, stating in detail the reason for requesting expedited processing.
+
+OSHA must notify a requester asking for expedited processing within ten calendar days from the date that OSHA received the request whether OSHA is granting or denying their request for expedited processing. If the request for expedited processing is granted, the request should be given priority status and processed as soon as practicable. If the request is denied, the requester must be notified in writing and given the right to appeal the denial.
+
+Tolling.
+If the office processing a request receives an unclear request for information through the Tracking System, such office should request clarification from the requester. An unclear request is one that does not allow a knowledgeable OSHA employee who is familiar with the subject matter to locate responsive records with a reasonable amount of effort. The office should initiate a one-time-only toll of the 20 working day requirement in the Tracking System.
+10
+When clarification is received from the requester, the toll in the Tracking System must be immediately lifted.
+
+If fees will be assessed and there is no fee agreement or the amount the requester has agreed to in the initial request is insufficient, the office should initiate a fee toll. When the fee agreement is received, the toll in the Tracking System must be lifted. A request may be tolled for fees as many times as necessary for as long as necessary to either reach fee agreement or determine that no fee agreement is possible.
+
+Timing.
+In some circumstances, OSHA may not be able to fully process a FOIA request within the statutory timeline or an alternative timeline agreed to with the requester. In such circumstances, OSHA should focus on ensuring that the FOIA request is processed properly even if doing so requires OSHA to take more time for processing the request. OSHA may seek additional extensions from the requester as necessary.
+
+Requests for Certification or Authentication
+. OSHA has discretion regarding its response to requests for services not required under FOIA. FOIA does not require agencies to certify or authenticate responsive documents. It is the policy of OSHA to decline requests for certification or authentication of records released under FOIA unless the request comes from the Office of the Solicitor. If these services are requested and granted, the FOIA Disclosure Officer should then process the request as per the
+Department of Labor Manual Series 1 – Record Management Chapter 900 – Authentication of Documents
+requirements and charge for such services as provided in 29 CFR 70.40(g).
+
+
+
+FOIA Fees
+
+Agreement to pay fees
+
+The filing of a FOIA request constitutes a requester's agreement to pay fees up to $25, unless the requester has asked for a waiver of those fees or specified a different dollar amount. If the FOIA officer determines the fee for processing a request will exceed $25, then the request must be tolled for fees in the Tracking System to preserve OSHA's 20-day clock and right to charge fees. Once a fee agreement is reached, the toll must be lifted. There is no limitation on the number of times a request may be tolled for fees.
+
+Some requesters will state that they are not willing to pay more than a certain amount for FOIA processing. If the amount the requester is willing to pay is less than the amount of fees that OSHA would charge, OSHA will not be able to process the request and should ask the requester to modify the request in writing. Offices processing such FOIA requests should contact the requester to allow the requester an opportunity to amend or reduce the scope of their requests. If a requester breaks a FOIA request for voluminous records into separate requests (i.e. sends a separate FOIA request to different Area Offices for processing under $25) the regional or national FOIA coordinator will aggregate these separate FOIA requests together. FOIA requests are tolled indefinitely while OSHA is seeking confirmation of what fees a requester is willing to pay.
+
+All final fee agreements must be in writing (an email to the FOIA Officer is sufficient) and must be uploaded into the Tracking System. If a fee letter is sent, provide the requester with a deadline to respond in the letter and inform the requester that the request will be closed as withdrawn if OSHA is not contacted. If no response is received by the deadline, close out the FOIA request as withdrawn in the Tracking System and upload a copy of the OSHA fee communication. If a fee agreement cannot be reached, provide a determination letter that includes the estimate of the fees, that an agreement could not be reached, and appeal and mediation rights. The request can then be closed in the Tracking System for fee-related reasons.
+
+If a requester promises to "pay the appropriate fees," or pay "duplication fees" or other such ambiguous phrasing, and the expected fee will exceed $25, toll the request and contact the requester to reach an agreement of the exact amount of fees the requester is willing to pay.
+
+FOIA fee waivers or reductions of fees are granted on a case-by-case basis. Even if a requester was granted a fee waiver for past requests, each new FOIA request must independently justify any fee waiver requested. Each request for a fee waiver must address in writing the following factors to the FOIA officer's satisfaction for a full or partial fee waiver to be granted:
+
+Disclosure of the requested information is in the public interest because it is likely to contribute significantly to public understanding of the operations or activities of the federal government. This prong is satisfied when the requester can show that the:
+
+(A) The subject of the request: Whether the subject of the requested records concerns ''the operations or activities of the government.'' The subject of the requested records must concern identifiable operations or activities of the federal government, with a connection that is direct and clear, not remote or attenuated;
+
+(B) The informative value of the information to be disclosed: Whether the disclosure is ''likely to contribute'' to an understanding of government operations or activities. The disclosable portions of the requested records must be meaningfully informative about government operations or activities in order to be ''likely to contribute'' to an increased public understanding of those operations or activities. The disclosure of information that already is in the public domain, in either a duplicative or a substantially identical form, would not be as likely to contribute to such understanding where nothing new would be added to the public's understanding;
+
+(C) The contribution to an understanding of the subject by the public likely to result from disclosure: Whether disclosure of the requested information will contribute to ''public understanding.'' The disclosure must contribute to the understanding of a reasonably broad audience of persons interested in the subject, as opposed to the individual understanding of the requester. A requester's expertise in the subject area and ability and intention to effectively convey information to the public will be considered. It will be presumed that a representative of the news media will satisfy this condition; and
+
+(D) The significance of the contribution to public understanding: Whether the disclosure is likely to contribute ''significantly'' to the public understanding of government operations or activities. The public's understanding of the subject in question must be enhanced by the disclosure to a significant extent.
+
+and
+
+Disclosure is not primarily in the commercial interest of the requester.
+
+It is not enough for a requester merely to restate the fee waiver test in order for OSHA to grant a fee waiver. The burden is on the requester to demonstrate how release of the requested materials by OSHA to them, is likely to contribute significantly to public understanding of the operations or activities of the federal government and that disclosure is not primarily in the requester's commercial interest.
+
+Exceptions on Charging Fees
+
+If there are unusual circumstances and OSHA has provided timely written notice, then OSHA is permitted ten additional business days to respond to the request (for a total of 30 business days). After the expiration of the ten additional days, the component is no longer permitted to assess search fees or, in the instances of requests from "Other," Media and Educational requesters, duplication fees. However, if there are unusual circumstances and more than 5,000 pages of documents are necessary to respond to the request, OSHA may continue to charge assessable fees for as long as it takes to process the request, provided that OSHA has provided timely written notice and discussed with the requester via telephone, email, or written mail (or made at least three good-faith attempts to do so) how the requester could effectively limit the scope of the pending request.
+
+If the requester is a representative of the news media or an educational or scientific institution, OSHA cannot charge for the first 100 pages of reproductions or the first two hours of search time (i.e., the fees are waived for these requesters). OSHA cannot charge fees if the cost of collecting and processing the fees is likely to equal or exceed the amount of the fees itself (as of January 23, 2017, the Department of Labor will not charge fees if the amount of the total fees would be less than $25).
+
+Fees and fee types may be subject to change; please see 29 CFR Part 70, for the most current information on types of fees and fee categories.
+
+Fee categories:
+11
+
+Commercial requester. Commercial use request means a request from or on behalf of a person who seeks information for a use or purpose that furthers his or her commercial, trade or profit interests, which can include furthering those interests through litigation.
+
+Media/Educational requester.
+
+"Other" requesters.
+
+A law firm or attorney is said to stand in the shoes of its client for fee purposes. That is, if the client is Commercial, the request from the law firm is Commercial, if the client is an "Other," then the Other category of fees applies. If the attorney/firm does not state who the client is, the attorney/firm is treated as a Commercial requester.
+
+A student requesting records to further his/her education (such as writing a dissertation) is considered an educational requester for fee purposes, as is a requester seeking records on behalf of an educational institution.
+12
+
+Types of Fees:
+
+Search
+. The term search means the process of looking for material that is responsive to a FOIA request; including page-by-page or line-by-line identification of materials within documents or, when available, use of an existing computer program.
+
+Review
+. Review means the process of examining records, including audio-visual and electronic mail, located in response to a request to determine whether any portion of the located record is exempt from disclosure, and accordingly may be withheld. It also includes the act of preparing materials for disclosure, i.e., doing all that is necessary to redact them and otherwise prepare them for release. Review time includes time spent contacting any submitter, and considering and responding to any objections to disclosure made by a submitter, but does not include time spent resolving general legal or policy issues regarding the application of exemptions.
+
+Reproduction
+. Reproduction means the process of making a copy of a record necessary to respond to a request. Such copy can take the form of paper, audio-visual materials or electronic records (e.g., compact disk/thumb drives).
+
+Processing FOIA Requests
+
+Commonly Used FOIA Exemptions:
+
+OSHA's policy is to disclose, to the extent possible, all documents in safety and health inspection files unless disclosure is prohibited by law or if disclosure would harm an interest protected by one of the statutory exemptions. This section discusses the most common FOIA exemptions that apply to documents in safety and health inspection files. If you believe another exemption applies, contact your Regional or National Office FOIA officer or SOL.
+
+Exemption 3 – Nondisclosure Provisions in Other Federal Statutes
+
+Under Exemption 3, 5 U.S.C. § 552(b)(3), an agency shall withhold matters which are specifically exempted from disclosure by another federal statute, when that statute either:
+
+Requires that the matters be withheld from the public in such a manner as to leave no discretion on the issue; or
+
+Establishes particular criteria for withholding or refers to particular matters to be withheld; and
+
+If enacted after the date of enactment of the OPEN FOIA Act of 2009, specifically cites to 5 U.S.C. § 552(b)(3).
+
+The Department of Justice maintains a list of judicially-approved Exemption 3 statutes at:
+http://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/exemption3_1.pdf
+. The vast majority of OSHA inspection records do not contain information protected under Exemption 3.
+
+Exemption 4 and Executive Order 12600 – Confidential Business Information and Trade Secrets
+
+Exemption 4, 5 U.S.C. § 552(b)(4), protects trade secrets and commercial or financial information obtained from a person that is privileged or confidential. This exemption is intended to protect two categories of information:
+
+Trade secrets
+: A trade secret is defined as a secret, commercially valuable plan, formula, process or device that is used in making, preparing, or processing a trade commodity (e.g., manufacturing descriptions, product formulations and schematics or drawings). Trade secrets are not commonly found in safety and health inspection records.
+
+Confidential Business Information
+(CBI): CBI is commercial or financial information obtained from a person that is privileged or confidential. Information is CBI if it is: (i) confidential business data submitted to the government, either because the submission is mandated or because the person voluntarily provided it, and (ii) the information would harm an identifiable private or governmental interest if disclosed (e.g., overhead costs, unit prices, copyrighted videos, proprietary manuals or software). CBI is often found in safety and health inspection records.
+
+Processing Exemption 4 Material
+
+To process CBI pursuant to Exemption 4 and E.O. 12600, first, identify which documents contain CBI and/or trade secrets. Second, after categorizing these documents or materials, copy these documents and determine if they are tangential to the file. Third, notify the requester that there may be a processing delay and give the requester an opportunity to modify the request (or if the CBI/trade secrets are tangential to the file, you may segregate them from the file and process the remainder of the request). Fourth, give the submitter an opportunity under E.O. 12600 to object to the release of such documents in a reasonable time frame (e.g. 5 to 10 calendar days depending upon the volume of the material). When doing so, enclose copies of the CBI or trade secrets in question and a copy of E.O. 12600.
+13
+A sample E.O. 12600 letter can be found at Appendix D. Fifth, review the submitter's objections to disclosure under the following criteria,
+Food Mktg. Inst. v. Argus Leader Media
+, 139 S. Ct. 915 (2019) and Department of Justice Guidance:
+14
+
+Does the submitter customarily keep the information private or closely-held? (This inquiry may in appropriate contexts be determined from industry practices concerning the information.)
+
+
+If no, the information is not confidential under Exemption 4 and should be released.
+
+If yes, answer question 2.
+
+Did the government provide an express or implied assurance of confidentiality when the information was shared with the government?
+
+
+If no, answer question 3.
+
+If yes, the information is confidential under Exemption 4 (this is the situation that was present in
+Argus Leader
+).
+
+Were there express or implied indications at the time the information was submitted that the government would
+publicly
+disclose the information?
+
+
+If no, the information is "confidential" under Exemption 4 (the government has effectively been silent – it hasn't indicated the information would be protected or disclosed – so a submitter's practice of keeping the information private will be sufficient to warrant confidential status).
+
+If yes, and no other sufficient countervailing factors exist, the submitter could not reasonably expect confidentiality upon submission and so the information is not confidential under Exemption 4.
+
+Withhold or redact the documents containing CBI consistent with the above analysis. If OSHA disagrees with any of the submitter's objections to disclosure, prior to disclosing the documents, give the submitter written notice, which must include: a statement of the reason(s) why OSHA disagreed with each of the submitter's disclosure objections; a description of the business information to be disclosed; and a specified disclosure date (e.g., 10 days from the date of OSHA's written notice that it will disclose the documents). The FOIA Officer must track this communication and confirm that the communication was received by the submitter.
+
+Tangential CBI
+
+Note that if the CBI requested is related only tangentially to the investigation (the CBI is small in quantity and did not affect the inspection's outcome) that is the subject of the request, use the following Exemption 4 work-around language in the determination letter:
+
+The file contains [LIST COMMERCIAL INFORMATION] that arguably may be protected under Exemption 4. We are taking no action on the release of this information because it relates only tangentially to the investigation that is the subject of your request. Where there is a reasonable expectation that release of information could cause substantial commercial or competitive harm, we are required by Executive Order 12600, (52 FR 23781, 3 CFR, 1987 Comp., p. 235), and the Department of Labor's regulations at 29 C.F.R. 70.26 to contact the submitter before releasing the information. We must allow the submitter to provide its views regarding public disclosure of this information. If we undertook this procedure in your case, it would delay this decision and likely would not result in the release of any additional relevant information. Consequently, to process your request as promptly as possible, we have not processed this information with the rest of your request. If you are interested in obtaining this commercial information, please contact us, and we will process it in accordance with Executive Order 12600 and DOL regulations.
+
+Exemption 5. Civil Discovery Privileges of Inter-agency or Intra- agency Records
+
+Exemption 5, 5 U.S.C. § 552(b)(5), allows an agency to withhold inter-agency or intra-agency information that normally would be privileged in the civil discovery context. Exemption 5 protects records that are an inter-agency or intra-agency communication (generally including communications between OSHA and its contractors or experts) and are either:
+
+Records subject to the "deliberative process privilege" because they are pre-decisional and deliberative in nature. This privilege may be asserted when: (1) the information was generated prior to, and in contemplation of, a decision by a part of the Department; (2) the information is not purely factual and does not concern recommendations that the Department expressly adopted or incorporated by reference in the ultimate decision; and (3) disclosure of the privileged matter would have an inhibiting effect on the agency's decision-making processes. The third element of the privilege is referred to as the "foreseeable harm analysis."
+
+As required by the FOIA Improvement Act of 2016, a foreseeable harm analysis must be performed before invoking the deliberative process privilege. In making a foreseeable harm determination, "speculative or abstract fears" are not a sufficient basis for withholding records. Instead, the agency must reasonably foresee that disclosure would harm an interest protected by Exemption 5 or disclosure is prohibited by law.
+
+Pursuant to the FOIA Improvement Act of 2016, the deliberative process privilege of Exemption 5 cannot be invoked for records older than 25 years.
+
+Or:
+
+Records subject to the attorney work-product or attorney-client privilege. "Attorney work-product privilege" includes documents that are prepared by an attorney (or under an attorney's direction) in anticipation of litigation. Factual information may be protected in this context. "Attorney-client privilege" concerns confidential communications between a client (OSHA) and the Office of the Solicitor relating to a legal matter for which OSHA has sought professional advice. It must be emphasized that the attorney-client privilege may only be taken for confidential communications between OSHA and SOL. For example, if an employer is the recipient of an email between OSHA and SOL, the attorney-client privilege may not be taken because the email is no longer confidential.
+
+The attorney-client and attorney work-product privileges should be invoked unless SOL agrees to release of the OSHA-SOL communications or work product.
+
+Exemption 6. Personal Privacy in Non-Law Enforcement Files
+
+Exemption 6, 5 U.S.C. § 552(b)(6), permits the withholding of information contained in personnel and medical files or similar files, the disclosure of which would constitute a clearly unwarranted invasion of personal privacy. "Similar files" incorporates nearly every other file within OSHA. In other words, many records not concerning personnel or medical information can be protected under Exemption 6. The majority of FOIA requests to OSHA are for inspection records. Personally identifiable information (PII) in these files, as discussed in detail below, can be protected under Exemption 7(C), which offers stronger privacy protections.
+
+Disclosure determinations under Exemption 6 require a balancing of any privacy interest (an individual's right to privacy) against the public interest in disclosure (shedding light on an agency's operations or activities). Individuals have a privacy interest with respect to information about themselves, such as addresses, phone numbers, incomes, marital status, reputations, medical conditions, dates of birth, religious affiliations, citizenship data, genealogical history establishing membership in a Native American tribe, Social Security Numbers, and criminal history records.
+
+Privacy rights are limited to living individuals. However, surviving family members have a right to personal privacy with respect to their close relative's death-scene images, video, and audio (to the extent that information is not public). For other questions as to whether surviving family members have a right to personal privacy with respect to other records under review (for example, criminal records of the deceased) please consult RSOL.
+
+Exemption 7. Law Enforcement Files.
+
+Exemption 7, 5 U.S.C. § 552(b)(7), allows agencies to withhold records compiled for law enforcement purposes under any one of six circumstances (identified as Exemption 7(A) through 7(F)). Law enforcement within the meaning of Exemption 7 includes enforcement of both civil and criminal statutes, including the laws enforced by OSHA. Accordingly, OSHA inspection files are law enforcement files. Common Exemption 7 uses are:
+
+7(A)
+- Disclosure could reasonably be expected to interfere with a pending law enforcement matter (includes both pending and contemplated law enforcement proceedings where disclosure would cause some sort of identifiable harm). A Glomar (neither confirm nor deny) response may be appropriate to protect the investigation if the targeted employer has not yet been made aware of the pending OSHA investigation.
+
+7(C)
+- Disclosure could reasonably be expected to constitute an unwarranted invasion of personal privacy.
+
+The statutory threshold for withholding information under Exemption 7(C) is somewhat lower than the threshold for withholding information under Exemption 6 because law enforcement files are inherently more invasive of personal privacy than other types of records. Individuals have a strong privacy interest in not being associated with law enforcement activity.
+15
+
+Information that OSHA may withhold under Exemption 7(C), and if appropriate under Exemption 7(D), includes not only individuals' names but also "contextual identifiers." Contextual identifiers are identifying factors that would reveal the identity of an individual. Common contextual identifiers include job titles, educational background, physical descriptions, or descriptions of an inspection or incident that reveal an employee's identity. Statements an individual makes may also be contextual identifiers if the statement would reveal the individual's identity.
+
+A Glomar (neither confirm nor deny) response may be appropriate to protect privacy of the individuals named in investigatory files and who are the subject of a FOIA request even when the case file is closed. For example, if the requester is seeking "the complaint filed by Jane Smith against Acme Corporation," to only withhold Jane Smith's name would be to admit that she did file a complaint against Acme. Instead, the FOIA Officer should respond that OSHA "neither confirms nor denies that OSHA has records responsive to the request pursuant to Exemption 7(C)."
+
+Individuals speaking on behalf of an employer have no privacy interest, as the company speaks through its managers, and the Supreme Court has ruled that a company does not have a right to privacy under FOIA.
+See FCC v. AT&T Inc., 562 U.S. 397 (2011)
+. However, a manager's home address and home phone number is normally redacted under Exemption 7(C).
+
+While OSHA managers' names are released when speaking on behalf of OSHA, OSHA manager names in connection with personal information (for example a manager's timesheets) would be redacted under Exemption 6.
+
+7(D)
+- Disclosure could reasonably be expected to identify persons who provide information to the government in confidence or under circumstances implying confidentiality. Witnesses' identities are protected when they have provided information either under an express promise of confidentiality or under circumstances from which such as assurance could be reasonably inferred. However, confidentiality must still be determined on a case-by-case basis and whether a witness has caused a waiver of his or her confidentiality must be considered. Once confidentiality is waived, then witness information and statements should no longer be withheld in full or in part under this exemption, but other exemptions (e.g., Exemptions 4 and 7(C)) might still apply.
+
+In some cases, a manager may confidentially disclose information to the CSHO without authorization from the employer. In such cases, the confidential information may be withheld under Exemption 7(D).
+
+In rare circumstances, a Glomar response may be appropriate if a more specific response to a narrowly targeted request would disclose whether or not an individual acted as a confidential witness. A Glomar response may also be used when disclosure would permit the linking of a witness to specific witness-provided information.
+
+7(E)
+- Disclosure would reveal investigative techniques and procedures for law enforcement inspections or prosecutions if disclosure could result in circumvention of the law. Exemption 7(E) protects techniques that are not generally known to the public as well as law enforcement guides or manuals that are not available to the public, where disclosure could reasonably be expected to risk circumvention of the law.
+
+Other FOIA Exemptions
+
+Several other exemptions not discussed in this section are also contained in the FOIA. These Exemptions 1 (national security), 2 (personnel files), 7(B) (law enforcement files that deprive a person of fair trial), 7(F) (law enforcement information that could endanger someone's life or safety), 8 (certain reports prepared by certain financial entities), and 9 (certain geological or geophysical information) should rarely, if ever, be invoked. Should an office wish to invoke any of these exemptions, you must contact SOL. These FOIA exemptions are briefly discussed in Appendix A.
+
+Denials under the FOIA
+
+In addition to the FOIA exemptions, FOIA Officersmay also deny a request in full or in part for the following reasons:
+
+
+No responsive records were located. The FOIA Officer must document who conducted the search, when the search was conducted, where the search was conducted (paper and/or electronic files) and how the search was conducted (search terms or phrases used, subject line, or email text searched).
+
+The request was referred to another component or agency; notify the requester that the request was referred to another agency.
+
+The requester refuses to assume responsibility for fees associated with processing their request; notify the requester that the request was closed for fee reasons.
+
+The requested records were not reasonably described; notify the requester that the description was insufficient.
+
+The request was not for an agency record; notify the requester that the request was not for an agency record.
+
+Partial Release of Records: Reasonably Segregable Disclosable and Non-Disclosable Records
+
+When making decisions regarding whether to release, redact, or withhold material under FOIA, care should be taken to review material thoroughly. The FOIA requires that any reasonably segregable portion of a record must be released after the application of the FOIA exemptions. Partial disclosures should be made whenever full release is not possible. If substantially all of a document would have to be redacted so that no meaningful content would remain, the document should be withheld in full.
+
+These same rules apply to photographs, audio recordings, video recordings, and electronic records. For example, if a portion of photograph must be released and a portion contains an image covered by Exemption 7(C), the photograph must be disclosed with the Exemption 7(C) material redacted.
+
+Retention of FOIA Files
+
+FOIA files must be maintained separately from inspection files and must have: 1) a clean copy of all information reviewed, 2) a copy of any materials released to the requester, and 3) a copy of all communications about the FOIA (request letter, closing letter, clarifications about fees or search parameters, E.O. 12600 communications). FOIA records should be retained in accordance with the disposition periods contained in the General Records Schedule (GRS) 4.2. In general, the FOIA file must be retained for six years.
+16
+When more specific information or guidance is necessary, the FOIA Officer or Records Officer should be consulted.
+
+OSHA FOIA Determination Letter
+
+Every FOIA determination letter must contain the following elements:
+
+The name and title or position of the disclosure officer;
+
+A brief statement of the reason or reasons for any denial, including the FOIA exemption or exemptions relied upon in denying the request. Redactions should be indicated at the place in the record where the redaction is made. Each redaction of released materials must contain the exemption(s) invoked;
+
+An estimate of the volume of records of information withheld, in number of pages or in some other reasonable form of estimation;
+
+In the event of an adverse determination, in whole or in part, the determination letter must include a notice of the right to file an administrative appeal within 90 days. In such cases, the letter must also include a description of the appeal requirements; and
+
+Pursuant to the FOIA Improvement Act of 2016, all FOIA determinations also must include language informing the requester that they have a right to seek assistance from the FOIA Public Liaison. In the event of an adverse determination, the determination letter must include notice that the requester may seek dispute resolution services from either: 1) the DOL FOIA Public Liaison; or 2) Office of Government Information Services National Archives and Records Administration (OGIS). The response letter must include the DOL FOIA Public Liaison's name and contact information, as well as contact information for OGIS (if applicable).
+
+A sample determination letter containing all these elements is located in Appendix E. Regional Administrators and National Office Directors may determine whether their respective offices may send determination letters via email.
+
+FOIA Appeals and Litigation
+
+All Department of Labor FOIA appeal processing is centralized in the Office of the Solicitor, Division of Management and Administrative Legal Services (SOL-MALS). When an OSHA FOIA determination is appealed to SOL-MALS, the appeals unit will review the appeal to ensure it is perfected. A perfected appeal will be docketed by SOL-MALS in the SOL FOIA appeals tracking system, which is separate from the SIMS-FOIA Tracking System used for initial FOIA requests.
+
+In the event of a FOIA appeal, SOL-MALS will request from the office that processed the original FOIA determination the following records: a clean copy of the responsive record(s); a copy of the record(s) as released to the requester; a copy of the initial FOIA request letter; a copy of the determination letter; a copy of the EO 12600 letter and response, if any; a copy of any clarifying or limiting of scope communications, if any; a copy of fee letters and agreements, if any; and a copy of any other record or communications that affected the processing of the FOIA request. The original records must be kept in the processing office.
+
+If an area office learns of FOIA litigation, either through their Regional Solicitor's office, direct contact by the litigant, or any other means, they must immediately notify their Regional FOIA coordinator who in turn must notify the OSHA Office of Communications National Office FOIA Coordinator. If a regional office, directorate, or any other OSHA component learns of FOIA litigation, that office or component must immediately notify the OSHA Office of Communications National Office FOIA Coordinator. The office in litigation should then work with the Solicitor's FOIA litigation attorney(s) in OSHA's defense.
+
+Processing Common Documents Found in Safety and Health Inspection Files
+
+The guidance below is aimed at providing FOIA processors with information about the FOIA exemptions that most typically apply to the documents found in safety and health inspection case files. When responding to a FOIA request for material from safety and health inspection case files, OSHA must review the responsive documents thoroughly to determine whether the document contains different or additional information that should be withheld as exempt under the FOIA. As previously noted, the FOIA requires that any reasonably segregable portion of a record must be released after the application of FOIA exemptions. If substantially all of a document would have to be redacted so that no meaningful content would remain, the document may be withheld in full.
+
+With respect to specific documents in case files, the following guidance may not apply in all cases. Please be aware that many of these documents may be withheld, redacted or released in full depending on the content of the document.
+
+The guidance below should not be substituted for a thorough review of each and every document in the case file.
+
+It is important to know who the requester is, and whether the inspection is open or closed, while processing a safety and health inspection file. For general procedures on processing FOIA requests from an employee, an employer involved in an inspection, and a third party, please see Section H of this document. As stated in that section:
+
+If the inspection is open:
+
+In cases where OSHA is not making a Glomar response (see discussion in Section H), review the case file for information that would impair the ongoing inspection or litigation. Withhold such information under Exemption 7(A). Process the remaining documents/information normally under the FOIA (i.e., redact/withhold documents/information under other applicable exemptions).
+
+If the inspection is closed:
+
+If the FOIA request is from a complainant, injured party or their representative, release all of the complainant's or injured party's documents and PII to the complainant/injured party (or the complainant's/injured party's representative). Process the remaining documents normally under the FOIA (i.e., redact/withhold documents under applicable exemptions).
+
+If the FOIA request is from an employer or employer representative, release all of the employer's documents to the employers (or the employer's representative). Process the remaining documents normally under the FOIA (i.e., redact/withhold documents under applicable exemptions).
+
+If the FOIA request is from a third party requester, process all documents normally under the FOIA (i.e., redact/withhold documents under applicable exemptions).
+
+The following includes discussion of the exemptions, other than Exemption 7(A), that are typically taken for the listed documents. A separate Exemption 7(A) analysis must be done for all open case files. As discussed in detail in Section H, a Glomar response may also be appropriate for open and closed case files.
+
+Processing a Safety and Health Case File for FOIA
+
+1. Diary Sheet or Inspection and Case File Activity Sheet
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, other contextual identifiers and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+2. Memorandum to File, Investigator's Notes, and Report of Inspection
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+3. Citations
+
+Release in full after receipt by employer.
+
+4. Witness Statements and Interview Questions and Answers
+
+Witness statements must be treated with care to ensure that OSHA provides the appropriate information but does not disclose the identity of witnesses who provided information to OSHA in confidence. Confidential witnesses' names and contextual identifiers should be withheld from all requesters (unless the witness, or the witness's representative (e.g, the witness's attorney), is the requester) under Exemptions 7(C) and 7(D). The statement should be withheld in full under Exemptions 7(C) and 7(D), if release of any portion of the statement would identify the confidential witness.
+
+While the confidentiality of a witness should always be determined on a case-by-case basis, witnesses' identities should be protected when they have provided information either under an express promise of confidentiality or under circumstances from which such an assurance can be reasonably inferred. Confidential witness statements will often, but not always, be marked as such and segregated in the case file.
+
+In rare circumstances, OSHA may need to consider whether a witness has caused a waiver of confidentiality. Once confidentiality is waived, then witness information and statements should no longer be withheld under Exemption 7(D). For example, if a non-management witness willingly provided a statement to OSHA with a management representative in the room or emailed his statement to OSHA but copied his own supervisor, then confidentiality would be waived and the statements should no longer be withheld in full or in part under Exemption 7(D). However, Exemptions 4 and 7(C) could still apply to all or portions of the witness statement.
+
+When reviewing management or owners' witness statements in response to a FOIA request, reviewers should also should consider whether the witness was speaking on behalf of the employer in his or her statement to OSHA. If the witness was speaking for the employer, the witness cannot be a confidential witness (because employers have no right to privacy) and the witness's identity should not be redacted from the witness statement under Exemption 7(D), although certain information that could cause an invasion of the witness's privacy, such as the witness's personal contact information, may be redacted under Exemption 7(C). Exemption 4 also could still apply to all or portions of the management or owners' witness statement.
+
+Often the fact that the witness is a manager or high-level official is sufficient to determine that the witness is speaking on behalf of the employer. However, the job title alone is not always determinative. Whether a person can speak on behalf of the company may depend on the particular facts and circumstances. For example, a human resource specialist may be an expert on company policy, but might not be able to speak on behalf of the company. Also, in some circumstances, a manager or high-level company official may ask to speak to OSHA confidentially and without company counsel present. In that circumstance, the manager or high-level company official might be a confidential witness and the witness's name and all contextual identifiers identifying the witness should be withheld under Exemptions 7(C) and 7(D).
+
+5. Employee Medical Information
+
+Medical records may occasionally be found in safety and health inspection case files and consist of medical information along with direct or contextual identifiers. An employee medical record is a record concerning the health status of an employee that is made or maintained by a physician, nurse, or other health care personnel, or technician.
+
+Care should be taken during the copying and redaction of such files to limit accidental disclosures within the office. See
+https://www.osha.gov/enforcement/directives/cpl-02-02-072
+for additional guidance.
+
+Employee medical information is released to first party requesters (i.e., the employee). Such information is also released to the employer, BUT ONLY IF the medical information was furnished to OSHA by the employer. For third party requesters and in all other cases, this information normally is redacted pursuant to Exemption 7(C).
+
+6. Reports or Other Documents Obtained from State or Local Entities or Other Federal Agencies
+
+Reports and other documents provided to OSHA from state or local government agencies such as Police and Sheriff's reports, Fire Department reports, Emergency Medical Service reports and Coroner's reports are federal records subject to FOIA. However, as a courtesy between government levels, OSHA will normally ask requesters to first go to the state or local government agency that originated the record before processing the record at OSHA.
+
+To review, notify the FOIA requester in your FOIA response letter that the OSHA file contains a copy of such a report or document. Identify the report or document, the length of the report or document, and the state or local entity from which OSHA obtained the report or document. Provide the requester with the information needed to request the report or document directly from the state or local entity. Inform the requester that if theyhe or she cannot get a copy of the information directly from the state or local entity, then they arehe or she is invited to contact OSHA for processing of the material under the FOIA. Sample language for this process is in the sample determination letter located in Appendix E. It is important to note that OSHA is not withholding the state or locally provided record; rather, OSHA is taking no action regarding these records until the requester attempts to get the records directly from the state or local government.
+
+Requests for reports or documents from another federal agency must be referred to that agency for processing. Inform the requester of the agency that originated the material requested, the type and quantity of the material, and contact information for the originating agency.
+
+7. Emails
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers, and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI (which could, for example, be contained in emails from the employer) under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+8. Condolence Letters
+
+Review for names, addresses of family members and other contextual identifiers that might need to be withheld under Exemption 7(C). These letters should be released in full when requested by the estate or family members to whom the letter is addressed.
+
+9. Internal OSHA Memoranda
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers, and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications that may be withheld under Exemption 5.
+
+10. Internal OSHA – SOL Memoranda
+
+Withhold, in full, pursuant to the attorney-client communications privilege under Exemption 5 unless instructed to release in full or in part by SOL.
+
+11. OSHA Inspection Report/Violation Worksheet (Formerly OSHA-1B Worksheet)
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers, and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI (e.g., Number of Employees Employed in Establishment, Number of Employees Covered by Inspection, Number of Employees Controlled by Employer) under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+In general, release employer representative contacted names, job titles, participation, and interviewed fields,. In general, release employee representative or union official names. Do not release employee representative or union official names if the representative/official was a complainant whothat requested confidentiality. If there are questions, please contact RSOL and reference 29 CFR 1903.11.
+
+12. Inspection Report (Formerly OSHA – 1A, Inspection Narrative Report)
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers, and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+Release employer representative names and titles, including, for example, the owners of the employer, the president and vice president(s) of the employer, the treasurer of the employer, and the attorney or attorneys representing the employer. It must be emphasized that titles are not controlling. In some instances a foreman may act as an employer representative (often employers with a small number of employees), whereas in other instances a foreman may be a low-level employee (often employers that have many levels of management). Each record must be reviewed on its own merits to determine who speaks for an employer and who does not.
+
+13. Violation Worksheet (OSHA – 2B Form Notification of Failure to Abate Alleged Violation)
+
+Release in full after receipt by employer.
+
+14. Unprogrammed Activity (Formerly 3 Forms: OSHA – 7 Notice of Alleged Safety or Health Hazards; OSHA -- 36 Fatality/Catastrophe Report; and OSHA – 90 Referral Report)
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers, and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+Review Complaint Evaluation for information that may need to be withheld under Exemption 7(C).
+
+Review Source or Contact (Name), State OSH/Reporting ID, and other PII that may need to be withheld under Exemption 7(C).
+
+Review for names of injured employees, job titles, addresses, phone numbers and other contact information, and other contextual identifiers that may need to be withheld under Exemption 7(C).
+
+Names of deceased employees should be released. However, review for any information or other contextual identifiers of deceased employees that may need to be withheld to protect the rights of a survivor under Exemption 7(C). For example, private addresses or shared emails of deceased employees may be withheld to protect the privacy rights of survivors.
+
+15. OSHA Form 300A – Summary of Work-Related Injuries and Illnesses
+
+Review under the Exemption 4 and E.O. 12600 Process.
+
+16. OSHA Form 300 Log of Work-Related Injuries and Illnesses
+
+Review under the Exemption 4 and E.O. 12600 Process and if the submitter permits its release then review the following fields for possible withholding under Exemption 7(C): Employee Name, Job Title, Date of Injury, Where Event Occurred, and Description of Injury. While the employee name will almost always be withheld, the information in the other fields may or may not be withheld, depending on whether the fields contain contextual identifiers that would reveal the identity of the employee.
+
+17. OSHA Form 301 Injury and Illness Incident Report
+
+Review under the Exemption 4 and E.O. 12600 Process and if the submitter permits its release then review in the "Information about the employee" field for possible withholding under Exemption 7(C). Review other fields for employee names, job titles, addresses, phone numbers and other contact information, and other contextual identifiers that may need to be withheld under Exemption 7(C).
+
+18. Invoice/Debt Collection Notice
+
+Release in full.
+
+19. Penalty Payment Report
+
+Release in full.
+
+20. Checks
+
+Withhold routing number and account number under Exemption 4. These numbers may be withheld without conducting the E.O. 12600 review process (one of the extremely rare exemptions to the process). Release remaining check information including the signature.
+
+21. OSHA - 8 Form, Notice of Alleged Imminent Danger (to Employers and Employees)
+
+Release in full unless personally identifiable information (PII) is included. If there is PII, redact under Exemption 7(C).
+
+22. OSHA – 170 Form, Investigation Summary – Deceased Employee
+
+Release name of the deceased employee. However, review for any information or other contextual identifiers of deceased employees that may need to be withheld to protect the rights of a survivor under Exemption 7(C) unless the survivor is the FOIA requester. For example, private addresses or shared emails of deceased employees may be withheld to protect the privacy rights of survivors.
+
+Review for injured employee names, job titles, addresses, phone numbers and other contact information, and other contextual identifiers that may need to be withheld under Exemption 7(C).
+
+Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local low-level employee names that may need to be withheld under Exemption 7(C).
+
+Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J).
+
+Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications, that may be withheld under Exemption 5.
+
+23. Records and Documents Received from Employer
+
+These records might include employer emails, employee manuals, employee training records, human resource records, employer-attorney correspondence, employer-provided pictures and videos, employer-provided reports, witness statements, etc. Much of this material is CBI, which must be processed under Exemption 4 and E.O. 12600, as discussed above. Emails and witness statements should be processed as discussed above.
+
+24. Safety Data Sheets (SDS) (Formerly Known as Material Safety Data Sheets)
+
+If provided by the employer, treat the SDS as CBI. If the SDS was researched and located not from the employer but by the CSHO, release.
+
+25. Photographs and Audio/Visual Recordings
+
+Photographs and videos in inspection files are federal records and thus must be reviewed when responsive to a FOIA request. Photographs and videos provided by an employer should be treated and processed as CBI. Photographs and videos taken by a CSHO from a non-public vantage point within a workplace should also should be treated and processed as CBI. Photographs and videos taken by a CSHO from a public vantage point, or of videoed or recorded witness statements, should be reviewed for PII that may need to be withheld under Exemption 7(C), and Exemption 7(D) for witness statements.
+
+26. Direct Reading Sheets/Air Sampling Sheets/Noise Sampling Sheets (Taken or Made by OSHA)
+
+Review sampling sheets for employee names, job titles, contact information, addresses, phone numbers and other contact information, and other contextual identifiers, and for management employees' personal contact information, that may need to be withheld under Exemption 7(C). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers that may need to be withheld under Exemption 7(C).
+
+27. CSHO Notes
+
+Review for names of complainants, witnesses/employees, and other persons contacted, job titles, addresses, phone numbers, other contact information, and other contextual identifiers, and for management employees' personal contact information that may need to be withheld under Exemption 7(C) and/or 7(D). Review for CSHO and non-managerial OSHA employee names, initials, and identification numbers, as well as state/city/local non-managerial employee names that may need to be withheld under Exemption 7(C). Process CBI under Exemption 4 and E.O. 12600 (or, if the CBI requested is limited, the CBI may be redacted/withheld using the Exemption 4 work-around language addressed in Section J). Review for deliberative material whose release could cause foreseeable harm, or SOL-OSHA communications that may be withheld under Exemption 5.
+
+28. State Plan Monitoring Files
+
+State Plan monitoring files are generally disclosable with the same types of limitations applicable to federal enforcement case files.
+
+FOIA requests received by OSHA for records, not in possession of OSHA, but in the possession of a State Plan States should be handled by issuing a no records response. The FOIA Officer's letter should give the name and contact information of the State Freedom of Information or Public Records Act review entity to the requester. The processing office must upload a copy of this letter into the Tracking System.
+
+29. Data Requests
+
+States participate in IMIS and OIS and input data to the same extent and in the same manner as Federal OSHA. Such data are technically part of a federal data system and releasable under federal procedures. In recognition that this data is also a state record, when a requester asks for data on a specific inspection or has a limited area of inquiry within one state, OSHA, as a work-around, will suggest that that requester contact the state for that information, as the state can provide a more complete explanation and release.
+
+However, if the requester declines, OSHA will release IMIS/OIS data under federal procedures and advise the state of the request and the data released.
+
+If a request is for multiple data items across multiple state and time periods, such requests will be handled by OSHA and the affected states advised of the request and the data released.
+
+
+
+APPENDIX A
+
+List of FOIA Exemptions
+
+See 5 U.S.C. § 552(b)
+
+EXEMPTIONS
+
+The following types of information are exempt from disclosure under FOIA:
+
+(1) Information that is (A) specifically authorized under criteria established by an Executive Order to be kept secret in the interests of national defense or foreign policy and (B) are properly classified pursuant to such Executive Order;
+
+(2) Information that is related solely to the internal personnel rules and practices of an agency;
+
+(3) Information that is specifically prohibited from disclosure by another statute (other than 5 U.S.C. § 552b), if that statute—
+
+(A)(i) requires that the matters be withheld from the public in such a manner as to leave no discretion on the issue, or (ii) establishes particular criteria for withholding or refers to particular types of matters to be withheld, or
+
+(B) specifically cites to this paragraph, but only if the other statute was enacted after October 28, 2009 (the date of enactment of the OPEN FOIA Act of 2009);
+
+(4) Trade secrets and commercial or financial information obtained from a person and which are privileged or confidential;
+
+(5) Inter-agency or intra-agency records which would not be available by law to a party other than an agency in litigation with the agency. (This exemption encompasses the generally-recognized civil discovery protections. The three primary, most frequently invoked privileges that have been held to be incorporated into Exemption 5 are the deliberative process privilege, the attorney work-product privilege, and the attorney-client privilege);
+
+(6) Personnel and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy;
+
+(7) Records or information compiled for law enforcement purposes, but only to the extent that the production of such law enforcement records or information,
+
+(A) could reasonably be expected to interfere with enforcement proceedings,
+
+(B) would deprive a person of a right to a fair trial or an impartial adjudication,
+
+(C) could reasonably be expected to constitute an unwarranted invasion of personal privacy,
+
+(D) could reasonably be expected to disclose the identity of a confidential source, including a state, local, or foreign agency or authority or any private institution that furnished information on a confidential basis, and, in the case of a record or information compiled by criminal law enforcement authority in the course of a criminal investigation or by an agency conducting a lawful national security intelligence investigation, information furnished by a confidential source;
+
+(E) would reveal techniques or procedures for law enforcement investigations or prosecutions, or would disclose guidelines for law enforcement investigations or prosecutions if such disclosure could reasonably be expected to risk circumvention of the law; or
+
+(F) could reasonably be expected to endanger the life or physical safety of any individual.
+
+(8) Information that is contained in or related to examination, operating, or condition reports prepared by, on behalf of, or for the use of an agency responsible for the regulation or supervision of financial institutions; or
+
+(9) Geological and geophysical information and data, including maps, concerning wells.
+
+
+
+APPENDIX B
+
+General Guidance on Fees
+
+Source: 29 CFR Part 70 Subpart C
+
+NOTE: The information in this guidance is intended for general guidance only.
+
+To determine fees for a particular requester, please consult 29 CFR Part 70 Subpart C, which describes in detail the fees that may be charged.
+
+Appendix B Table
+
+Requester
+
+Permissible Charges
+
+Excluded Charges
+
+Non-Permissible Charges
+
+Comments
+
+Commercial use requester
+1
+
+Search,
+4
+Reproduction
+5
+& Review
+6
+Costs (Potential additional charges for mailing, aggregating & authentication. For more information, see 29 CFR 70.40.)
+
+Direct costs may be charged for certain data requests requiring contractor support (in 2019, the charges were $105/hour).
+
+Fees which do not exceed $25 usually need not be charged because cost of collecting and processing exceeds the fees. For more information, see 29 CFR 70.43.
+7
+
+N/A – All charges are permissible
+
+Interest assessed on unpaid bills. For more information, see 29 CFR 70.40.
+
+Educational or Non-Commercial Scientific Institution
+2
+
+Reproduction
+
+(Potential additional charges for mailing, aggregating & authentication. For more information, see 29 CFR 70.40.)
+
+First 100 reproduced pages furnished without charge.
+
+Fees which do not exceed $25 usually need not be charged because cost of collecting and processing exceeds the fees. For more information, see 29 CFR 70.43.
+7
+
+Search & Review
+
+Interest assessed on unpaid bills. For more information, see 29 CFR 70.40.
+
+Representative of the News Media
+3
+
+Reproduction
+
+(Potential additional charges for mailing, aggregating & authentication. For more information, see 29 CFR 70.40.)
+
+First 100 reproduced pages furnished without charge
+
+Fees which do not exceed $25 usually need not be charged because cost of collecting and processing exceeds the fees. For more information, see 29 CFR 70.43.
+7
+
+Search & Review
+
+Interest assessed on unpaid bills. For more information, see 29 CFR 70.40.
+
+All Other Requesters
+
+Search & Reproduction
+
+(Potential additional charges for mailing, aggregating & authentication. For more information, see 29 CFR 70.40.)
+
+First 100 reproduced pages furnished without charge
+
+First two hours of search time furnished without charge. For computer searches, the monetary value of two hours of search time by a professional employee will be deducted from the total cost of computer processing time. Fees which do not exceed $25 usually need not be charged because cost of collecting and processing exceeds the fees. For more information, see 29 CFR 70.43.
+7
+
+Review
+
+Interest assessed on unpaid bills. For more information, see 29 CFR 70.40.
+
+Commercial use request
+means a request from or on behalf of a person who seeks information for a use or purpose that furthers his or her commercial, trade, or profit interests, which can include furthering those interests through litigation. For more information, see 29 CFR 70.38.
+
+Educational institution
+means an institution that:
+(1)
+is a preschool, public or private elementary or secondary school, an institution of undergraduate higher education, an institution of graduate higher education, an institution of professional education, or an institution of vocational education, and
+(2)
+operates a program or programs of scholarly research. To qualify under this definition, the program of scholarly research in connection with which the information is sought must be carried out under the auspices of the academic institution itself or the individual scholarly pursuits of persons affiliated with an institution.
+Non-commercial scientific institution
+means an institution that is not operated on a commercial basis and that is operated solely for the purpose of conducting scientific research, the results of which are not intended to promote any particular product or industry. For more information, see 29 CFR 70.38.
+
+Representative of the news media
+means any person actively gathering news for an entity that is organized and operated to publish or broadcast news to the public. For more information, see 29 CFR 70.38.
+
+Search
+means the process of looking for and retrieving records or information that is responsive to a FOIA request. It includes page-by-page or line-by-line identification of information within records and also includes reasonable efforts to find and retrieve information from records maintained in electronic form or format. A search does not include the review of material (see definition of "review" below) that is performed to determine whether material is exempt from disclosure. For more information, see 29 CFR 70.38.
+
+Reproduction
+means the process of making a copy of a record necessary to respond to a request. Such copy can take the form of paper, microform, audio-visual materials or electronic records (
+e.g.
+, magnetic tape or disk). For more information, see 29 CFR 70.38.
+
+Review
+means the process of examining records, including audio-visual, electronic mail, etc., located in response to a request to determine whether any portion of the located records exempt from disclosure, and accordingly may be withheld. It also includes the act of preparing materials for disclosure, i.e., doing all that is necessary to excise them and otherwise prepare them for release. For more information, see 29 CFR 70.38.
+
+As of January 23, 2017, the minimum fee charge is $25.
+
+
+
+APPENDIX C
+
+Sharing Letter
+
+[Always Check for a More Current Sample]
+
+Date
+
+Staff Attorney
+
+Division of Enforcement
+
+[AGENCY]
+
+[ADDRESS]
+
+RE: Company/Complainant/Case Number
+
+Dear Staff Attorney:
+
+This is in response to your [DATE] request for a copy of the inspection file compiled by Region # , Occupational Safety and Health Administration (OSHA), Department of Labor, pertaining to alleged violations of the Occupational Safety and Health Act of 1970, as amended.
+
+It is the policy of the Department of Labor to cooperate with other government departments and agencies to the fullest extent possible under the law, subject to the general limitation that any such cooperation must be consistent with the Department's own statutory obligations and enforcement efforts. It is the Department's view that it is to our mutual benefit to exchange information in cases in which both entities are proceeding on essentially the same matter or in related matters.
+See Hopkinson v. Shiller
+, 866 F.2d 1188, 1222 (10th Cir. 1989). There is a need for the government to provide information to other law enforcement bodies without making a public disclosure.
+U.S. Department of Justice v. Reporters Committee
+, 109 S.Ct. 1468 (1989).
+See also
+5 U.S.C. § 552a(b)(7).
+
+We do not view our release to you as one that could be considered a public disclosure under the Freedom of Information Act. See 5 U.S.C. § 552. Rather, we propose to make a "limited disclosure."
+U.S. v. Napper
+, 694 F. Supp. 897 (N.D. Ga. 1988). In order to make this disclosure, however, we require that the head of the requesting agency provide a written request specifying the particular records desired and the law enforcement activity or other legitimate governmental purpose for which the records are sought, and agreeing to maintain confidentiality of the records sought.
+See
+5 U.S.C. § 552 (b)(7).
+
+Under the conditions set out above, I am authorizing access to the referenced files and granting permission for you to obtain copies of documents therein. Under this "limited disclosure" release, we are providing you an unredacted record. However, the following are examples of matters the Department considers to be confidential and not releasable to the public:
+
+The identities of persons who have given information to the Department of Labor in confidence or under circumstances in which confidentiality can be implied. The employee statements in the files were all obtained under these conditions.
+
+Internal opinions and recommendations of federal personnel, including (but not limited to) investigators and area supervisors.
+
+Information or records covered by the attorney-client privilege and the attorney-work-product privilege.
+
+Personal information on living persons.
+
+Confidential business information and trade secrets.
+
+In the event that a request is made by an outside party for information in the file, we ask that you decline to make the disclosure and refer the requester to me instead, as the confidential portions of the records remain under the control of OSHA. Further, those records must be returned to OSHA when they are no longer needed.
+
+In the event that there would be a public proceeding, such as a trial in which the records would be used or testimony of Department of Labor employees sought, it is necessary for you to utilize the procedures set forth in 29 CFR Part 2, Subpart C.
+
+Sincerely,
+
+
+
+Regional Administrator
+
+APPENDIX D: Executive Order 12600 Sample Letter
+
+[Always Check for a More Current Sample]
+
+[Submitter Name
+
+Address]
+
+Email:
+
+
+
+Dear [Mr./Ms. Submitter's Name]:
+
+This letter is to inform you that a Freedom of Information Act (FOIA), 5 U.S.C. §552(b), request was received for information contained in the files of the U.S. Department of Labor – Occupational Safety and Health Administration (OSHA), which was assigned FOIA SIMS Tracking # XXXXXX. Pursuant to the procedures in 29 CFR Part 70.26, incorporating Executive Order 12600, 3 CFR 1988, Comp. p. 235, OSHA is providing you of written notice that it has records that originated from you and which may be subject to Exemption 4 of FOIA.
+
+We have determined that the requested records contains information (copy enclosed), which FOIA Exemption 4 may protect from disclosure:
+
+1. [List document(s) requested]
+
+Exemption 4 requires OSHA to withhold trade secrets and commercial or financial information that is confidential or privileged and is obtained from a person.
+
+FOIA requires we review a number of factors in determining whether Exemption 4 is applicable. Please respond to the questions to assist us in evaluating whether Exemption 4 is applicable to the document(s) requested in this FOIA request.
+
+What specific information in the documents or the document itself do you consider a trade secret?
+
+What specific information in the documents or the documents itself do you consider confidential or privileged commercial or financial document/information?
+
+Which documents or information within the documents do you
+customarily and actually
+treat as confidential?
+
+Did you provide these documents to OSHA under an assurance or expectation of confidentiality from the government?
+
+Because the FOIA contains specific time frames in which we must respond, we need to have your views within the next seven days. In the event that you fail to respond to this notice within the seven-day timeframe, OSHA will have considered you to have no objection to the disclosure of the listed documents or information. Additionally, your response to this letter may also be subject to the FOIA.
+
+If you have any questions concerning this letter, please contact [name and office contact information].
+
+Finally, in accordance with the Department's regulation found at 29 CFR 70.26(f), we will notify you of our decision should we decide to release any of the enclosed information.
+
+We appreciate your assistance in this matter.
+
+Sincerely,
+
+
+
+Enclosures: as stated.
+
+Appendix E: Sample FOIA Determination Letter
+
+[Always Check for a More Current Sample]
+
+DATE
+
+REQUESTER
+
+ORGANIZATION
+
+STREET ADDRESS
+
+CITY, STATE ZIP
+
+Re: FOIA SIMS#
+
+Dear :
+
+This decision is in response to your Freedom of Information Act (FOIA) request dated [DATE] and received in our office on [DATE] requesting records concerning [TOPIC]. We located the records you seek and conducted a review of the material you requested. [On DATE, we discussed this request and amended your FOIA request as follows: [New Request]. [On DATE], you agreed to pay [Amount] and on [DATE], we received your payment]. After reviewing this information, we have made the following release determination.
+
+[Option if Pages Withheld in Full]
+
+Under FOIA, "[a]ny reasonably segregable portion of a record shall be provided to any person requesting such record after deletion of the portions which are exempt . . . ." 5 U.S.C. § 552(b). Where we have withheld pages entirely, it is because those pages contain no reasonably segregable information that may be released without creating the harm the indicated exemptions were designed to prevent.
+
+[Option if First Party Requester]
+
+Information regarding [yourself/your client] is being released only to you. If this request had come from a member of the general public, we might have withheld some of this information under one or more FOIA exemptions.
+
+[Examples of ways to construct letter based on information being released, redacted, or withheld in full]
+
+We have determined the following pages may be released in full:
+
+## pages of [Describe]; and
+
+## pages of [Describe].
+
+We have determined the following pages may be released with redaction (Please provide a separate line item for each type of document, i.e., ## pages of emails should be on a separate line than ## pages of memoranda):
+
+## pages of [Describe] with personally identifiable information redacted pursuant to Exemption 7(C);
+
+## pages of [Describe]with confidential business information redacted pursuant to Exemption 4;
+
+## pages of [Describe] redacted pursuant to the attorney-client privilege under Exemption 5 and personally identifiable information redacted pursuant to Exemption 7(C).
+
+We have determined the following pages must be withheld in full:
+
+## pages of [Describe] pursuant to Exemptions 7(C) and 7(D);
+
+## pages of [Describe] pursuant to the attorney-client privilege under Exemption 5.
+
+## pages of [Describe] pursuant to Exemption 4.
+
+[Specific language should be used, depending on exemption taken, if any]
+
+FOIA requires that agencies generally disclose records. Agencies may withhold requested records only if one or more of nine exemptions apply.
+
+[Option if invoking Exemption 4 – to be used in introducing the discussion of the exemption]
+
+Exemption 4 protects "trade secrets and commercial or financial information obtained from a person [that is] privileged or confidential." 5 U.S.C. § 552(b)(4). This exemption is intended to protect two categories of information in agency records: (1) trade secrets; and (2) certain confidential or privileged commercial information. We are withholding certain privileged or confidential information pursuant to Exemption 4. When applying this part of Exemption 4, the terms "commercial or financial" should not be narrowly construed to include proprietary information only. Rather, they should be given their ordinary meaning.
+
+[Exemption 4 TEST]
+
+Under Exemption 4, information that is submitted to the government is categorically protected from disclosure provided it is not customarily and actually disclosed to the public by the submitter and was submitted to the government under an assurance or expectation of confidentiality. See
+Food Mktg. Inst. v. Argus Leader Media
+, 139 S. Ct. 915 (2019). For this reason, this information is protected by Exemption 4.
+
+[Option if very limited Exemption 4 material - Exemption 4 Work-Around]
+
+The file contains [LIST COMMERCIAL INFORMATION] that arguably may be protected under Exemption 4. We are taking no action on the release of this information because it relates only tangentially to the inspection that is the subject of your request. Where there is a reasonable expectation that release of information could cause substantial commercial or competitive harm, we are required by Executive Order 12600 and the Department of Labor's regulations at 29 C.F.R. 70.26 to contact the submitter before releasing the information. We must allow the submitter to provide its views regarding public disclosure of this information. If we undertook this procedure in your case, it would delay this decision and likely would not result in the release of any additional relevant information. Consequently, to process your request as promptly as possible, we have not processed this information with the rest of your request. If you are interested in obtaining this commercial information, please contact us, and we will process it in accordance with Executive Order 12600 and DOL regulations.
+
+[Option if invoking DELIBERATIVE PROCESS PRIVILEGE OF Exemption 5]
+
+Exemption 5 of FOIA allows an agency to withhold "inter-agency or intra-agency" information that would not be available to a party in litigation with the agency. 5 U.S.C. § 552(b)(5). As an initial matter, exemption 5 requires the agency to determine whether the documents requested are "normally privileged in the civil discovery context."
+Nat'l Labor Relations Bd. v. Sears, Roebuck & Co.
+, 421 U.S. 132, 149 (1975). One privilege available to government agencies is the deliberative process privilege. This privilege protects confidential intra-agency opinions of governmental personnel whose disclosure "would be injurious to the consultative functions of government." This privilege, unique to the government, ensures that personnel within an agency feel free to provide decision makers with their opinions and recommendations without fear of later being subject to public criticism. Also, the privilege protects against misleading the public by disseminating material suggesting reasons for a course of action that may not have been the ultimate reasons for the agency's action.
+
+[Option if invoking Exemption 5 attorney-client privilege]
+
+Exemption 5 of FOIA allows an agency to withhold "inter-agency or intra-agency" information that would not be available to a party in litigation with the agency. 5 U.S.C. § 552(b)(5). As an initial matter, Exemption 5 requires the agency to determine whether the documents requested are normally privileged in the civil discovery context. This privilege protects confidential communications between a government attorney and a client agency that has sought the attorney's advice. The privilege applies both to facts divulged by a client to the attorney and to opinions given by the attorney to the client based upon those facts. Federal agencies – no less than individuals and corporations – require confidential legal advice from their attorneys to function effectively. We have withheld the noted materials pursuant to Exemption 5's attorney-client privilege because they are reflective of attorneys' opinions and advice provided to the Department.
+
+[Option if invoking Exemption 6 to withhold PII if Exemption 7C is not applicable]
+
+Exemption 6 permits the withholding of information contained in "personnel and medical files and similar files the disclosure of which would constitute a clearly unwarranted invasion of personal privacy." 5 U.S.C. § 552(b)(6). The Supreme Court has ruled that the term "similar files" encompasses any government record that concerns a particular individual; the term is not limited to records contained in personnel or medical files.
+See, e.g., Dep't of State v. Washington Post
+, 456 U.S. 595 (1982).
+
+[Option if invoking Exemption 7C to withhold PII – Invoking both Exemption 6 and 7C adds no extra protections]
+
+Exemption 7(C) permits an agency to withhold information contained in files compiled for law enforcement purposes if production "could reasonably be expected to constitute an unwarranted invasion of personal privacy." 5 U.S.C. § 552(b)(7)(C). Thus, the purpose of Exemption 7(C) is to protect the privacy of any person mentioned in law enforcement records. In determining whether a protected privacy interest exists, we must evaluate not only the nature of the personal information found in the records, but also whether release of that information to the general public could affect that individual adversely. Thus, we must consider whether release of even seemingly innocuous personal information could lead to the harassment or annoyance of an individual through unsolicited inquiries. We find that release of personal identifying information withheld here reasonably could be expected to have a negative impact on an individual's privacy.
+
+[Option if invoking Withholding Witness Statements – Exemption 7D]
+
+Exemption 7(D) protects from disclosure information that reasonably could be expected to identify persons or entities providing data to the government in confidence or under circumstances implying confidentiality. 5 U.S.C. § 552(b)(7)(D). The applicability of Exemption 7(D) does not end with termination of an inspection because the potential harm or scrutiny that a confidential informant may be subjected to is not dependent upon the phase of an inspection. Rather, potential harm may result from the mere fact that an individual communicated with the government. We have withheld the noted materials pursuant to Exemption 7(D) to protect from disclosure information that reasonably could be expected to identify persons or entities providing data to the government in confidence or under circumstances implying confidentiality.
+
+[State/Local Government Records]
+
+The file contains [##] pages of [Describe Documents] taken by the [AGENCY OR CITY.] When records in our possession are compiled by a state or local agency, our practice is to direct the requester to that state or local agency. We are taking no action regarding these records. Rather, if you are interested in these records, you should contact the [AGENCY OR CITY], [ADDRESS AND PHONE NUMBER]. If you are unable to obtain these documents from these agencies, please feel free to contact us again and we will process them under the FOIA.
+
+[If Authentication, attestation under seal or Certification Requested]
+
+OSHA declines to authenticate the records requested pursuant to 29 CFR 70.40(h). Part 70.40(h) states, in part, "The FOIA does not require certification or attestation under seal of copies of records provided in accordance with its provisions" and grants agency discretion to determine whether to grant certification or attestation under seal of a requested record.
+See also Jimenez v. Executive Office for U.S. Attorneys
+, 764 F.Supp.2d 174, 182 (D.D.C. 2011).
+
+[Fee Option 1]
+
+We have determined you are a [commercial or media-educational or other] requester for fee purposes under FOIA. The cost for providing these records, in accordance with the regulations published under 29 CFR 70.40, is as follows:
+
+Search Fee @ $40.00 per hour
+
+Review Fee @ $40.00 per hour
+
+Reproduction Fee @ $.15 per page
+
+Total Amount
+
+$
+
+$
+
+$
+
+$
+
+Please make your remittance of the above total amount to
+this office
+by check or money order, payable to the
+Treasury of the United States
+and mail to the U.S. Department of Labor, OSHA, [Insert Appropriate National, Regional, or Area Office Address].
+
+Failure to timely remit the total amount due, will result in the assessment of interest pursuant to 29 CFR 70.40(f).
+
+[Fee Option 2]
+
+The fees for this particular request totaled less than $25.00; consequently, all fees have been waived.
+
+[Contact Information]
+
+If you have any questions about this FOIA determination please contact our office at [INSERT CONTACT INFORMATION].
+
+[Appeal/Mediation Rights]
+
+You have the right to appeal this decision with the Solicitor of Labor within 90 days from the date of this letter. The appeal must state, in writing, the grounds for the appeal, including any supporting statements or arguments. The appeal should also include a copy of your initial request and a copy of this letter.
+
+If you appeal, you may mail your appeal to: Solicitor of Labor, U.S. Department of Labor, Room N-2420, 200 Constitution Avenue, N.W., Washington, D.C. 20210 or fax your appeal to (202) 693-5538. Alternatively, you may email your appeal to
+foiaappeal@dol.gov
+; appeals submitted to any other email address will not be accepted. The envelope (if mailed), subject line (if emailed), or fax cover sheet (if faxed), and the letter indicating the grounds for appeal, should be clearly marked: "Freedom of Information Act Appeal."
+
+In addition to filing an appeal, you may contact the Department's FOIA Public Liaison, Thomas G. Hicks, Sr. at (202) 693-5427 or
+hicks.thomas@dol.gov
+for assistance in resolving disputes.
+
+You may also contact the Office of Government Information Services (OGIS) for assistance. OGIS offers mediation services to resolve disputes between FOIA requesters and federal agencies as a non-exclusive alternative to litigation. Using OGIS services does not affect your right to pursue litigation. You may mail OGIS at the Office of Government Information Services, National Archives and Records Administration, 8601 Adelphi Road – OGIS, College Park, MD 20740-6001. Alternatively, you may email or contact OGIS through its website at:
+ogis@nara.gov
+; Web:
+https://ogis.archives.gov
+. Finally, you can call or fax OGIS at: telephone: (202) 741-5770; fax: (202) 741-5769; toll-free: 1-877-684-6448.
+
+It is also important to note that the services offered by OGIS, is not an alternative to filing an administrative FOIA appeal.
+
+Sincerely,
+
+
+
+NAME
+
+TITLE
+
+Enclosure
+
+
+
+Appendix F:
+
+Sample FOIA Determination Letter for Open Investigation or Open Enforcement Matter
+
+[NAME]
+
+[TITLE]
+
+[COMPANY]
+
+[ADDRESS 1]
+
+[ADDRESS 2]
+
+Re: FOIA SIMS No. [NUMBER]
+
+Dear [Ms./Mr.] [NAME]:
+
+This decision is in response to your letter dated [DATE], and received by the Occupational Safety and Health Administration (OSHA) on [DATE] requesting under the Freedom of Information Act (FOIA) the [Records] from OSHA.
+
+Option 1 – No records released
+
+We have located approximately _____ pages of records [and ____ audio or audiovisual files] of records responsive to your request. However, the records you have requested are part of an enforcement proceeding where [the inspection is not yet complete/status (or matter) is under contest or in litigation/other reason]. We find that these proceedings are not concluded and release of the records in these proceedings could reasonably be expected to reveal OSHA's case prematurely, and otherwise interfere with OSHA's ability to effectively enforce the law. As a result, we are withholding the records you seek pursuant to exemption 7(A) of FOIA.
+
+Option 2 – Limited records released
+
+We have located approximately _____ pages of records [and ____ audio or audiovisual files] responsive to your request. However, the records you have requested are part of an enforcement proceeding where [the inspection is not yet complete/status (or matter) is under contest or in litigation/other reason]. At this time, we find only [describe records] maybe released in these proceedings. Release of more records could reasonably be expected to reveal OSHA's case prematurely, and otherwise interfere with OSHA's ability to effectively enforce the law. As a result, we are withholding the remaining records you seek pursuant to exemption 7(A) of FOIA.
+
+Exemption 7(A)
+
+FOIA requires that agencies generally disclose records. Agencies may withhold requested records only if one or more of nine exemptions apply. Exemption 7, 5 U.S.C. § 552(b)(7), allows agencies to refuse to disclose records compiled for law enforcement purposes under any one of six circumstances (identified as exemptions 7(A) through 7(F)). "Law enforcement" within the meaning of exemption 7 includes enforcement pursuant to both civil and criminal statutes.
+See, e.g., Tax Analysts v. Internal Revenue Serv.
+, 294 F.3d 71, 76-77 (D.C. Cir. 2002). More specifically, enforcement of labor legislation, such as the enforcement activity at issue in this case, has been held to be "law enforcement" within the meaning of exemption 7.
+See, e.g., Cooper Cameron Corp. v. U.S. Dep't of Labor, Occupational Safety and Health Admin.
+, 280 F.3d 539, 545 (5th Cir. 2002) (finding that OSHA inspection records are law enforcement records for purposes of exemption 7).
+
+Exemption 7(A) is one of the six instances in which law enforcement records may be withheld. Exemption 7(A) applies when production of information compiled for law enforcement purposes could reasonably be expected to interfere with enforcement proceedings. 5 U.S.C. § 552(b)(7)(A). This exemption does not permanently exempt records from disclosure. However, exemption 7(A) does exempt records as long as the relevant enforcement proceedings are prospective or remain pending. Proceedings are prospective or pending until all reasonably foreseeable administrative and judicial proceedings are completed.
+
+As indicated above, exemption 7(A) does not bar disclosure of the requested records indefinitely. You may file another request for these records with OSHA after the enforcement matter is closed. You can view the status of OSHA inspections on our establishment search page located at:
+https://www.osha.gov/pls/imis/establishment.html
+. Please note that when we apply exemption 7(A), our practice is not to determine whether other FOIA exemptions might also allow the withholding of any or all of the sought records.
+
+Please feel free to contact [NAME], [TITLE], at [NUMBER] with any questions regarding this determination.
+
+APPEAL RIGHTS
+
+You have the right to appeal this decision with the Solicitor of Labor within 90 days from the date of this letter. The appeal must state, in writing, the grounds for the appeal, including any supporting statements or arguments. The appeal should also include a copy of your initial request and a copy of this letter.
+
+If you appeal, you may mail your appeal to: Solicitor of Labor, U.S. Department of Labor, Room N-2420, 200 Constitution Avenue, N.W., Washington, D.C. 20210 or fax your appeal to (202) 693-5538. Alternatively, you may email your appeal to
+foiaappeal@dol.gov
+; appeals submitted to any other email address will not be accepted. The envelope (if mailed), subject line (if emailed), or fax cover sheet (if faxed), and the letter indicating the grounds for appeal, should be clearly marked: "Freedom of Information Act Appeal."
+
+In addition to filing an Appeal, you may contact the Department's FOIA Public Liaison, Thomas G. Hicks, Sr. at (202) 693-5427 or
+hicks.thomas@dol.gov
+for assistance in resolving disputes.
+
+You also may contact the Office of Government Information Services (OGIS) for assistance. OGIS offers mediation services to resolve disputes between FOIA requesters and Federal agencies as a non-exclusive alternative to litigation. Using OGIS services does not affect your right to pursue litigation. You may mail OGIS at the Office of Government Information Services, National Archives and Records Administration, 8601 Adelphi Road – OGIS, College Park, MD 20740-6001. Alternatively, you may email or contact OGIS through its website at:
+ogis@nara.gov
+; Web:
+https://ogis.archives.gov
+. Finally, you can call or fax OGIS at: telephone: (202) 741-5770; fax: (202) 741-5769; toll-free: 1-877-684-6448.
+
+It is also important to note that the services offered by OGIS do not constitute an alternative to filing an administrative FOIA appeal.
+
+Sincerely,
+
+NAME
+
+TITLE
+
+1
+Department of Labor System of Records Notices (SORNs) are found at
+http://www.dol.gov/sol/privacy/
+.
+Back to Text
+
+2
+Ask your Records Retention Officer for the most recent records retention schedule. In general, FOIA records are maintained for six years from the date of the OSHA determination; six years from the date of a FOIA Appeal determination, if appealed; or three years from the date of FOIA litigation conclusion, if litigation ensues. (See General Records Schedule 4.2 at
+https://www.archives.gov/files/records-mgmt/grs/grs04-2.pdf
+).
+Back to Text
+
+3
+Records for which OSHA maintains control, but are simply stored offsite, must still be retrieved if requested under FOIA. Records that have been transferred to the National Archives and have become permanent records of the United States are no longer OSHA records.
+Back to Text
+
+4
+The open or closed status of an Unprogrammed Activity (UPA), also known as a complaint, referral or fatality/catastrophe, can be determined through OIS.
+Back to Text
+
+5
+The Centers for Disease Control, National Institute for Occupational Safety and Health (NIOSH) is an agency whose records often are in OSHA inspection files. Should OSHA identify NIOSH records in OSHA's possession as responsive to an OSHA FOIA request, those records must be referred to NIOSH for processing.
+Back to Text
+
+6
+For example, if an inspection file contains sensitive discussion emails between OSHA and another federal agency, a consultation with the other agency would be appropriate.
+Back to Text
+
+7
+Questions about how to properly store records should be sent to OSHA's Records Officer in the Directorate of Administrative Programs.
+Back to Text
+
+8
+In a Glomar response, OSHA neither confirms nor denies the existence of a record.
+Back to Text
+
+9
+There are three permissible "unusual circumstances:" (i) the need to search for and collect the requested
+records
+from field facilities or other establishments that are separate from the office processing the request; (ii) the need to search for, collect, and appropriately examine a voluminous amount of separate and distinct
+records
+which are demanded in a single request; and (iii) the need for consultation, which shall be conducted with all practicable speed, with another
+agency
+having a substantial interest in the determination of the request or among two or more components of the
+agency
+having substantial subject-matter interest therein.
+Back to Text
+
+10
+When an office receives an unclear request directly via mail or fax, the request is not perfected and should not be entered into the Tracking System. Rather, the office should contact the requester and seek a clarified written request.
+Back to Text
+
+11
+See FOIA fee schedule, 29 CFR 70.40(d).
+Back to Text
+
+12
+The prior guidance of charging students as "other" requesters instead of as an educational requester was overturned in
+Sack v. DOD
+, No. 14-5039, 2016 WL 2941942 (D.C. Cir. May 20, 2016).
+Back to Text
+
+13
+In the event that OSHA has created documents that are based on CBI (e.g., diagrams reconstructing an engineering accident), contact OSHA's FOIA coordinator for further assistance.
+Back to Text
+
+14
+
+See
+
+https://www.justice.gov/oip/step-step-guide-determining-if-commercial-or-financial-information-obtained-person-confidential
+(October 7, 2019). At the time of publication, this DOJ guidance had not been tested in a court of law.
+Back to Text
+
+15
+Some FOIA processors use Exemptions 6 and 7(C) together when redacting protected personally identifiable information in law enforcement records. While there is nothing wrong with using both exemptions, no additional protection is gained from doing so.
+Back to Text
+
+16
+In the event of a FOIA appeal or litigation, the file must be maintained for six years from the date of a FOIA Appeal determination, if appealed; or three years from the date of FOIA litigation conclusion, if litigation ensues. See General Records Schedule 4.2 at
+https://www.archives.gov/files/records-mgmt/grs/grs04-2.pdf
+
+Back to Text
