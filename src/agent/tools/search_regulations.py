@@ -3,36 +3,24 @@ import logging
 from langchain_core.tools import tool
 
 from src.config import settings
-from src.retrieval.bm25 import get_index, _tokenise
-from src.utils.extract_relevant_texts import extract_relevant_window
+from src.retrieval import bedrock_kb
 from src.agent.tools.registry import REGULATORY_PARTS, get_cfr_part
 from src.exceptions.errors import OshaNoResultsError
 
 logger = logging.getLogger(__name__)
 
 
-def _score_label(score: float) -> str:
-    """Human-readable relevance label."""
-    if score >= 0.90:
-        return "High"
-    if score >= 0.75:
-        return "Medium"
-    return "Low"
-
-
 def _detect_ambiguity(results: list[dict]) -> dict | None:
-    """Check if top results span 2+ different CFR parts (e.g. 1910 vs 1926).
-
-    When results come from multiple parts, the agent should ask the user
-    which industry applies before proceeding.
+    """
+    Deterministic check: if top results span 2+ different CFR parts
+    (e.g. 1910 vs 1926), flag as ambiguous so agent asks which industry.
     """
     if len(results) < 2:
         return None
 
-    top_results = [r for r in results if r["score"] >= 0.60]
     cfr_parts = set()
-    for r in top_results:
-        part = get_cfr_part(r["section_id"])
+    for r in results:
+        part = get_cfr_part(r.get("section", ""))
         if part:
             cfr_parts.add(part)
 
@@ -41,96 +29,95 @@ def _detect_ambiguity(results: list[dict]) -> dict | None:
 
     labels = [REGULATORY_PARTS.get(p, f"29 CFR Part {p}") for p in sorted(cfr_parts)]
     return {
-        "parts": sorted(cfr_parts),
+        "parts":       sorted(cfr_parts),
         "parts_labels": {p: REGULATORY_PARTS.get(p, f"29 CFR Part {p}") for p in sorted(cfr_parts)},
         "message": (
             f"Your query matches regulations in multiple regulatory parts: {' and '.join(labels)}. "
-            f"Please clarify which applies to your situation before we proceed:\n"
+            f"Please clarify which applies to your situation:\n"
             + "\n".join(f"  - {label}" for label in labels)
         ),
     }
 
-def discover(query: str, part_filter: str | None = None) -> dict:
-    """Run a BM25 keyword search and return ranked, structured results.
 
-    Returns a dict with:
-      - query: the search query
-      - ambiguous: bool — whether results span multiple CFR parts
-      - results: list of dicts with section_id, source, title, path, excerpt, score, relevance
-      - clarification: (if ambiguous) message asking which part applies
-      - total_results: count
-
-    Raises OshaNoResultsError if nothing matches.
+def _parse_section_from_source(source: str) -> str:
     """
-    _index, _docs = get_index()
+    Extract a section ID from the S3 URI or source string.
+    Handles both formats:
+      s3://bucket/normalized/29_CFR_1926_451.txt -> "1926.451"
+      s3://bucket/osha-docs/1910.178.txt         -> "1910.178"
+    """
+    if not source:
+        return ""
+    filename = source.rstrip("/").split("/")[-1]
+    filename = filename.replace(".txt", "").replace(".json", "")
+    if filename.startswith("29_CFR_"):
+        rest = filename[len("29_CFR_"):] 
+        return rest.replace("_", ".", 1)   
+    import re as _re
+    m = _re.match(r"^(1[89]\d{2})_(.+)$", filename)
+    if m:
+        return f"{m.group(1)}.{m.group(2).replace('_', '.')}"
+    return filename
 
-    top_k = settings.BEDROCK_RETRIEVAL_TOP_K
-    min_score = settings.BEDROCK_RETRIEVAL_MIN_SCORE
 
-    query_tokens = _tokenise(query, strip_stops=True)
-    raw_scores = _index.get_scores(query_tokens)
+def discover(query: str, part_filter: str | None = None) -> dict:
+    """Query Bedrock KB and return structured ranked results."""
+    top_k = settings.BEDROCK_RETRIEVAL_TOP_K  # 10
 
-    max_score = float(max(raw_scores)) if max(raw_scores) > 0 else 1.0
-    normalised = [s / max_score for s in raw_scores]
+    hits = bedrock_kb.retrieve(query, top_k=top_k)
 
-    scored = [
-        (normalised[i], _docs[i])
-        for i in range(len(_docs))
-        if normalised[i] >= min_score
-        and (part_filter is None or get_cfr_part(_docs[i]["section_id"]) == part_filter)
-    ]
-
-    scored.sort(key=lambda x: x[0], reverse=True)
-    scored = scored[:top_k]
-
-    # Deduplicate: keep best chunk per section_id
-    seen = {}
-    for score, doc in scored:
-        sid = doc["section_id"]
-        if sid not in seen or score > seen[sid][0]:
-            seen[sid] = (score, doc)
-    scored = list(seen.values())
-    scored.sort(key=lambda x: x[0], reverse=True)
-
-    if not scored:
+    if not hits:
         raise OshaNoResultsError(f"No results found for query: {query!r}")
+    
+    for hit in hits:
+        hit["section"] = _parse_section_from_source(hit["source"])
 
-    # Pre-compute section sizes (total chars across all chunks per section)
-    section_chars = {}
-    section_chunk_count = {}
-    for doc in _docs:
-        sid = doc["section_id"]
-        section_chars[sid] = section_chars.get(sid, 0) + len(doc["raw_content"])
-        section_chunk_count[sid] = section_chunk_count.get(sid, 0) + 1
+    logger.debug("[SEARCH] Sample sources: %s", [h["source"] for h in hits[:3]])
+    logger.debug("[SEARCH] Sample sections: %s", [h["section"] for h in hits[:3]])
 
+    if part_filter:
+        hits = [h for h in hits if get_cfr_part(h["section"]) == part_filter]
+
+    if not hits:
+        raise OshaNoResultsError(f"No results found for query: {query!r} in part {part_filter}")
+
+    # deduplicate by section, keep highest score per section
+    seen = {}
+    for hit in hits:
+        sec = hit["section"] or hit["source"]
+        if sec not in seen or hit["score"] > seen[sec]["score"]:
+            seen[sec] = hit
+
+    deduped = sorted(seen.values(), key=lambda x: x["score"], reverse=True)[:top_k]
+
+    # normalize  0-100 
+    max_score = deduped[0]["score"] if deduped else 1.0
     results = []
-    for score, doc in scored:
-        score = round(float(score), 4)
-        sid = doc["section_id"]
+    for hit in deduped:
+        section = hit["section"]
+        part = get_cfr_part(section) or ""
+        # normalized = min(int((hit["score"] / max_score) * 100), 100) if max_score else 0
+        normalized = hit["score"]
         results.append({
-            "section_id":  sid,
-            "source":      doc.get("source", ""),
-            "title":       doc.get("title", ""),
-            "path":        doc.get("path", ""),
-            "local_path":  doc.get("local_path", ""),
-            "excerpt":     extract_relevant_window(doc["raw_content"], query, max_chars=500),
-            "score":       score,
-            "relevance":   _score_label(score),
-            "total_chars": section_chars.get(sid, 0),
-            "chunk_count": section_chunk_count.get(sid, 0),
+            "section":    section,
+            "source":     hit["source"],
+            "title":      REGULATORY_PARTS.get(part, section),
+            "part":       part,
+            "part_label": REGULATORY_PARTS.get(part, ""),
+            "excerpt":    hit["text"],
+            "score":      normalized,
         })
 
-    if part_filter is None:
-        ambiguity = _detect_ambiguity(results)
-        if ambiguity:
-            return {
-                "query":         query,
-                "ambiguous":     True,
-                "parts_found":   ambiguity["parts"],
-                "parts_labels":  ambiguity["parts_labels"],
-                "clarification": ambiguity["message"],
-                "results":       results,
-            }
+    ambiguity = _detect_ambiguity(results)
+    if part_filter is None and ambiguity:
+        return {
+            "query":         query,
+            "ambiguous":     True,
+            "parts_found":   ambiguity["parts"],
+            "parts_labels":  ambiguity["parts_labels"],
+            "clarification": ambiguity["message"],
+            "results":       results,
+        }
 
     return {
         "query":         query,
@@ -140,60 +127,56 @@ def discover(query: str, part_filter: str | None = None) -> dict:
     }
 
 
-
 @tool
 def search_regulations(query: str, part_filter: str | None = None) -> str:
-    """Search OSHA regulations by keyword to find relevant sections.
+    """Search OSHA regulations to find relevant sections.
 
-    Performs a BM25 keyword search across the full OSHA regulatory corpus.
-    Returns matching sections ranked by relevance, with scores and contextual
-    excerpts to help identify the right regulation.
+    Returns up to 10 ranked results. Each result includes:
+    - section: OSHA section ID (e.g. "1910.178")
+    - title: regulation title
+    - source: S3 source URI
+    - excerpt: relevant text snippet
+    - score: relevance score 0-100 (100 = best match)
 
-    When results span multiple parts (e.g. 1910 General Industry AND 1926
-    Construction), the output will flag this so you can ask the user which
-    industry applies.
-
-    You can call this tool multiple times with different queries to find
-    more results or narrow down the search.
+    When results span multiple parts (e.g. 1910 AND 1926), output will flag
+    ambiguity so you can ask the user which industry applies.
 
     Args:
-        query: Search keywords describing the safety topic or hazard.
-               Be specific for better results.
-               Good: "scaffolding fall protection guardrail requirements"
-               Okay: "fall protection"
-               Too vague: "safety"
-        part_filter: Optional OSHA part number to restrict search scope.
+        query: Keywords describing the safety topic, hazard, or situation.
+               Include workplace context when known.
+               Good: "forklift operator training requirements warehouse"
+               Good: "scaffolding fall protection construction"
+               Too vague: "safety training"
+        part_filter: Optional CFR part number to restrict scope.
+                     Use when industry is already known.
                      Examples: "1910" (General Industry), "1926" (Construction)
-                     Omit to search across all parts.
     """
     try:
         result = discover(query, part_filter=part_filter)
     except OshaNoResultsError:
         filter_note = f" in Part {part_filter}" if part_filter else ""
         return json.dumps({
-            "type": "search_no_results",
-            "query": query,
-            "message": f"No results found for '{query}'{filter_note}.",
+            "type":    "search_no_results",
+            "query":   query,
+            "message": f"No results found for '{query}'{filter_note}. Try different keywords.",
         })
 
     items = []
     for r in result["results"]:
-        part = get_cfr_part(r["section_id"]) or ""
         items.append({
-            "section_id": r["section_id"],
-            "title": r.get("title", "Untitled"),
-            "part": part,
-            "part_label": REGULATORY_PARTS.get(part, ""),
-            "score": r["score"],
-            "relevance": r["relevance"],
-            "excerpt": r["excerpt"][:400],
-            "large": r.get("total_chars", 0) > 40_000,
+            "section":    r["section"],
+            "title":      r.get("title", ""),
+            "source":     r.get("source", ""),
+            "part":       r.get("part", ""),
+            "part_label": r.get("part_label", ""),
+            "score":      r["score"],
+            "excerpt":    r["excerpt"][:500],
         })
 
     return json.dumps({
-        "type": "search_results",
-        "query": query,
-        "ambiguous": result.get("ambiguous", False),
+        "type":          "search_results",
+        "query":         query,
+        "ambiguous":     result.get("ambiguous", False),
         "clarification": result.get("clarification"),
-        "results": items,
+        "results":       items,
     })

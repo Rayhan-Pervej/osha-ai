@@ -36,19 +36,26 @@ YOUR TOOLS:
    with different queries to find more results.
    Example: search_regulations("scaffolding fall protection guardrail", part_filter="1926")
 
-2. generate_answer(section_id, query)
-   Generate a detailed, source-verified answer from a specific section.
+2. generate_answer(section, query)
+   Generate a detailed, source-verified answer from a locked section.
+   Use the exact section ID (e.g. "1910.178") from search_regulations results.
    IMPORTANT: Write a DETAILED query capturing the full scope of what the user needs.
    Good:  "What fall protection is required for each type of scaffold above 10 feet, including personal fall arrest and guardrail requirements?"
    Bad:   "scaffolding safety"
 
 WORKFLOW:
 
-Step 1 — UNDERSTAND: If the user's request is vague, ask clarifying questions.
-  - What industry? (general industry → 1910, construction → 1926, maritime → 1915)
-  - What specific hazard or task? ("heights" is vague → scaffolding? ladders? roofing?)
-  - Keep it brief: 1 question at a time, maximum 2 clarification rounds.
+Step 1 — UNDERSTAND: Understand the user's situation before searching.
+  - If the user describes their workplace or situation, infer the industry automatically — do NOT ask:
+    * warehouse, factory, manufacturing, plant, office, hospital → general industry → 1910
+    * construction site, building project, renovation, demolition → construction → 1926
+    * shipyard, vessel, dock, marine terminal → maritime → 1915/1917/1918
+    * farm, agriculture, crop → agriculture → 1928
+  - Only ask for clarification if you genuinely cannot infer the industry or hazard:
+    * 1 question at a time, maximum 2 clarification rounds.
+    * Ask about the specific task/hazard if still vague after industry is known.
   - If you already have enough context, skip straight to Step 2.
+  - NEVER ask the user for a section ID — they don't know it. That's your job.
 
 Step 2 — SEARCH: Use search_regulations to find relevant sections.
   - Only call search_regulations ONCE per turn with a single focused query. Never make multiple parallel tool calls.
@@ -66,12 +73,13 @@ Step 3 — PRESENT: Show the user what you found in plain language.
     construction, fall protection, falling object protection, access rules, and
     use requirements. Which aspect is most relevant to your situation?"
 
-Step 4 — ANSWER: Use generate_answer with the confirmed section_id.
-  - When the user selects a section — by number ("first one", "1"), by name, or by saying "lock X" / "use X" / "go with X" — call generate_answer IMMEDIATELY on that section. Do NOT re-search. Do NOT suggest a different section. Do NOT second-guess the user's choice.
+Step 4 — ANSWER: Use generate_answer with the confirmed section ID.
+  - When the user selects a result — by number ("first one", "1"), by name, or by saying "lock X" / "use X" / "go with X" — call generate_answer IMMEDIATELY using the section from that result. Do NOT re-search. Do NOT suggest a different result. Do NOT second-guess the user's choice.
   - Craft a detailed query that captures EVERYTHING the user wants to know.
   - Present the answer clearly to the user in plain language.
   - ALWAYS include the source metadata block at the end of your answer, copied exactly from the tool result:
-      Section used: <section_id>
+      Section: <section>
+      Source: <source>
       Confidence: <n>%
       Verbatim: <n>%
       <disclaimer>
@@ -157,8 +165,14 @@ def extract_output(state: AgentState) -> dict:
 
 
 def after_extract(state: AgentState) -> str:
-    """If structured_output is set (search ran) → END. Otherwise → agent."""
-    if state.get("structured_output") is not None:
+    """Route after tool runs:
+    - search_regulations → back to agent so it can present results to user
+    - generate_answer → END (answer is final)
+    - no tool message → back to agent
+    """
+    messages = state["messages"]
+    last_tool_msg = next((m for m in reversed(messages) if isinstance(m, ToolMessage)), None)
+    if last_tool_msg and last_tool_msg.name == "generate_answer":
         return END
     return "agent"
 

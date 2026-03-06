@@ -28,7 +28,7 @@ def _log_query(client_id, agent_id, thread_id, query, structured):
 
         if msg_type == "search_results":
             returned_section_ids = ",".join(
-                r["section_id"] for r in structured.get("results", [])
+                r["section"] for r in structured.get("results", [])
             )
         elif msg_type == "message":
             generation_invoked = "Y"
@@ -103,7 +103,7 @@ def chat_route():
     if structured.get("type") == "search_results":
         results = structured.get("results", [])
         section_list = "\n".join(
-            f"  {i+1}. {r['section_id']} — {r.get('title', '')}"
+            f"  {i+1}. {r['section']} — {r.get('title', '')}"
             for i, r in enumerate(results)
         )
         assistant_history_content = (

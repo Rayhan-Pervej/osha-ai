@@ -38,10 +38,11 @@ def parse_metadata(text: str) -> tuple[str, dict | None]:
     Looks for the --- separator block that generate_answer appends.
     Returns (full_text, None) if no metadata block found.
     """
-    # Match the metadata block starting with ---\nSection used:
+    # Match the metadata block starting with ---\nSection:
     pattern = re.compile(
-        r"\n\n---\n"
-        r"Section used: (?P<section>[^\n]+)\n"
+        r"\n---\n"
+        r"Section: (?P<section>[^\n]+)\n"
+        r"(?:Source: [^\n]+\n)?"
         r"Confidence: (?P<conf>\d+)%\n"
         r"Verbatim: (?P<verbatim>\d+)%"
         r"(?P<rest>.*)",
@@ -91,11 +92,16 @@ def render_search_results(search: dict):
 
     for i, r in enumerate(results, 1):
         part_label = r.get("part_label", "")
-        large_badge = " 🔶 Large" if r.get("large") else ""
-        relevance_color = {"High": "🟢", "Medium": "🟡", "Low": "🔴"}.get(r["relevance"], "⚪")
+        score = r.get("score", 0)
+        if score >= 80:
+            relevance_color, relevance_label = "🟢", "High"
+        elif score >= 50:
+            relevance_color, relevance_label = "🟡", "Medium"
+        else:
+            relevance_color, relevance_label = "🔴", "Low"
 
-        with st.expander(f"{i}. {r['section_id']} — {r.get('title', 'Untitled')}{large_badge}", expanded=i == 1):
-            st.caption(f"{relevance_color} {r['relevance']} ({r['score']:.0%})  ·  {part_label}")
+        with st.expander(f"{i}. {r['section']} — {r.get('title', 'Untitled')}", expanded=i == 1):
+            st.caption(f"{relevance_color} {relevance_label} ({score}%)  ·  {part_label}")
             st.markdown(r.get("excerpt", ""))
 
 

@@ -86,3 +86,23 @@ one of my workers got hurt while fixing a machine, what rules do i need to follo
 
 
 its a factory, the machine had stored electrical energy and it started up unexpectedly
+
+
+
+1. Only 2 sections tested (1904.39 x2)
+Test cases 3 (1904.1) and 4 (1903.4) haven't been run yet. You should run all cases before declaring the generate layer ready.
+
+2. Agent layer not tested at all
+generate_answer works as a standalone tool, but the full agent flow (search → agent decides section → calls generate_answer) has never been run. The agent's tool-calling decisions, ambiguity handling, and multi-turn behavior are untested.
+
+3. Ambiguity false positive in search (deferred)
+From a previous session — when results span 2+ CFR parts, the ambiguity flag triggers even if only 1 result is from the minority part. Not fixed yet.
+
+4. Score display uses raw Bedrock scores (0.0–1.0) labeled as %
+In search_regulations.py, normalized = hit["score"] uses the raw float (e.g. 0.73) but the UI shows it as 73%. This is cosmetically working but semantically misleading — Bedrock scores are not percentages.
+
+5. No error handling test
+What happens when the LLM returns malformed JSON? When the KB returns 0 results? When Bedrock is rate-limited? These paths exist in code but are untested.
+
+6. No load/latency baseline
+Single-user interactive test only. No measurement of response time under normal use.

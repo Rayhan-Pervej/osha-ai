@@ -16,13 +16,20 @@ AWS_SECRET_ACCESS_KEY = os.getenv("AWS_SECRET_ACCESS_KEY")
 AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 
 # BM25 search tuning
-BEDROCK_RETRIEVAL_TOP_K = int(os.getenv("BEDROCK_RETRIEVAL_TOP_K", "5"))
+BEDROCK_RETRIEVAL_TOP_K = int(os.getenv("BEDROCK_RETRIEVAL_TOP_K", "10"))
 BEDROCK_RETRIEVAL_MIN_SCORE = float(os.getenv("BEDROCK_RETRIEVAL_MIN_SCORE", "0.3"))
 
 # Bedrock LLM
 BEDROCK_MODEL_ID = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-3-sonnet-20240229-v1:0")
 BEDROCK_TEMPERATURE = float(os.getenv("BEDROCK_TEMPERATURE", "0.1"))
 BEDROCK_MAX_TOKENS = int(os.getenv("BEDROCK_MAX_TOKENS", "4096"))
+
+# Bedrock Embeddings
+BEDROCK_EMBEDDING_MODEL_ID = os.getenv("BEDROCK_EMBEDDING_MODEL_ID", "amazon.titan-embed-text-v2:0")
+BEDROCK_EMBEDDING_DIMENSIONS = int(os.getenv("BEDROCK_EMBEDDING_DIMENSIONS", "1024"))
+
+# Bedrock Knowledge Base
+BEDROCK_KB_ID = os.getenv("BEDROCK_KB_ID", "")
 
 # DynamoDB
 DYNAMODB_REGION = os.getenv("DYNAMODB_REGION", "us-east-1")
