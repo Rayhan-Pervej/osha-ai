@@ -11,7 +11,8 @@ def test_search():
     print("\nChoose test level:")
     print("  1. discover()        — raw Python dict")
     print("  2. search_regulations — JSON string (how agent calls it)")
-    level = input("Choice (1/2): ").strip()
+    print("  3. search_regulations — JSON string (how agent calls it)")
+    level = input("Choice (1/2/3): ").strip()
 
     if level == "1":
         from src.agent.tools.search_regulations import discover
@@ -23,6 +24,12 @@ def test_search():
         result = search_regulations.invoke({"query": query, "part_filter": part})
         parsed = json.loads(result)
         print(json.dumps(parsed, indent=2))
+
+    elif level == "3":
+        from src.retrieval.bedrock_kb import retrieve_for_section
+        results = retrieve_for_section(query, section=part or "1910", top_k=5)
+        print(json.dumps(results, indent=2))
+        
 
     else:
         print("Invalid choice.")
@@ -82,14 +89,90 @@ def test_generate():
 
     from src.agent.tools.generate_answer import generate_answer
     result = generate_answer.invoke({"section": section, "query": query})
-    print(result)
+    parsed = json.loads(result)
+    print(f"\nsummary:\n{parsed.get('summary', '')}")
+    print(f"\nbullets ({len(parsed.get('bullets', []))}):")
+    for b in parsed.get("bullets", []):
+        print(f"  {b.get('citations', [])} {b.get('text', '')}")
+    print(f"\nwhy:\n{parsed.get('why', '')}")
+    print(f"\nconfidence_percent: {parsed.get('confidence_percent')}%")
+    print(f"verbatim_percent:   {parsed.get('verbatim_percent')}%")
+    print(f"section:            {parsed.get('section')}")
+
+
+def test_agent():
+    import logging
+    from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
+    from src.agent.graph import graph
+
+    logging.basicConfig(level=logging.WARNING)
+    logging.getLogger("osha.agent.debug").setLevel(logging.WARNING)
+    logging.getLogger("src").setLevel(logging.WARNING)
+
+    print("\nAgent test — multi-turn conversation.")
+    print("Type your message. Watch every node: agent thinking, tool calls, tool outputs.")
+    print("Type 'exit' to quit.\n")
+
+    history = []
+
+    while True:
+        user_input = input("You: ").strip()
+        if user_input.lower() == "exit":
+            break
+        if not user_input:
+            continue
+
+        history.append(HumanMessage(content=user_input))
+
+        print()
+        final_state = None
+        printed_ids = set()
+        for step in graph.stream(
+            {"messages": history},
+            config={"recursion_limit": 12},
+            stream_mode="values",
+        ):
+            final_state = step
+            msgs = step.get("messages", [])
+            if not msgs:
+                continue
+            last = msgs[-1]
+
+            msg_id = id(last)
+            if msg_id in printed_ids:
+                continue
+            printed_ids.add(msg_id)
+
+            if isinstance(last, AIMessage) and last.tool_calls:
+                print(f"[agent] calling tools:")
+                for tc in last.tool_calls:
+                    print(f"  -> {tc['name']}({json.dumps(tc.get('args', {}))})")
+            elif isinstance(last, ToolMessage):
+                print(f"\n[tool: {last.name}] output:")
+                print(last.content)
+            elif isinstance(last, AIMessage) and not last.tool_calls:
+                print(f"\n[agent] response:")
+                print(last.content)
+            print()
+
+        structured = final_state.get("structured_output") if final_state else None
+        if structured and structured.get("type") == "generate_result":
+            print("--- Scores ---")
+            print(f"Section:    {structured.get('section')}")
+            print(f"Confidence: {structured.get('confidence_percent')}%")
+            print(f"Verbatim:   {structured.get('verbatim_percent')}%")
+            print(f"Bullets:    {len(structured.get('bullets', []))}")
+            print()
+
+        if final_state:
+            history = list(final_state["messages"])
 
 
 def main():
     print("What do you want to test?")
     print("  1. search")
     print("  2. generate")
-    print("  3. agent     (coming soon)")
+    print("  3. agent")
     choice = input("Choice (1/2/3): ").strip()
 
     if choice == "1":
@@ -97,7 +180,7 @@ def main():
     elif choice == "2":
         test_generate()
     elif choice == "3":
-        print("Not implemented yet.")
+        test_agent()
     else:
         print("Invalid choice.")
 

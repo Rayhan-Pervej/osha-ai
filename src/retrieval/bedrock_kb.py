@@ -25,7 +25,7 @@ def retrieve(query: str, top_k: int = 10) -> list[dict]:
         retrievalConfiguration={
             "vectorSearchConfiguration": {
                 "numberOfResults": top_k,
-                # "overrideSearchType": "HYBRID"
+                "overrideSearchType": "HYBRID"
                 }
         },
     )
@@ -70,6 +70,7 @@ def retrieve_for_section(query: str, section: str, top_k: int = 10) -> list[dict
             retrievalConfiguration={
                 "vectorSearchConfiguration": {
                     "numberOfResults": top_k,
+                    "overrideSearchType": "HYBRID",
                     "filter": {
                         "stringContains": {
                             "key":   "x-amz-bedrock-kb-source-uri",

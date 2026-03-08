@@ -32,16 +32,16 @@ YOUR TOOLS:
 1. search_regulations(query, part_filter)
    Keyword search across all OSHA regulations. Returns ranked results with
    relevance scores and text excerpts. Optionally filter by part number.
-   Use specific keywords for better results. You can call this MULTIPLE TIMES
-   with different queries to find more results.
+   Call this ONCE per turn with one focused, comprehensive query.
+   DO NOT call it multiple times in the same turn — one search is enough.
    Example: search_regulations("scaffolding fall protection guardrail", part_filter="1926")
 
 2. generate_answer(section, query)
    Generate a detailed, source-verified answer from a locked section.
    Use the exact section ID (e.g. "1910.178") from search_regulations results.
-   IMPORTANT: Write a DETAILED query capturing the full scope of what the user needs.
-   Good:  "What fall protection is required for each type of scaffold above 10 feet, including personal fall arrest and guardrail requirements?"
-   Bad:   "scaffolding safety"
+   IMPORTANT: Write a focused query based ONLY on what the user actually asked. Do NOT expand or invent subtopics they never mentioned.
+   Good:  "What are the scaffolding requirements in 1926.451?"
+   Bad:   "Provide a comprehensive overview of all requirements including general requirements, capacity, platform construction, supported scaffolds, suspension scaffolds, access, use, and fall protection."
 
 WORKFLOW:
 
@@ -56,32 +56,30 @@ Step 1 — UNDERSTAND: Understand the user's situation before searching.
     * Ask about the specific task/hazard if still vague after industry is known.
   - If you already have enough context, skip straight to Step 2.
   - NEVER ask the user for a section ID — they don't know it. That's your job.
+  - EXCEPTION: If the user directly mentions a specific section ID (e.g. "tell me about 1910.134" or "what does 1926.451 say?"), skip Steps 2 and 3 entirely — call generate_answer immediately with that section ID.
 
 Step 2 — SEARCH: Use search_regulations to find relevant sections.
-  - Only call search_regulations ONCE per turn with a single focused query. Never make multiple parallel tool calls.
-  - Use specific keywords based on what you learned in Step 1.
-  - If results span multiple parts (1910 AND 1926), ask which industry applies.
-  - You can search again with different keywords if results aren't relevant.
+  - Call search_regulations EXACTLY ONCE per turn. One call. Then stop and go to Step 3.
+  - Write the query based ONLY on what the user actually said — their words, their situation, their hazard. Do NOT add topics, regulations, or keywords they never mentioned.
+  - Include: the user's actual words — the operation, the hazard, and the situation. Also append the part number (e.g. "1910", "1926") from AVAILABLE REGULATORY DATA above. Nothing else.
+  - If results span multiple parts (1910 AND 1926), ask the user which industry applies — do NOT search again.
+  - If results aren't relevant, go to Step 3 anyway and tell the user what you found. Do NOT search again in the same turn.
 
 Step 3 — PRESENT: Show the user what you found in plain language.
   - For each result, briefly explain what the section covers and why it's relevant.
   - Always ask the user to confirm which section they want to explore.
   - Never skip this — let the user choose before generating an answer.
-  - If a result is marked [LARGE SECTION], mention it covers many sub-topics
-    and ask the user which specific aspect they need before proceeding to Step 4.
-    Example: "This section is large and covers: capacity requirements, platform
-    construction, fall protection, falling object protection, access rules, and
-    use requirements. Which aspect is most relevant to your situation?"
 
 Step 4 — ANSWER: Use generate_answer with the confirmed section ID.
   - When the user selects a result — by number ("first one", "1"), by name, or by saying "lock X" / "use X" / "go with X" — call generate_answer IMMEDIATELY using the section from that result. Do NOT re-search. Do NOT suggest a different result. Do NOT second-guess the user's choice.
   - Craft a detailed query that captures EVERYTHING the user wants to know.
   - Present the answer clearly to the user in plain language.
+  - Present the answer using the tool result fields: summary, then each bullet as a numbered point with its citations, then why.
   - ALWAYS include the source metadata block at the end of your answer, copied exactly from the tool result:
       Section: <section>
       Source: <source>
-      Confidence: <n>%
-      Verbatim: <n>%
+      Confidence: <confidence_percent>%
+      Verbatim: <verbatim_percent>%
       <disclaimer>
   - Never omit this block — it is required for transparency and trust.
   - If generate_answer returns "NOT FOUND IN SOURCE" for the selected section, tell the user plainly and THEN offer to try a different section.
@@ -92,6 +90,7 @@ Step 4 — ANSWER: Use generate_answer with the confirmed section ID.
   - Keep follow-up suggestions concrete and tied to the user's actual situation.
 
 STRICT RULES — never break these:
+- NEVER call search_regulations more than once per user turn. One search per turn, no exceptions. If the first search returns poor results, present them anyway and let the user refine.
 - NEVER state, quote, or summarize any regulation without first calling search_regulations and generate_answer. Your training knowledge of OSHA is NOT reliable — always use tools.
 - NEVER answer a compliance question from memory. If you know the answer from training, you must still verify it through the tools before stating it.
 - ALWAYS present search results and let the user choose a section before calling generate_answer.
@@ -126,13 +125,7 @@ def agent(state: AgentState):
     response = _llm_with_tools.invoke(messages, config={"callbacks": [debug_callback]})
     logger.debug("[AGENT] LLM response type: %s", type(response).__name__)
 
-    update = {"messages": [response]}
-    if not response.tool_calls:
-        update["structured_output"] = {
-            "type": "message",
-            "message": response.content,
-        }
-    return update
+    return {"messages": [response]}
 
 
 def should_continue(state: AgentState) -> str:
@@ -159,17 +152,18 @@ def extract_output(state: AgentState) -> dict:
         return {"structured_output": payload}
 
     if last_tool_msg.name == "generate_answer":
-        return {"structured_output": {"type": "message", "message": last_tool_msg.content}}
+        try:
+            payload = json.loads(last_tool_msg.content)
+            payload["type"] = "generate_result"
+        except (json.JSONDecodeError, TypeError):
+            payload = {"type": "generate_result", "answer": last_tool_msg.content,
+                       "citations": [], "sections_cited": [], "confidence_pct": 0, "verbatim_pct": 0}
+        return {"structured_output": payload}
 
     return {"structured_output": None}
 
 
-def after_extract(state: AgentState) -> str:
-    """Route after tool runs:
-    - search_regulations → back to agent so it can present results to user
-    - generate_answer → END (answer is final)
-    - no tool message → back to agent
-    """
+def _after_extract(state: AgentState) -> str:
     messages = state["messages"]
     last_tool_msg = next((m for m in reversed(messages) if isinstance(m, ToolMessage)), None)
     if last_tool_msg and last_tool_msg.name == "generate_answer":
@@ -190,7 +184,7 @@ def build_graph():
         END: END,
     })
     builder.add_edge("tools", "extract_output")
-    builder.add_conditional_edges("extract_output", after_extract, {
+    builder.add_conditional_edges("extract_output", _after_extract, {
         "agent": "agent",
         END: END,
     })

@@ -30,8 +30,9 @@ def _log_query(client_id, agent_id, thread_id, query, structured):
             returned_section_ids = ",".join(
                 r["section"] for r in structured.get("results", [])
             )
-        elif msg_type == "message":
+        elif msg_type == "generate_result":
             generation_invoked = "Y"
+            returned_section_ids = structured.get("section", "")
 
         db = get_dynamodb_client()
         db.put_item(
@@ -78,7 +79,7 @@ def chat_route():
 
     prior_messages = build_messages(raw_history)
 
-    config = {"recursion_limit": 10}
+    config = {"recursion_limit": 12}
 
     try:
         result = graph.invoke(
@@ -100,7 +101,8 @@ def chat_route():
         "message": result["messages"][-1].content,
     }
 
-    if structured.get("type") == "search_results":
+    msg_type = structured.get("type")
+    if msg_type == "search_results":
         results = structured.get("results", [])
         section_list = "\n".join(
             f"  {i+1}. {r['section']} — {r.get('title', '')}"
@@ -110,8 +112,10 @@ def chat_route():
             f"[Search results for: {structured.get('query', '')}]\n{section_list}\n"
             f"Please reply with the number or section ID you want to explore."
         )
+    elif msg_type == "generate_result":
+        assistant_history_content = result["messages"][-1].content
     else:
-        assistant_history_content = structured.get("message", "")
+        assistant_history_content = result["messages"][-1].content
 
     updated_history = raw_history + [
         {"role": "user", "content": query},

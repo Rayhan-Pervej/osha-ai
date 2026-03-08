@@ -1,4 +1,5 @@
 import re
+import json
 import logging
 from langchain_core.tools import tool
 
@@ -12,41 +13,29 @@ logger = logging.getLogger(__name__)
 GENERATION_PROMPT = """You are an OSHA compliance assistant.
 You answer using ONLY the locked regulatory text provided below. Do NOT use any outside knowledge.
 
-ANSWER FORMAT — always follow this exact structure:
+ABSOLUTE REQUIREMENT: You MUST respond with ONLY a valid JSON object. No markdown. No prose. No code fences. No text outside the JSON.
 
-PART 1 — PLAIN LANGUAGE SUMMARY (required):
-In 3-6 sentences, explain what the regulation requires in plain language.
-- Use ONLY information from the locked text. Do NOT add facts from memory.
-- Write clearly for a non-expert worker or manager. No legal jargon.
-- Focus on what the employer/employee must DO, by WHEN, and any specific numbers or deadlines.
-- Start with: "What you need to know:"
-
-PART 2 — VERBATIM SOURCE TEXT (required):
-Header: "#### Source Regulations"
-List every sentence from the locked text that directly supports the summary.
-Format:
-  > [Section X.XXX] "exact sentence copied word-for-word from the source"
-
-Quoting rules — STRICT:
-- Copy sentences EXACTLY as they appear. No paraphrasing, trimming, or rewording.
-- Quote from the START of the sentence. Never begin mid-sentence.
-- Include conditional sentences in full ("Except...", "Unless...", "When...").
-- When a numbered item contains multiple sentences that together form one rule (e.g. "You must do X by deadline A. For Y, the deadline is B."), quote ALL sentences from that item as one entry — do not stop at the first sentence.
-- If no exact sentence supports the answer, write: NOT FOUND IN SOURCE.
-- Prefer specific rules (numbers, deadlines, requirements) over general scope text.
-
-NOT FOUND:
-- Write: NOT FOUND IN SOURCE
-- Do NOT infer or guess from general OSHA principles.
-
-Return a single valid JSON object. No markdown fences. No text outside the JSON.
+OUTPUT SCHEMA — return exactly this structure:
 
 {
-  "answer": "<PART 1 summary + PART 2 verbatim source, or NOT FOUND IN SOURCE>",
-  "sections_cited": ["<exact section ID from the text>"],
-  "verbatim_quotes": ["<exact word-for-word copy — no changes>"],
+  "summary": "<one sentence: what this regulation requires>",
+  "bullets": [
+    {
+      "text": "<verbatim regulatory text from the source — at least 70% must be exact quotes>",
+      "citations": ["<29 CFR §X.XXX(subsection)>"]
+    }
+  ],
+  "why": "<2-3 sentences: why these requirements prevent injuries, based only on the source text>",
   "disclaimer": "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."
-}"""
+}
+
+RULES:
+- summary: One professional sentence summarizing the regulation.
+- bullets: 2-7 bullets. Each bullet MUST be copied EXACTLY word-for-word from the source text — including all parenthetical text like "(including outrigger supports, if used)", all sub-clauses, and the complete sentence without cutting it short. Do NOT trim, rephrase, or end a sentence early. If a sentence ends with "as follows:" include that. Only include bullets where you have the exact text in front of you.
+- why: Brief explanation of why these requirements prevent injuries. Must be supported by the source text.
+- disclaimer: Always use the exact disclaimer text above.
+- If no relevant information found, return: {"summary": "NOT FOUND IN SOURCE", "bullets": [], "why": "", "disclaimer": "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."}
+- Do NOT infer or guess from general OSHA principles. Use ONLY the locked text."""
 
 
 def _normalize(text: str) -> str:
@@ -57,29 +46,29 @@ def _normalize(text: str) -> str:
 
 def _calculate_scores(answer: dict, context_text: str, hits: list[dict]) -> dict:
     """
-    confidence_pct (0-100): weighted combination of faithfulness + retrieval quality.
-    verbatim_pct   (0-100): % of LLM quotes verified word-for-word in source.
+    confidence_percent (0-100): weighted combination of verbatim accuracy + retrieval quality.
+    verbatim_percent   (0-100): % of bullet text verified word-for-word in source.
     Both 0 when NOT FOUND IN SOURCE.
-
-    confidence_pct = int(0.70 * verbatim_pct + 0.30 * retrieval_score)
-
-
     """
-    if "NOT FOUND IN SOURCE" in answer.get("answer", ""):
-        answer["confidence_pct"] = 0
-        answer["verbatim_pct"] = 0
+    if "NOT FOUND IN SOURCE" in answer.get("summary", ""):
+        answer["confidence_percent"] = 0
+        answer["verbatim_percent"] = 0
         return answer
 
-    #  verbatim score
     norm_source = _normalize(context_text)
-    quotes = answer.get("verbatim_quotes", []) or []
+    bullets = answer.get("bullets", [])
 
-    if quotes:
-        verified = sum(
-            1 for q in quotes
-            if q.strip() and _normalize(q).lower() in norm_source.lower()
-        )
-        verbatim_pct = int((verified / len(quotes)) * 100)
+    if bullets:
+        verified = 0
+        for b in bullets:
+            text = _normalize(b.get("text", "")).lower()
+            if not text:
+                continue
+            # Split into sentences and check each one — bullets may span multiple sentences
+            sentences = [s.strip() for s in re.split(r'(?<=[.!?])\s+', text) if len(s.strip()) > 20]
+            if sentences and any(s in norm_source.lower() for s in sentences):
+                verified += 1
+        verbatim_pct = int((verified / len(bullets)) * 100)
     else:
         verbatim_pct = 0
 
@@ -90,18 +79,10 @@ def _calculate_scores(answer: dict, context_text: str, hits: list[dict]) -> dict
     else:
         retrieval_score = 0
 
-
-    confidence_pct = int(0.70 * verbatim_pct + 0.30 * retrieval_score)
-
-    if answer.get("sections_cited"):
-        answer["sections_cited"] = list(dict.fromkeys(
-            re.sub(r"\([0-9]+\)", "", s).strip()
-            for s in answer["sections_cited"]
-        ))
-
-    answer["confidence_pct"] = confidence_pct
-    answer["verbatim_pct"] = verbatim_pct
+    answer["confidence_percent"] = int(0.70 * verbatim_pct + 0.30 * retrieval_score)
+    answer["verbatim_percent"] = verbatim_pct
     return answer
+
 
 @tool
 def generate_answer(section: str, query: str) -> str:
@@ -111,12 +92,15 @@ def generate_answer(section: str, query: str) -> str:
     sends it to the LLM with the user's question, and verifies every quoted
     sentence against the original source text.
 
-    Returns:
-    - Plain language summary of what the regulation requires
-    - Verbatim source quotes with section citations
-    - Source link
-    - Confidence score (0-95): how well quotes are verified
-    - Verbatim score (0-100): % of quotes found word-for-word in source
+    Returns a JSON string with:
+    - answer: plain language summary + verbatim source quotes
+    - citations: list of {section_id, quote} verified against source
+    - sections_cited: list of section IDs referenced
+    - confidence_pct: 0-100, weighted score of verbatim accuracy + retrieval quality
+    - verbatim_pct: 0-100, % of quotes found word-for-word in source
+    - section: the locked section ID
+    - source_uri: S3 URI of the source document
+    - disclaimer: standard legal disclaimer
 
     Args:
         section: The section ID from search_regulations results (e.g. "1910.178").
@@ -127,12 +111,20 @@ def generate_answer(section: str, query: str) -> str:
     hits = bedrock_kb.retrieve_for_section(query, section, top_k=10)
 
     if not hits:
-        return f"No content found for section '{section}'. Use search_regulations to find valid sections."
+        return json.dumps({
+            "type": "generate_result",
+            "summary": "NOT FOUND IN SOURCE",
+            "bullets": [],
+            "why": "",
+            "confidence_percent": 0,
+            "verbatim_percent": 0,
+            "section": section,
+            "source_uri": "",
+            "disclaimer": "",
+        })
 
     context_text = "\n\n".join(h["text"] for h in hits)
     source_uri = hits[0].get("source", "")
-
-    verification_text = context_text
 
     user_message = (
         f"LOCKED REGULATORY TEXT:\n"
@@ -145,18 +137,12 @@ def generate_answer(section: str, query: str) -> str:
     try:
         answer = bedrock.invoke(GENERATION_PROMPT, user_message)
     except OshaGenerationError as e:
-        return f"Answer generation failed: {e}"
+        return json.dumps({"type": "generate_result", "summary": f"Answer generation failed: {e}",
+                           "bullets": [], "why": "", "confidence_percent": 0,
+                           "verbatim_percent": 0, "section": section, "source_uri": source_uri, "disclaimer": ""})
 
-    answer = _calculate_scores(answer, verification_text, hits)
-
-    lines = [answer.get("answer", "No answer generated.")]
-    lines.append("\n---")
-    lines.append(f"Section: {section}")
-    if source_uri:
-        lines.append(f"Source: {source_uri}")
-    lines.append(f"Confidence: {answer.get('confidence_pct', 0)}%")
-    lines.append(f"Verbatim: {answer.get('verbatim_pct', 0)}%")
-    if answer.get("disclaimer"):
-        lines.append(f"\n{answer['disclaimer']}")
-
-    return "\n".join(lines)
+    answer = _calculate_scores(answer, context_text, hits)
+    answer["type"] = "generate_result"
+    answer["section"] = section
+    answer["source_uri"] = source_uri
+    return json.dumps(answer)

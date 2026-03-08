@@ -106,3 +106,11 @@ What happens when the LLM returns malformed JSON? When the KB returns 0 results?
 
 6. No load/latency baseline
 Single-user interactive test only. No measurement of response time under normal use.
+
+
+
+
+my workers are complaining about chemicals in the air, what am i supposed to do?
+
+
+it's a factory, workers are painting metal parts
