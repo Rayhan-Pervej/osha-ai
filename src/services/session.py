@@ -21,11 +21,11 @@ def _ttl() -> int:
 
 def get_session(session_id: str) -> dict | None:
     client = get_dynamodb_client()
-    resp = client.get_item(
+    response = client.get_item(
         TableName=settings.DYNAMODB_TABLE_SESSIONS,
         Key={"session_id": {"S": session_id}},
     )
-    item = resp.get("Item")
+    item = response.get("Item")
     if not item:
         return None
     return {
@@ -36,8 +36,9 @@ def get_session(session_id: str) -> dict | None:
     }
 
 
+
 def save_session(session_id: str, client_id: str, agent_id: str, history: list) -> str:
-    capped = history[-( settings.SESSION_MAX_HISTORY * 2):]
+    capped = history[-(settings.SESSION_MAX_HISTORY * 2):]
     client = get_dynamodb_client()
     client.put_item(
         TableName=settings.DYNAMODB_TABLE_SESSIONS,
@@ -123,3 +124,6 @@ def build_messages(history: list) -> list:
             messages.append(AIMessage(content=msg["content"]))
 
     return messages
+
+
+

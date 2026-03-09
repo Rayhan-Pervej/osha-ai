@@ -79,13 +79,15 @@ def chat_route():
 
     prior_messages = build_messages(raw_history)
 
+    initial_state = {
+        "messages": prior_messages + [HumanMessage(content=query)],
+        "structured_output": None,
+    }
+
     config = {"recursion_limit": 12}
 
     try:
-        result = graph.invoke(
-            {"messages": prior_messages + [HumanMessage(content=query)]},
-            config=config,
-        )
+        result = graph.invoke(initial_state, config=config)
     except GraphRecursionError:
         logger.warning("Agent hit recursion limit for session %s", thread_id)
         return error("agent_loop", "The agent could not complete the request. Please try rephrasing your question.", 500)
@@ -113,7 +115,7 @@ def chat_route():
             f"Please reply with the number or section ID you want to explore."
         )
     elif msg_type == "generate_result":
-        assistant_history_content = result["messages"][-1].content
+        assistant_history_content = f"[Generated answer for {structured.get('section', '')}] {structured.get('summary', '')}"
     else:
         assistant_history_content = result["messages"][-1].content
 
@@ -125,5 +127,4 @@ def chat_route():
 
     _log_query(client_id, agent_id, thread_id, query, structured)
 
-    structured["session_id"] = thread_id
-    return success(structured)
+    return success({**structured, "session_id": thread_id})

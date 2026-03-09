@@ -13,28 +13,12 @@ logger = logging.getLogger(__name__)
 GENERATION_PROMPT = """You are an OSHA compliance assistant.
 You answer using ONLY the locked regulatory text provided below. Do NOT use any outside knowledge.
 
-ABSOLUTE REQUIREMENT: You MUST respond with ONLY a valid JSON object. No markdown. No prose. No code fences. No text outside the JSON.
-
-OUTPUT SCHEMA — return exactly this structure:
-
-{
-  "summary": "<one sentence: what this regulation requires>",
-  "bullets": [
-    {
-      "text": "<verbatim regulatory text from the source — at least 70% must be exact quotes>",
-      "citations": ["<29 CFR §X.XXX(subsection)>"]
-    }
-  ],
-  "why": "<2-3 sentences: why these requirements prevent injuries, based only on the source text>",
-  "disclaimer": "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."
-}
-
 RULES:
 - summary: One professional sentence summarizing the regulation.
-- bullets: 2-7 bullets. Each bullet MUST be copied EXACTLY word-for-word from the source text — including all parenthetical text like "(including outrigger supports, if used)", all sub-clauses, and the complete sentence without cutting it short. Do NOT trim, rephrase, or end a sentence early. If a sentence ends with "as follows:" include that. Only include bullets where you have the exact text in front of you.
+- bullets: 2-7 bullets. Each bullet MUST be copied EXACTLY word-for-word from the source text — including all parenthetical text, all sub-clauses, and the complete sentence without cutting it short. Only include bullets where you have the exact text in front of you.
 - why: Brief explanation of why these requirements prevent injuries. Must be supported by the source text.
-- disclaimer: Always use the exact disclaimer text above.
-- If no relevant information found, return: {"summary": "NOT FOUND IN SOURCE", "bullets": [], "why": "", "disclaimer": "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."}
+- disclaimer: Always use exactly: "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."
+- If no relevant information found, set summary to "NOT FOUND IN SOURCE" and bullets to empty list.
 - Do NOT infer or guess from general OSHA principles. Use ONLY the locked text."""
 
 
@@ -42,6 +26,31 @@ def _normalize(text: str) -> str:
     text = text.replace("\u00a7", "§").replace("\ufffd", "§")
     text = re.sub(r"\s+", " ", text).strip()
     return text
+
+
+def _build_osha_url(section: str) -> str:
+    m = re.match(r"^(\d{4})(\..*)?$", section)
+    if not m:
+        return ""
+    part = m.group(1)
+    return f"https://www.osha.gov/laws-regs/regulations/standardnumber/{part}/{section}"
+
+
+def _build_manager_citations(answer: dict, section: str) -> list[dict]:
+    seen = set()
+    citations = []
+    primary_label = f"29 CFR §{section}"
+    seen.add(section)
+    citations.append({"section": primary_label, "url": _build_osha_url(section)})
+    for bullet in answer.get("bullets", []):
+        for cite_str in bullet.get("citations", []):
+            m = re.search(r"§(\d{4}\.\d+)", cite_str)
+            if m:
+                sec_id = m.group(1)
+                if sec_id not in seen:
+                    seen.add(sec_id)
+                    citations.append({"section": f"29 CFR §{sec_id}", "url": _build_osha_url(sec_id)})
+    return citations
 
 
 def _calculate_scores(answer: dict, context_text: str, hits: list[dict]) -> dict:
@@ -118,6 +127,7 @@ def generate_answer(section: str, query: str) -> str:
             "why": "",
             "confidence_percent": 0,
             "verbatim_percent": 0,
+            "manager_citations": [{"section": f"29 CFR §{section}", "url": _build_osha_url(section)}],
             "section": section,
             "source_uri": "",
             "disclaimer": "",
@@ -142,7 +152,10 @@ def generate_answer(section: str, query: str) -> str:
                            "verbatim_percent": 0, "section": section, "source_uri": source_uri, "disclaimer": ""})
 
     answer = _calculate_scores(answer, context_text, hits)
+    answer["manager_citations"] = _build_manager_citations(answer, section)
     answer["type"] = "generate_result"
     answer["section"] = section
     answer["source_uri"] = source_uri
     return json.dumps(answer)
+
+

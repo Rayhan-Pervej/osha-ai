@@ -39,6 +39,17 @@ def _detect_ambiguity(results: list[dict]) -> dict | None:
     }
 
 
+def _parse_title_from_excerpt(excerpt: str) -> str:
+    """Extract section title from normalized text excerpt.
+    Looks for 'Title: § 1926.502 Fall protection systems criteria and practices.'
+    """
+    import re as _re
+    m = _re.search(r"Title:\s*(.+?)(?:\r|\n|Section:)", excerpt)
+    if m:
+        return m.group(1).strip()
+    return ""
+
+
 def _parse_section_from_source(source: str) -> str:
     """
     Extract a section ID from the S3 URI or source string.
@@ -101,7 +112,7 @@ def discover(query: str, part_filter: str | None = None) -> dict:
         results.append({
             "section":    section,
             "source":     hit["source"],
-            "title":      REGULATORY_PARTS.get(part, section),
+            "title":      _parse_title_from_excerpt(hit["text"]) or REGULATORY_PARTS.get(part, section),
             "part":       part,
             "part_label": REGULATORY_PARTS.get(part, ""),
             "excerpt":    hit["text"],
