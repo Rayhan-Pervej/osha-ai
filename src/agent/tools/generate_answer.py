@@ -14,9 +14,9 @@ GENERATION_PROMPT = """You are an OSHA compliance assistant.
 You answer using ONLY the locked regulatory text provided below. Do NOT use any outside knowledge.
 
 RULES:
-- summary: One professional sentence summarizing the regulation.
+- summary: Three professional sentence summarizing the regulation.
 - bullets: 2-7 bullets. Each bullet MUST be copied EXACTLY word-for-word from the source text — including all parenthetical text, all sub-clauses, and the complete sentence without cutting it short. Only include bullets where you have the exact text in front of you.
-- why: Brief explanation of why these requirements prevent injuries. Must be supported by the source text.
+- why: Brief explanation of why these requirements prevent injuries. Must be supported by the source text, not from your own knowledge.
 - disclaimer: Always use exactly: "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."
 - If no relevant information found, set summary to "NOT FOUND IN SOURCE" and bullets to empty list.
 - Do NOT infer or guess from general OSHA principles. Use ONLY the locked text."""
@@ -29,6 +29,18 @@ def _normalize(text: str) -> str:
 
 
 def _build_osha_url(section: str) -> str:
+    # FOM chapter-specific URLs: "Chapter 4 Violations" -> https://www.osha.gov/fom/chapter-4
+    if "Chapter" in section:
+        m = re.match(r"Chapter\s+(\d+)", section)
+        if m:
+            return f"https://www.osha.gov/fom/chapter-{m.group(1)}"
+        return "https://www.osha.gov/fom"
+    if "Field Operations Manual" in section:
+        return "https://www.osha.gov/fom"
+    # OSHA Act
+    if "osha-act" in section.lower() or "osh act" in section.lower():
+        return "https://www.osha.gov/laws-regs/oshact/completeoshact"
+    # Standard CFR section number e.g. 1926.502
     m = re.match(r"^(\d{4})(\..*)?$", section)
     if not m:
         return ""
@@ -36,12 +48,17 @@ def _build_osha_url(section: str) -> str:
     return f"https://www.osha.gov/laws-regs/regulations/standardnumber/{part}/{section}"
 
 
+def _format_citation_label(section: str) -> str:
+    if re.match(r"^\d{4}", section):
+        return f"29 CFR §{section}"
+    return section
+
+
 def _build_manager_citations(answer: dict, section: str) -> list[dict]:
     seen = set()
     citations = []
-    primary_label = f"29 CFR §{section}"
     seen.add(section)
-    citations.append({"section": primary_label, "url": _build_osha_url(section)})
+    citations.append({"section": _format_citation_label(section), "url": _build_osha_url(section)})
     for bullet in answer.get("bullets", []):
         for cite_str in bullet.get("citations", []):
             m = re.search(r"§(\d{4}\.\d+)", cite_str)
@@ -127,7 +144,7 @@ def generate_answer(section: str, query: str) -> str:
             "why": "",
             "confidence_percent": 0,
             "verbatim_percent": 0,
-            "manager_citations": [{"section": f"29 CFR §{section}", "url": _build_osha_url(section)}],
+            "manager_citations": [{"section": _format_citation_label(section), "url": _build_osha_url(section)}],
             "section": section,
             "source_uri": "",
             "disclaimer": "",

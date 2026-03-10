@@ -6,6 +6,7 @@ from src.config import settings
 from src.retrieval import bedrock_kb
 from src.agent.tools.registry import REGULATORY_PARTS, get_cfr_part
 from src.exceptions.errors import OshaNoResultsError
+from src.agent.tools.generate_answer import _build_osha_url
 
 logger = logging.getLogger(__name__)
 
@@ -177,7 +178,7 @@ def search_regulations(query: str, part_filter: str | None = None) -> str:
         items.append({
             "section":    r["section"],
             "title":      r.get("title", ""),
-            "source":     r.get("source", ""),
+            "osha_url":   _build_osha_url(r["section"]),
             "part":       r.get("part", ""),
             "part_label": r.get("part_label", ""),
             "score":      r["score"],

@@ -48,11 +48,16 @@ def retrieve(query: str, top_k: int = 10) -> list[dict]:
 def _section_to_s3_key(section: str) -> str:
     """
     Convert a display section ID back to the S3 filename fragment.
-    e.g. "1926.451" -> "29_CFR_1926_451"
-         "1910.178" -> "29_CFR_1910_178"
+    e.g. "1926.451"                          -> "29_CFR_1926_451"
+         "Chapter 6 Penalties and Debt Collection" -> "Chapter 6 Penalties and Debt Collection"
+         "osha-act"                           -> "osha-act"
     """
-    parts = section.replace(".", "_").replace("-", "_")
-    return f"29_CFR_{parts}"
+    import re
+    if re.match(r"^\d{4}", section):
+        parts = section.replace(".", "_").replace("-", "_")
+        return f"29_CFR_{parts}"
+    return section
+
 
 
 def retrieve_for_section(query: str, section: str, top_k: int = 10) -> list[dict]:

@@ -1,21 +1,20 @@
-import re
 import streamlit as st
 import requests
 
-# ── page config ──────────────────────────────────────────────────────────────
+# ── page config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="OSHA AI Assistant",
     page_icon="🦺",
     layout="centered",
 )
 
-# ── sidebar: config ───────────────────────────────────────────────────────────
+# ── sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("Configuration")
     api_base = st.text_input("API Base URL", value="http://localhost:5000")
     api_key  = st.text_input("X-API-Key", type="password")
     st.divider()
-    st.caption("OSHA AI — Agentic Mode (Tool-Calling)")
+    st.caption("OSHA AI — Source-Verified Compliance Assistant")
 
 # ── helpers ───────────────────────────────────────────────────────────────────
 def headers():
@@ -32,114 +31,126 @@ def do_chat(query, session_id=None):
         return {"error": str(e)}, 500
 
 
-def parse_metadata(text: str) -> tuple[str, dict | None]:
-    """Split agent message into (answer_text, metadata_dict).
+def render_search_results(body: dict):
+    results = body.get("results", [])
+    query   = body.get("query", "")
 
-    Looks for the --- separator block that generate_answer appends.
-    Returns (full_text, None) if no metadata block found.
-    """
-    # Match the metadata block starting with ---\nSection:
-    pattern = re.compile(
-        r"\n---\n"
-        r"Section: (?P<section>[^\n]+)\n"
-        r"(?:Source: [^\n]+\n)?"
-        r"Confidence: (?P<conf>\d+)%\n"
-        r"Verbatim: (?P<verbatim>\d+)%"
-        r"(?P<rest>.*)",
-        re.DOTALL,
-    )
-    m = pattern.search(text)
-    if not m:
-        return text, None
-
-    answer_text = text[: m.start()]
-    confidence_pct = int(m.group("conf"))
-    verbatim_pct = int(m.group("verbatim"))
-    rest = m.group("rest")
-
-    # Parse disclaimer (first non-empty line after scores)
-    disclaimer = ""
-    for line in rest.splitlines():
-        line = line.strip()
-        if line:
-            disclaimer = line
-            break
-
-    if confidence_pct >= 90:
-        label = "Exact Match"
-    elif confidence_pct >= 50:
-        label = "Partial Match"
-    else:
-        label = "Keyword Match"
-
-    meta = {
-        "section": m.group("section").strip(),
-        "confidence_pct": confidence_pct,
-        "verbatim_pct": verbatim_pct,
-        "display_label": label,
-        "disclaimer": disclaimer,
-    }
-    return answer_text, meta
-
-
-def render_search_results(search: dict):
-    results = search.get("results", [])
-    query = search.get("query", "")
     st.markdown(f"**Search results for:** _{query}_")
 
-    if search.get("ambiguous") and search.get("clarification"):
-        st.warning(search["clarification"])
+    if body.get("ambiguous") and body.get("clarification"):
+        st.warning(body["clarification"])
+        return
 
     for i, r in enumerate(results, 1):
-        part_label = r.get("part_label", "")
         score = r.get("score", 0)
-        if score >= 80:
-            relevance_color, relevance_label = "🟢", "High"
-        elif score >= 50:
-            relevance_color, relevance_label = "🟡", "Medium"
+        score_pct = int(score * 100) if score <= 1 else int(score)
+        if score_pct >= 80:
+            badge = "🟢 High"
+        elif score_pct >= 50:
+            badge = "🟡 Medium"
         else:
-            relevance_color, relevance_label = "🔴", "Low"
+            badge = "🔴 Low"
 
-        with st.expander(f"{i}. {r['section']} — {r.get('title', 'Untitled')}", expanded=i == 1):
-            st.caption(f"{relevance_color} {relevance_label} ({score}%)  ·  {part_label}")
-            st.markdown(r.get("excerpt", ""))
+        section   = r.get("section", "")
+        title     = r.get("title", "Untitled")
+        osha_url  = r.get("osha_url", "")
+        raw       = r.get("excerpt", "")
+        # Strip normalized file header (Source/Title/Section/Path lines) — show only regulation text
+        import re as _re
+        m = _re.search(r'(\r\n|\r|\n)\s*(\r\n|\r|\n)', raw)
+        excerpt   = raw[m.end():].strip() if m and raw[m.end():].strip() else raw
+
+        with st.expander(f"{i}. {section} — {title}", expanded=i == 1):
+            col1, col2 = st.columns([3, 1])
+            with col1:
+                if osha_url:
+                    st.markdown(f"[View on OSHA.gov]({osha_url})")
+            with col2:
+                st.caption(f"{badge} ({score_pct}%)")
+            st.markdown(excerpt)
+
+    st.info("Reply with a number (e.g. **1**) or section ID to get the full answer.")
+
+
+def render_generate_result(body: dict):
+    section    = body.get("section", "")
+    summary    = body.get("summary", "")
+    bullets    = body.get("bullets", [])
+    why        = body.get("why", "")
+    conf       = body.get("confidence_percent", 0)
+    verbatim   = body.get("verbatim_percent", 0)
+    osha_url   = body.get("osha_url") or ""
+    citations  = body.get("manager_citations", [])
+    disclaimer = body.get("disclaimer", "")
+
+    # NOT FOUND case
+    if "NOT FOUND IN SOURCE" in summary:
+        st.error("No relevant information found in this section.")
+        st.caption(f"Section: `{section}`")
+        return
+
+    # Summary
+    st.markdown(f"### {section}")
+    if osha_url:
+        st.markdown(f"[View on OSHA.gov]({osha_url})")
+    st.markdown(summary)
+
+    # Verbatim bullets
+    if bullets:
+        st.markdown("**Regulatory Text (Verbatim):**")
+        for b in bullets:
+            text = b.get("text", "") if isinstance(b, dict) else str(b)
+            cites = b.get("citations", []) if isinstance(b, dict) else []
+            cite_str = "  \n  _" + " · ".join(cites) + "_" if cites else ""
+            st.markdown(f"- {text}{cite_str}")
+
+    # Why
+    if why:
+        st.markdown("**Why this matters:**")
+        st.markdown(why)
+
+    st.divider()
+
+    # Scores
+    if conf >= 80:
+        st.success(f"🟢 High Confidence")
+    elif conf >= 50:
+        st.warning(f"🟡 Moderate Confidence")
+    else:
+        st.error(f"🔴 Low Confidence")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.caption("Confidence")
+        st.progress(conf / 100, text=f"{conf}%")
+    with col2:
+        st.caption("Verbatim")
+        st.progress(verbatim / 100, text=f"{verbatim}%")
+
+    # Citations
+    if citations:
+        st.markdown("**Sources:**")
+        for c in citations:
+            label = c.get("section", "")
+            url   = c.get("url", "")
+            if url:
+                st.markdown(f"- [{label}]({url})")
+            else:
+                st.markdown(f"- {label}")
+
+    if disclaimer:
+        st.caption(f"_{disclaimer}_")
 
 
 def render_message(msg: dict):
     with st.chat_message(msg["role"]):
-        if msg["role"] == "assistant" and msg.get("search"):
-            render_search_results(msg["search"])
-        elif msg["role"] == "assistant" and msg.get("meta"):
-            meta = msg["meta"]
-            st.markdown(msg["content"])
-            st.divider()
-
-            label = meta["display_label"]
-            conf  = meta["confidence_pct"]
-            verb  = meta["verbatim_pct"]
-
-            if label == "Not Found":
-                st.error("🔴 Not Found in Source")
-            elif label == "Exact Match":
-                st.success(f"🟢 {label}")
-            elif label == "Partial Match":
-                st.warning(f"🟡 {label}")
-            else:
-                st.info(f"🟠 {label}")
-
-            col1, col2 = st.columns(2)
-            with col1:
-                st.caption("Confidence")
-                st.progress(conf / 100, text=f"{conf}%")
-            with col2:
-                st.caption("Verbatim")
-                st.progress(verb / 100, text=f"{verb}%")
-
-            st.caption(f"Section: `{meta['section']}`")
-            if meta["disclaimer"]:
-                st.caption(f"_{meta['disclaimer']}_")
+        msg_type = msg.get("type")
+        if msg["role"] == "assistant" and msg_type == "search_results":
+            render_search_results(msg)
+        elif msg["role"] == "assistant" and msg_type == "generate_result":
+            render_generate_result(msg)
         else:
-            st.markdown(msg["content"])
+            st.markdown(msg.get("content", ""))
 
 
 # ── session state ─────────────────────────────────────────────────────────────
@@ -161,7 +172,7 @@ if st.button("New Conversation", use_container_width=True, disabled=not st.sessi
     st.session_state.chat_history = []
     st.rerun()
 
-# ── chat history display ──────────────────────────────────────────────────────
+# ── chat history ──────────────────────────────────────────────────────────────
 for msg in st.session_state.chat_history:
     render_message(msg)
 
@@ -169,7 +180,6 @@ for msg in st.session_state.chat_history:
 user_input = st.chat_input("Describe your situation or ask a question...")
 
 if user_input:
-    # Save user message and mark as pending, then rerun to show it immediately
     st.session_state.chat_history.append({"role": "user", "content": user_input})
     st.session_state.pending = user_input
     st.rerun()
@@ -189,25 +199,17 @@ if st.session_state.pending:
         st.session_state.session_id = body.get("session_id")
         msg_type = body.get("type", "message")
 
-        if msg_type == "search_results":
-            st.session_state.chat_history.append({
-                "role": "assistant",
-                "content": None,
-                "search": body,
-            })
+        if msg_type in ("search_results", "generate_result"):
+            st.session_state.chat_history.append({"role": "assistant", **body})
         elif msg_type == "search_no_results":
             st.session_state.chat_history.append({
                 "role": "assistant",
                 "content": body.get("message", "No results found."),
-                "meta": None,
             })
         else:
-            message = body.get("message", "No response.")
-            answer_text, meta = parse_metadata(message)
             st.session_state.chat_history.append({
                 "role": "assistant",
-                "content": answer_text,
-                "meta": meta,
+                "content": body.get("message", "No response."),
             })
 
     st.rerun()
