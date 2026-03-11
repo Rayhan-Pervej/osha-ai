@@ -60,13 +60,26 @@ def _section_to_s3_key(section: str) -> str:
 
 
 
-def retrieve_for_section(query: str, section: str, top_k: int = 10) -> list[dict]:
+def retrieve_for_section(query: str, sections: str | list[str], top_k: int = 10) -> list[dict]:
     """
     Query KB filtered to a specific section using Bedrock's source URI filter.
     The KB chunks already contain the citation context — no local file needed.
     Falls back to client-side filtering if the metadata filter fails.
     """
-    s3_key = _section_to_s3_key(section)
+    if isinstance(sections, str):
+        sections = [sections]
+
+    s3_keys = {s: _section_to_s3_key(s) for s in sections}
+
+    s3_key_list = list(s3_keys.values())
+    filter_expr = (
+        {"stringContains": {"key": "x-amz-bedrock-kb-source-uri", "value": s3_key_list[0]}}
+        if len(s3_key_list) == 1
+        else {"orAll": [
+            {"stringContains": {"key": "x-amz-bedrock-kb-source-uri", "value": sk}}
+            for sk in s3_key_list
+        ]}
+    )
 
     try:
         response = _get_client().retrieve(
@@ -76,12 +89,7 @@ def retrieve_for_section(query: str, section: str, top_k: int = 10) -> list[dict
                 "vectorSearchConfiguration": {
                     "numberOfResults": top_k,
                     "overrideSearchType": "HYBRID",
-                    "filter": {
-                        "stringContains": {
-                            "key":   "x-amz-bedrock-kb-source-uri",
-                            "value": s3_key,
-                        }
-                    },
+                    "filter": filter_expr,
                 }
             },
         )
@@ -94,21 +102,20 @@ def retrieve_for_section(query: str, section: str, top_k: int = 10) -> list[dict
                 "source": s3_uri,
             })
         if results:
-            logger.debug("[KB] section=%r native filter matched=%d", section, len(results))
+            logger.debug("[KB] sections=%r native filter matched=%d", sections, len(results))
             return results
     except Exception as e:
-        logger.warning("[KB] native filter failed for section=%r: %s", section, e)
+        logger.warning("[KB] native filter failed for sections=%r: %s", sections, e)
 
     # Fallback: client-side filter from broader retrieve
     all_hits = retrieve(query, top_k=top_k * 2)
-    filtered = [h for h in all_hits if s3_key in h.get("source", "")]
+    filtered = [h for h in all_hits if any(sk in h.get("source", "") for sk in s3_keys.values())]
     if filtered:
-        logger.debug("[KB] section=%r client-filter matched=%d", section, len(filtered))
+        logger.debug("[KB] sections=%r client-filter matched=%d", sections, len(filtered))
         return filtered[:top_k]
 
-    logger.warning("[KB] section=%r no matching docs, returning top unfiltered", section)
+    logger.warning("[KB] sections=%r no matching docs, returning top unfiltered", sections)
     return all_hits[:top_k]
-
 
 
 

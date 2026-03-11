@@ -8,6 +8,8 @@ st.set_page_config(
     layout="centered",
 )
 
+# ── global styles ─────────────────────────────────────────────────────────────
+
 # ── sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.title("Configuration")
@@ -73,51 +75,33 @@ def render_search_results(body: dict):
 
 
 def render_generate_result(body: dict):
-    section    = body.get("section", "")
-    summary    = body.get("summary", "")
-    bullets    = body.get("bullets", [])
-    why        = body.get("why", "")
-    conf       = body.get("confidence_percent", 0)
-    verbatim   = body.get("verbatim_percent", 0)
-    osha_url   = body.get("osha_url") or ""
-    citations  = body.get("manager_citations", [])
-    disclaimer = body.get("disclaimer", "")
+    title           = body.get("title", "")
+    ans_body        = body.get("body", "")
+    conf            = body.get("confidence_percent", 0)
+    verbatim        = body.get("verbatim_percent", 0)
+    references      = body.get("references", [])
+    not_found       = body.get("not_found", False)
+    disclaimer      = body.get("disclaimer", "")
 
     # NOT FOUND case
-    if "NOT FOUND IN SOURCE" in summary:
-        st.error("No relevant information found in this section.")
-        st.caption(f"Section: `{section}`")
+    if not_found or "NOT FOUND IN SOURCE" in ans_body:
+        st.error("No relevant information found in the requested section(s).")
         return
 
-    # Summary
-    st.markdown(f"### {section}")
-    if osha_url:
-        st.markdown(f"[View on OSHA.gov]({osha_url})")
-    st.markdown(summary)
-
-    # Verbatim bullets
-    if bullets:
-        st.markdown("**Regulatory Text (Verbatim):**")
-        for b in bullets:
-            text = b.get("text", "") if isinstance(b, dict) else str(b)
-            cites = b.get("citations", []) if isinstance(b, dict) else []
-            cite_str = "  \n  _" + " · ".join(cites) + "_" if cites else ""
-            st.markdown(f"- {text}{cite_str}")
-
-    # Why
-    if why:
-        st.markdown("**Why this matters:**")
-        st.markdown(why)
+    import re as _re
+    formatted = _re.sub(r"\*\*(.+?)\*\*", r"*\1*", ans_body, flags=_re.DOTALL)
+    st.markdown(f"### {title}")
+    st.markdown(formatted)
 
     st.divider()
 
     # Scores
     if conf >= 80:
-        st.success(f"🟢 High Confidence")
+        st.success("High Confidence")
     elif conf >= 50:
-        st.warning(f"🟡 Moderate Confidence")
+        st.warning("Moderate Confidence")
     else:
-        st.error(f"🔴 Low Confidence")
+        st.error("Low Confidence")
 
     col1, col2 = st.columns(2)
     with col1:
@@ -127,12 +111,12 @@ def render_generate_result(body: dict):
         st.caption("Verbatim")
         st.progress(verbatim / 100, text=f"{verbatim}%")
 
-    # Citations
-    if citations:
+    # References
+    if references:
         st.markdown("**Sources:**")
-        for c in citations:
-            label = c.get("section", "")
-            url   = c.get("url", "")
+        for r in references:
+            label = r.get("section", "")
+            url   = r.get("url", "")
             if url:
                 st.markdown(f"- [{label}]({url})")
             else:

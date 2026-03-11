@@ -37,20 +37,24 @@ def test_search():
 
 GENERATE_TEST_CASES = [
     {
-        "section": "1904.39",
+        "sections": ["1904.39"],
         "query": "Within how many hours must a fatality be reported to OSHA, and what reporting methods are allowed?",
     },
-        {
-        "section": "1904.39",
+    {
+        "sections": ["1904.39"],
         "query": "What are the reporting deadlines and methods for fatalities, hospitalizations, amputations, and loss of an eye?",
     },
     {
-        "section": "1904.1",
+        "sections": ["1904.1"],
         "query": "Are employers with 10 or fewer employees required to keep OSHA injury and illness records?",
     },
     {
-        "section": "1903.4",
+        "sections": ["1903.4"],
         "query": "What happens when an employer refuses to allow an OSHA compliance officer to enter the workplace?",
+    },
+     {
+        "sections": ['1910.28', '1910.269'],
+        "query": "fall protection general industry",
     },
 ]
 
@@ -58,7 +62,7 @@ GENERATE_TEST_CASES = [
 def test_generate():
     print("\nGenerate test cases:")
     for i, tc in enumerate(GENERATE_TEST_CASES, 1):
-        print(f"  {i}. [{tc['section']}] {tc['query']}")
+        print(f"  {i}. [{', '.join(tc['sections'])}] {tc['query']}")
     print(f"  {len(GENERATE_TEST_CASES) + 1}. Custom section + query")
 
     choice = input(f"Choice (1-{len(GENERATE_TEST_CASES) + 1}): ").strip()
@@ -71,33 +75,39 @@ def test_generate():
 
     if 0 <= idx < len(GENERATE_TEST_CASES):
         tc = GENERATE_TEST_CASES[idx]
-        section = tc["section"]
+        sections = tc["sections"]
         query = tc["query"]
     elif idx == len(GENERATE_TEST_CASES):
-        section = input("Section (e.g. 1904.39): ").strip()
+        sections_input = input("Sections comma-separated (e.g. 1910.28,1926.502): ").strip()
+        sections = [s.strip() for s in sections_input.split(",") if s.strip()]
         query = input("Query: ").strip()
-        if not section or not query:
-            print("Section and query are required.")
+        if not sections or not query:
+            print("Sections and query are required.")
             return
     else:
         print("Invalid choice.")
         return
 
-    print(f"\nSection: {section}")
-    print(f"Query:   {query}")
+    print(f"\nSections: {sections}")
+    print(f"Query:    {query}")
     print("-" * 60)
 
     from src.agent.tools.generate_answer import generate_answer
-    result = generate_answer.invoke({"section": section, "query": query})
+    result = generate_answer.invoke({"sections": sections, "query": query})
     parsed = json.loads(result)
-    print(f"\nsummary:\n{parsed.get('summary', '')}")
-    print(f"\nbullets ({len(parsed.get('bullets', []))}):")
-    for b in parsed.get("bullets", []):
-        print(f"  {b.get('citations', [])} {b.get('text', '')}")
-    print(f"\nwhy:\n{parsed.get('why', '')}")
+    print(f"\ntitle:\n{parsed.get('title', '')}")
+    print(f"\nbody:\n{parsed.get('body', '')}")
+    print(f"\nverbatim_quotes ({len(parsed.get('verbatim_quotes', []))}):")
+    for q in parsed.get("verbatim_quotes", []):
+        icon = "✓" if q.get("found_in_source") else "✗"
+        quote = q.get('quote', '')
+        print(f"  {icon} [{len(quote)} chars] {quote}")
+    print(f"\nreferences:")
+    for r in parsed.get("references", []):
+        print(f"  {r.get('section')} — {r.get('url')}")
     print(f"\nconfidence_percent: {parsed.get('confidence_percent')}%")
     print(f"verbatim_percent:   {parsed.get('verbatim_percent')}%")
-    print(f"section:            {parsed.get('section')}")
+    print(f"not_found:          {parsed.get('not_found')}")
 
 
 def test_agent():
@@ -161,7 +171,7 @@ def test_agent():
             print(f"Section:    {structured.get('section')}")
             print(f"Confidence: {structured.get('confidence_percent')}%")
             print(f"Verbatim:   {structured.get('verbatim_percent')}%")
-            print(f"Bullets:    {len(structured.get('bullets', []))}")
+            print(f"Verbatim quotes: {len(structured.get('verbatim_quotes', []))}")
             print()
 
         if final_state:

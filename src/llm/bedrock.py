@@ -1,5 +1,4 @@
 import logging
-from typing import List
 
 from pydantic import BaseModel
 from langchain_aws import ChatBedrockConverse
@@ -11,16 +10,9 @@ from src.exceptions.errors import OshaGenerationError
 logger = logging.getLogger(__name__)
 
 
-class BulletPoint(BaseModel):
-    text: str
-    citations: List[str]
-
-
 class GenerationOutput(BaseModel):
-    summary: str
-    bullets: List[BulletPoint]
-    why: str
-    disclaimer: str
+    title: str
+    body: str
 
 
 def _build_llm() -> ChatBedrockConverse:

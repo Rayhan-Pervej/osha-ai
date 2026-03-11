@@ -1,155 +1,188 @@
-(venv) PS D:\Shadhin Lab\osha-ai> python test.py
->> 
-What do you want to test?
-  1. search
-  2. generate
-  3. agent
-Choice (1/2/3): 2
-
-Generate test cases:
-  1. [1904.39] Within how many hours must a fatality be reported to OSHA, and what reporting methods are allowed?
-  2. [1904.39] What are the reporting deadlines and methods for fatalities, hospitalizations, amputations, and loss of an eye?
-  3. [1904.1] Are employers with 10 or fewer employees required to keep OSHA injury and illness records?
-  4. [1903.4] What happens when an employer refuses to allow an OSHA compliance officer to enter the workplace?
-  5. Custom section + query
-Choice (1-5): 5
-Section (e.g. 1904.39): 1926.451
-Query: What are the requirements in 1926.451?
-
-Section: 1926.451
-Query:   What are the requirements in 1926.451?
-------------------------------------------------------------
-
-summary:
-29 CFR 1926.451 establishes general requirements for scaffold capacity, platform construction, fall protection, access, and safe use to prevent structural failure and falls during construction work.
-
-bullets (7):
-  ['29 CFR §1926.451(a)(1)'] Each scaffold and scaffold component shall be capable of supporting, without failure, its own weight and at least 4 times the maximum intended load applied or transmitted to it....
-  ['29 CFR §1926.451(b)(1)'] Each platform on all working levels of scaffolds shall be fully planked or decked between the front uprights and the guardrail supports as follows:...
-  ['29 CFR §1926.451(g)(1)'] Each employee on a scaffold more than 10 feet (3.1 m) above a lower level shall be protected from falling to that lower level....
-  ['29 CFR §1926.451(g)(4)(i)'] Guardrail systems shall be installed along all open sides and ends of platforms....
-  ['29 CFR §1926.451(h)(1)'] In addition to wearing hardhats each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures that contain or deflect the falling objects....
-  ['29 CFR §1926.451(f)(3)'] Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect a scaffold's structural integrity....
-  ['29 CFR §1926.451(f)(7)'] Scaffolds shall be erected, moved, dismantled, or altered only under the supervision and direction of a competent person qualified in scaffold erection, moving, dismantling or alteration....
-
-why:
-These requirements prevent injuries by ensuring scaffolds can support workers and materials without collapsing (4:1 safety factor), preventing falls from elevation through guardrails and fall arrest systems for work above 10 feet, and protecting workers below from falling objects through toeboards and debris nets. Regular inspections by competent persons identify structural defects before failure occurs, and proper supervision ensures scaffolds are erected and used safely.
-
-confidence_percent: 83%
-verbatim_percent:   100%
-section:            1926.451
-(venv) PS D:\Shadhin Lab\osha-ai> 
+1. User → chat.py
+Request:
 
 
-
-(venv) PS D:\Shadhin Lab\osha-ai> python test.py
->>
-What do you want to test?
-  1. search
-  2. generate
-  3. agent
-Choice (1/2/3): 1
-Query: What are the requirements in 1926.451?
-Part filter (e.g. 1910 / 1926) or press Enter to skip: 
-
-Choose test level:
-  1. discover()        — raw Python dict
-  2. search_regulations — JSON string (how agent calls it)
-Choice (1/2): 1
+POST /chat
 {
-  "query": "What are the requirements in 1926.451?",
-  "ambiguous": true,
-  "parts_found": [
-    "1910",
-    "1926"
-  ],
-  "parts_labels": {
-    "1910": "29 CFR Part 1910 (General Industry Standards)",
-    "1926": "29 CFR Part 1926 (Construction Standards)"
-  },
-  "clarification": "Your query matches regulations in multiple regulatory parts: 29 CFR Part 1910 (General Industry Standards) and 29 CFR Part 1926 (Construction Standards). Please clarify which applies to your situation:\n  - 29 CFR Part 1910 (General Industry Standards)\n  - 29 CFR Part 1926 (Construction Standards)",
+  "query": "what are forklift training requirements?",
+  "session_id": "abc-123"
+}
+
+
+2. chat.py → graph.invoke()
+
+initial_state = {
+    "messages": [
+        HumanMessage("what are forklift training requirements?")
+    ],
+    "structured_output": None
+}
+
+
+3. Inside the Graph — Path A: Search
+agent node calls search_regulations tool
+LLM emits a tool call message internally.
+
+search_regulations tool returns (raw string to graph):
+
+{
+  "type": "search_results",
+  "query": "forklift operator training requirements warehouse",
+  "ambiguous": false,
+  "clarification": null,
   "results": [
     {
-      "section": "1926.451",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_451.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.451\r Title: \u00a7 1926.451 General requirements.\r Section: 1926.451\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart L\u2014Scaffolds\r \r This section does not apply to aerial lifts, the criteria for which are set out exclusively in \u00a7 1926.453.\r (a) Capacity. (1) Except as provided in paragraphs (a)(2), (a)(3), (a)(4), (a)(5) and (g) of this section, each scaffold and scaffold component shall be capable of supporting, without failure, its own weight and at least 4 times the maximum intended load applied or transmitted to it.\r (2) Direct connections to roofs and floors, and counterweights used to balance adjustable suspension scaffolds, shall be capable of resisting at least 4 times the tipping moment imposed by the scaffold operating at the rated load of the hoist, or 1.5 (minimum) times the tipping moment imposed by the scaffold operating at the stall load of the hoist, whichever is greater.\r (3) Each suspension rope, including connecting hardware, used on non-adjustable suspension scaffolds shall be capable of supporting, without failure, at least 6 times the maximum intended load applied or transmitted to that rope.\r (4) Each suspension rope, including connecting hardware, used on adjustable suspension scaffolds shall be capable of supporting, without failure, at least 6 times the maximum intended load applied or transmitted to that rope with the scaffold operating at either the rated load of the hoist, or 2 (minimum) times the stall load of the hoist, whichever is greater.\r (5) The stall load of any scaffold hoist shall not exceed 3 times its rated load.\r (6) Scaffolds shall be designed by a qualified person and shall be constructed and loaded in accordance with that design. Non-mandatory appendix A to this subpart contains examples of criteria that will enable an employer to comply with paragraph (a) of this section.\r (b) Scaffold platform construction. (1) Each platform on all working levels of scaffolds shall be fully planked or decked between the front uprights and the guardrail supports as follows:\r (i) Each platform unit (e.g., scaffold plank, fabricated plank, fabricated deck, or fabricated platform) shall be installed so that the space between adjacent units and the space between the platform and the uprights is no more than 1 inch (2.5 cm) wide, except where the employer can demonstrate that a wider space is necessary (for example, to fit around uprights when side brackets are used to extend the width of the platform).\r (ii) Where the employer makes the demonstration provided for in paragraph (b)(1)(i) of this section, the platform shall be planked or decked as fully as possible and the remaining open space between the platform and the uprights shall not exceed 9 1/2 inches (24.1 cm).\r Exception to paragraph (b)(1): The requirement in paragraph (b)(1) to provide full planking or decking does not apply to platforms used solely as walkways or solely by employees performing scaffold erection or dismantling. In these situations, only the planking that the employer establishes is necessary to provide safe working conditions is required.\r (2) Except as provided in paragraphs (b)(2)(i) and (b)(2)(ii) of this section, each scaffold platform and walkway shall be at least 18 inches (46 cm) wide.\r (i) Each ladder jack scaffold, top plate bracket scaffold, roof bracket scaffold, and pump jack scaffold shall be at least 12 inches (30 cm) wide. There is no minimum width requirement for boatswains' chairs.\r Note to paragraph ( b )(2)( i ): Pursuant to an administrative stay effective November 29, 1996 and published in the Federal Register on November 25, 1996, the requirement in paragraph (b)(2)(i) that roof bracket scaffolds be at least 12 inches wide is stayed until November 25, 1997 or until rulemaking regarding the minimum width of roof bracket scaffolds has been completed, whichever is later.\r (ii) Where scaffolds must be used in areas that the employer can demonstrate are so narrow that platforms and walkways cannot be at least 18 inches (46 cm) wide, such platforms and walkways shall be as wide as feasible, and employees on those platforms and walkways shall be protected from fall hazards by the use of guardrails and/or personal fall arrest systems.\r (3) Except as provided in paragraphs (b)(3) (i) and (ii) of this section, the front edge of all platforms shall not be more than 14 inches (36 cm) from the face of the work, unless guardrail systems are erected along the front edge and/or personal fall arrest systems are used in accordance with paragraph (g) of this section to protect employees from falling.\r (i) The maximum distance from the face for outrigger scaffolds shall be 3 inches (8 cm);\r (ii) The maximum distance from the face for plastering and lathing operations shall be 18 inches (46 cm).\r (4) Each end of a platform, unless cleated or otherwise restrained by hooks or equivalent means, shall extend over the centerline of its support at least 6 inches (15 cm).\r (5)(i) Each end of a platform 10 feet or less in length shall not extend over its support more than 12 inches (30 cm) unless the platform is designed and installed so that the cantilevered portion of the platform is able to support employees and/or materials without tipping, or has guardrails which block employee access to the cantilevered end.\r (ii) Each platform greater than 10 feet in length shall not extend over its support more than 18 inches (46 cm), unless it is designed and installed so that the cantilevered portion of the platform is able to support employees without tipping, or has guardrails which block employee access to the cantilevered end.\r (6) On scaffolds where scaffold planks are abutted to create a long platform, each abutted end shall rest on a separate support surface. This provision does not preclude the use of common support members, such as \u201cT\u201d sections, to support abutting planks, or hook on platforms designed to rest on common supports.\r (7) On scaffolds where platforms are overlapped to create a long platform, the overlap shall occur only over supports, and shall not be less than 12 inches (30 cm) unless the platforms are nailed together or otherwise restrained to prevent movement.",
-      "score": 0.4941
-    },
-    {
-      "section": "1926.5",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_5.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Section: 1926.5\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart A\u2014General\r \r The following sections or paragraphs each contain a collection of information requirement which has been approved by the Office of Management and Budget under the control number listed.\r 29 CFR citation OMB control No. 1926.33 1218-0065 1926.50 1218-0093 1926.52 1218-0048 1926.53 1218-0103 1926.59 1218-0072 1926.60 1218-0183 1926.62 1218-0189 1926.64 1218-0200 1926.65 1218-0202 1926.103 1218-0099 1926.200 1218-0132 1926.250 1218-0093 1926.251 1218-0233 1926.403 1218-0130 1926.404 1218-0130 1926.405 1218-0130 1926.407 1218-0130 1926.408 1218-0130 1926.453(a)(2) 1218-0216 1926.502 1218-0197 1926.503 1218-0197 1926.550(a)(1) 1218-0115 1926.550(a)(2) 1218-0115 1926.550(a)(4) 1218-0115 1926.550(a)(6) 1218-0113 1926.550(a)(11) 1218-0054 1926.550(a)(16) 1218-0115 1926.550(b)(2) 1218-0232 1926.550(g) 1218-0151 1926.552 1218-0231 1926.652 1218-0137 1926.703 1218-0095 1926.800 1218-0067 1926.803 1218-0067 1926.900 1218-0217 1926.903 1218-0227 1926.1080 1218-0069 1926.1081 1218-0069 1926.1083 1218-0069 1926.1090 1218-0069 1926.1091 1218-0069 1926.1101 1218-0134 1926.1103 1218-0085 1926.1104 1218-0084 1926.1106 1218-0086 1926.1107 1218-0083 1926.1108 1218-0087 1926.1109 1218-0089 1926.1110 1218-0082 1926.1111 1218-0090 1926.1112 1218-0080 1926.1113 1218-0079 1926.1114 1218-0088 1926.1115 1218-0044 1926.1116 1218-0081 1926.1117 1218-0010 1926.1118 1218-0104 1926.1124 1218-0267 1926.1126 1218-0252 1926.1127 1218-0186 1926.1128 1218-0129 1926.1129 1218-0128 1926.1144 1218-0101 1926.1145 1218-0126 1926.1147 1218-0108 1926.1148 1218-0145 1926.1153 1218-0266 1926.1203 1218-0258 1926.1204 1218-0258 1926.1205 1218-0258 1926.1206 1218-0258 1926.1207 1218-0258 1926.1208 1218-0258 1926.1209 1218-0258 1926.1210 1218-0258 1926.1211 1218-0258 1926.1212 1218-0258 1926.1213 1218-0258 1926.1402 1218-0261 1926.1403 1218-0261 1926.1404 1218-0261 1926.1406 1218-0261 1926.1407 1218-0261 1926.1408 1218-0261 1926.1409 1218-0261 1926.1410 1218-0261 1926.1411 1218-0261 1926.1412 1218-0261 1926.1413 1218-0261 1926.1414 1218-0261 1926.1417 1218-0261 1926.1423 1218-0261 1926.1424 1218-0261 1926.1427 1218-0270 1926.1428 1218-0261 1926.1431 1218-0261 1926.1433 1218-0261 1926.1434 1218-0261 1926.1435 1218-0261 1926.1436 1218-0261 1926.1437 1218-0261 1926.1441 1218-0261\r [61 FR 5509, Feb. 13, 1996, as amended at 63 FR 3814, Jan. 27, 1998; 63 FR 13340, Mar. 19, 1998; 63 FR 17094, Apr. 8, 1998; 64 FR 18810, Apr. 16, 1999; 71 FR 38086, July 5, 2006; 75 FR 68430, Nov. 8, 2010; 81 FR 48710, July 26, 2016; 81 FR 53268, Aug. 12, 2016; 83 FR 9703, Mar. 7, 2018; 84 FR 34785, July 19, 2019]",
-      "score": 0.4941
-    },
-    {
-      "section": "1926.402",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_402.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.402\r Title: \u00a7 1926.402 Applicability.\r Section: 1926.402\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart K\u2014Electrical > Installation Safety Requirements\r \r (a) Covered. Sections 1926.402 through 1926.408 contain installation safety requirements for electrical equipment and installations used to provide electric power and light at the jobsite. These sections apply to installations, both temporary and permanent, used on the jobsite; but these sections do not apply to existing permanent installations that were in place before the construction activity commenced.\r Note: If the electrical installation is made in accordance with the National Electrical Code ANSI/NFPA 70-1984, exclusive of Formal Interpretations and Tentative Interim Amendments, it will be deemed to be in compliance with \u00a7\u00a7 1926.403 through 1926.408, except for \u00a7\u00a7 1926.404(b)(1) and 1926.405(a)(2)(ii) (E), (F), (G), and (J).\r (b) Not covered. Sections 1926.402 through 1926.408 do not cover installations used for the generation, transmission, and distribution of electric energy, including related communication, metering, control, and transformation installations. (However, these regulations do cover portable and vehicle-mounted generators used to provide power for equipment used at the jobsite.) See subpart V of this part for the construction of power distribution and transmission lines.",
-      "score": 0.4915
-    },
-    {
-      "section": "1926.452",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_452.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.452\r Title: \u00a7 1926.452 Additional requirements applicable to specific types of scaffolds.\r Section: 1926.452\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart L\u2014Scaffolds\r \r In addition to the applicable requirements of \u00a7 1926.451, the following requirements apply to the specific types of scaffolds indicated. Scaffolds not specifically addressed by \u00a7 1926.452, such as but not limited to systems scaffolds, must meet the requirements of \u00a7 1926.451.\r (a) Pole scaffolds. (1) When platforms are being moved to the next level, the existing platform shall be left undisturbed until the new bearers have been set in place and braced, prior to receiving the new platforms.\r (2) Crossbracing shall be installed between the inner and outer sets of poles on double pole scaffolds.\r (3) Diagonal bracing in both directions shall be installed across the entire inside face of double-pole scaffolds used to support loads equivalent to a uniformly distributed load of 50 pounds (22.7 kg) or more per square foot (929 square cm).\r (4) Diagonal bracing in both directions shall be installed across the entire outside face of all double- and single-pole scaffolds.\r (5) Runners and bearers shall be installed on edge.\r (6) Bearers shall extend a minimum of 3 inches (7.6 cm) over the outside edges of runners.\r (7) Runners shall extend over a minimum of two poles, and shall be supported by bearing blocks securely attached to the poles.\r (8) Braces, bearers, and runners shall not be spliced between poles.\r (9) Where wooden poles are spliced, the ends shall be squared and the upper section shall rest squarely on the lower section. Wood splice plates shall be provided on at least two adjacent sides, and shall extend at least 2 feet (0.6 m) on either side of the splice, overlap the abutted ends equally, and have at least the same cross-sectional areas as the pole. Splice plates of other materials of equivalent strength may be used.\r (10) Pole scaffolds over 60 feet in height shall be designed by a registered professional engineer, and shall be constructed and loaded in accordance with that design. Non-mandatory appendix A to this subpart contains examples of criteria that will enable an employer to comply with design and loading requirements for pole scaffolds under 60 feet in height.\r (b) Tube and coupler scaffolds. (1) When platforms are being moved to the next level, the existing platform shall be left undisturbed until the new bearers have been set in place and braced prior to receiving the new platforms.\r (2) Transverse bracing forming an \u201cX\u201d across the width of the scaffold shall be installed at the scaffold ends and at least at every third set of posts horizontally (measured from only one end) and every fourth runner vertically. Bracing shall extend diagonally from the inner or outer posts or runners upward to the next outer or inner posts or runners. Building ties shall be installed at the bearer levels between the transverse bracing and shall conform to the requirements of \u00a7 1926.451(c)(1).\r (3) On straight run scaffolds, longitudinal bracing across the inner and outer rows of posts shall be installed diagonally in both directions, and shall extend from the base of the end posts upward to the top of the scaffold at approximately a 45 degree angle. On scaffolds whose length is greater than their height, such bracing shall be repeated beginning at least at every fifth post. On scaffolds whose length is less than their height, such bracing shall be installed from the base of the end posts upward to the opposite end posts, and then in alternating directions until reaching the top of the scaffold. Bracing shall be installed as close as possible to the intersection of the bearer and post or runner and post.\r (4) Where conditions preclude the attachment of bracing to posts, bracing shall be attached to the runners as close to the post as possible.\r (5) Bearers shall be installed transversely between posts, and when coupled to the posts, shall have the inboard coupler bear directly on the runner coupler. When the bearers are coupled to the runners, the couplers shall be as close to the posts as possible.\r (6) Bearers shall extend beyond the posts and runners, and shall provide full contact with the coupler.\r (7) Runners shall be installed along the length of the scaffold, located on both the inside and outside posts at level heights (when tube and coupler guardrails and midrails are used on outside posts, they may be used in lieu of outside runners).\r (8) Runners shall be interlocked on straight runs to form continuous lengths, and shall be coupled to each post. The bottom runners and bearers shall be located as close to the base as possible.\r (9) Couplers shall be of a structural metal, such as drop-forged steel, malleable iron, or structural grade aluminum. The use of gray cast iron is prohibited.\r (10) Tube and coupler scaffolds over 125 feet in height shall be designed by a registered professional engineer, and shall be constructed and loaded in accordance with such design. Non-mandatory appendix A to this subpart contains examples of criteria that will enable an employer to comply with design and loading requirements for tube and coupler scaffolds under 125 feet in height.\r (c) Fabricated frame scaffolds (tubular welded frame scaffolds). (1) When moving platforms to the next level, the existing platform shall be left undisturbed until the new end frames have been set in place and braced prior to receiving the new platforms.\r (2) Frames and panels shall be braced by cross, horizontal, or diagonal braces, or combination thereof, which secure vertical members together laterally. The cross braces shall be of such length as will automatically square and align vertical members so that the erected scaffold is always plumb, level, and square. All brace connections shall be secured.\r (3) Frames and panels shall be joined together vertically by coupling or stacking pins or equivalent means.\r (4) Where uplift can occur which would displace scaffold end frames or panels, the frames or panels shall be locked together vertically by pins or equivalent means.\r (5) Brackets used to support cantilevered loads shall:\r (i) Be seated with side-brackets parallel to the frames and end-brackets at 90 degrees to the frames;\r (ii) Not be bent or twisted from these positions; and\r (iii) Be used only to support personnel, unless the scaffold has been designed for other loads by a qualified engineer and built to withstand the tipping forces caused by those other loads being placed on the bracket-supported section of the scaffold.",
-      "score": 0.4731
-    },
-    {
-      "section": "1926.1438",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_1438.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.1438\r Title: \u00a7 1926.1438 Overhead & gantry cranes.\r Section: 1926.1438\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart CC\u2014Cranes and Derricks in Construction\r \r (a) Permanently installed overhead and gantry cranes. The requirements of \u00a7 1910.179, except for \u00a7 1910.179(b)(1), and not the requirements of this subpart CC, apply to the following equipment when used in construction and permanently installed in a facility: overhead and gantry cranes, including semigantry, cantilever gantry, wall cranes, storage bridge cranes, and others having the same fundamental characteristics.\r (b) Overhead and gantry cranes that are not permanently installed in a facility. (1) This paragraph applies to the following equipment when used in construction and not permanently installed in a facility: Overhead and gantry cranes, overhead/bridge cranes, semigantry, cantilever gantry, wall cranes, storage bridge cranes, launching gantry cranes, and similar equipment having the same fundamental characteristics, irrespective of whether it travels on tracks, wheels, or other means.\r (2) The following requirements apply to equipment identified in paragraph (b)(1) of this section:\r (i) Sections 1926.1400 through 1926.1414; \u00a7\u00a7 1926.1417 through 1926.1425; \u00a7 1926.1426(d), \u00a7\u00a7 1926.1427 through 1926.1434; \u00a7\u00a7 1926.1437, 1926.1439, and 1926.1441.\r (ii) The following portions of \u00a7 1910.179:\r (A) Paragraphs (b)(5),(6),(7); (e)(1),(3),(5),(6); (f)(1),(4); (g); (h)(1),(3); (k); and (n) of \u00a7 1910.179.\r (B) The definitions in \u00a7 1910.179(a) except for \u201choist\u201d and \u201cload.\u201d For those words, the definitions in \u00a7 1926.1401 apply.\r (C) Section 1910.179(b)(2), but only where the equipment identified in paragraph (b)(1) of this section (\u00a7 1926.1438) was manufactured before September 19, 2001.\r (iii) For equipment manufactured on or after September 19, 2001, the following sections of ASME B30.2-2005 (incorporated by reference, see \u00a7 1926.6) apply: 2-1.3.1; 2-1.3.2; 2-1.4.1; 2-1.6; 2-1.7.2; 2-1.8.2; 2-1.9.1; 2-1.9.2; 2-1.11; 2-1.12.2; 2-1.13.7; 2-1.14.2; 2-1.14.3; 2-1.14.5; 2-1.15.; 2-2.2.2; 2-3.2.1.1. In addition, 2-3.5 applies, except in 2-3.5.1(b), \u201c29 CFR 1910.147\u201d is substituted for \u201cANSI Z244.1.\u201d",
-      "score": 0.4728
-    },
-    {
-      "section": "1926.400",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_400.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.400\r Title: \u00a7 1926.400 Introduction.\r Section: 1926.400\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart K\u2014Electrical > General\r \r This subpart addresses electrical safety requirements that are necessary for the practical safeguarding of employees involved in construction work and is divided into four major divisions and applicable definitions as follows:\r (a) Installation safety requirements. Installation safety requirements are contained in \u00a7\u00a7 1926.402 through 1926.408. Included in this category are electric equipment and installations used to provide electric power and light on jobsites.\r (b) Safety-related work practices. Safety-related work practices are contained in \u00a7\u00a7 1926.416 and 1926.417. In addition to covering the hazards arising from the use of electricity at jobsites, these regulations also cover the hazards arising from the accidental contact, direct or indirect, by employees with all energized lines, above or below ground, passing through or near the jobsite.\r (c) Safety-related maintenance and environmental considerations. Safety-related maintenance and environmental considerations are contained in \u00a7\u00a7 1926.431 and 1926.432.\r (d) Safety requirements for special equipment. Safety requirements for special equipment are contained in \u00a7 1926.441.\r (e) Definitions. Definitions applicable to this subpart are contained in \u00a7 1926.449.",
-      "score": 0.451
-    },
-    {
-      "section": "1926.950",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_950.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.950\r Title: \u00a7 1926.950 General.\r Section: 1926.950\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart V\u2014Electric Power Transmission and Distribution\r \r (a) Application \u2014(1) Scope. (i) This subpart, except for paragraph (a)(3) of this section, covers the construction of electric power transmission and distribution lines and equipment. As used in this subpart, the term \u201cconstruction\u201d includes the erection of new electric transmission and distribution lines and equipment, and the alteration, conversion, and improvement of existing electric transmission and distribution lines and equipment.\r Note to paragraph ( a )(1)( i ): An employer that complies with \u00a7 1910.269 of this chapter will be considered in compliance with requirements in this subpart that do not reference other subparts of this part. Compliance with \u00a7 1910.269 of this chapter will not excuse an employer from compliance obligations under other subparts of this part.\r (ii) Notwithstanding paragraph (a)(1)(i) of this section, this subpart does not apply to electrical safety-related work practices for unqualified employees.\r (2) Other part 1926 standards. This subpart applies in addition to all other applicable standards contained in this part 1926. Employers covered under this subpart are not exempt from complying with other applicable provisions in part 1926 by the operation of \u00a7 1910.5(c) of this chapter. Specific references in this subpart to other sections of part 1926 are provided for emphasis only.\r (3) Applicable part 1910 requirements. (i) Line-clearance tree trimming performed for the purpose of clearing space around electric power generation, transmission, or distribution lines or equipment and on behalf of an organization that operates, or that controls the operating procedures for, those lines or equipment shall comply with \u00a7 1910.269 of this chapter.\r (ii) Work involving electric power generation installations shall comply with \u00a7 1910.269 of this chapter.\r (b) Training \u2014(1) All employees. (i) Each employee shall be trained in, and familiar with, the safety-related work practices, safety procedures, and other safety requirements in this subpart that pertain to his or her job assignments.\r (ii) Each employee shall also be trained in and familiar with any other safety practices, including applicable emergency procedures (such as pole-top and manhole rescue), that are not specifically addressed by this subpart but that are related to his or her work and are necessary for his or her safety.\r (iii) The degree of training shall be determined by the risk to the employee for the hazard involved.\r (2) Qualified employees. Each qualified employee shall also be trained and competent in:\r (i) The skills and techniques necessary to distinguish exposed live parts from other parts of electric equipment,\r (ii) The skills and techniques necessary to determine the nominal voltage of exposed live parts,\r (iii) The minimum approach distances specified in this subpart corresponding to the voltages to which the qualified employee will be exposed and the skills and techniques necessary to maintain those distances,\r (iv) The proper use of the special precautionary techniques, personal protective equipment, insulating and shielding materials, and insulated tools for working on or near exposed energized parts of electric equipment, and\r (v) The recognition of electrical hazards to which the employee may be exposed and the skills and techniques necessary to control or avoid these hazards.\r Note to paragraph ( b )(2): For the purposes of this subpart, a person must have the training required by paragraph (b)(2) of this section to be considered a qualified person.\r (3) Supervision and annual inspection. The employer shall determine, through regular supervision and through inspections conducted on at least an annual basis, that each employee is complying with the safety-related work practices required by this subpart.\r (4) Additional training. An employee shall receive additional training (or retraining) under any of the following conditions:\r (i) If the supervision or annual inspections required by paragraph (b)(3) of this section indicate that the employee is not complying with the safety-related work practices required by this subpart, or\r (ii) If new technology, new types of equipment, or changes in procedures necessitate the use of safety-related work practices that are different from those which the employee would normally use, or\r (iii) If he or she must employ safety-related work practices that are not normally used during his or her regular job duties.\r Note to paragraph ( b )(4)( iii ): The Occupational Safety and Health Administration considers tasks that are performed less often than once per year to necessitate retraining before the performance of the work practices involved.\r (5) Type of training. The training required by paragraph (b) of this section shall be of the classroom or on-the-job type.\r (6) Training goals. The training shall establish employee proficiency in the work practices required by this subpart and shall introduce the procedures necessary for compliance with this subpart.\r (7) Demonstration of proficiency. The employer shall ensure that each employee has demonstrated proficiency in the work practices involved before that employee is considered as having completed the training required by paragraph (b) of this section.\r Note 1 to paragraph ( b )(7): Though they are not required by this paragraph, employment records that indicate that an employee has successfully completed the required training are one way of keeping track of when an employee has demonstrated proficiency.\r Note 2 to paragraph ( b )(7): For an employee with previous training, an employer may determine that that employee has demonstrated the proficiency required by this paragraph using the following process: (1) Confirm that the employee has the training required by paragraph (b) of this section, (2) use an examination or interview to make an initial determination that the employee understands the relevant safety-related work practices before he or she performs any work covered by this subpart, and (3) supervise the employee closely until that employee has demonstrated proficiency as required by this paragraph.\r (c) Information transfer \u2014(1) Host employer responsibilities. Before work begins, the host employer shall inform contract employers of:\r (i) The characteristics of the host employer's installation that are related to the safety of the work to be performed and are listed in paragraphs (d)(1) through (d)(5) of this section;\r Note to paragraph ( c )(1)( i ): This paragraph requires the host employer to obtain information listed in paragraphs (d)(1) through (d)(5) of this section if it does not have this information in existing records.\r ",
-      "score": 0.4496
-    },
-    {
-      "section": "1926.500",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1926_500.txt",
-      "title": "29 CFR Part 1926 (Construction Standards)",
-      "part": "1926",
-      "part_label": "29 CFR Part 1926 (Construction Standards)",
-      "excerpt": "Source: 29 CFR 1926.500\r Title: \u00a7 1926.500 Scope, application, and definitions applicable to this subpart.\r Section: 1926.500\r Path: PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > PART 1926\u2014SAFETY AND HEALTH REGULATIONS FOR CONSTRUCTION\r  > Subpart M\u2014Fall Protection\r \r (a) Scope and application. (1) This subpart sets forth requirements and criteria for fall protection in construction workplaces covered under 29 CFR part 1926. Exception: The provisions of this subpart do not apply when employees are making an inspection, investigation, or assessment of workplace conditions prior to the actual start of construction work or after all construction work has been completed.\r (2) Section 1926.501 sets forth those workplaces, conditions, operations, and circumstances for which fall protection shall be provided except as follows:\r (i) Requirements relating to fall protection for employees working on scaffolds are provided in subpart L of this part.\r (ii) Requirements relating to fall protection for employees working on cranes and derricks are provided in subpart CC of this part.\r (iii) Fall protection requirements for employees performing steel erection work (except for towers and tanks) are provided in subpart R of this part.\r (iv) Requirements relating to fall protection for employees working on certain types of equipment used in tunneling operations are provided in subpart S of this part.\r (v) Requirements relating to fall protection for employees engaged in the erection of tanks and communication and broadcast towers are provided in \u00a7 1926.105.\r (vi) Subpart V of this part provides requirements relating to fall protection for employees working from aerial lifts or on poles, towers, or similar structures while engaged in the construction of electric transmission or distribution lines or equipment.\r (vii) Requirements relating to fall protection for employees working on stairways and ladders are provided in subpart X of this part.\r (3) Section 1926.502 sets forth the requirements for the installation, construction, and proper use of fall protection required by part 1926, except as follows:\r (i) Performance requirements for guardrail systems used on scaffolds and performance requirements for falling object protection used on scaffolds are provided in subpart L of this part.\r (ii) Performance requirements for stairways, stairrail systems, and handrails are provided in subpart X of this part.\r (iii) Additional performance requirements for fall arrest and work-positioning equipment are provided in subpart V of this part.\r (iv) Section 1926.502 does not apply to the erection of tanks and communication and broadcast towers. (Note: Section 1926.104 sets the criteria for body belts, lanyards and lifelines used for fall protection during tank and communication and broadcast tower erection. Paragraphs (b),(c) and (f) of \u00a7 1926.107 provide definitions for the pertinent terms.)\r (v) Criteria for steps, handholds, ladders, and grabrails/guardrails/railings required by subpart CC are provided in subpart CC. Sections 1926.502(a), (c) through (e), and (i) apply to activities covered under subpart CC unless otherwise stated in subpart CC. No other paragraphs of \u00a7 1926.502 apply to subpart CC.\r (4) Section 1926.503 sets forth requirements for training in the installation and use of fall protection systems, except in relation to steel erection activities and the use of equipment covered by subpart CC.\r (b) Definitions.\r Anchorage means a secure point of attachment for lifelines, lanyards or deceleration devices.\r Body belt (safety belt) means a strap with means both for securing it about the waist and for attaching it to a lanyard, lifeline, or deceleration device.\r Body harness means straps which may be secured about the employee in a manner that will distribute the fall arrest forces over at least the thighs, pelvis, waist, chest and shoulders with means for attaching it to other components of a personal fall arrest system.\r Buckle means any device for holding the body belt or body harness closed around the employee's body.\r Connector means a device which is used to couple (connect) parts of the personal fall arrest system and positioning device systems together. It may be an independent component of the system, such as a carabiner, or it may be an integral component of part of the system (such as a buckle or dee-ring sewn into a body belt or body harness, or a snap-hook spliced or sewn to a lanyard or self-retracting lanyard).\r Controlled access zone (CAZ) means an area in which certain work (e.g., overhand bricklaying) may take place without the use of guardrail systems, personal fall arrest systems, or safety net systems and access to the zone is controlled.\r Dangerous equipment means equipment (such as pickling or galvanizing tanks, degreasing units, machinery, electrical equipment, and other units) which, as a result of form or function, may be hazardous to employees who fall onto or into such equipment.\r Deceleration device means any mechanism, such as a rope grab, rip-stitch lanyard, specially-woven lanyard, tearing or deforming lanyards, automatic self-retracting lifelines/lanyards, etc., which serves to dissipate a substantial amount of energy during a fall arrest, or otherwise limit the energy imposed on an employee during fall arrest.\r Deceleration distance means the additional vertical distance a falling employee travels, excluding lifeline elongation and free fall distance, before stopping, from the point at which the deceleration device begins to operate. It is measured as the distance between the location of an employee's body belt or body harness attachment point at the moment of activation (at the onset of fall arrest forces) of the deceleration device during a fall, and the location of that attachment point after the employee comes to a full stop.\r Equivalent means alternative designs, materials, or methods to protect against a hazard which the employer can demonstrate will provide an equal or greater degree of safety for employees than the methods, materials or designs specified in the standard.\r Failure means load refusal, breakage, or separation of component parts. Load refusal is the point where the ultimate strength is exceeded.\r Free fall means the act of falling before a personal fall arrest system begins to apply force to arrest the fall.\r Free fall distance means the vertical displacement of the fall arrest attachment point on the employee's body belt or body harness between onset of the fall and just before the system begins to apply force to arrest the fall. This distance excludes deceleration distance, and lifeline/lanyard elongation, but includes any deceleration device slide distance or self-retracting lifeline/lanyard extension before they operate and fall arrest forces occur.\r Guardrail system means a barrier erected to prevent employees from falling to lower levels.\r ",    
-      "score": 0.447
-    },
-    {
-      "section": "1910.122",
-      "source": "s3://sagemaker-us-east-1-618758721119/normalized/29_CFR_1910_122.txt",
-      "title": "29 CFR Part 1910 (General Industry Standards)",
+      "section": "1910.178",
+      "title": "Powered Industrial Trucks",
+      "osha_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
       "part": "1910",
-      "part_label": "29 CFR Part 1910 (General Industry Standards)",
-      "excerpt": "Source: 29 CFR 1910.122\r Title: \u00a7 1910.122 Table of contents.\r Section: 1910.122\r Path: PART 1910\u2014OCCUPATIONAL SAFETY AND HEALTH STANDARDS\r  > PART 1910\u2014OCCUPATIONAL SAFETY AND HEALTH STANDARDS\r  > Subpart H\u2014Hazardous Materials > Dipping and Coating Operations\r \r This section lists the paragraph headings contained in \u00a7\u00a7 1910.123 through 1910.126.\r \u00a7 1910.123 Dipping and coating operations: Coverage and definitions. (a) Does this rule apply to me? (b) What operations are covered? (c) What operations are not covered? (d) How are terms used in \u00a7\u00a7 1910.123 through 1910.126 defined? \u00a7 1910.124 General requirements for dipping and coating operations. (a) What construction requirements apply to dip tanks? (b) What ventilation requirements apply to vapor areas? (c) What requirements must I follow to recirculate exhaust air into the workplace? (d) What must I do when I use an exhaust hood? (e) What requirements must I follow when an employee enters a dip tank? (f) What first-aid procedures must my employees know? (g) What hygiene facilities must I provide? (h) What treatment and first aid must I provide? (i) What must I do before an employee cleans a dip tank? (j) What must I do to inspect and maintain my dipping or coating operation? \u00a7 1910.125 Additional requirements for dipping and coating operations that use flammable or combustible liquids. (a) What type of construction material must be used in making my dip tank? (b) When must I provide overflow piping? (c) When must I provide a bottom drain? (d) When must my conveyer system shut down automatically? (e) What ignition and fuel sources must be controlled? (f) What fire protection must I provide? (g) To what temperature may I heat a liquid in a dip tank? \u00a7 1910.126 Additional requirements for special dipping and coating operations. (a) What additional requirements apply to hardening or tempering tanks? (b) What additional requirements apply to flow coating? (c) What additional requirements apply to roll coating, roll spreading, or roll impregnating? (d) What additional requirements apply to vapor degreasing tanks? (e) What additional requirements apply to cyanide tanks? (f) What additional requirements apply to spray cleaning tanks and spray degreasing tanks? (g) What additional requirements apply to electrostatic paint detearing?",
-      "score": 0.4275
+      "part_label": "General Industry",
+      "score": 0.8921,
+      "excerpt": "Title: § 1910.178 Powered Industrial Trucks\nSection: 1910.178\n..."
+    },
+    {
+      "section": "1910.179",
+      "title": "...",
+      "score": 0.7341,
+      "excerpt": "..."
     }
   ]
 }
-(venv) PS D:\Shadhin Lab\osha-ai> 
+extract_output node stores this as structured_output:
+
+state["structured_output"] = { ...same dict above... }
+_after_extract → loops back to agent (not END)
+LLM formats the results as text → final messages[-1].content:
+
+Here are the results for your query...
+1. 1910.178 — Powered Industrial Trucks (score: 0.89)
+...
+Which section would you like to explore? Reply with a number or section ID.
+chat.py gets result:
+
+structured = result["structured_output"]  # the search_results dict
+# msg_type == "search_results" so:
+assistant_history_content = "[Search results for: forklift...]\n  1. 1910.178 — Powered Industrial Trucks\nPlease reply with the number..."
+Response to user:
+
+{
+  "status": "success",
+  "data": {
+    "type": "search_results",
+    "query": "forklift operator training requirements warehouse",
+    "ambiguous": false,
+    "clarification": null,
+    "results": [...],
+    "session_id": "abc-123"
+  }
+}
+
+
+
+4. Inside the Graph — Path B: Generate Answer
+User replies: "1" or "1910.178"
+
+agent node calls generate_answer tool
+generate_answer calls bedrock_kb.retrieve_for_section(query, "1910.178", top_k=10)
+retrieve_for_section returns (internal, never seen by user):
+
+
+[
+  {"text": "§ 1910.178(l) Training...", "score": 0.9123, "source": "s3://bucket/29_CFR_1910_178.txt"},
+  {"text": "operators must be trained...", "score": 0.8801, "source": "s3://bucket/29_CFR_1910_178.txt"},
+  ...
+]
+generate_answer sends chunks to LLM → LLM returns parsed dict → tool returns JSON string:
+
+{
+  "type": "generate_result",
+  "summary": "OSHA 29 CFR §1910.178(l) requires employers to ensure forklift operators are competent...",
+  "bullets": [
+    {
+      "text": "The employer shall ensure that each powered industrial truck operator is competent to operate a powered industrial truck safely, as demonstrated by the successful completion of the training and evaluation.",
+      "citations": ["29 CFR §1910.178(l)(1)"]
+    },
+    {
+      "text": "Training shall consist of a combination of formal instruction, practical training, and evaluation of the operator's performance in the workplace.",
+      "citations": ["29 CFR §1910.178(l)(2)(i)"]
+    }
+  ],
+  "why": "These requirements prevent tip-overs, pedestrian strikes, and load-drop incidents...",
+  "confidence_percent": 84,
+  "verbatim_percent": 100,
+  "manager_citations": [
+    {"section": "29 CFR §1910.178", "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"}
+  ],
+  "section": "1910.178",
+  "source_uri": "s3://bucket/normalized/29_CFR_1910_178.txt",
+  "disclaimer": "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA."
+}
+extract_output stores this as structured_output
+_after_extract → END (no loop back, graph stops)
+chat.py gets result:
+
+structured = result["structured_output"]  # generate_result dict
+# msg_type == "generate_result" so:
+assistant_history_content = "[Generated answer for 1910.178] OSHA 29 CFR §1910.178(l) requires..."
+Final response to user:
+
+{
+  "status": "success",
+  "data": {
+    "type": "generate_result",
+    "summary": "OSHA 29 CFR §1910.178(l) requires employers to ensure...",
+    "bullets": [
+      {
+        "text": "The employer shall ensure that each powered industrial truck operator...",
+        "citations": ["29 CFR §1910.178(l)(1)"]
+      }
+    ],
+    "why": "These requirements prevent tip-overs...",
+    "confidence_percent": 84,
+    "verbatim_percent": 100,
+    "manager_citations": [
+      {"section": "29 CFR §1910.178", "url": "https://www.osha.gov/..."}
+    ],
+    "section": "1910.178",
+    "source_uri": "s3://bucket/normalized/29_CFR_1910_178.txt",
+    "disclaimer": "This information is retrieved from official OSHA documentation...",
+    "session_id": "abc-123"
+  }
+}
+
+
+
+
+
+
+Marker	Purpose	Programmatic use	Frontend
+{{...}}	Verbatim quote	verbatim_percent	Blockquote
+[[...]]	Citation	citation_accuracy	Clickable link
+>>...<<	Key requirement	requirements[]	Checklist
+~~...~~	Warning	warnings[]	Red callout
+??...??	Uncertainty	cap confidence at 60	Grey italic
+^^...^^	Definition / term	definitions{}	Tooltip on hover
+!!...!!	Penalty / fine info	penalties[]	Orange callout
+##...##	Section heading	structure the answer	Heading render
+++...++	Applies to (scope)	applicability[]	Scope badge
+--...--	Exception / exemption	exceptions[]	Indented note
+
+
+
+Which ones actually matter for your use case
+Must have:
+
+{{}} — core to your scoring system
+[[]] — citations are already in your current output
+>><< — actionable requirements are what managers need most
+~~ — warnings are high value for compliance
+Nice to have:
+
+!! — penalties are very useful for managers to understand stakes
+-- — exceptions prevent misapplication of rules
+^^ — definitions help non-expert users
+Optional / later:
+
+++ — scope/applicability (useful but LLM may over-apply)
+## — only needed if answers get long and need navigation
+?? — uncertainty flagging is good but LLMs rarely self-flag unless prompted hard

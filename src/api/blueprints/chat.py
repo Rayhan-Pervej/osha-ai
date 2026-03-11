@@ -32,7 +32,9 @@ def _log_query(client_id, agent_id, thread_id, query, structured):
             )
         elif msg_type == "generate_result":
             generation_invoked = "Y"
-            returned_section_ids = structured.get("section", "")
+            returned_section_ids = ",".join(
+                r.get("section", "") for r in structured.get("references", [])
+            )
 
         db = get_dynamodb_client()
         db.put_item(
@@ -115,7 +117,8 @@ def chat_route():
             f"Please reply with the number or section ID you want to explore."
         )
     elif msg_type == "generate_result":
-        assistant_history_content = f"[Generated answer for {structured.get('section', '')}] {structured.get('summary', '')}"
+        refs = ", ".join(r.get("section", "") for r in structured.get("references", []))
+        assistant_history_content = f"[Generated answer: {structured.get('title', '')}] ({refs})\n{structured.get('body', '')}"
     else:
         assistant_history_content = result["messages"][-1].content
 

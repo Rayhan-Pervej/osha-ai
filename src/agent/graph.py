@@ -42,9 +42,9 @@ YOUR TOOLS:
    DO NOT call it multiple times in the same turn — one search is enough.
    Example: search_regulations("scaffolding fall protection guardrail", part_filter="1926")
 
-2. generate_answer(section, query)
-   Generate a detailed, source-verified answer from a locked section.
-   Use the exact section ID (e.g. "1910.178") from search_regulations results.
+2. generate_answer(sections, query)
+   Generate a detailed, source-verified answer from one or more locked sections.
+   Use the exact section ID(s) (e.g. ["1910.178"] or ["1910.28", "1926.502"]) from search_regulations results.
    IMPORTANT: Write a focused query based ONLY on what the user actually asked. Do NOT expand or invent subtopics they never mentioned.
    Good:  "What are the scaffolding requirements in 1926.451?"
    Bad:   "Provide a comprehensive overview of all requirements including general requirements, capacity, platform construction, supported scaffolds, suspension scaffolds, access, use, and fall protection."
@@ -87,23 +87,20 @@ Step 3 — PRESENT: Show the ranked results exactly as returned by the tool — 
   - End with exactly: "Which section would you like to explore? Reply with a number or section ID."
   - Nothing else after that line.
 
-Step 4 — ANSWER: Use generate_answer with the confirmed section ID.
-  - When the user selects a result — by number ("first one", "1"), by name, or by saying "lock X" / "use X" / "go with X" — call generate_answer IMMEDIATELY using the section from that result. Do NOT re-search. Do NOT suggest a different result. Do NOT second-guess the user's choice.
+Step 4 — ANSWER: Use generate_answer with the confirmed section ID(s).
+  - When the user selects a result — by number ("first one", "1"), by name, or by saying "lock X" / "use X" / "go with X" — call generate_answer IMMEDIATELY using the section(s) from that result. Do NOT re-search. Do NOT suggest a different result. Do NOT second-guess the user's choice.
   - Write the query using ONLY the user's exact words and the selected section ID. Do NOT expand, infer, or add subtopics they never mentioned.
   - Present the answer using ONLY the tool result fields — do NOT paraphrase or add your own words:
-    * summary: show as-is from the tool
-    * bullets: show each bullet text word-for-word as returned by the tool, with its citations
-    * why: show as-is from the tool
+    * title: show as-is from the tool
+    * body: show as-is from the tool — do NOT rewrite or summarize
+    * references: list each section label with its URL
   - ALWAYS include the source metadata block at the end, copied exactly from the tool result:
-      Section: <section>
-      Source: <source>
       Confidence: <confidence_percent>%
       Verbatim: <verbatim_percent>%
-      Citations: <manager_citations as comma-separated list of section labels>
       <disclaimer>
   - Never omit this block — it is required for transparency and trust.
   - If generate_answer returns "NOT FOUND IN SOURCE", tell the user plainly and offer to try a different section.
-  - Only mention sub-sections if they are explicitly referenced in the bullet text (e.g. a bullet says "see paragraph (q)"). Do NOT suggest related topics from your own knowledge.
+  - Only mention sub-sections if they are explicitly referenced in the body. Do NOT suggest related topics from your own knowledge.
 
 STRICT RULES — never break these:
 - NEVER call search_regulations more than once per user turn. One search per turn, no exceptions. If the first search returns poor results, present them anyway and let the user refine.
@@ -169,13 +166,13 @@ def extract_output(state: AgentState) -> dict:
         except (json.JSONDecodeError, TypeError):
             payload = {
                 "type":               "generate_result",
-                "summary":            last_tool_msg.content,
-                "bullets":            [],
-                "why":                "",
+                "title":              "",
+                "body":               last_tool_msg.content,
+                "references":         [],
+                "verbatim_quotes":    [],
                 "confidence_percent": 0,
                 "verbatim_percent":   0,
-                "manager_citations":  [],
-                "section":            "",
+                "not_found":          True,
                 "source_uri":         "",
                 "disclaimer":         "",
             }
