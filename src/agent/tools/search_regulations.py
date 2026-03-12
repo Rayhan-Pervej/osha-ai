@@ -19,10 +19,17 @@ def _detect_ambiguity(results: list[dict]) -> dict | None:
     if len(results) < 2:
         return None
 
+    # cfr_parts = set()
+    # for r in results:
+    #     part = get_cfr_part(r.get("section", ""))
+    #     if part:
+    #         cfr_parts.add(part)
+
+    INDUSTRY_PARTS = {"1910", "1926", "1915", "1917", "1918", "1928"}
     cfr_parts = set()
     for r in results:
         part = get_cfr_part(r.get("section", ""))
-        if part:
+        if part and part in INDUSTRY_PARTS:
             cfr_parts.add(part)
 
     if len(cfr_parts) < 2:
@@ -83,6 +90,8 @@ def discover(query: str, part_filter: str | None = None) -> dict:
     
     for hit in hits:
         hit["section"] = _parse_section_from_source(hit["source"])
+
+    hits = [h for h in hits if h["section"] or h["source"]]
 
     logger.debug("[SEARCH] Sample sources: %s", [h["source"] for h in hits[:3]])
     logger.debug("[SEARCH] Sample sections: %s", [h["section"] for h in hits[:3]])

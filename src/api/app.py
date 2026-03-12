@@ -10,8 +10,12 @@ from src.api.blueprints.chat import chat_bp
 
 def create_app():
     app = Flask(__name__)
+    settings.validate()
+    try:
+        cors_origins = json.loads(settings.API_CORS_ORIGINS)
+    except (json.JSONDecodeError, TypeError):
+        cors_origins = ["http://localhost:3000"]
 
-    cors_origins = json.loads(settings.API_CORS_ORIGINS)
     CORS(app, origins=cors_origins)
 
     app.register_blueprint(health_bp)

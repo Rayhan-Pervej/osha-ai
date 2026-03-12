@@ -4,21 +4,30 @@ import redis
 from src.config import settings
 from src.api.schemas.responses import error
 
-_redis = redis.from_url(settings.REDIS_URL, decode_responses=True)
+try:
+    _redis = redis.from_url(settings.REDIS_URL, decode_responses=True)
+except Exception:
+    _redis = None
 
 def rate_limit(f):
     @wraps(f)
     def decorated(*args, **kwargs):
+        if _redis is None:
+            return f(*args, **kwargs)  # Redis unavailable — allow request through
+
         api_key = request.headers.get("X-API-Key", "unknown")
         redis_key = f"rate:{api_key}"
 
-        count = _redis.incr(redis_key)
-
-        if count == 1:
-            _redis.expire(redis_key, settings.REDIS_RATE_LIMIT_WINDOW_SECONDS)
+        try:
+            pipe = _redis.pipeline()
+            pipe.incr(redis_key)
+            pipe.expire(redis_key, settings.REDIS_RATE_LIMIT_WINDOW_SECONDS, nx=True)
+            count, _ = pipe.execute()
+        except Exception:
+            return f(*args, **kwargs)  # Redis error — allow request through
 
         if count > settings.REDIS_RATE_LIMIT_REQUESTS:
             return error("rate_limit_exceeded", "Too many requests. Try again later.", 429)
-        
+
         return f(*args, **kwargs)
     return decorated

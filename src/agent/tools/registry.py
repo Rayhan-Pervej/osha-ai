@@ -43,17 +43,38 @@ REGULATORY_PARTS = {
     "1991": "29 CFR Part 1991 (Whistleblower Protection — CGPA: Consumer Financial Protection Act)",
     "1992": "29 CFR Part 1992 (Whistleblower Protection — MAP-21: Moving Ahead for Progress)",
     "1990": "29 CFR Part 1990 (Identification of Carcinogens)",
-    "FOM":  "OSHA Field Operations Manual (FOM) — inspection procedures, citation guidelines, penalty calculations, compliance directives",
-    "OSH":  "Occupational Safety and Health Act (OSH Act) — the foundational law establishing OSHA, employer duties, employee rights, enforcement authority",
+    "Chapter 1 Introduction":                                                    "OSHA Field Operations Manual — Chapter 1: Introduction",
+    "Chapter 2 Program Planning":                                                "OSHA Field Operations Manual — Chapter 2: Program Planning",
+    "Chapter 3 Inspection Procedures":                                           "OSHA Field Operations Manual — Chapter 3: Inspection Procedures (opening conferences, walkaround, closing conferences)",
+    "Chapter 4 Violations":                                                      "OSHA Field Operations Manual — Chapter 4: Violations (citation, willful, serious, other-than-serious)",
+    "Chapter 5 Case File Preparation and Documentation":                         "OSHA Field Operations Manual — Chapter 5: Case File Preparation and Documentation",
+    "Chapter 6 Penalties and Debt Collection":                                   "OSHA Field Operations Manual — Chapter 6: Penalties and Debt Collection",
+    "Chapter 7 Post Citation Procedures and Abatement Verification":             "OSHA Field Operations Manual — Chapter 7: Post Citation Procedures and Abatement Verification",
+    "Chapter 8 Settlements":                                                     "OSHA Field Operations Manual — Chapter 8: Settlements",
+    "Chapter 9 Complaint and Referral Processing":                               "OSHA Field Operations Manual — Chapter 9: Complaint and Referral Processing",
+    "Chapter 10 Industry Sectors":                                               "OSHA Field Operations Manual — Chapter 10: Industry Sectors",
+    "Chapter 11 Imminent Danger Fatality Catastrophe and Emergency Response":    "OSHA Field Operations Manual — Chapter 11: Imminent Danger, Fatality, Catastrophe and Emergency Response",
+    "Chapter 12 Specialized Inspection Procedures":                              "OSHA Field Operations Manual — Chapter 12: Specialized Inspection Procedures",
+    "Chapter 13 Federal Agency Field Activities":                                "OSHA Field Operations Manual — Chapter 13: Federal Agency Field Activities",
+    "Chapter 14 Health Inspection Enforcement Policy Reserved":                  "OSHA Field Operations Manual — Chapter 14: Health Inspection Enforcement Policy (Reserved)",
+    "Chapter 15 Legal Issues":                                                   "OSHA Field Operations Manual — Chapter 15: Legal Issues",
+    "Chapter 16 Disclosure Under the Freedom of Information Act FOIA":           "OSHA Field Operations Manual — Chapter 16: Disclosure Under FOIA",
+    "Chapter 17 Preemption by Other Agencies":                                   "OSHA Field Operations Manual — Chapter 17: Preemption by Other Agencies",
+    "OSH Act":  "Occupational Safety and Health Act (OSH Act) — the foundational law establishing OSHA, employer duties, employee rights, enforcement authority",
+    # Internal label keys (not shown to LLM as section IDs)
+    "FOM":  "OSHA Field Operations Manual",
+    "OSH":  "Occupational Safety and Health Act (OSH Act)",
 }
 
 
 def get_cfr_part(section_id: str) -> str | None:
-    for prefix in REGULATORY_PARTS:
-        if section_id.startswith(prefix) and prefix not in ("FOM", "OSH"):
-            return prefix
-    if section_id.startswith("FOM"):
+    # Exact match for FOM chapter keys
+    if section_id in REGULATORY_PARTS and section_id.startswith("Chapter"):
         return "FOM"
     if section_id.startswith("OSH"):
         return "OSH"
+    # CFR part prefix match (4-digit number keys)
+    for prefix in REGULATORY_PARTS:
+        if len(prefix) == 4 and section_id.startswith(prefix):
+            return prefix
     return None

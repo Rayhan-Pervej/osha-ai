@@ -13,19 +13,22 @@ def require_api_key(f):
         if not api_key:
             return error("missing_key", "X-API-Key header is required", 401)
 
-        client = get_dynamodb_client()
-        response = client.get_item(
-            TableName=settings.DYNAMODB_TABLE_API_KEYS,
-            Key={"embed_key": {"S": api_key}},
-        )
-        item = response.get("Item")
+        try:
+            client = get_dynamodb_client()
+            response = client.get_item(
+                TableName=settings.DYNAMODB_TABLE_API_KEYS,
+                Key={"embed_key": {"S": api_key}},
+            )
+            item = response.get("Item")
+        except Exception:
+            return error("service_unavailable", "Authentication service unavailable", 503)
         if not item or item.get("active", {}).get("BOOL") is False:
             return error("invalid_key", "Invalid or revoked API key", 401)
 
         allowed_domains = [d["S"] for d in item.get("allowed_domains", {}).get("L", [])]
         if allowed_domains:
             origin = request.headers.get("Origin", "")
-            if not any(origin.endswith(d) for d in allowed_domains):
+            if origin not in allowed_domains:
                 return error("forbidden_origin", "Request origin not allowed", 403)
 
         request.client_id = item["client_id"]["S"]

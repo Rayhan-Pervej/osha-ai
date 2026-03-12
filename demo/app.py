@@ -88,10 +88,8 @@ def render_generate_result(body: dict):
         st.error("No relevant information found in the requested section(s).")
         return
 
-    import re as _re
-    formatted = _re.sub(r"\*\*(.+?)\*\*", r"*\1*", ans_body, flags=_re.DOTALL)
     st.markdown(f"### {title}")
-    st.markdown(formatted)
+    st.markdown(ans_body)
 
     st.divider()
 

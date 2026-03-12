@@ -68,6 +68,8 @@ def validate():
         missing.append("AWS_SECRET_ACCESS_KEY")
     if not ADMIN_API_KEY:
         missing.append("ADMIN_API_KEY")
+    if not BEDROCK_KB_ID:
+        missing.append("BEDROCK_KB_ID")
     if not os.path.isdir(DOCS_DIR):
         raise EnvironmentError(f"DOCS_DIR not found: {DOCS_DIR}")
     if missing:

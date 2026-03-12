@@ -61,7 +61,12 @@ def _log_query(client_id, agent_id, thread_id, query, structured):
 def chat_route():
     data = request.json or {}
     query = data.get("query", "").strip()
+    if len(query) > 2000:
+        return error("query_too_long", "Query must be under 2000 characters", 400)
+
     session_id = data.get("session_id")
+    if session_id and len(session_id) > 128:
+        return error("invalid_session", "Invalid session_id", 400)
 
     if not query:
         return error("missing_query", "query is required", 400)
@@ -102,7 +107,7 @@ def chat_route():
 
     structured = result.get("structured_output") or {
         "type": "message",
-        "message": result["messages"][-1].content,
+        "message": result["messages"][-1].content if result.get("messages") else "No response generated.",
     }
 
     msg_type = structured.get("type")
@@ -120,7 +125,7 @@ def chat_route():
         refs = ", ".join(r.get("section", "") for r in structured.get("references", []))
         assistant_history_content = f"[Generated answer: {structured.get('title', '')}] ({refs})\n{structured.get('body', '')}"
     else:
-        assistant_history_content = result["messages"][-1].content
+        assistant_history_content = result["messages"][-1].content if result.get("messages") else "No response generated."
 
     updated_history = raw_history + [
         {"role": "user", "content": query},

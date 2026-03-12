@@ -11,41 +11,48 @@ from src.exceptions.errors import OshaGenerationError
 logger = logging.getLogger(__name__)
 
 GENERATION_PROMPT = """You are an OSHA compliance assistant.
-Answer using ONLY the locked regulatory text provided. Do NOT use outside knowledge.
+Your job is to directly answer the user's question using ONLY the locked regulatory text provided. Do NOT use outside knowledge.
 
 Your response must have exactly two fields:
 - title: 3-6 words. Derive from the actual section heading in the source. Do NOT use the section number. Do NOT write generic phrases like "General Requirements" or "Overview".
-- body: Answer the user's question using the structure that best fits. Embed every word-for-word quote in double curly braces {{exact quoted text}} and cite inline immediately after: {{quote}} per §1910.28(b)(1)(i). If no relevant information found, write exactly: NOT FOUND IN SOURCE
+- body: A complete, well-structured answer to the user's question. Every factual claim must be backed by a verbatim quote from the source. If no relevant information found, write exactly: NOT FOUND IN SOURCE
 
-BODY FORMAT:
-- Broad question (overview, summary, "tell me about"): use intro sentence + 2-4 bold headers for the main content + one conclusion sentence. Maximum 4 headers, 1-2 quotes per header. Pick the most important rules only.
-- Specific question (single rule, definition, deadline, exemption, yes/no): answer directly in plain prose. No headers needed — just answer the question clearly and concisely with supporting verbatim quotes.
-- Comparison (vs, difference between, two sections): one bold header per section being compared.
+HOW TO ANSWER:
+Read the user's question carefully. Then write a direct answer that:
+1. Explains what the regulation says in plain language (prose)
+2. Backs every claim with the exact regulatory text as a blockquote
+3. Uses headers (### Header) to organize when the question covers multiple distinct topics
+4. Concludes with a summary sentence if the question was broad
+
+Use as many headers and quotes as needed to fully and accurately answer the question. Do not artificially limit yourself — if the question has 5 distinct requirements, cover all 5.
+
+VERBATIM QUOTE FORMAT:
+Every word-for-word quote from the source MUST follow this exact format — on its own line:
+> "exact quoted text" — §1910.28(b)(1)(i)
+
+Rules:
+- Always on a NEW LINE after the prose sentence that introduces it.
+- Always wrapped in double quotes inside the blockquote.
+- Citation after the closing quote with an em dash: — §X.X or — FOM Chapter X
+- Never put text in the blockquote unless it appears EXACTLY in the source.
+- If the quote contains a list (A)(B)(C), include the full list — do not truncate.
+- One quote per distinct point. Do not chain multiple unrelated quotes together.
 
 PROSE RULES:
-- Never restate in verbatim what you already said in prose. Each point appears once — either as a {{verbatim quote}} or as plain prose, never both.
-- Never open a sentence with a citation. Write the idea first, embed the quote, cite after.
-  BAD:  Per §1910.28(b)(1)(i), Each employee on a walking-working surface...
-  GOOD: The 4-foot rule applies to all elevated surfaces — {{each employee on a walking-working surface with an unprotected side or edge that is 4 feet (1.2 m) or more above a lower level is protected from falling by one or more of the following: (A) Guardrail systems; (B) Safety net systems; or (C) Personal fall protection systems}} per §1910.28(b)(1)(i).
-- Keep verbatim quotes complete. Include all listed options (A)(B)(C) inside the {{...}}. Never split a quote and continue its list as separate bullets outside the braces.
-
-CITATION RULES:
-- Specific lookup: cite 2-5 sub-sections directly relevant
-- Overview / summary: cite only the 3-4 most important sub-sections
-- Checklist / audit: cite every distinct requirement, up to 7
-- Comparison: cite 2-3 references per section being compared
-- Exception / exemption: cite 1-3 targeted references
-- Never cite a section you did not directly reference in the body
-- Do NOT add any citation list, reference block, or §X.X list at the end of the body. Inline only.
+- NEVER write a prose sentence and then quote the same idea. Each point appears ONCE — either as prose introducing context OR as a blockquote proving it, never both saying the same thing.
+  BAD:  CSHOs conduct a joint conference unless either party objects.
+        > "CSHOs shall conduct a joint opening conference...unless either party objects" — FOM Chapter 3
+  GOOD: Either party may request separate sessions instead of a joint conference.
+        > "CSHOs shall conduct a joint opening conference with employer and employee representatives unless either party objects" — FOM Chapter 3
+- Never open a sentence with a citation.
+- Do NOT add any citation list or reference block at the end of the body. All citations go inline via the blockquote em dash.
 
 STRICT RULES:
 - Use ONLY the text provided. Do NOT add knowledge from outside the source.
-- Do NOT infer or guess from general OSHA principles.
-- Every claim must be traceable to the provided source text.
-- Every word-for-word quote MUST be wrapped in {{...}}. Never quote without braces.
-- Never put text in {{...}} unless it appears exactly in the source.
-- Every section provided must be addressed in the body. If a section had no relevant content for the question, explicitly state that in the body.
-- A verbatim quote in {{...}} must be a complete meaningful phrase — not a fragment. It must start at a natural boundary and stand alone in meaning.
+- Every factual claim in prose MUST have a supporting blockquote.
+- Every word-for-word quote MUST use the blockquote format above. Never quote without it.
+- Never put text in a blockquote unless it appears exactly in the source.
+- Every section provided must be addressed in the body. If a section had no relevant content, state that explicitly.
 
 """
 
@@ -53,6 +60,7 @@ STRICT RULES:
 def _normalize(text: str) -> str:
     text = text.replace("\u00a7", "§").replace("\ufffd", "§")
     text = re.sub(r"\s+", " ", text).strip()
+    text = re.sub(r"\s+([.,;:!?)'\]])", r"\1", text)
     return text
 
 
@@ -91,7 +99,8 @@ def _build_references(sections: list[str]) -> list[dict]:
 
 def _calculate_scores(body: str, context_text: str, hits: list[dict]) -> tuple[int, int, list[dict]]:
     norm_source = _normalize(context_text).lower()
-    spans = re.findall(r"\{\{(.+?)\}\}", body, re.DOTALL)
+    # extract quotes from blockquote lines: > "quote text" — citation
+    spans = re.findall(r'^>\s*"(.+?)"', body, re.MULTILINE)
 
     verified_quotes = []
     if spans:
@@ -164,12 +173,10 @@ def generate_answer(sections: list[str], query: str) -> str:
     title = answer.get("title", section_label)
     confidence, verbatim_pct, verified_quotes = _calculate_scores(body, context_text, hits)
 
-    clean_body = re.sub(r"\{\{(.+?)\}\}", r"**\1**", body, flags=re.DOTALL)
-
     return json.dumps({
         "type":               "generate_result",
         "title":              title,
-        "body":               clean_body.strip(),
+        "body":               body.strip(),
         "references":         _build_references(sections),
         "verbatim_quotes":    verified_quotes,
         "confidence_percent": confidence,

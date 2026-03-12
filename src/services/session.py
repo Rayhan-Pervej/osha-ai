@@ -28,46 +28,55 @@ def get_session(session_id: str) -> dict | None:
     item = response.get("Item")
     if not item:
         return None
-    return {
-        "session_id": item["session_id"]["S"],
-        "client_id": item["client_id"]["S"],
-        "agent_id": item["agent_id"]["S"],
-        "history": json.loads(item["history"]["S"]),
-    }
+    try:
+        return {
+            "session_id": item["session_id"]["S"],
+            "client_id": item["client_id"]["S"],
+            "agent_id": item["agent_id"]["S"],
+            "history": json.loads(item["history"]["S"]) if item.get("history") else [],
+        }
+    except (json.JSONDecodeError, KeyError):
+        return None
 
 
 
 def save_session(session_id: str, client_id: str, agent_id: str, history: list) -> str:
     capped = history[-(settings.SESSION_MAX_HISTORY * 2):]
-    client = get_dynamodb_client()
-    client.put_item(
-        TableName=settings.DYNAMODB_TABLE_SESSIONS,
-        Item={
-            "session_id": {"S": session_id},
-            "client_id":  {"S": client_id},
-            "agent_id":   {"S": agent_id},
-            "history":    {"S": json.dumps(capped)},
-            "updated_at": {"S": _now()},
-            "ttl":        {"N": str(_ttl())},
-        },
-    )
+    try:
+        client = get_dynamodb_client()
+        client.put_item(
+            TableName=settings.DYNAMODB_TABLE_SESSIONS,
+            Item={
+                "session_id": {"S": session_id},
+                "client_id":  {"S": client_id},
+                "agent_id":   {"S": agent_id},
+                "history":    {"S": json.dumps(capped)},
+                "updated_at": {"S": _now()},
+                "ttl":        {"N": str(_ttl())},
+            },
+        )
+    except Exception as e:
+        logger.error("[SESSION] Failed to save session %s: %s", session_id, e)
     return session_id
 
 
 def create_session(session_id: str, client_id: str, agent_id: str) -> str:
-    client = get_dynamodb_client()
-    client.put_item(
-        TableName=settings.DYNAMODB_TABLE_SESSIONS,
-        Item={
-            "session_id": {"S": session_id},
-            "client_id":  {"S": client_id},
-            "agent_id":   {"S": agent_id},
-            "history":    {"S": "[]"},
-            "created_at": {"S": _now()},
-            "updated_at": {"S": _now()},
-            "ttl":        {"N": str(_ttl())},
-        },
-    )
+    try:
+        client = get_dynamodb_client()
+        client.put_item(
+            TableName=settings.DYNAMODB_TABLE_SESSIONS,
+            Item={
+                "session_id": {"S": session_id},
+                "client_id":  {"S": client_id},
+                "agent_id":   {"S": agent_id},
+                "history":    {"S": "[]"},
+                "created_at": {"S": _now()},
+                "updated_at": {"S": _now()},
+                "ttl":        {"N": str(_ttl())},
+            },
+        )
+    except Exception as e:
+        logger.error("[SESSION] Failed to create session %s: %s", session_id, e)
     return session_id
 
 
@@ -111,6 +120,8 @@ def build_messages(history: list) -> list:
     logger.debug("[SESSION] Summarizing %d old turns into summary message", len(old_turns))
     try:
         summary_text = bedrock.invoke_raw(summary_prompt)
+        if not summary_text:
+            raise ValueError("Empty summary returned")
         logger.debug("[SESSION] Summary generated: %d chars", len(summary_text))
     except Exception as e:
         logger.warning("[SESSION] Summarization failed: %s — using fallback", e)

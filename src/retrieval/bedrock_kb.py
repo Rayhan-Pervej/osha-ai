@@ -19,26 +19,30 @@ def retrieve(query: str, top_k: int = 10) -> list[dict]:
     Query Bedrock Knowledge Base with hybrid search.
     Returns list of dicts: text, score, source, location.
     """
-    response = _get_client().retrieve(
-        knowledgeBaseId=settings.BEDROCK_KB_ID,
-        retrievalQuery={"text": query},
-        retrievalConfiguration={
-            "vectorSearchConfiguration": {
-                "numberOfResults": top_k,
-                "overrideSearchType": "HYBRID"
-                }
-        },
-    )
+    try:
+        response = _get_client().retrieve(
+            knowledgeBaseId=settings.BEDROCK_KB_ID,
+            retrievalQuery={"text": query},
+            retrievalConfiguration={
+                "vectorSearchConfiguration": {
+                    "numberOfResults": top_k,
+                    "overrideSearchType": "HYBRID"
+                    }
+            },
+        )
+    except Exception as e:
+        logger.error("[KB] retrieve() failed: %s", e)
+        raise
 
     results = []
     for r in response.get("retrievalResults", []):
-       
+        text = r.get("content", {}).get("text", "")
+        if not text:
+            continue
         results.append({
-       
-        "text":     r["content"]["text"],
-        "score":    round(r.get("score", 0.0), 4),
-        "source":   r.get("location", {}).get("s3Location", {}).get("uri", ""),
-    
+            "text":   text,
+            "score":  round(r.get("score", 0.0), 4),
+            "source": r.get("location", {}).get("s3Location", {}).get("uri", ""),
         })
 
     logger.debug("[KB] query=%r top_k=%d returned=%d", query, top_k, len(results))
