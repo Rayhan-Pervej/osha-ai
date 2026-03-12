@@ -35,18 +35,22 @@ def create_key():
     allowed_domains = data["allowed_domains"] or []
 
     embed_key = _generate_key()
-    client = get_dynamodb_client()
-    client.put_item(
-        TableName=settings.DYNAMODB_TABLE_API_KEYS,
-        Item={
-            "embed_key":       {"S": embed_key},
-            "client_id":       {"S": client_id},
-            "agent_id":        {"S": agent_id},
-            "allowed_domains": {"L": [{"S": d} for d in allowed_domains]},
-            "created_at":      {"S": _now()},
-            "active":          {"BOOL": True},
-        },
-    )
+    try:
+        client = get_dynamodb_client()
+        client.put_item(
+            TableName=settings.DYNAMODB_TABLE_API_KEYS,
+            Item={
+                "embed_key":       {"S": embed_key},
+                "client_id":       {"S": client_id},
+                "agent_id":        {"S": agent_id},
+                "allowed_domains": {"L": [{"S": d} for d in allowed_domains]},
+                "created_at":      {"S": _now()},
+                "active":          {"BOOL": True},
+            },
+        )
+    except Exception as e:
+        import logging; logging.getLogger(__name__).error("[KEYS] create_key failed: %s", e)
+        return error("service_unavailable", "Key service unavailable", 503)
 
     return success({
         "embed_key":  embed_key,
@@ -66,44 +70,48 @@ def rotate_key():
 
     client_id = data["client_id"]
     agent_id = data["agent_id"]
-    db = get_dynamodb_client()
+    try:
+        db = get_dynamodb_client()
 
-    # find existing active key
-    response = db.scan(
-        TableName=settings.DYNAMODB_TABLE_API_KEYS,
-        FilterExpression="client_id = :c AND agent_id = :a AND active = :t",
-        ExpressionAttributeValues={
-            ":c": {"S": client_id},
-            ":a": {"S": agent_id},
-            ":t": {"BOOL": True},
-        },
-    )
-    items = response.get("Items", [])
-    if not items:
-        return error("key_not_found", "No active key found for this client/agent", 404)
+        # find existing active key
+        response = db.scan(
+            TableName=settings.DYNAMODB_TABLE_API_KEYS,
+            FilterExpression="client_id = :c AND agent_id = :a AND active = :t",
+            ExpressionAttributeValues={
+                ":c": {"S": client_id},
+                ":a": {"S": agent_id},
+                ":t": {"BOOL": True},
+            },
+        )
+        items = response.get("Items", [])
+        if not items:
+            return error("key_not_found", "No active key found for this client/agent", 404)
 
-    # revoke old key
-    old_key = items[0]["embed_key"]["S"]
-    db.update_item(
-        TableName=settings.DYNAMODB_TABLE_API_KEYS,
-        Key={"embed_key": {"S": old_key}},
-        UpdateExpression="SET active = :f",
-        ExpressionAttributeValues={":f": {"BOOL": False}},
-    )
+        # revoke old key
+        old_key = items[0]["embed_key"]["S"]
+        db.update_item(
+            TableName=settings.DYNAMODB_TABLE_API_KEYS,
+            Key={"embed_key": {"S": old_key}},
+            UpdateExpression="SET active = :f",
+            ExpressionAttributeValues={":f": {"BOOL": False}},
+        )
 
-    # create new key
-    new_key = _generate_key()
-    db.put_item(
-        TableName=settings.DYNAMODB_TABLE_API_KEYS,
-        Item={
-            "embed_key":       {"S": new_key},
-            "client_id":       {"S": client_id},
-            "agent_id":        {"S": agent_id},
-            "allowed_domains": items[0].get("allowed_domains", {"L": []}).get("L", []) and items[0]["allowed_domains"],
-            "created_at":      {"S": _now()},
-            "active":          {"BOOL": True},
-        },
-    )
+        # create new key
+        new_key = _generate_key()
+        db.put_item(
+            TableName=settings.DYNAMODB_TABLE_API_KEYS,
+            Item={
+                "embed_key":       {"S": new_key},
+                "client_id":       {"S": client_id},
+                "agent_id":        {"S": agent_id},
+                "allowed_domains": items[0].get("allowed_domains", {"L": []}),
+                "created_at":      {"S": _now()},
+                "active":          {"BOOL": True},
+            },
+        )
+    except Exception as e:
+        import logging; logging.getLogger(__name__).error("[KEYS] rotate_key failed: %s", e)
+        return error("service_unavailable", "Key service unavailable", 503)
 
     return success({
         "embed_key":  new_key,
@@ -116,19 +124,23 @@ def rotate_key():
 @keys_bp.route("/keys/<embed_key>", methods=["DELETE"])
 @require_admin_key
 def delete_key(embed_key):
-    db = get_dynamodb_client()
-    response = db.get_item(
-        TableName=settings.DYNAMODB_TABLE_API_KEYS,
-        Key={"embed_key": {"S": embed_key}},
-    )
-    if not response.get("Item"):
-        return error("key_not_found", "Key not found", 404)
+    try:
+        db = get_dynamodb_client()
+        response = db.get_item(
+            TableName=settings.DYNAMODB_TABLE_API_KEYS,
+            Key={"embed_key": {"S": embed_key}},
+        )
+        if not response.get("Item"):
+            return error("key_not_found", "Key not found", 404)
 
-    db.update_item(
-        TableName=settings.DYNAMODB_TABLE_API_KEYS,
-        Key={"embed_key": {"S": embed_key}},
-        UpdateExpression="SET active = :f",
-        ExpressionAttributeValues={":f": {"BOOL": False}},
-    )
+        db.update_item(
+            TableName=settings.DYNAMODB_TABLE_API_KEYS,
+            Key={"embed_key": {"S": embed_key}},
+            UpdateExpression="SET active = :f",
+            ExpressionAttributeValues={":f": {"BOOL": False}},
+        )
+    except Exception as e:
+        import logging; logging.getLogger(__name__).error("[KEYS] delete_key failed: %s", e)
+        return error("service_unavailable", "Key service unavailable", 503)
 
     return success({"revoked": True, "embed_key": embed_key})

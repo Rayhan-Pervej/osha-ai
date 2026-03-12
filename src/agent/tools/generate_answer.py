@@ -114,7 +114,7 @@ def _calculate_scores(body: str, context_text: str, hits: list[dict]) -> tuple[i
 
     if hits:
         top_scores = sorted([h.get("score", 0.0) for h in hits], reverse=True)[:3]
-        retrieval_score = int((sum(top_scores) / len(top_scores)) * 100)
+        retrieval_score = int((sum(top_scores) / len(top_scores)) * 100) if top_scores else 0
     else:
         retrieval_score = 0
 

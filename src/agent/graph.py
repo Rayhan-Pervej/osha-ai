@@ -127,9 +127,14 @@ _llm_with_tools = _build_llm()
 
 
 def agent(state: AgentState):
-    messages = list(state["messages"])
+    messages = list(state.get("messages") or [])
     logger.debug("[AGENT] Invoking LLM with %d messages", len(messages))
-    response = _llm_with_tools.invoke(messages, config={"callbacks": [debug_callback]})
+    try:
+        response = _llm_with_tools.invoke(messages, config={"callbacks": [debug_callback]})
+    except Exception as e:
+        logger.error("[AGENT] LLM invocation failed: %s", e)
+        from src.exceptions.errors import OshaAgentError
+        raise OshaAgentError(f"LLM service unavailable: {e}") from e
     logger.debug("[AGENT] LLM response type: %s", type(response).__name__)
     return {"messages": [response]}
 
@@ -152,6 +157,7 @@ def extract_output(state: AgentState) -> dict:
         try:
             payload = json.loads(last_tool_msg.content)
         except (json.JSONDecodeError, TypeError):
+            logger.warning("[AGENT] Failed to parse search_regulations response: %r", last_tool_msg.content)
             payload = {"type": "search_no_results", "query": "", "message": last_tool_msg.content}
         return {"structured_output": payload}
 
@@ -159,6 +165,7 @@ def extract_output(state: AgentState) -> dict:
         try:
             payload = json.loads(last_tool_msg.content)
         except (json.JSONDecodeError, TypeError):
+            logger.warning("[AGENT] Failed to parse generate_answer response: %r", last_tool_msg.content)
             payload = {
                 "type":               "generate_result",
                 "title":              "",

@@ -20,12 +20,16 @@ def _ttl() -> int:
 
 
 def get_session(session_id: str) -> dict | None:
-    client = get_dynamodb_client()
-    response = client.get_item(
-        TableName=settings.DYNAMODB_TABLE_SESSIONS,
-        Key={"session_id": {"S": session_id}},
-    )
-    item = response.get("Item")
+    try:
+        client = get_dynamodb_client()
+        response = client.get_item(
+            TableName=settings.DYNAMODB_TABLE_SESSIONS,
+            Key={"session_id": {"S": session_id}},
+        )
+        item = response.get("Item")
+    except Exception as e:
+        logger.error("[SESSION] Failed to get session %s: %s", session_id, e)
+        return None
     if not item:
         return None
     try:
@@ -95,16 +99,18 @@ def build_messages(history: list) -> list:
         message = []
 
         for msg in history:
-            if msg["role"] == "user":
-                message.append(HumanMessage(content=msg["content"]))
-            elif msg["role"] == "assistant":
-                message.append(AIMessage(content=msg["content"]))
+            role = msg.get("role")
+            content = msg.get("content", "")
+            if role == "user":
+                message.append(HumanMessage(content=content))
+            elif role == "assistant":
+                message.append(AIMessage(content=content))
         return message
-    
+
     old_turns = history[:-4]
     recent_turns = history[-4:]
 
-    history_text = "\n".join([f"{msg['role']}: {msg['content']}" for msg in old_turns])
+    history_text = "\n".join([f"{msg.get('role', '')}: {msg.get('content', '')}" for msg in old_turns])
 
 
     summary_prompt = (
@@ -129,10 +135,12 @@ def build_messages(history: list) -> list:
 
     messages = [SystemMessage(content=f"Conversation summary: {summary_text}")]
     for msg in recent_turns:
-        if msg["role"] == "user":
-            messages.append(HumanMessage(content=msg["content"]))
-        elif msg["role"] == "assistant":
-            messages.append(AIMessage(content=msg["content"]))
+        role = msg.get("role")
+        content = msg.get("content", "")
+        if role == "user":
+            messages.append(HumanMessage(content=content))
+        elif role == "assistant":
+            messages.append(AIMessage(content=content))
 
     return messages
 

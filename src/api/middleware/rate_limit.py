@@ -21,8 +21,10 @@ def rate_limit(f):
         try:
             pipe = _redis.pipeline()
             pipe.incr(redis_key)
-            pipe.expire(redis_key, settings.REDIS_RATE_LIMIT_WINDOW_SECONDS, nx=True)
-            count, _ = pipe.execute()
+            pipe.ttl(redis_key)
+            count, ttl = pipe.execute()
+            if ttl < 0:
+                _redis.expire(redis_key, settings.REDIS_RATE_LIMIT_WINDOW_SECONDS)
         except Exception:
             return f(*args, **kwargs)  # Redis error — allow request through
 

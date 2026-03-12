@@ -59,7 +59,7 @@ def _log_query(client_id, agent_id, thread_id, query, structured):
 @require_api_key
 @rate_limit
 def chat_route():
-    data = request.json or {}
+    data = request.json if isinstance(request.json, dict) else {}
     query = data.get("query", "").strip()
     if len(query) > 2000:
         return error("query_too_long", "Query must be under 2000 characters", 400)
@@ -72,7 +72,7 @@ def chat_route():
         return error("missing_query", "query is required", 400)
 
     client_id = request.client_id
-    agent_id = request.agent_id
+    agent_id = getattr(request, "agent_id", "")
     thread_id = session_id or str(uuid.uuid4())
 
     logger.debug("[CHAT] thread_id=%s client_id=%s", thread_id, client_id)
@@ -82,6 +82,8 @@ def chat_route():
         create_session(thread_id, client_id, agent_id)
         raw_history = []
     else:
+        if session.get("client_id") != client_id:
+            return error("forbidden", "You do not have access to this session", 403)
         raw_history = session.get("history", [])
 
     prior_messages = build_messages(raw_history)
@@ -107,7 +109,7 @@ def chat_route():
 
     structured = result.get("structured_output") or {
         "type": "message",
-        "message": result["messages"][-1].content if result.get("messages") else "No response generated.",
+        "message": result["messages"][-1].content if result.get("messages") and len(result["messages"]) > 0 else "No response generated.",
     }
 
     msg_type = structured.get("type")
@@ -125,7 +127,7 @@ def chat_route():
         refs = ", ".join(r.get("section", "") for r in structured.get("references", []))
         assistant_history_content = f"[Generated answer: {structured.get('title', '')}] ({refs})\n{structured.get('body', '')}"
     else:
-        assistant_history_content = result["messages"][-1].content if result.get("messages") else "No response generated."
+        assistant_history_content = result["messages"][-1].content if result.get("messages") and len(result["messages"]) > 0 else "No response generated."
 
     updated_history = raw_history + [
         {"role": "user", "content": query},

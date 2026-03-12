@@ -1,3 +1,4 @@
+import secrets
 from functools import wraps
 from flask import request
 from src.config import settings
@@ -22,7 +23,7 @@ def require_api_key(f):
             item = response.get("Item")
         except Exception:
             return error("service_unavailable", "Authentication service unavailable", 503)
-        if not item or item.get("active", {}).get("BOOL") is False:
+        if not item or item.get("active", {}).get("BOOL") != True:
             return error("invalid_key", "Invalid or revoked API key", 401)
 
         allowed_domains = [d["S"] for d in item.get("allowed_domains", {}).get("L", [])]
@@ -31,8 +32,11 @@ def require_api_key(f):
             if origin not in allowed_domains:
                 return error("forbidden_origin", "Request origin not allowed", 403)
 
-        request.client_id = item["client_id"]["S"]
-        request.agent_id = item["agent_id"]["S"]
+        try:
+            request.client_id = item["client_id"]["S"]
+            request.agent_id = item["agent_id"]["S"]
+        except KeyError:
+            return error("invalid_key", "Invalid or revoked API key", 401)
 
         return f(*args, **kwargs)
     return decorated
@@ -42,7 +46,7 @@ def require_admin_key(f):
     @wraps(f)
     def decorated(*args, **kwargs):
         admin_key = request.headers.get("X-Admin-Key")
-        if not admin_key or admin_key != settings.ADMIN_API_KEY:
+        if not admin_key or not secrets.compare_digest(admin_key, settings.ADMIN_API_KEY):
             return error("unauthorized", "Invalid or missing admin key", 401)
         return f(*args, **kwargs)
     return decorated

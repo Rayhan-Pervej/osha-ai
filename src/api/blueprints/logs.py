@@ -1,9 +1,11 @@
+import logging
 from flask import Blueprint, request
 from src.api.middleware.auth import require_admin_key
 from src.api.schemas.responses import success, error
 from src.config import settings
 from src.services.aws import get_dynamodb_client
 
+logger = logging.getLogger(__name__)
 logs_bp = Blueprint("logs", __name__)
 
 
@@ -16,7 +18,10 @@ def get_logs():
 
     from_date = request.args.get("from")
     to_date = request.args.get("to")
-    limit = int(request.args.get("limit", 100))
+    try:
+        limit = max(1, min(int(request.args.get("limit", 100)), 1000))
+    except ValueError:
+        return error("invalid_limit", "limit must be an integer", 400)
 
     db = get_dynamodb_client()
 
@@ -40,7 +45,11 @@ def get_logs():
     if from_date or to_date:
         kwargs["ExpressionAttributeNames"] = {"#ts": "timestamp"}
 
-    resp = db.scan(**kwargs)
+    try:
+        resp = db.scan(**kwargs)
+    except Exception as e:
+        logger.error("[LOGS] DynamoDB scan failed: %s", e)
+        return error("service_unavailable", "Log service unavailable", 503)
     items = resp.get("Items", [])
 
     logs = [
@@ -50,8 +59,8 @@ def get_logs():
             "agent_id":             item.get("agent_id", {}).get("S", ""),
             "timestamp":            item.get("timestamp", {}).get("S", ""),
             "query":                item.get("query_text", {}).get("S", ""),
-            "returned_section_ids": item.get("returned_section_ids", {}).get("S", "").split(","),
-            "locked_section_ids":   item.get("locked_section_ids", {}).get("S", "").split(","),
+            "returned_section_ids": [s for s in item.get("returned_section_ids", {}).get("S", "").split(",") if s],
+            "locked_section_ids":   [s for s in item.get("locked_section_ids", {}).get("S", "").split(",") if s],
             "generation_invoked":   item.get("generation_invoked", {}).get("S", "N") == "Y",
         }
         for item in items

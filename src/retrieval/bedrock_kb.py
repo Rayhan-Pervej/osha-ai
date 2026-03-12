@@ -73,6 +73,10 @@ def retrieve_for_section(query: str, sections: str | list[str], top_k: int = 10)
     if isinstance(sections, str):
         sections = [sections]
 
+    if not sections:
+        logger.warning("[KB] retrieve_for_section called with empty sections")
+        return []
+
     s3_keys = {s: _section_to_s3_key(s) for s in sections}
 
     s3_key_list = list(s3_keys.values())
@@ -99,9 +103,12 @@ def retrieve_for_section(query: str, sections: str | list[str], top_k: int = 10)
         )
         results = []
         for r in response.get("retrievalResults", []):
+            text = r.get("content", {}).get("text", "")
+            if not text:
+                continue
             s3_uri = r.get("location", {}).get("s3Location", {}).get("uri", "")
             results.append({
-                "text":   r["content"]["text"],
+                "text":   text,
                 "score":  round(r.get("score", 0.0), 4),
                 "source": s3_uri,
             })
@@ -112,14 +119,19 @@ def retrieve_for_section(query: str, sections: str | list[str], top_k: int = 10)
         logger.warning("[KB] native filter failed for sections=%r: %s", sections, e)
 
     # Fallback: client-side filter from broader retrieve
-    all_hits = retrieve(query, top_k=top_k * 2)
+    try:
+        all_hits = retrieve(query, top_k=top_k * 2)
+    except Exception as e:
+        logger.error("[KB] fallback retrieve() also failed for sections=%r: %s", sections, e)
+        return []
+
     filtered = [h for h in all_hits if any(sk in h.get("source", "") for sk in s3_keys.values())]
     if filtered:
         logger.debug("[KB] sections=%r client-filter matched=%d", sections, len(filtered))
         return filtered[:top_k]
 
-    logger.warning("[KB] sections=%r no matching docs, returning top unfiltered", sections)
-    return all_hits[:top_k]
+    logger.warning("[KB] sections=%r no matching docs found", sections)
+    return []
 
 
 
