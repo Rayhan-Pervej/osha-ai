@@ -59,6 +59,10 @@ STRICT RULES:
 
 def _normalize(text: str) -> str:
     text = text.replace("\u00a7", "§").replace("\ufffd", "§")
+    # normalize curly/smart quotes to straight quotes
+    text = text.replace("\u201c", '"').replace("\u201d", '"').replace("\u2018", "'").replace("\u2019", "'")
+    # normalize em/en dash variants to em dash
+    text = text.replace("\u2013", "\u2014").replace(" - ", "\u2014")
     text = re.sub(r"\s+", " ", text).strip()
     text = re.sub(r"\s+([.,;:!?)'\]])", r"\1", text)
     return text
@@ -100,7 +104,7 @@ def _build_references(sections: list[str]) -> list[dict]:
 def _calculate_scores(body: str, context_text: str, hits: list[dict]) -> tuple[int, int, list[dict]]:
     norm_source = _normalize(context_text).lower()
     # extract quotes from blockquote lines: > "quote text" — citation
-    spans = re.findall(r'^>\s*"(.+?)"', body, re.MULTILINE)
+    spans = re.findall(r'^>\s*[\u201c"](.+?)[\u201d"]', body, re.MULTILINE)
 
     verified_quotes = []
     if spans:
@@ -132,7 +136,7 @@ def generate_answer(sections: list[str], query: str) -> str:
     """
     section_label = ", ".join(sections)
 
-    hits = bedrock_kb.retrieve_for_section(query, sections, top_k=10)
+    hits = bedrock_kb.retrieve_for_section(query, sections, top_k=settings.BEDROCK_RETRIEVAL_TOP_K)
 
     if not hits:
         return json.dumps({
@@ -148,7 +152,8 @@ def generate_answer(sections: list[str], query: str) -> str:
         })
 
     context_text = "\n\n".join(h["text"] for h in hits)
-    source_uri   = hits[0].get("source", "")
+    source_uris  = list(dict.fromkeys(h.get("source", "") for h in hits if h.get("source")))
+    source_uri   = source_uris[0] if source_uris else ""
 
     user_message = (
         f"LOCKED REGULATORY TEXT:\n"
@@ -181,7 +186,8 @@ def generate_answer(sections: list[str], query: str) -> str:
         "verbatim_quotes":    verified_quotes,
         "confidence_percent": confidence,
         "verbatim_percent":   verbatim_pct,
-        "not_found":          "NOT FOUND IN SOURCE" in body,
+        "not_found":          body.strip() == "NOT FOUND IN SOURCE",
+        "source_uris":        source_uris,
         "source_uri":         source_uri,
         "disclaimer":         "This information is retrieved from official OSHA documentation. For legal compliance decisions, consult a certified safety professional or contact OSHA directly at osha.gov or 1-800-321-OSHA.",
     })
