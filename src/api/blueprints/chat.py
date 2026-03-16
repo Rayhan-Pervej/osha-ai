@@ -3,12 +3,14 @@ import logging
 from datetime import datetime, timezone
 from flask import Blueprint, request
 from langchain_core.messages import HumanMessage
+from marshmallow import ValidationError
+from src.api.schemas.requests import ChatRequestSchema
+from src.api.schemas.responses import success, error, validation_error
 
 from langgraph.errors import GraphRecursionError
 
 from src.api.middleware.auth import require_api_key
 from src.api.middleware.rate_limit import rate_limit
-from src.api.schemas.responses import success, error
 from src.agent.graph import graph
 from src.exceptions.errors import OshaAgentError
 from src.services.session import get_session, save_session, create_session, build_messages
@@ -17,6 +19,7 @@ from src.config import settings
 
 logger = logging.getLogger(__name__)
 chat_bp = Blueprint("chat", __name__)
+_chat_schema = ChatRequestSchema()
 
 
 def _log_query(client_id, agent_id, thread_id, query, structured):
@@ -59,17 +62,13 @@ def _log_query(client_id, agent_id, thread_id, query, structured):
 @require_api_key
 @rate_limit
 def chat_route():
-    data = request.json if isinstance(request.json, dict) else {}
-    query = data.get("query", "").strip()
-    if len(query) > 2000:
-        return error("query_too_long", "Query must be under 2000 characters", 400)
-
+    try:
+        data = _chat_schema.load(request.json or {})
+    except ValidationError as exc:
+        return validation_error(exc)
+    
+    query = data["query"].strip()
     session_id = data.get("session_id")
-    if session_id and len(session_id) > 128:
-        return error("invalid_session", "Invalid session_id", 400)
-
-    if not query:
-        return error("missing_query", "query is required", 400)
 
     client_id = request.client_id
     agent_id = getattr(request, "agent_id", "")
@@ -93,7 +92,7 @@ def chat_route():
         "structured_output": None,
     }
 
-    config = {"recursion_limit": 12}
+    config = {"recursion_limit": settings.AGENT_RECURSION_LIMIT}
 
     try:
         result = graph.invoke(initial_state, config=config)

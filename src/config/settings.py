@@ -18,6 +18,7 @@ AWS_REGION = os.getenv("AWS_REGION", "us-east-1")
 # BM25 search tuning
 BEDROCK_RETRIEVAL_TOP_K = int(os.getenv("BEDROCK_RETRIEVAL_TOP_K", "10"))
 BEDROCK_RETRIEVAL_MIN_SCORE = float(os.getenv("BEDROCK_RETRIEVAL_MIN_SCORE", "0.3"))
+AGENT_RECURSION_LIMIT = int(os.getenv("AGENT_RECURSION_LIMIT", "12"))
 
 # Bedrock LLM
 BEDROCK_MODEL_ID = os.getenv("BEDROCK_MODEL_ID", "us.anthropic.claude-3-sonnet-20240229-v1:0")
