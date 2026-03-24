@@ -1,6 +1,7 @@
 # Environment
 python-dotenv==1.2.1
 pydantic>=2.0.0
+flask-cors==6.0.2
 
 
 # AWS SDK
